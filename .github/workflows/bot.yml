@@ -33,12 +33,14 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python -m bot.main --once
+        run: |
+          set -o pipefail
+          python -m bot.main --once 2>&1 | tee data/last_run.log
 
       - name: Save bot state (SQLite) back to repo
         run: |
           git config user.name "fashion-bot"
           git config user.email "fashion-bot@users.noreply.github.com"
-          git add data/bot.db || true
+          git add data/bot.db data/last_run.log || true
           git diff --cached --quiet || git commit -m "chore: bot state [skip ci]"
           git push

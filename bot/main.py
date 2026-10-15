@@ -77,19 +77,30 @@ async def publish_cycle(bot: Bot) -> None:
         log.info("No fresh candidates to post")
         return
 
-    idx = await rewriter.pick_best(candidates)
-    best = candidates[idx]
-    log.info("Picked for posting: %s", best.title)
+    # Пробуем до 3 лучших кандидатов за цикл — если у одного битые фото
+    # или Gemini споткнулся, следующий всё равно даст пост.
+    tried: set[int] = set()
+    for _ in range(min(3, len(candidates))):
+        remaining = [c for c in candidates if c.id not in tried]
+        if not remaining:
+            break
+        best = remaining[await rewriter.pick_best(remaining)]
+        tried.add(best.id)
+        log.info("Picked for posting: %s", best.title)
 
-    text = await rewriter.rewrite(best)
-    if not text:
-        log.warning("Rewrite failed, candidate stays in queue: %s", best.title)
-        return
+        text = await rewriter.rewrite(best)
+        if not text:
+            log.warning("Rewrite failed, trying next candidate: %s", best.title)
+            continue
 
-    if await post(bot, text, best.images):
-        db.mark_candidate_used(best.id)
-        db.record_post(best.title, best.link)
-        log.info("POSTED (%d/%d today): %s", db.posts_today(), config.DAILY_QUOTA, best.title)
+        if await post(bot, text, best.images):
+            db.mark_candidate_used(best.id)
+            db.record_post(best.title, best.link)
+            log.info("POSTED (%d/%d today): %s", db.posts_today(), config.DAILY_QUOTA, best.title)
+            return
+        log.warning("Post failed, trying next candidate: %s", best.title)
+
+    log.warning("All posting attempts failed this cycle")
 
 
 def _check_config() -> None:
