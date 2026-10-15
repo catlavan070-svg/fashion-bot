@@ -1,65 +1,114 @@
-2026-10-15 18:12:49,931 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-15 18:12:49,965 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-15 18:12:49,968 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
-2026-10-15 18:12:49,983 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
+2026-10-15 18:19:39,367 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-15 18:19:39,429 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-10-15 18:19:39,439 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-15 18:19:39,450 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-10-15 18:19:39,450 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-10-15 18:19:39,451 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
+2026-10-15 18:19:39,480 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-2026-10-15 18:12:49,994 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-10-15 18:12:50,003 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-10-15 18:12:50,076 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-10-15 18:12:50,137 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-10-15 18:12:50,290 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-15 18:12:50,480 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-10-15 18:12:50,481 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-15 18:12:50,483 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-15 18:12:50,966 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-15 18:12:54,882 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-15 18:12:59,886 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-15 18:13:06,173 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-15 18:13:09,882 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-15 18:13:14,884 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-15 18:13:19,937 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-15 18:13:19,938 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-10-15 18:19:39,544 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-10-15 18:19:39,854 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-15 18:19:39,916 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-15 18:19:40,095 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-15 18:19:40,096 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-10-15 18:19:40,393 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-15 18:19:44,343 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:19:49,341 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:19:54,342 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:19:59,342 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:20:05,546 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-15 18:20:09,364 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:20:09,365 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-15 18:13:24,924 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-15 18:13:24,924 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-10-15 18:20:14,361 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:20:14,361 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-15 18:13:34,936 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-15 18:13:34,936 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-10-15 18:20:19,363 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:20:19,364 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-15 18:13:39,923 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-15 18:13:39,924 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+2026-10-15 18:20:24,362 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:20:24,362 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-15 18:13:39,924 [INFO] bot.sources: Fetched 224 articles from all sources
-2026-10-15 18:13:40,008 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinAJBVV95cUxNLUJxT01sUmRISUl2NEttTDlZalhSbXFOa0RueENrTmh3NFlHeXlzMy1ZOWt1U01MMm8tQ28yazY0UVotRmhVQk5pYW9vTzRVT05HaFRubFUyREpRYnl0VzJPU2xfeUE5R09PaUxKNW5kSU8yZFltNXdwS2hJa3RZQldtUW1VYnJaNXh0bHRyUU8wRks4Vml2ZE1qd0lvVXY3QU5JamFtUHBWMHNNYTgxUU80VGttYTdNLVNqdXRXbEJmRTk2YS02amY3T29CT09VUEM1YldoWk9oSnl5WUVfZzlvamJmMDdyYzZjUmh3MTVyUjNsbDRJUDZnNHhoWnpCLVNwUXZMOGh3SVRFQThGQ1VNTmtJTnRiREcwXw?oc=5 "HTTP/1.1 302 Found"
-2026-10-15 18:13:40,074 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinAJBVV95cUxNLUJxT01sUmRISUl2NEttTDlZalhSbXFOa0RueENrTmh3NFlHeXlzMy1ZOWt1U01MMm8tQ28yazY0UVotRmhVQk5pYW9vTzRVT05HaFRubFUyREpRYnl0VzJPU2xfeUE5R09PaUxKNW5kSU8yZFltNXdwS2hJa3RZQldtUW1VYnJaNXh0bHRyUU8wRks4Vml2ZE1qd0lvVXY3QU5JamFtUHBWMHNNYTgxUU80VGttYTdNLVNqdXRXbEJmRTk2YS02amY3T29CT09VUEM1YldoWk9oSnl5WUVfZzlvamJmMDdyYzZjUmh3MTVyUjNsbDRJUDZnNHhoWnpCLVNwUXZMOGh3SVRFQThGQ1VNTmtJTnRiREcwXw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-15 18:13:40,114 [INFO] __main__: Skipped (no images): Podcast Release: The Supreme Court Opinions in Trump v. Slaughter and Trump v. Cook: What Do They Mean for the Future of the Administrative State? - Consumer Finance Monitor
-2026-10-15 18:13:40,129 [INFO] __main__: Candidate queued: [r/rafsimons] Please help me out
-2026-10-15 18:13:40,131 [INFO] __main__: Candidate queued: [r/rafsimons] Fred Perry x RAF Simons chain jeans size 34 unaltered
-2026-10-15 18:13:40,134 [INFO] __main__: Candidate queued: [r/rafsimons] Raf Simons Prototype Shirt
-2026-10-15 18:13:40,134 [INFO] __main__: New candidates this cycle: 3
-2026-10-15 18:13:40,189 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-10-15 18:13:44,139 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-10-15 18:13:44,140 [WARNING] bot.rewriter: Gemini request failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-10-15 18:13:44,140 [INFO] __main__: Picked for posting: In a Purple State of Mind: 25 Finds for Fall
-2026-10-15 18:13:44,141 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-10-15 18:13:47,153 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-10-15 18:13:47,154 [WARNING] bot.rewriter: Gemini request failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-10-15 18:13:47,154 [WARNING] __main__: Rewrite failed, trying next candidate: In a Purple State of Mind: 25 Finds for Fall
-2026-10-15 18:13:47,154 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-10-15 18:13:47,387 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-10-15 18:13:47,388 [WARNING] bot.rewriter: Gemini request failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-10-15 18:13:47,389 [INFO] __main__: Picked for posting: Kim Jones To Launch His Own Namesake Label
-2026-10-15 18:13:47,389 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-10-15 18:13:47,870 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-10-15 18:13:47,871 [WARNING] bot.rewriter: Gemini request failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-10-15 18:13:47,871 [WARNING] __main__: Rewrite failed, trying next candidate: Kim Jones To Launch His Own Namesake Label
-2026-10-15 18:13:47,871 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-10-15 18:13:48,201 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-10-15 18:13:48,202 [WARNING] bot.rewriter: Gemini request failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-10-15 18:13:48,202 [INFO] __main__: Picked for posting: Two Prada Gowns, One Big Cause: Inside Selena Gomez’s Rare Impact Fund Benefit
-2026-10-15 18:13:48,202 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-10-15 18:13:49,135 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-10-15 18:13:49,135 [WARNING] bot.rewriter: Gemini request failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-10-15 18:13:49,135 [WARNING] __main__: Rewrite failed, trying next candidate: Two Prada Gowns, One Big Cause: Inside Selena Gomez’s Rare Impact Fund Benefit
-2026-10-15 18:13:49,135 [WARNING] __main__: All posting attempts failed this cycle
-2026-10-15 18:13:49,136 [INFO] __main__: Cycle done, exiting
+2026-10-15 18:20:24,363 [INFO] bot.sources: Fetched 218 articles from all sources
+2026-10-15 18:20:24,445 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRkU2NFVNVkU0NHAzZlcyM3AxT3cwbmRqMjJkWEVxdXZmajBCZDVpSm5zaXZ6dXdqV2ZoeHh2R2xGQ3NZLXZBdEpPVkNyTXhoQjM4UnQ5dXpxOVYxUU9qMzNELVVwWVpBNWxiSTNDT2pGRDltbGllYnROSENBQ0Y1QlBLYnE2Tks2WGdsLUZYV3lvaDZXbEpUYmtuR0Rta0JrNjB0QU9UcUVvbUNkYjRMRWFiVFl4QkdRSjJXWWNPZ3l1Zw?oc=5 "HTTP/1.1 302 Found"
+2026-10-15 18:20:24,499 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRkU2NFVNVkU0NHAzZlcyM3AxT3cwbmRqMjJkWEVxdXZmajBCZDVpSm5zaXZ6dXdqV2ZoeHh2R2xGQ3NZLXZBdEpPVkNyTXhoQjM4UnQ5dXpxOVYxUU9qMzNELVVwWVpBNWxiSTNDT2pGRDltbGllYnROSENBQ0Y1QlBLYnE2Tks2WGdsLUZYV3lvaDZXbEpUYmtuR0Rta0JrNjB0QU9UcUVvbUNkYjRMRWFiVFl4QkdRSjJXWWNPZ3l1Zw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-15 18:20:24,523 [INFO] __main__: Skipped (no images): K/DA Is Getting an Official Louis Vuitton Art Book Ahead of 'Start a Fire' Comeback - IGN Pakistan
+2026-10-15 18:20:24,586 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxNZzRhYUJILXQ1ZGxramNYeFlZZXUxUDg1WHRiTTR0UzN2UlYwdHdyd3FFaTZXMlVwTnVwRzA1M2FqYmRoRm51Y2NMNGRWSjVVclBKNk5aZXFsX2JKczRHMllWSEhjUEEybDhZX0ZBU1dPdk9BQ2dBc3c3UUpRNVhUakNqNVl3ZmxLQWVIeG5veGZGdkxBQWFycHZDaXV1RFk5eklDMUgtMA?oc=5 "HTTP/1.1 302 Found"
+2026-10-15 18:20:24,666 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxNZzRhYUJILXQ1ZGxramNYeFlZZXUxUDg1WHRiTTR0UzN2UlYwdHdyd3FFaTZXMlVwTnVwRzA1M2FqYmRoRm51Y2NMNGRWSjVVclBKNk5aZXFsX2JKczRHMllWSEhjUEEybDhZX0ZBU1dPdk9BQ2dBc3c3UUpRNVhUakNqNVl3ZmxLQWVIeG5veGZGdkxBQWFycHZDaXV1RFk5eklDMUgtMA?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-15 18:20:24,689 [INFO] __main__: Skipped (no images): Lt. Gov. Juliana Stratton on Iran war, ICE accountability, and Supreme Court reform - IPM Newsroom
+2026-10-15 18:20:24,761 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYnFBUDZpcXJOR0RZMjZUQzVFaUhRU2EyOVAydEJKZkdDN25nWkxCU2FmZ1B5c0pBTTRtVkY1Q29uUDJkdXVPSnJDSXlPejdGc1FVU0ljV1h4TmJSb3FtbVhUYmExcmlyd0RlMS1WbDlWbUdkR2Znc2gzRzBSZzJ3YUNvN25Wek9HbmMxWDNSaGdpRXZaRGRvdGNhQWJWUTFQRTcyM3R1ai0?oc=5 "HTTP/1.1 302 Found"
+2026-10-15 18:20:24,838 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYnFBUDZpcXJOR0RZMjZUQzVFaUhRU2EyOVAydEJKZkdDN25nWkxCU2FmZ1B5c0pBTTRtVkY1Q29uUDJkdXVPSnJDSXlPejdGc1FVU0ljV1h4TmJSb3FtbVhUYmExcmlyd0RlMS1WbDlWbUdkR2Znc2gzRzBSZzJ3YUNvN25Wek9HbmMxWDNSaGdpRXZaRGRvdGNhQWJWUTFQRTcyM3R1ai0?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-15 18:20:24,854 [INFO] __main__: Skipped (no images): Loewe Spring 2027 Ready-to-Wear Collection - WWD
+2026-10-15 18:20:24,937 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/comments/1b5wy35/bape_tags_tips_part_1/ "HTTP/1.1 403 Blocked"
+2026-10-15 18:20:24,937 [WARNING] bot.images: Failed to fetch page for images (https://www.reddit.com/r/bapeheads/comments/1b5wy35/bape_tags_tips_part_1/): HTTPStatusError: Client error '403 Blocked' for url 'https://www.reddit.com/r/bapeheads/comments/1b5wy35/bape_tags_tips_part_1/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-10-15 18:20:24,937 [INFO] __main__: Skipped (no images): Bape tags tips part 1
+2026-10-15 18:20:25,101 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/comments/1b5wyra/bape_tags_tips_part_2/ "HTTP/1.1 403 Blocked"
+2026-10-15 18:20:25,101 [WARNING] bot.images: Failed to fetch page for images (https://www.reddit.com/r/bapeheads/comments/1b5wyra/bape_tags_tips_part_2/): HTTPStatusError: Client error '403 Blocked' for url 'https://www.reddit.com/r/bapeheads/comments/1b5wyra/bape_tags_tips_part_2/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-10-15 18:20:25,101 [INFO] __main__: Skipped (no images): Bape tags tips part 2
+2026-10-15 18:20:25,438 [INFO] __main__: Candidate queued: [r/bapeheads] is this a fake shirt??
+2026-10-15 18:20:25,441 [INFO] __main__: Candidate queued: [r/bapeheads] Bape 30th x Adidas Forum Low 84.
+2026-10-15 18:20:25,441 [INFO] __main__: New candidates this cycle: 2
+2026-10-15 18:20:25,482 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:20:25,992 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-15 18:20:25,992 [WARNING] bot.rewriter: Gemini attempt 1 (gemini-3.8-flash) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-15 18:20:40,994 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:20:41,680 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-15 18:20:41,681 [WARNING] bot.rewriter: Gemini attempt 2 (gemini-flash-latest) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-15 18:21:11,711 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:21:11,965 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-15 18:21:11,965 [WARNING] bot.rewriter: Gemini attempt 3 (gemini-flash-latest) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-15 18:21:11,965 [INFO] __main__: Picked for posting: In a Purple State of Mind: 25 Finds for Fall
+2026-10-15 18:21:11,965 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:21:12,332 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-15 18:21:12,333 [WARNING] bot.rewriter: Gemini attempt 1 (gemini-3.8-flash) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-15 18:21:27,337 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:21:27,585 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-15 18:21:27,586 [WARNING] bot.rewriter: Gemini attempt 2 (gemini-flash-latest) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-15 18:21:57,616 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:21:58,007 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-15 18:21:58,008 [WARNING] bot.rewriter: Gemini attempt 3 (gemini-flash-latest) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-15 18:21:58,008 [WARNING] __main__: Rewrite failed, trying next candidate: In a Purple State of Mind: 25 Finds for Fall
+2026-10-15 18:21:58,008 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:21:58,123 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:21:58,124 [WARNING] bot.rewriter: Gemini attempt 1 (gemini-3.8-flash) failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-10-15 18:22:13,139 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:22:13,267 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:22:13,267 [WARNING] bot.rewriter: Gemini attempt 2 (gemini-flash-latest) failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-10-15 18:22:43,281 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:22:43,408 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:22:43,409 [WARNING] bot.rewriter: Gemini attempt 3 (gemini-flash-latest) failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-10-15 18:22:43,409 [INFO] __main__: Picked for posting: Kim Jones To Launch His Own Namesake Label
+2026-10-15 18:22:43,409 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:22:43,529 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:22:43,530 [WARNING] bot.rewriter: Gemini attempt 1 (gemini-3.8-flash) failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-10-15 18:22:58,545 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:22:58,862 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-15 18:22:58,863 [WARNING] bot.rewriter: Gemini attempt 2 (gemini-flash-latest) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-15 18:23:28,893 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:23:29,005 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:23:29,006 [WARNING] bot.rewriter: Gemini attempt 3 (gemini-flash-latest) failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-10-15 18:23:29,006 [WARNING] __main__: Rewrite failed, trying next candidate: Kim Jones To Launch His Own Namesake Label
+2026-10-15 18:23:29,006 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:23:29,120 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:23:29,120 [WARNING] bot.rewriter: Gemini attempt 1 (gemini-3.8-flash) failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-10-15 18:23:44,133 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:23:44,242 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:23:44,243 [WARNING] bot.rewriter: Gemini attempt 2 (gemini-flash-latest) failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-10-15 18:24:14,273 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:24:14,512 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-15 18:24:14,513 [WARNING] bot.rewriter: Gemini attempt 3 (gemini-flash-latest) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-15 18:24:14,513 [INFO] __main__: Picked for posting: Two Prada Gowns, One Big Cause: Inside Selena Gomez’s Rare Impact Fund Benefit
+2026-10-15 18:24:14,514 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:24:14,647 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:24:14,647 [WARNING] bot.rewriter: Gemini attempt 1 (gemini-3.8-flash) failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-10-15 18:24:29,663 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:24:29,774 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:24:29,775 [WARNING] bot.rewriter: Gemini attempt 2 (gemini-flash-latest) failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-10-15 18:24:59,805 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:24:59,946 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:24:59,946 [WARNING] bot.rewriter: Gemini attempt 3 (gemini-flash-latest) failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+2026-10-15 18:24:59,947 [WARNING] __main__: Rewrite failed, trying next candidate: Two Prada Gowns, One Big Cause: Inside Selena Gomez’s Rare Impact Fund Benefit
+2026-10-15 18:24:59,947 [WARNING] __main__: All posting attempts failed this cycle
+2026-10-15 18:24:59,947 [INFO] __main__: Cycle done, exiting
