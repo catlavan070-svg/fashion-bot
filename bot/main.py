@@ -77,14 +77,14 @@ async def publish_cycle(bot: Bot) -> None:
         log.info("No fresh candidates to post")
         return
 
-    # Пробуем до 3 лучших кандидатов за цикл — если у одного битые фото
-    # или Gemini споткнулся, следующий всё равно даст пост.
+    # Пробуем до 2 лучших кандидатов за цикл (экономим квоту Gemini) —
+    # если у одного битые фото или Gemini споткнулся, берём следующего.
     tried: set[int] = set()
-    for _ in range(min(3, len(candidates))):
+    for _ in range(min(2, len(candidates))):
         remaining = [c for c in candidates if c.id not in tried]
         if not remaining:
             break
-        best = remaining[await rewriter.pick_best(remaining)]
+        best = remaining[rewriter.pick_best(remaining)]
         tried.add(best.id)
         log.info("Picked for posting: %s", best.title)
 

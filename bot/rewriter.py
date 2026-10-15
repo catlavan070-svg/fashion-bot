@@ -25,8 +25,8 @@ _FALLBACK_MODEL = "gemini-flash-latest"
 
 
 async def _generate(prompt: str) -> str | None:
-    """Запрос к Gemini с ретраями: до 3 попыток, со 2-й — запасная модель."""
-    for attempt in range(3):
+    """Запрос к Gemini. 503 → один ретрай через запасную модель; 429 (квота) → сразу стоп."""
+    for attempt in range(2):
         model = config.GEMINI_MODEL if attempt == 0 else _FALLBACK_MODEL
         try:
             resp = await asyncio.to_thread(
@@ -38,51 +38,39 @@ async def _generate(prompt: str) -> str | None:
             if text:
                 return text
         except Exception as exc:
-            log.warning("Gemini attempt %d (%s) failed: %.200s", attempt + 1, model, exc)
-        if attempt < 2:
-            await asyncio.sleep(15 * (attempt + 1))
+            msg = str(exc)
+            log.warning("Gemini attempt %d (%s) failed: %.500s", attempt + 1, model, msg)
+            if "429" in msg or "RESOURCE_EXHAUSTED" in msg:
+                log.warning("Gemini quota exhausted — no retry until reset")
+                return None
+        if attempt == 0:
+            await asyncio.sleep(20)
     return None
 
 
-def _fallback_pick(candidates: list[Candidate]) -> int:
-    """Без Gemini: приоритет новостям из модных медиа, Reddit — в конце."""
-    for i, c in enumerate(candidates):
-        if not c.source.startswith("r/"):
-            return i
-    return 0
+# Горячие слова в заголовке = вероятно важная новость (дроп/релиз/коллаб)
+_HOT_WORDS = (
+    "drop", "release", "restock", "collab", "collaboration", "unveil", "announce",
+    "first look", "launch", "debut", "collection", "campaign", "creative director",
+    "x ",  # коллабы вида "BAPE x Adidas"
+)
 
 
-async def pick_best(candidates: list[Candidate]) -> int:
-    """Возвращает индекс самой значимой новости. При ошибке — фолбэк на медиа-источники."""
-    if len(candidates) == 1:
-        return 0
+def pick_best(candidates: list[Candidate]) -> int:
+    """Эвристика без LLM (экономим квоту Gemini): медиа > Reddit,
+    горячие слова в заголовке, свежесть."""
+    now = time.time()
 
-    lines = []
-    for i, c in enumerate(candidates, 1):
-        age_h = round((time.time() - c.fetched_at) / 3600, 1)
-        lines.append(f"{i}. [{c.source}, {age_h}ч назад] {c.title}")
-    listing = "\n".join(lines)
+    def score(c: Candidate) -> float:
+        s = 0.0
+        if c.source.startswith("r/"):
+            s -= 10  # Reddit — только если больше ничего нет
+        title = c.title.lower()
+        s += sum(2.0 for w in _HOT_WORDS if w in title)
+        s -= (now - c.fetched_at) / 3600 * 0.05  # чем свежее, тем лучше
+        return s
 
-    prompt = (
-        "Ты — редактор Telegram-канала о высокой моде и стритвире "
-        "(Gucci, Louis Vuitton, BAPE, Raf Simons, Balenciaga и др.).\n"
-        "Из списка новостей выбери ОДНУ самую важную и интересную для аудитории.\n"
-        "Приоритет: дропы, релизы, рестоки, коллаборации, показы, назначения "
-        "креативных директоров, громкие скандалы. Свежие новости важнее старых.\n"
-        "Новости-перепечатки и слабые поводы пропускай.\n\n"
-        f"{listing}\n\n"
-        "Ответь ТОЛЬКО номером выбранной новости, без пояснений."
-    )
-    answer = await _generate(prompt)
-    if answer:
-        try:
-            idx = int("".join(ch for ch in answer.split()[0] if ch.isdigit())) - 1
-            if 0 <= idx < len(candidates):
-                return idx
-        except (ValueError, IndexError):
-            pass
-        log.warning("Gemini returned unexpected pick: %r, fallback to media sources", answer)
-    return _fallback_pick(candidates)
+    return max(range(len(candidates)), key=lambda i: score(candidates[i]))
 
 
 async def rewrite(candidate: Candidate) -> str | None:
