@@ -7,7 +7,8 @@ Python 3.13, async (asyncio), пакет `bot/`, запуск: `python -m bot.ma
 ## Деплой: GitHub Actions (основной способ)
 - `.github/workflows/bot.yml`: cron `*/30 7-20 * * *` (10:00–23:30 МСК) + workflow_dispatch
 - Запускает `python -m bot.main --once` (один цикл и выход)
-- Состояние = `data/bot.db`, коммитится обратно в репозиторий после каждого прогона
+- Состояние = `data/bot.db` + `data/last_run.log` (лог последнего цикла для отладки), коммитятся обратно в репозиторий после каждого прогона
+- `bot/main.py` publish: до 3 попыток с разными кандидатами за цикл (фолбэк-цепочка при битых фото/сбое Gemini)
 - Секреты в GitHub Secrets: BOT_TOKEN, CHANNEL_ID, GEMINI_API_KEY
 - Серверы в США → все источники и Gemini API доступны без VPN
 - С российских IP недоступны: Hypebeast, Highsnobiety, Vogue, news.google.com, Gemini API — локальный запуск из РФ усечённый, это ожидаемо
@@ -18,7 +19,7 @@ Python 3.13, async (asyncio), пакет `bot/`, запуск: `python -m bot.ma
 - `bot/db.py` — SQLite (`data/bot.db`): `seen` (дедуп по url/title hash), `candidates` (очередь), `posts` (квота/интервал); «сегодня» считается по ZoneInfo(config.TIMEZONE)
 - `bot/sources.py` — RSS (httpx → feedparser.parse(bytes)), Google News RSS, Reddit через `.rss` (НЕ .json — 403/429); reddit: stagger 5с + ретрай на 429; блоклист фит/продаж-постов; картинки из `<img>` контента и preview.redd.it→i.redd.it
 - `bot/images.py` — og:image через stream первых 256 КБ; скачивание + конвертация в JPEG через Pillow
-- `bot/rewriter.py` — Gemini (`google-genai`): `pick_best` (ранжирование) + `rewrite` (пост на русском, ≤700 симв)
+- `bot/rewriter.py` — Gemini (`google-genai`, модель gemini-3.8-flash): `pick_best` (ранжирование; фолбэк при сбое — приоритет медиа-источникам, не Reddit) + `rewrite` (пост на русском, ≤700 симв)
 - `bot/publisher.py` — aiogram: media group 1–3 фото, caption ≤1024; фолбэки: 1 фото → текст (если REQUIRE_IMAGE=false)
 - `bot/main.py` — `cli()`: `--once` (cron) или демон-режим; publish гейты: окно 10–23 МСК → квота 5/день → gap 150 мин
 
