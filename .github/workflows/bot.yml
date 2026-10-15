@@ -1,0 +1,44 @@
+name: Fashion Autoposter
+
+on:
+  schedule:
+    # Каждые 30 минут с 07:00 до 20:59 UTC = 10:00–23:59 по Москве.
+    # GitHub может запускать cron с задержкой 5–20 минут — для новостного бота это ок.
+    - cron: "*/30 7-20 * * *"
+  workflow_dispatch:  # ручной запуск из вкладки Actions
+
+permissions:
+  contents: write  # нужно, чтобы сохранять базу бота обратно в репозиторий
+
+concurrency:
+  group: fashion-bot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip  # кэш зависимостей → прогон ~1 минуту
+
+      - run: pip install -r requirements.txt
+
+      - name: Run one bot cycle
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python -m bot.main --once
+
+      - name: Save bot state (SQLite) back to repo
+        run: |
+          git config user.name "fashion-bot"
+          git config user.email "fashion-bot@users.noreply.github.com"
+          git add data/bot.db || true
+          git diff --cached --quiet || git commit -m "chore: bot state [skip ci]"
+          git push
