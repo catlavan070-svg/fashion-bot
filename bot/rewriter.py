@@ -20,17 +20,28 @@ def _get_client() -> genai.Client:
     return _client
 
 
+# При 503 (high demand на free tier) пробуем запасной алиас модели
+_FALLBACK_MODEL = "gemini-flash-latest"
+
+
 async def _generate(prompt: str) -> str | None:
-    try:
-        resp = await asyncio.to_thread(
-            _get_client().models.generate_content,
-            model=config.GEMINI_MODEL,
-            contents=prompt,
-        )
-        return (resp.text or "").strip()
-    except Exception as exc:
-        log.warning("Gemini request failed: %s", exc)
-        return None
+    """Запрос к Gemini с ретраями: до 3 попыток, со 2-й — запасная модель."""
+    for attempt in range(3):
+        model = config.GEMINI_MODEL if attempt == 0 else _FALLBACK_MODEL
+        try:
+            resp = await asyncio.to_thread(
+                _get_client().models.generate_content,
+                model=model,
+                contents=prompt,
+            )
+            text = (resp.text or "").strip()
+            if text:
+                return text
+        except Exception as exc:
+            log.warning("Gemini attempt %d (%s) failed: %.200s", attempt + 1, model, exc)
+        if attempt < 2:
+            await asyncio.sleep(15 * (attempt + 1))
+    return None
 
 
 def _fallback_pick(candidates: list[Candidate]) -> int:
