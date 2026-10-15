@@ -1,0 +1,53 @@
+2026-10-15 18:02:30,967 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-15 18:02:31,000 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-15 18:02:31,001 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-10-15 18:02:31,002 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-10-15 18:02:31,002 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-10-15 18:02:31,060 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
+2026-10-15 18:02:31,061 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2026-10-15 18:02:31,257 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-10-15 18:02:31,320 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-15 18:02:31,492 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-15 18:02:31,494 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-15 18:02:31,496 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-10-15 18:02:32,142 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-15 18:02:35,893 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:02:40,894 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:02:45,891 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:02:50,893 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:02:55,896 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:03:01,959 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-15 18:03:05,961 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:03:05,961 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-10-15 18:03:10,957 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:03:10,958 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-10-15 18:03:15,959 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:03:15,959 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-10-15 18:03:20,966 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-15 18:03:20,966 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-10-15 18:03:20,967 [INFO] bot.sources: Fetched 225 articles from all sources
+2026-10-15 18:03:21,091 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxNU0dPUVZZcWJVQk1xZ09fZFhaZUN2VHpXcUVCQlZFX3pwVFpScDN1SWczSmdua1VRXy1kaUF2bGtqRUdsaFJxZk9RWUYwQ2kwd2psWFhSWG9xNVp3ek1kMmlmTDFlMXItcnE3by1sTzF1bVhKWm5xZjB6bENHMlo3NWl5ZVh5X2s1UWZlb05UTGtIUWlOdUR3eXRYZHhkUEYxVy0zNVBsS3NxTVpWWWdxYmNxcDZtZw?oc=5 "HTTP/1.1 302 Found"
+2026-10-15 18:03:21,178 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxNU0dPUVZZcWJVQk1xZ09fZFhaZUN2VHpXcUVCQlZFX3pwVFpScDN1SWczSmdua1VRXy1kaUF2bGtqRUdsaFJxZk9RWUYwQ2kwd2psWFhSWG9xNVp3ek1kMmlmTDFlMXItcnE3by1sTzF1bVhKWm5xZjB6bENHMlo3NWl5ZVh5X2s1UWZlb05UTGtIUWlOdUR3eXRYZHhkUEYxVy0zNVBsS3NxTVpWWWdxYmNxcDZtZw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-15 18:03:21,195 [INFO] __main__: Skipped (no images): Louis Vuitton Speedy tops 2026 handbag resale rankings: Fashionphile - FashionNetwork - The World's Fashion Business News
+2026-10-15 18:03:21,309 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiygFBVV95cUxNODAtN1NEWEdyZnBEVDhLbkQwRkM2a2FMX0lMcGxVcVc5Nm5xSU12LThqZTc5RVRnWDFDdkNENkFpWjA1blhQWlpjWFBiM0Zqd1FlYlhCR215MFR5RElPaGZGdHB1Qk11S1AzZE5yU3RKcnRzeHpjdGpCSm9SLXNGMGpuQ2pNRUFINnJhdmZyTF9GN3J5dWI3YTlMc3VVb3o1ZzQyamh4aEhkX0xTWlJHbXllM0IwbUQ3R2FWNlhvTTZUdWFjMnZVdDh3?oc=5 "HTTP/1.1 302 Found"
+2026-10-15 18:03:21,386 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiygFBVV95cUxNODAtN1NEWEdyZnBEVDhLbkQwRkM2a2FMX0lMcGxVcVc5Nm5xSU12LThqZTc5RVRnWDFDdkNENkFpWjA1blhQWlpjWFBiM0Zqd1FlYlhCR215MFR5RElPaGZGdHB1Qk11S1AzZE5yU3RKcnRzeHpjdGpCSm9SLXNGMGpuQ2pNRUFINnJhdmZyTF9GN3J5dWI3YTlMc3VVb3o1ZzQyamh4aEhkX0xTWlJHbXllM0IwbUQ3R2FWNlhvTTZUdWFjMnZVdDh3?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-15 18:03:21,401 [INFO] __main__: Skipped (no images): K/DA Is Getting an Official Louis Vuitton Art Book Ahead of 'Start a Fire' Comeback - IGN Nordic
+2026-10-15 18:03:21,512 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxNS3pYSTl6cV9mNTd4M0d5b3RNQnpSekxCS18xNGJsdDhNS01IWl9qbXVaaE1IYW92MEw3c2lfWTFFNFhobjkybm51YVFwZGxBOXdYYXFGSE9XNzZHcW1NTWRVa3VDNDZ2MS01RzV6aWVtTTEtd1lmcE13akhoOTdzMXdnNWhmNzN0MkZ6VUdQa1RqdmZCN2FZZ2VUb19VdGRmdUlaeTFrRGpXVGpTZDBvc1VaTXF5SEhlNUJWbw?oc=5 "HTTP/1.1 302 Found"
+2026-10-15 18:03:21,590 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxNS3pYSTl6cV9mNTd4M0d5b3RNQnpSekxCS18xNGJsdDhNS01IWl9qbXVaaE1IYW92MEw3c2lfWTFFNFhobjkybm51YVFwZGxBOXdYYXFGSE9XNzZHcW1NTWRVa3VDNDZ2MS01RzV6aWVtTTEtd1lmcE13akhoOTdzMXdnNWhmNzN0MkZ6VUdQa1RqdmZCN2FZZ2VUb19VdGRmdUlaeTFrRGpXVGpTZDBvc1VaTXF5SEhlNUJWbw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-15 18:03:21,605 [INFO] __main__: Skipped (no images): The Florida Supreme Court and District Courts of Appeal judges are up for merit retention - WUSF
+2026-10-15 18:03:21,621 [INFO] __main__: Candidate queued: [r/fashion] My first time wearing pink
+2026-10-15 18:03:21,622 [INFO] __main__: New candidates this cycle: 1
+2026-10-15 18:03:21,679 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:03:22,927 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-15 18:03:22,928 [WARNING] bot.rewriter: Gemini request failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-15 18:03:22,928 [INFO] __main__: Picked for posting: My first time wearing pink
+2026-10-15 18:03:22,928 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-15 18:04:42,795 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+2026-10-15 18:04:43,115 [INFO] httpx: HTTP Request: GET https://i.redd.it/pwi3flh6gjvh1.jpeg "HTTP/1.1 200 OK"
+2026-10-15 18:04:44,682 [INFO] __main__: POSTED (1/5 today): My first time wearing pink
+2026-10-15 18:04:44,933 [INFO] __main__: Cycle done, exiting
