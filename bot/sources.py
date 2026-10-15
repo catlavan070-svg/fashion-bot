@@ -55,7 +55,7 @@ _REDDIT_THUMB_RE = re.compile(r"https://preview\.redd\.it/([a-z0-9]+)\.(jpg|png)
 _REDDIT_TITLE_BLOCKLIST = re.compile(
     r"wdywt|megathread|simple questions|general discussion|daily (discussion|thread)|"
     r"weekly (thread|discussion)|what are you wearing|fit check|outfit|\bfit\b|\blook\b|\bpickup|"
-    r"\bwts\b|\bwtt\b|\bwtb\b|legit check|\blc\b|for sale",
+    r"\bwts\b|\bwtt\b|\bwtb\b|\bfs\b|legit check|\blc\b|for sale|\bwearing\b|\bwore\b",
     re.IGNORECASE,
 )
 

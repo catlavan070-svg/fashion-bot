@@ -33,8 +33,16 @@ async def _generate(prompt: str) -> str | None:
         return None
 
 
+def _fallback_pick(candidates: list[Candidate]) -> int:
+    """Без Gemini: приоритет новостям из модных медиа, Reddit — в конце."""
+    for i, c in enumerate(candidates):
+        if not c.source.startswith("r/"):
+            return i
+    return 0
+
+
 async def pick_best(candidates: list[Candidate]) -> int:
-    """Возвращает индекс самой значимой новости. При ошибке — самая свежая (0)."""
+    """Возвращает индекс самой значимой новости. При ошибке — фолбэк на медиа-источники."""
     if len(candidates) == 1:
         return 0
 
@@ -62,8 +70,8 @@ async def pick_best(candidates: list[Candidate]) -> int:
                 return idx
         except (ValueError, IndexError):
             pass
-        log.warning("Gemini returned unexpected pick: %r, fallback to freshest", answer)
-    return 0
+        log.warning("Gemini returned unexpected pick: %r, fallback to media sources", answer)
+    return _fallback_pick(candidates)
 
 
 async def rewrite(candidate: Candidate) -> str | None:
