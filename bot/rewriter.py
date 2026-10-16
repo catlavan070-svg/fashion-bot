@@ -20,14 +20,17 @@ def _get_client() -> genai.Client:
     return _client
 
 
-# При 503 (high demand на free tier) пробуем запасной алиас модели
-_FALLBACK_MODEL = "gemini-flash-latest"
+# При 503 (high demand на free tier) чередуем модели и ретраим с нарастающей паузой
+_MODELS = [config.GEMINI_MODEL, "gemini-flash-latest"]
+_BACKOFF = [20, 40, 60]  # секунды между попытками
 
 
 async def _generate(prompt: str) -> str | None:
-    """Запрос к Gemini. 503 → один ретрай через запасную модель; 429 (квота) → сразу стоп."""
-    for attempt in range(2):
-        model = config.GEMINI_MODEL if attempt == 0 else _FALLBACK_MODEL
+    """Запрос к Gemini: до 4 попыток, чередование моделей, пауза 20/40/60с.
+    На 429 (квота исчерпана) — сразу стоп, ретрай бесполезен."""
+    last_err = ""
+    for attempt in range(4):
+        model = _MODELS[attempt % len(_MODELS)]
         try:
             resp = await asyncio.to_thread(
                 _get_client().models.generate_content,
@@ -37,14 +40,16 @@ async def _generate(prompt: str) -> str | None:
             text = (resp.text or "").strip()
             if text:
                 return text
+            last_err = "empty response"
         except Exception as exc:
-            msg = str(exc)
-            log.warning("Gemini attempt %d (%s) failed: %.500s", attempt + 1, model, msg)
-            if "429" in msg or "RESOURCE_EXHAUSTED" in msg:
+            last_err = str(exc)
+            log.warning("Gemini attempt %d (%s) failed: %.300s", attempt + 1, model, last_err)
+            if "429" in last_err or "RESOURCE_EXHAUSTED" in last_err:
                 log.warning("Gemini quota exhausted — no retry until reset")
                 return None
-        if attempt == 0:
-            await asyncio.sleep(20)
+        if attempt < 3:
+            await asyncio.sleep(_BACKOFF[attempt])
+    log.warning("Gemini exhausted all retries: %.200s", last_err)
     return None
 
 
