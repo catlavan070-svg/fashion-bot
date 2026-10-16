@@ -5,7 +5,8 @@
 Python 3.13, async (asyncio), пакет `bot/`, запуск: `python -m bot.main`.
 
 ## Деплой: GitHub Actions (основной способ)
-- `.github/workflows/bot.yml`: cron `*/30 7-20 * * *` (10:00–23:30 МСК) + workflow_dispatch
+- Триггер №1 (надёжный): cron-job.org job ID 8659222 → POST workflow_dispatch каждые 15 мин 10:00–23:45 МСК (fine-grained PAT с Actions:write только на этот репо). GitHub cron ненадёжен для новых репо — пропускает слоты.
+- Триггер №2 (запасной): `.github/workflows/bot.yml` cron `4,14,24,34,44,54 7-20 * * *` + workflow_dispatch
 - Запускает `python -m bot.main --once` (один цикл и выход)
 - Состояние = `data/bot.db` + `data/last_run.log` (лог последнего цикла для отладки), коммитятся обратно в репозиторий после каждого прогона
 - `bot/main.py` publish: до 2 попыток с разными кандидатами за цикл (фолбэк-цепочка при битых фото/сбое Gemini)
