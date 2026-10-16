@@ -1,46 +1,38 @@
-2026-10-16 15:01:18,206 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-10-16 15:01:18,209 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-16 15:01:18,224 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-16 15:01:18,274 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-10-16 15:01:18,358 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-10-16 15:01:18,399 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
-2026-10-16 15:01:18,400 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
+2026-10-16 15:15:44,609 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-16 15:15:44,634 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-10-16 15:15:44,635 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
+2026-10-16 15:15:44,636 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-10-16 15:15:44,637 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-2026-10-16 15:01:18,418 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-10-16 15:01:18,549 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-10-16 15:01:18,622 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-16 15:01:18,685 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-16 15:01:18,688 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-16 15:01:19,315 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-16 15:01:23,154 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-16 15:01:28,158 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-16 15:01:33,156 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-16 15:01:38,158 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-16 15:01:43,159 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-16 15:01:48,250 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-16 15:01:48,250 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-10-16 15:15:44,650 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-10-16 15:15:44,696 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-16 15:15:44,837 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-10-16 15:15:44,874 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-10-16 15:15:44,996 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-16 15:15:45,069 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-16 15:15:45,071 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-16 15:15:45,709 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-16 15:15:49,540 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-16 15:15:54,543 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-16 15:15:59,542 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-16 15:16:05,567 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-16 15:16:09,541 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-16 15:16:14,668 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-16 15:16:14,668 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-16 15:01:53,200 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-16 15:01:53,200 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-10-16 15:16:19,605 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-16 15:16:19,606 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-16 15:01:58,202 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-16 15:01:58,202 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-10-16 15:16:24,605 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-16 15:16:24,606 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-16 15:02:04,317 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-16 15:02:08,204 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-16 15:02:08,204 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+2026-10-16 15:16:34,668 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-16 15:16:34,668 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-16 15:02:08,205 [INFO] bot.sources: Fetched 215 articles from all sources
-2026-10-16 15:02:08,211 [INFO] __main__: Candidate queued: [Vogue] Here’s How Daisy Edgar-Jones’s Stylist, Brought Elinor Dashwood to 2026 for ‘Sense and Sensibility’
-2026-10-16 15:02:08,356 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi0gJBVV95cUxOUnNlZGphS0xJeGNsQjhWUThDTXhKaEVIdEFuY014YkdoUDRoNGZ6TmhpX3JRbkF1Tk9LVEEtWGJlTkx3aS1zcDlqTUxMRDIteE5JZTNJbG9rUThac0IyOWlPUk90T2k3eDRmQnFqd05scXprek81bnBLNzhzU3Jyb0FtMHYtUW90SzVVLUhCajRIbHhIREpEUlAzMEw2X1g2Z1UtbkhDb0VzTFg4YXNrSVJvLTFJMHRObkY0OC1KVzZIY3JfcmcwdHVyS3NwRUtWTHJvaUp1QUdzVE9Dc0QwRFVZRHc4TE55WEt1WXlEVEZCbFJ4RG1Na2xIaU9WTzJ6N3hnenBfWFVlck4wN09pS3FsMVVjRFJYZEd3VXFjNTlYZHhjcWFpNG9pY1ZYLW5RUU1oMnBkb2RLaTJIQ2YzN0dYNzJzb1pQdkpnazh6UFBGQQ?oc=5 "HTTP/1.1 302 Found"
-2026-10-16 15:02:08,441 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi0gJBVV95cUxOUnNlZGphS0xJeGNsQjhWUThDTXhKaEVIdEFuY014YkdoUDRoNGZ6TmhpX3JRbkF1Tk9LVEEtWGJlTkx3aS1zcDlqTUxMRDIteE5JZTNJbG9rUThac0IyOWlPUk90T2k3eDRmQnFqd05scXprek81bnBLNzhzU3Jyb0FtMHYtUW90SzVVLUhCajRIbHhIREpEUlAzMEw2X1g2Z1UtbkhDb0VzTFg4YXNrSVJvLTFJMHRObkY0OC1KVzZIY3JfcmcwdHVyS3NwRUtWTHJvaUp1QUdzVE9Dc0QwRFVZRHc4TE55WEt1WXlEVEZCbFJ4RG1Na2xIaU9WTzJ6N3hnenBfWFVlck4wN09pS3FsMVVjRFJYZEd3VXFjNTlYZHhjcWFpNG9pY1ZYLW5RUU1oMnBkb2RLaTJIQ2YzN0dYNzJzb1pQdkpnazh6UFBGQQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-16 15:02:08,470 [INFO] __main__: Skipped (no images): Supreme Court Delivers What Appears to be the Final Word on LUC for Political Parties and Joint Fundraising Committees Before the November Election – But Is a Constitutional Challenge to LUC the Next Battle? - Michigan Association of Broadcasters
-2026-10-16 15:02:08,586 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxNT0NHZjkwYURpQnhIRGFuVHR2LUV4QjA2d0g1akJxMXlYTkZWRUp2MUpmVy1SWFpQVmRYQThENlRCMDlOY2JzVTZhMHpOYVRpYTN3djBuREJkNkZxSzN4RVhYNUNieWxzZU9nUTJGS3I4eGo4M0ZIajdjcFJrN3V3NVJtRWtTMl9fRm5hQkczMnJGV2o0OXd6OF9R?oc=5 "HTTP/1.1 302 Found"
-2026-10-16 15:02:08,664 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxNT0NHZjkwYURpQnhIRGFuVHR2LUV4QjA2d0g1akJxMXlYTkZWRUp2MUpmVy1SWFpQVmRYQThENlRCMDlOY2JzVTZhMHpOYVRpYTN3djBuREJkNkZxSzN4RVhYNUNieWxzZU9nUTJGS3I4eGo4M0ZIajdjcFJrN3V3NVJtRWtTMl9fRm5hQkczMnJGV2o0OXd6OF9R?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-16 15:02:08,692 [INFO] __main__: Skipped (no images): Kamala Harris Pitches Supreme Court, Electoral College Reform - Newsweek
-2026-10-16 15:02:08,791 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxOYTF4N3lRTmpvZndHZjg2bG5Gclg4d3o2b3A5cFE4X1BxTE1kVmtEVXUwOHdWWWU1WUZVYjFqQnFUajJoWFphWVVzT0hrdUR3VW5HRkkwSGNEVjY3ZGhUUnpDUUV0N0VPODRKc2wzUGZNcFlRZGdZSjZ0dGNKVWppdDNFckM?oc=5 "HTTP/1.1 302 Found"
-2026-10-16 15:02:08,869 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxOYTF4N3lRTmpvZndHZjg2bG5Gclg4d3o2b3A5cFE4X1BxTE1kVmtEVXUwOHdWWWU1WUZVYjFqQnFUajJoWFphWVVzT0hrdUR3VW5HRkkwSGNEVjY3ZGhUUnpDUUV0N0VPODRKc2wzUGZNcFlRZGdZSjZ0dGNKVWppdDNFckM?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-16 15:02:08,895 [INFO] __main__: Skipped (no images): Opinion | A Four-Step Plan to Rein In the Supreme Court - The New York Times
-2026-10-16 15:02:08,900 [INFO] __main__: New candidates this cycle: 1
-2026-10-16 15:02:08,901 [INFO] __main__: Too soon since last post — waiting
-2026-10-16 15:02:08,901 [INFO] __main__: Cycle done, exiting
+2026-10-16 15:16:34,669 [INFO] bot.sources: Fetched 215 articles from all sources
+2026-10-16 15:16:34,797 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiuAFBVV95cUxQY3lIVGpJR2VGX2p5ejZtR1F0dGo1dDZtdHJlNVRyWUZXaEllLU5hZjcxa0R1VE9uVU9fVDRXLWdLU3MzNjd2SzF1UjhWVUFsMDRPZGNPNW9CTlZ6NW1EWl9KXzdTTHhJLWxlQ1p6NHYwMkVYa0NZdUhiTVFIZEZ3QWtPeWhic296Z1ZTTk9JUUQzeWhpbGJqY000dTdFNExweUdaeDY3MzVZclB5Rl9CT2xXMXFXc0xE?oc=5 "HTTP/1.1 302 Found"
+2026-10-16 15:16:34,870 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiuAFBVV95cUxQY3lIVGpJR2VGX2p5ejZtR1F0dGo1dDZtdHJlNVRyWUZXaEllLU5hZjcxa0R1VE9uVU9fVDRXLWdLU3MzNjd2SzF1UjhWVUFsMDRPZGNPNW9CTlZ6NW1EWl9KXzdTTHhJLWxlQ1p6NHYwMkVYa0NZdUhiTVFIZEZ3QWtPeWhic296Z1ZTTk9JUUQzeWhpbGJqY000dTdFNExweUdaeDY3MzVZclB5Rl9CT2xXMXFXc0xE?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-16 15:16:34,887 [INFO] __main__: Skipped (no images): Nebraska Supreme Court upholds validity of Fairness for Girls ballot measure - Nebraska Examiner
+2026-10-16 15:16:34,902 [INFO] __main__: New candidates this cycle: 0
+2026-10-16 15:16:34,903 [INFO] __main__: Too soon since last post — waiting
+2026-10-16 15:16:34,903 [INFO] __main__: Cycle done, exiting
