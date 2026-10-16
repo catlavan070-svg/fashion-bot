@@ -25,10 +25,18 @@ _MODELS = [config.GEMINI_MODEL, "gemini-flash-latest"]
 _BACKOFF = [20, 40, 60]  # секунды между попытками
 
 
+class QuotaExhausted(Exception):
+    """Дневная квота Gemini исчерпана: 429 повторился даже после паузы 65с."""
+
+
 async def _generate(prompt: str) -> str | None:
     """Запрос к Gemini: до 4 попыток, чередование моделей, пауза 20/40/60с.
-    На 429 (квота исчерпана) — сразу стоп, ретрай бесполезен."""
+    429 бывает поминутным (RPM) и дневным (RPD): на первый 429 ждём 65с и
+    пробуем другую модель — вдруг поминутный. Повторный 429 = дневная квота
+    сгорела → QuotaExhausted, чтобы вызывающий код включил автоматический
+    «предохранитель» и не жёг квоту зря."""
     last_err = ""
+    saw_429 = False
     for attempt in range(4):
         model = _MODELS[attempt % len(_MODELS)]
         try:
@@ -45,8 +53,12 @@ async def _generate(prompt: str) -> str | None:
             last_err = str(exc)
             log.warning("Gemini attempt %d (%s) failed: %.300s", attempt + 1, model, last_err)
             if "429" in last_err or "RESOURCE_EXHAUSTED" in last_err:
-                log.warning("Gemini quota exhausted — no retry until reset")
-                return None
+                if saw_429:
+                    raise QuotaExhausted("квота Gemini исчерпана (429 повторился после паузы)")
+                saw_429 = True
+                log.warning("Gemini 429 — пауза 65с и ещё попытка (вдруг лимит поминутный)")
+                await asyncio.sleep(65)
+                continue
         if attempt < 3:
             await asyncio.sleep(_BACKOFF[attempt])
     log.warning("Gemini exhausted all retries: %.200s", last_err)

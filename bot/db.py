@@ -54,6 +54,10 @@ def init_db() -> None:
                 link       TEXT,
                 posted_at  REAL
             );
+            CREATE TABLE IF NOT EXISTS meta (
+                key   TEXT PRIMARY KEY,
+                value TEXT
+            );
             """
         )
 
@@ -162,3 +166,15 @@ def record_post(title: str, link: str) -> None:
             "INSERT INTO posts (title, link, posted_at) VALUES (?, ?, ?)",
             (title, link, time.time()),
         )
+
+
+def get_meta(key: str) -> str | None:
+    """Произвольное значение из key-value хранилища (None если нет)."""
+    with _conn() as conn:
+        row = conn.execute("SELECT value FROM meta WHERE key = ?", (key,)).fetchone()
+    return row["value"] if row else None
+
+
+def set_meta(key: str, value: str) -> None:
+    with _conn() as conn:
+        conn.execute("INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)", (key, value))

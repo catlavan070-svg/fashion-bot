@@ -3,6 +3,7 @@ import argparse
 import asyncio
 import logging
 import sys
+import time
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -72,6 +73,14 @@ async def publish_cycle(bot: Bot) -> None:
         log.info("Too soon since last post — waiting")
         return
 
+    # Предохранитель Gemini: после подтверждённой 429 (дневная квота) не трогаем
+    # API час — иначе каждый 15-минутный прогон жжёт и так севшую квоту.
+    gemini_dead_until = float(db.get_meta("gemini_dead_until") or 0)
+    if time.time() < gemini_dead_until:
+        left = int((gemini_dead_until - time.time()) / 60)
+        log.info("Gemini на паузе (квота), осталось %d мин — только собираем новости", left)
+        return
+
     candidates = db.get_fresh_candidates(config.MAX_CANDIDATE_AGE_HOURS)
     if not candidates:
         log.info("No fresh candidates to post")
@@ -88,7 +97,14 @@ async def publish_cycle(bot: Bot) -> None:
         tried.add(best.id)
         log.info("Picked for posting: %s", best.title)
 
-        text = await rewriter.rewrite(best)
+        try:
+            text = await rewriter.rewrite(best)
+        except rewriter.QuotaExhausted:
+            # Квота дня сгорела: пауза 60 мин и НЕ пробуем второго кандидата —
+            # он упрётся в тот же мёртвый API.
+            db.set_meta("gemini_dead_until", str(time.time() + 3600))
+            log.warning("Квота Gemini исчерпана — постинг на паузе 60 мин")
+            return
         if not text:
             log.warning("Rewrite failed, trying next candidate: %s", best.title)
             continue
@@ -96,6 +112,7 @@ async def publish_cycle(bot: Bot) -> None:
         if await post(bot, text, best.images):
             db.mark_candidate_used(best.id)
             db.record_post(best.title, best.link)
+            db.set_meta("gemini_dead_until", "0")  # API жив — снять предохранитель
             log.info("POSTED (%d/%d today): %s", db.posts_today(), config.DAILY_QUOTA, best.title)
             return
         log.warning("Post failed, trying next candidate: %s", best.title)
