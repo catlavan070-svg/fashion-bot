@@ -1,63 +1,40 @@
-2026-10-17 07:01:05,588 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-10-17 07:01:05,590 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-10-17 07:01:05,591 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-17 07:01:05,619 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
-2026-10-17 07:01:05,620 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-17 07:01:05,631 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
+2026-10-17 07:15:38,145 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-10-17 07:15:38,150 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-17 07:15:38,164 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-17 07:15:38,201 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-10-17 07:15:38,209 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-10-17 07:15:38,244 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
+2026-10-17 07:15:38,245 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-2026-10-17 07:01:05,631 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-10-17 07:01:05,679 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-10-17 07:01:05,978 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-17 07:01:05,985 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-17 07:01:06,032 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-10-17 07:01:06,226 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-17 07:01:06,593 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-17 07:01:10,514 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-17 07:01:15,520 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-17 07:01:20,524 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-17 07:01:25,519 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-17 07:01:30,519 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-17 07:01:35,641 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-17 07:01:35,641 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-10-17 07:15:38,247 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-10-17 07:15:38,470 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-10-17 07:15:38,606 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-17 07:15:38,657 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-17 07:15:38,834 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-17 07:15:39,283 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-17 07:15:43,170 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-17 07:15:48,171 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-17 07:15:53,171 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-17 07:15:58,168 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-17 07:16:04,486 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-17 07:16:08,254 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-17 07:16:08,255 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-17 07:01:40,585 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-17 07:01:40,585 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-10-17 07:16:13,256 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-17 07:16:13,256 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-17 07:01:45,656 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-17 07:01:45,657 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-10-17 07:16:18,255 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-17 07:16:18,256 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-17 07:01:50,585 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-17 07:01:50,585 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-10-17 07:16:23,254 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-17 07:16:23,255 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-17 07:01:55,584 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-17 07:01:55,584 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-17 07:01:55,584 [INFO] bot.sources: Fetched 209 articles from all sources
-2026-10-17 07:01:55,702 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxQbVVMLUktUlZCZFBRdF9hRlZzME1BQkVaQlJGLXlkaVhSWW5LbmZISnctZkI3cTlRNkRhLUdiR3gxNnpRQ3hsUUNaM0RNT3BjMVFWNGtPX1FiM0gxd3VBdFRhdE9WcGFGekJpNDAzanhoUWxmcDlCS2t5eXh4TFJWaFdjcTktbTZiZ2Z3M2Y2bGxHLV8zaHZMY0M5ZGFKWnJp?oc=5 "HTTP/1.1 302 Found"
-2026-10-17 07:01:55,813 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxQbVVMLUktUlZCZFBRdF9hRlZzME1BQkVaQlJGLXlkaVhSWW5LbmZISnctZkI3cTlRNkRhLUdiR3gxNnpRQ3hsUUNaM0RNT3BjMVFWNGtPX1FiM0gxd3VBdFRhdE9WcGFGekJpNDAzanhoUWxmcDlCS2t5eXh4TFJWaFdjcTktbTZiZ2Z3M2Y2bGxHLV8zaHZMY0M5ZGFKWnJp?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-17 07:01:55,828 [INFO] __main__: Skipped (no images): Saoirse Ronan in Louis Vuitton at BFI London Film Festival - Red Carpet Fashion Awards
-2026-10-17 07:01:55,938 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiswFBVV95cUxNMEdublR5U3lzVmVrVElHVkhRTFNYdTRNaEN6WlJod20tQTF1ZkRBNUhIbENUZDlJZVZ0bWxZaVFLX1FKZU5HQkZXel9mWWJ2TUY2UVIxd3JOTmtBSTZzbkJCUlVtLVN4NUVDWW50V05nNnBOZ29oeFhjbGsyNy1tcndtTjRsVE9zWUhIM3ppMktwY1YtYWVVQXZxUS1peUdDdWV4cVlFbWxHR0c1UTdIZk5oQQ?oc=5 "HTTP/1.1 302 Found"
-2026-10-17 07:01:56,019 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiswFBVV95cUxNMEdublR5U3lzVmVrVElHVkhRTFNYdTRNaEN6WlJod20tQTF1ZkRBNUhIbENUZDlJZVZ0bWxZaVFLX1FKZU5HQkZXel9mWWJ2TUY2UVIxd3JOTmtBSTZzbkJCUlVtLVN4NUVDWW50V05nNnBOZ29oeFhjbGsyNy1tcndtTjRsVE9zWUhIM3ppMktwY1YtYWVVQXZxUS1peUdDdWV4cVlFbWxHR0c1UTdIZk5oQQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-17 07:01:56,034 [INFO] __main__: Skipped (no images): Elections commissioners ask Hawaii Supreme Court to break meeting standoff - Hawaii News Now
-2026-10-17 07:01:56,139 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxPUmVacWs5UFRHSUlRd281ZXVnb0VUU1RrOHhWcFNkS0hub1dVeFNpNzQ0VDlWUGFHSjFncU1yMktGWTJlWXAtdWRtbzdzemNacmhTOHA2aTZXY2F6YWR6c0VHcGZNdERiRnNLYThyWHp3VlRvbk5WMk05MmVPZFk1b0pMaVpyYXhUT0FMbmJ5S3VNZWdMTjVyNjAxMWc3TWM?oc=5 "HTTP/1.1 302 Found"
-2026-10-17 07:01:56,274 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxPUmVacWs5UFRHSUlRd281ZXVnb0VUU1RrOHhWcFNkS0hub1dVeFNpNzQ0VDlWUGFHSjFncU1yMktGWTJlWXAtdWRtbzdzemNacmhTOHA2aTZXY2F6YWR6c0VHcGZNdERiRnNLYThyWHp3VlRvbk5WMk05MmVPZFk1b0pMaVpyYXhUT0FMbmJ5S3VNZWdMTjVyNjAxMWc3TWM?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-17 07:01:56,291 [INFO] __main__: Skipped (no images): Supreme Court Blasts Embattled Elections Office: ‘Why Are We Here?’ - Honolulu Civil Beat
-2026-10-17 07:01:56,395 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNmtRLTNrTjM0eXkyem9FWE93cWo2bmQzYm9kLTJVN205SnJDU3p5WFF2eUw3S0FLSXJQZlhFa1Q2MXdrd1BVVjFNc21mMWJISW96c1lUTUJrRE1pQUhyekJheTFOazNad2p2V3M3aUY4SWNFZHYyMzFiQWJOdXlUQ1JqOHo4SkVaLVQ3TG9CV3NqNUp1cUx1R3QyQkVvR1hWNHlmM0lod2tCa1JRS3ZFaUQ2aXJaZlB6aDVkWmNZRE1oYS04TURvdzRERE9jbXVyczFwSEh3WUNrX0RFbWhkX3FSR1_SAeoBQVVfeXFMTzlrRzJweU1pYVEzVTdqSU5VekwwT0FMc3hJakpiNVZsc25ETHFUOHNzTHpqME1WamZKdEpJSzlfT1F0ZTYtNG1HZGFBeTRaRFRkbXN4elRuanpTVlJYWHJ2b2s5a0RjT0dXSXl1ZWgzUXJLb0tzQUM1Wnd6a3hlUklFT3VyVnVDZkdTbVpYYlFMZ0hSRTM4dU8wdnlMUVlWYms3dVl1YzNMZ2d3cVRBYnBNNklBY0V3Ull1VVZPbkR5a2djeEJNeFVucWRBc2UxRmhZSUJ3cEdOMV9YYnk3eG5BRTdHYVBCN1l3?oc=5 "HTTP/1.1 302 Found"
-2026-10-17 07:01:56,518 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNmtRLTNrTjM0eXkyem9FWE93cWo2bmQzYm9kLTJVN205SnJDU3p5WFF2eUw3S0FLSXJQZlhFa1Q2MXdrd1BVVjFNc21mMWJISW96c1lUTUJrRE1pQUhyekJheTFOazNad2p2V3M3aUY4SWNFZHYyMzFiQWJOdXlUQ1JqOHo4SkVaLVQ3TG9CV3NqNUp1cUx1R3QyQkVvR1hWNHlmM0lod2tCa1JRS3ZFaUQ2aXJaZlB6aDVkWmNZRE1oYS04TURvdzRERE9jbXVyczFwSEh3WUNrX0RFbWhkX3FSR1_SAeoBQVVfeXFMTzlrRzJweU1pYVEzVTdqSU5VekwwT0FMc3hJakpiNVZsc25ETHFUOHNzTHpqME1WamZKdEpJSzlfT1F0ZTYtNG1HZGFBeTRaRFRkbXN4elRuanpTVlJYWHJ2b2s5a0RjT0dXSXl1ZWgzUXJLb0tzQUM1Wnd6a3hlUklFT3VyVnVDZkdTbVpYYlFMZ0hSRTM4dU8wdnlMUVlWYms3dVl1YzNMZ2d3cVRBYnBNNklBY0V3Ull1VVZPbkR5a2djeEJNeFVucWRBc2UxRmhZSUJ3cEdOMV9YYnk3eG5BRTdHYVBCN1l3?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-17 07:01:56,533 [INFO] __main__: Skipped (no images): New landmark study commissioned by Illinois Supreme Court shows Illinois lawyers are in mental health crisis, I-Team investigates - ABC7 Chicago
-2026-10-17 07:01:56,635 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbFo4clVaMDZLbXdKMDZCZjhDZmhDRWZLclV5QjY3b3BZV05IZ2VEY2FnRjFRcU55N0k4TEtlMXZZS3kxU25Db2hJdjVaTmxJUVZjdVJjWGdEdFBUUWtBRFRkcjVNQl81QXNvZjg1eklaUmJmdWhTZm9GbTJQQXJtaHYyc0VaNkR6MUVERDFDR0VrUk1MTHNrbV9paDVZNl9sclFaaDlTa2hQT0UyaUlJR3lEblZkbjBiNzl5WGtRdE52V0dCWjYwYVdVLWRTRUNibnFEdFNoT1VGT3pVU1VyYVQzTGxEOWFKTWpRWjUxSG0?oc=5 "HTTP/1.1 302 Found"
-2026-10-17 07:01:56,758 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi8AFBVV95cUxPbFo4clVaMDZLbXdKMDZCZjhDZmhDRWZLclV5QjY3b3BZV05IZ2VEY2FnRjFRcU55N0k4TEtlMXZZS3kxU25Db2hJdjVaTmxJUVZjdVJjWGdEdFBUUWtBRFRkcjVNQl81QXNvZjg1eklaUmJmdWhTZm9GbTJQQXJtaHYyc0VaNkR6MUVERDFDR0VrUk1MTHNrbV9paDVZNl9sclFaaDlTa2hQT0UyaUlJR3lEblZkbjBiNzl5WGtRdE52V0dCWjYwYVdVLWRTRUNibnFEdFNoT1VGT3pVU1VyYVQzTGxEOWFKTWpRWjUxSG0?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-17 07:01:56,773 [INFO] __main__: Skipped (no images): Conduct of Taos prosecutor perplexes Supreme Court justices - Santa Fe New Mexican
-2026-10-17 07:01:56,880 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirwFBVV95cUxPWktLRV9qQ05lR2NySXNCbkhiM0I5TEhmekhiOW5pZ0dGaWY1Z2VRSEIyM0daYXMwSElXM2dkQXRMWWpTeDZEZXNyV2xxa2Utdm9RbjlSWlFJQ0w5UnB6V1JiMGRUQ0IxQ3JQYXQ1MkNhMTBsVWpHT1Y3Z1lwQlI3a0dCcW8xeHA5U0hDY2NjdGFnY3NkUTFEN05WckU3aTkwV0l0V0EzWm9UcFlJQzlR?oc=5 "HTTP/1.1 302 Found"
-2026-10-17 07:01:56,999 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirwFBVV95cUxPWktLRV9qQ05lR2NySXNCbkhiM0I5TEhmekhiOW5pZ0dGaWY1Z2VRSEIyM0daYXMwSElXM2dkQXRMWWpTeDZEZXNyV2xxa2Utdm9RbjlSWlFJQ0w5UnB6V1JiMGRUQ0IxQ3JQYXQ1MkNhMTBsVWpHT1Y3Z1lwQlI3a0dCcW8xeHA5U0hDY2NjdGFnY3NkUTFEN05WckU3aTkwV0l0V0EzWm9UcFlJQzlR?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-17 07:01:57,015 [INFO] __main__: Skipped (no images): Developer takes fight over Mayfield Heights townhomes to Ohio Supreme Court - Crain's Cleveland Business
-2026-10-17 07:01:57,115 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxPdUl5eFl2Y0JsX3liTkYwZllkWGhfMzMycXFySUpjYkNpcXIxbDRFUnJNVWRmSUpTa2F5amdXY0RsSGNmRnVFNnNzRlMxb3FCdzhBMWw3RU9CeWozNG8xbG5Yd2lOWEZPakhzdllfdm9LZ2p4a21GR0huMjBydGFkVmhjTEc?oc=5 "HTTP/1.1 302 Found"
-2026-10-17 07:01:57,237 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxPdUl5eFl2Y0JsX3liTkYwZllkWGhfMzMycXFySUpjYkNpcXIxbDRFUnJNVWRmSUpTa2F5amdXY0RsSGNmRnVFNnNzRlMxb3FCdzhBMWw3RU9CeWozNG8xbG5Yd2lOWEZPakhzdllfdm9LZ2p4a21GR0huMjBydGFkVmhjTEc?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-17 07:01:57,252 [INFO] __main__: Skipped (no images): Tate McRae’s Versace Micro Miniskirt Rides High on Her Thighs in LA - AOL.com
-2026-10-17 07:01:57,257 [INFO] __main__: New candidates this cycle: 0
-2026-10-17 07:01:57,258 [INFO] __main__: Picked for posting: Here’s How Daisy Edgar-Jones’s Stylist, Brought Elinor Dashwood to 2026 for ‘Sense and Sensibility’
-2026-10-17 07:01:57,300 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-10-17 07:02:06,910 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
-2026-10-17 07:02:07,087 [INFO] httpx: HTTP Request: GET https://assets.vogue.com/photos/6ad22e77294b0e26011a48b5/master/pass/Daisy_16x9.jpg "HTTP/1.1 200 OK"
-2026-10-17 07:02:08,998 [INFO] __main__: POSTED (1/5 today): Here’s How Daisy Edgar-Jones’s Stylist, Brought Elinor Dashwood to 2026 for ‘Sense and Sensibility’
-2026-10-17 07:02:09,249 [INFO] __main__: Cycle done, exiting
+2026-10-17 07:16:23,256 [INFO] bot.sources: Fetched 218 articles from all sources
+2026-10-17 07:16:23,387 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxOSklJMVFyaDRhUTlZMERnZEs0M21Ld29SenNhSlZVT0wweThBc0M0QU9ZbXphZ3FnTVZBdTBUWEd5WDNLWlAzSm04Z2hRdTN1TDFLbVBvS2VuVmp1LWZlamhQWVJGOGgyUU5VTEhEbjVFS0FVMUp4MzFfc0hMb3RrSmZyb1PSAYoBQVVfeXFMUEtIa2N2REFWN0JoUWJZNnpFQ0gtdDN1ekFXOGVuenF1aC1WcEw3cUlBQmFqTm83SW1KelZKMXlQNFR3N25fNHo5WUpiSUVveGhFc01CMGhSaHp4UEtsM2JJVzZuVUtZeElmTmUzU0lfSldYOU1NVWlxSUNCSjRIQi1tNTlYaWVsODJB?oc=5 "HTTP/1.1 302 Found"
+2026-10-17 07:16:23,481 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxOSklJMVFyaDRhUTlZMERnZEs0M21Ld29SenNhSlZVT0wweThBc0M0QU9ZbXphZ3FnTVZBdTBUWEd5WDNLWlAzSm04Z2hRdTN1TDFLbVBvS2VuVmp1LWZlamhQWVJGOGgyUU5VTEhEbjVFS0FVMUp4MzFfc0hMb3RrSmZyb1PSAYoBQVVfeXFMUEtIa2N2REFWN0JoUWJZNnpFQ0gtdDN1ekFXOGVuenF1aC1WcEw3cUlBQmFqTm83SW1KelZKMXlQNFR3N25fNHo5WUpiSUVveGhFc01CMGhSaHp4UEtsM2JJVzZuVUtZeElmTmUzU0lfSldYOU1NVWlxSUNCSjRIQi1tNTlYaWVsODJB?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-17 07:16:23,494 [INFO] __main__: Skipped (no images): ‘Why are we here?’: Hawaii Supreme Court Justices question Elections Office on lack of support for Elections Commission - KHON2
+2026-10-17 07:16:23,502 [INFO] __main__: Candidate queued: [r/bapeheads] Original o Réplica?
+2026-10-17 07:16:23,504 [INFO] __main__: Candidate queued: [r/bapeheads] Lol
+2026-10-17 07:16:23,505 [INFO] __main__: New candidates this cycle: 2
+2026-10-17 07:16:23,506 [INFO] __main__: Too soon since last post — waiting
+2026-10-17 07:16:23,506 [INFO] __main__: Cycle done, exiting
