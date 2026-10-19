@@ -1,57 +1,44 @@
-2026-10-19 14:31:13,100 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
-2026-10-19 14:31:13,101 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
+2026-10-19 14:36:38,868 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-10-19 14:36:38,888 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-19 14:36:38,916 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-10-19 14:36:38,943 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-10-19 14:36:38,948 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-19 14:36:39,006 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-10-19 14:36:39,070 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
+2026-10-19 14:36:39,071 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-2026-10-19 14:31:13,101 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-10-19 14:31:13,102 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-10-19 14:31:13,106 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-19 14:31:13,160 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-10-19 14:31:13,182 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-10-19 14:31:13,253 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-19 14:31:13,495 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-19 14:31:13,561 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-19 14:31:13,737 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-10-19 14:31:13,739 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-19 14:31:14,175 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-19 14:31:18,080 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-19 14:31:23,079 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-19 14:31:28,070 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-19 14:31:33,073 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-19 14:31:38,069 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-19 14:31:43,121 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-19 14:31:43,121 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-10-19 14:36:39,350 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-19 14:36:39,435 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-19 14:36:39,491 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-10-19 14:36:39,743 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-19 14:36:39,945 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-19 14:36:43,870 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-19 14:36:48,871 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-19 14:36:53,870 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-19 14:36:58,869 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-19 14:37:05,607 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-19 14:37:08,906 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-19 14:37:08,906 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-19 14:31:48,102 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-19 14:31:48,103 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-10-19 14:37:13,911 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-19 14:37:13,911 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-19 14:31:53,114 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-19 14:31:53,114 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-10-19 14:37:18,908 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-19 14:37:18,908 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-19 14:31:58,093 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-19 14:31:58,094 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-10-19 14:37:23,908 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-19 14:37:23,908 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-19 14:32:04,290 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-19 14:32:04,324 [INFO] bot.sources: Fetched 216 articles from all sources
-2026-10-19 14:32:04,408 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxOUmYzU0lteTJpQnNWUVZGZVRJdG9qQ1ZfdUdXUi1EeXFUVGdqbUd1cHFSNm1YbFhIdE5EQWdCNVB2dTlrSkk1SHR1S2hSZkNnOW95dDIyMVBLb21LRFc0NEt0dHlReTRaWjdWeDJoZkRqSVozODFCVVFaQmV4UzJGbkU5VEhZRzc5Z2dINXI5WUdRYzl2d1VTUm9od3dWMnNWdDcw?oc=5 "HTTP/1.1 302 Found"
-2026-10-19 14:32:04,459 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxOUmYzU0lteTJpQnNWUVZGZVRJdG9qQ1ZfdUdXUi1EeXFUVGdqbUd1cHFSNm1YbFhIdE5EQWdCNVB2dTlrSkk1SHR1S2hSZkNnOW95dDIyMVBLb21LRFc0NEt0dHlReTRaWjdWeDJoZkRqSVozODFCVVFaQmV4UzJGbkU5VEhZRzc5Z2dINXI5WUdRYzl2d1VTUm9od3dWMnNWdDcw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-19 14:32:04,482 [INFO] __main__: Skipped (no images): Supreme Court agrees to consider federal ban on home distilleries - SCOTUSblog
-2026-10-19 14:32:04,553 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY3Y1MnJza0h0Y3NMQVByQkVVTklRN1RXVWFIU2pqV0F2R1Q5WjI3TEc1TUxmdHctU19tUW9VVC04aTUtWW81UVpCcE82aXl0anFYOGJTTGlYcjRaX2FjLU5yOE94dlAxbzZQWEVHdEdYQ3ZzLWxlaUVueHhqdGxEZkV1UGE3MDZ0TWMzRGh5Sk1kUE1QX0lxdmNIYjREclhwM3ZhNjBSV2VlN2FnaU1GVWZ2SWhnRkZxU1FfZVRzTUotT3NGYm90Ug?oc=5 "HTTP/1.1 302 Found"
-2026-10-19 14:32:04,610 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY3Y1MnJza0h0Y3NMQVByQkVVTklRN1RXVWFIU2pqV0F2R1Q5WjI3TEc1TUxmdHctU19tUW9VVC04aTUtWW81UVpCcE82aXl0anFYOGJTTGlYcjRaX2FjLU5yOE94dlAxbzZQWEVHdEdYQ3ZzLWxlaUVueHhqdGxEZkV1UGE3MDZ0TWMzRGh5Sk1kUE1QX0lxdmNIYjREclhwM3ZhNjBSV2VlN2FnaU1GVWZ2SWhnRkZxU1FfZVRzTUotT3NGYm90Ug?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-19 14:32:04,637 [INFO] __main__: Skipped (no images): US Supreme Court rejects music labels' challenge to copyright termination ruling - Reuters
-2026-10-19 14:32:04,711 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMixwFBVV95cUxOSl9LdF9SNE1LZVpuX01oNnJsUGQxMDhjaTV2X2xCMzhXNzR0ZEU4dDhIbFo3QlI4OUgwWGJWYXlMeFJmOHcwTlVaZW9NQnh2RUJVU2ZndkZxcG8wZXpTU21IUkw1U2dueHBudlQtd0xZZEo0cHotdzM3VmE5aHk5TXRJODZody1XMG9BNFZIRi1RYXNhOFoxXzBtUkdfSlhGWE80M2hJNHVZMW4yQV9jYXk3SWg0aE44bWpfYkdVY0U1OGpkN3A0?oc=5 "HTTP/1.1 302 Found"
-2026-10-19 14:32:04,784 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMixwFBVV95cUxOSl9LdF9SNE1LZVpuX01oNnJsUGQxMDhjaTV2X2xCMzhXNzR0ZEU4dDhIbFo3QlI4OUgwWGJWYXlMeFJmOHcwTlVaZW9NQnh2RUJVU2ZndkZxcG8wZXpTU21IUkw1U2dueHBudlQtd0xZZEo0cHotdzM3VmE5aHk5TXRJODZody1XMG9BNFZIRi1RYXNhOFoxXzBtUkdfSlhGWE80M2hJNHVZMW4yQV9jYXk3SWg0aE44bWpfYkdVY0U1OGpkN3A0?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-19 14:32:04,803 [INFO] __main__: Skipped (no images): Supreme Court rejects effort to revive Khalid Sheikh Mohammed plea deal - ClickOnDetroit | WDIV Local 4
-2026-10-19 14:32:04,865 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxPbGpVRlEyV2ZtdDB3TzV5eHBYVHRjUVo2d0UzQUJsWDkzM0VaM0ZCMmloYjQ0VzdkUHNWUGptS0FlZi1uMjctajdJM1NnRzMxYzBhVEs4YllFcjNOd0pPWDVCQVdqN0pKemdWZ3VsQjZKSjRRNVY2cHBhRW1NM0l4bi1iSWZVdk5uTmsycUlHaUZZWHBBMDZIM3VPbkdFeVRGcU9pQzRCVlZMaWhSMFlMeA?oc=5 "HTTP/1.1 302 Found"
-2026-10-19 14:32:04,929 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxPbGpVRlEyV2ZtdDB3TzV5eHBYVHRjUVo2d0UzQUJsWDkzM0VaM0ZCMmloYjQ0VzdkUHNWUGptS0FlZi1uMjctajdJM1NnRzMxYzBhVEs4YllFcjNOd0pPWDVCQVdqN0pKemdWZ3VsQjZKSjRRNVY2cHBhRW1NM0l4bi1iSWZVdk5uTmsycUlHaUZZWHBBMDZIM3VPbkdFeVRGcU9pQzRCVlZMaWhSMFlMeA?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-19 14:32:04,951 [INFO] __main__: Skipped (no images): Federal Ban on Home Distilling Draws US Supreme Court Review - Bloomberg.com
-2026-10-19 14:32:05,011 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV1picDFXQ1ltTHVvc2ZULUVqQllXbWhnZ2JmMXRDY25YaDFUTmhLSERKc0pUc3Q1TS1DM0tTcHNza19JeWtGVXNTN1NhV20xT0U4S2k5Q3pFdWNobXdvQVRWU3RvSUxvNXp1WVYyU1JOYkduT0Q3bmxNRVdTaXQzY2xsX1NwT0h1X1M2eHdqMFBMSFdQRVdzODlSMWRDY2hrM1hycklhcVRQQQ?oc=5 "HTTP/1.1 302 Found"
-2026-10-19 14:32:05,067 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV1picDFXQ1ltTHVvc2ZULUVqQllXbWhnZ2JmMXRDY25YaDFUTmhLSERKc0pUc3Q1TS1DM0tTcHNza19JeWtGVXNTN1NhV20xT0U4S2k5Q3pFdWNobXdvQVRWU3RvSUxvNXp1WVYyU1JOYkduT0Q3bmxNRVdTaXQzY2xsX1NwT0h1X1M2eHdqMFBMSFdQRVdzODlSMWRDY2hrM1hycklhcVRQQQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-19 14:32:05,091 [INFO] __main__: Skipped (no images): Supreme Court won't hear case about unpaid parking tickets - USA Today
-2026-10-19 14:32:05,149 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZ0xYaW1PaktrZ3l1c0RudUlkaERaUE1sVWkwYU5SOTlyU21kSUZHRk9oN2NtM0d2YWV1OUhnYUh3ZlJDUHRXa0hWMTA3OG9GYjhJRTAwWFd2UjE0eHVZdnBkVk93R0ZQZXc4a29Tc1hzYVJOLTVBZVpGU29jaW5MU2J1N0xFdmF6QnpmeVRWb0p1QkF0eHZmclhNMXgxbTQ2MldxU3dYeW94ZmdTWlFTWldrWGFKS1d2dTFMVzBRUnZUWFBsTWVsN0h2NHZfamRncFQ5aUQzbzk1NjNNeEVaUTEweS1idlUwc2Mw?oc=5 "HTTP/1.1 302 Found"
-2026-10-19 14:32:05,201 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZ0xYaW1PaktrZ3l1c0RudUlkaERaUE1sVWkwYU5SOTlyU21kSUZHRk9oN2NtM0d2YWV1OUhnYUh3ZlJDUHRXa0hWMTA3OG9GYjhJRTAwWFd2UjE0eHVZdnBkVk93R0ZQZXc4a29Tc1hzYVJOLTVBZVpGU29jaW5MU2J1N0xFdmF6QnpmeVRWb0p1QkF0eHZmclhNMXgxbTQ2MldxU3dYeW94ZmdTWlFTWldrWGFKS1d2dTFMVzBRUnZUWFBsTWVsN0h2NHZfamRncFQ5aUQzbzk1NjNNeEVaUTEweS1idlUwc2Mw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-19 14:32:05,221 [INFO] __main__: Skipped (no images): Supreme Court rejects effort to revive Khalid Sheikh Mohammed plea deal | National News | 2news.com - KTVN
-2026-10-19 14:32:05,281 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMilwFBVV95cUxOdnBGWTB4VmJBUjFUelJMdnhGOGlXWVBlenNxOWh0UzRzaHdYRXI1djVuY1pabkVTajhMcXFhbUhHaEU2YjVNUWJaLXJSUUJHdXVycVVPekU0Y2p0MjVkLTRtWFVSNGN1RUFIdTFRS2hHakxOSkxZbjJtcl9neXg2SDVEZFJkOXl1LV9wbWJ1RFhYYlRjSUxJ?oc=5 "HTTP/1.1 302 Found"
-2026-10-19 14:32:05,334 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMilwFBVV95cUxOdnBGWTB4VmJBUjFUelJMdnhGOGlXWVBlenNxOWh0UzRzaHdYRXI1djVuY1pabkVTajhMcXFhbUhHaEU2YjVNUWJaLXJSUUJHdXVycVVPekU0Y2p0MjVkLTRtWFVSNGN1RUFIdTFRS2hHakxOSkxZbjJtcl9neXg2SDVEZFJkOXl1LV9wbWJ1RFhYYlRjSUxJ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-19 14:32:05,357 [INFO] __main__: Skipped (no images): Eva Victor joins Loewe’s roster of brand ambassadors - HERO Magazine
-2026-10-19 14:32:05,369 [INFO] __main__: New candidates this cycle: 0
-2026-10-19 14:32:05,370 [INFO] __main__: Too soon since last post — waiting
-2026-10-19 14:32:05,370 [INFO] __main__: Cycle done, exiting
+2026-10-19 14:37:23,909 [INFO] bot.sources: Fetched 216 articles from all sources
+2026-10-19 14:37:24,003 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi6gFBVV95cUxNaFNKREtoRWUzb3liMW10OEc1SmdiVDRmMTV1WGNiNzJRelVWZHE3am44b1hwVjB3ZlgzaEgwdkd1R0lOcDd5S2lXVi04aFRTM0lZSW1WcFMzd2dyVlYwVlRxZlVmb2lEZmduZXFpRk5HVm1maVBLMGc4aGVZQXNQc1UyZVpWeVhXQURHLXB0TXB2MFZEY1RYVzFwa043RUtQSDNGazJxMTd1cUVDSHNXZDhrUlI4bmtvcHhmUW1JOThWdHcyUVpzNGprdHFQckFyNE5uTzF4M0RDbXQzU0pRY2U5NktScTNEbWc?oc=5 "HTTP/1.1 302 Found"
+2026-10-19 14:37:24,076 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi6gFBVV95cUxNaFNKREtoRWUzb3liMW10OEc1SmdiVDRmMTV1WGNiNzJRelVWZHE3am44b1hwVjB3ZlgzaEgwdkd1R0lOcDd5S2lXVi04aFRTM0lZSW1WcFMzd2dyVlYwVlRxZlVmb2lEZmduZXFpRk5HVm1maVBLMGc4aGVZQXNQc1UyZVpWeVhXQURHLXB0TXB2MFZEY1RYVzFwa043RUtQSDNGazJxMTd1cUVDSHNXZDhrUlI4bmtvcHhmUW1JOThWdHcyUVpzNGprdHFQckFyNE5uTzF4M0RDbXQzU0pRY2U5NktScTNEbWc?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-19 14:37:24,089 [INFO] __main__: Skipped (no images): Supreme Court to Review Challenge to Admissions Policy That Increases Equal Opportunity for Middle School Students - Legal Defense Fund
+2026-10-19 14:37:24,157 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMijwFBVV95cUxPdUFMWkZTNzBTZGVHT2RjNnp4X184WEdwNXpZTGVfbDdaa3YxRjBVMXFfdW4yUzltQ0ljMVNoSXp5R2RGc1NOV3Z6cHh3ejJrWVJIQ1lTbWpMSXFJZ0FWbDRQRVBMSmJPb1hsMVhjLV9NZF85SXZSMXBEM3A4enhBTzFWbVhTUXR3RFI1b2dnMA?oc=5 "HTTP/1.1 302 Found"
+2026-10-19 14:37:24,228 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMijwFBVV95cUxPdUFMWkZTNzBTZGVHT2RjNnp4X184WEdwNXpZTGVfbDdaa3YxRjBVMXFfdW4yUzltQ0ljMVNoSXp5R2RGc1NOV3Z6cHh3ejJrWVJIQ1lTbWpMSXFJZ0FWbDRQRVBMSmJPb1hsMVhjLV9NZF85SXZSMXBEM3A4enhBTzFWbVhTUXR3RFI1b2dnMA?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-19 14:37:24,268 [INFO] __main__: Skipped (no images): Supreme Court rejects effort to revive Khalid Sheikh Mohammed plea deal - The Virginian-Pilot
+2026-10-19 14:37:24,348 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxOT0pVbWI0QUx3S2p3NXdwMXB3TDBORFNPX3dFNWY4dk5FQ2trQW5XQm04bUZ6OURZN2JjZkJ1SHVJX09sM01zUkFlSXJPWnJlZWpnNmVnYU1kQU1DSGNFSDROWHBUQUNyMmdSTmpZQVBpLVpyS1E1R0t1Zm9rRmJYakdJNWxncFdoM1NTaE9JRDByRTZ0Q2EyRnRR?oc=5 "HTTP/1.1 302 Found"
+2026-10-19 14:37:24,432 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxOT0pVbWI0QUx3S2p3NXdwMXB3TDBORFNPX3dFNWY4dk5FQ2trQW5XQm04bUZ6OURZN2JjZkJ1SHVJX09sM01zUkFlSXJPWnJlZWpnNmVnYU1kQU1DSGNFSDROWHBUQUNyMmdSTmpZQVBpLVpyS1E1R0t1Zm9rRmJYakdJNWxncFdoM1NTaE9JRDByRTZ0Q2EyRnRR?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-19 14:37:24,449 [INFO] __main__: Skipped (no images): Can you make whiskey at home? The Supreme Court will decide - CNN
+2026-10-19 14:37:24,462 [INFO] __main__: New candidates this cycle: 0
+2026-10-19 14:37:24,463 [INFO] __main__: Too soon since last post — waiting
+2026-10-19 14:37:24,463 [INFO] __main__: Cycle done, exiting
