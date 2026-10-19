@@ -51,11 +51,15 @@ _IMG_EXT = (".jpg", ".jpeg", ".png", ".webp")
 _IMG_LINK_RE = re.compile(r'href="([^"]+(?:' + "|".join(_IMG_EXT) + r')[^"]*)"', re.IGNORECASE)
 # Превью preview.redd.it/<id>.<ext> конвертируется в полноразмер i.redd.it/<id>.<ext>
 _REDDIT_THUMB_RE = re.compile(r"https://preview\.redd\.it/([a-z0-9]+)\.(jpg|png)\?", re.IGNORECASE)
-# Не новости, а служебные/фит-посты — пропускаем по заголовку
+# Не новости, а служебные/фит/продаж-посты — пропускаем по заголовку.
+# Resale-объявления палятся по: iso/looking for (куплю), shipped/BIN/$N/размер (продам).
 _REDDIT_TITLE_BLOCKLIST = re.compile(
     r"wdywt|megathread|simple questions|general discussion|daily (discussion|thread)|"
-    r"weekly (thread|discussion)|what are you wearing|fit check|outfit|\bfit\b|\blook\b|\bpickup|"
-    r"\bwts\b|\bwtt\b|\bwtb\b|\bfs\b|legit check|\blc\b|for sale|\bwearing\b|\bwore\b",
+    r"weekly (thread|discussion)|what are you wearing|fit check|outfit|\bfit\b|"
+    r"(?:my|today'?s)\s+look|\bpickup|"
+    r"\bwts\b|\bwtt\b|\bwtb\b|\bfs\b|legit check|\blc\b|for sale|\bwearing\b|\bwore\b|"
+    r"\biso\b|looking for|\bshipped\b|\bbin\b|\bgrail\b|\$\s?\d+|"
+    r"\bsize\s?(us|uk|eu|xs|s|m|l|xl|xxl|\d)|\b\d{2,3}\s?usd\b",
     re.IGNORECASE,
 )
 
