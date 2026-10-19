@@ -5,63 +5,81 @@ import time
 
 from google import genai
 
-from . import config
+from . import config, db
 from .db import Candidate
 
 log = logging.getLogger(__name__)
 
-_client: genai.Client | None = None
+_clients: dict[str, genai.Client] = {}
 
 
-def _get_client() -> genai.Client:
-    global _client
-    if _client is None:
-        _client = genai.Client(api_key=config.GEMINI_API_KEY)
-    return _client
+def _get_client(key: str) -> genai.Client:
+    if key not in _clients:
+        _clients[key] = genai.Client(api_key=key)
+    return _clients[key]
 
 
-# При 503 (high demand на free tier) чередуем модели и ретраим с нарастающей паузой
-_MODELS = [config.GEMINI_MODEL, "gemini-flash-latest"]
-_BACKOFF = [20, 40, 60]  # секунды между попытками
+# Перебор моделей: 404 = модель недоступна этому ключу → сразу следующая.
+# У разных ключей разный набор моделей (у ключей AI Studio может не быть 3.8).
+_MODELS = [config.GEMINI_MODEL, "gemini-2.5-flash", "gemini-flash-latest"]
+
+# Ключи: основной + необязательный запасной (квота удваивается)
+_KEYS = [k for k in (config.GEMINI_API_KEY, config.GEMINI_API_KEY2) if k]
 
 
 class QuotaExhausted(Exception):
-    """Дневная квота Gemini исчерпана: 429 повторился даже после паузы 65с."""
+    """Дневная квота исчерпана на ВСЕХ ключах (429 повторился после паузы)."""
+
+
+async def _generate_on_key(key: str, prompt: str) -> str | None:
+    """Один ключ: перебор моделей. 404 → следующая модель без паузы;
+    503 → ретрай через 20с; 429 → пауза 65с и вторая попытка (вдруг лимит
+    поминутный), повторный 429 → QuotaExhausted (квота дня сгорела)."""
+    saw_429 = False
+    for model in _MODELS:
+        for backoff in (0, 20):
+            if backoff:
+                await asyncio.sleep(backoff)
+            try:
+                resp = await asyncio.to_thread(
+                    _get_client(key).models.generate_content,
+                    model=model,
+                    contents=prompt,
+                )
+                text = (resp.text or "").strip()
+                if text:
+                    return text
+                log.warning("Gemini (%s): пустой ответ", model)
+            except Exception as exc:
+                err = str(exc)
+                log.warning("Gemini (%s) failed: %.250s", model, err)
+                if "404" in err or "NOT_FOUND" in err:
+                    break  # модели нет у ключа — берём следующую без паузы
+                if "429" in err or "RESOURCE_EXHAUSTED" in err:
+                    if saw_429:
+                        raise QuotaExhausted(f"квота ключа ...{key[-4:]} исчерпана")
+                    saw_429 = True
+                    log.warning("Gemini 429 — пауза 65с и ещё попытка")
+                    await asyncio.sleep(65)
+    return None
 
 
 async def _generate(prompt: str) -> str | None:
-    """Запрос к Gemini: до 4 попыток, чередование моделей, пауза 20/40/60с.
-    429 бывает поминутным (RPM) и дневным (RPD): на первый 429 ждём 65с и
-    пробуем другую модель — вдруг поминутный. Повторный 429 = дневная квота
-    сгорела → QuotaExhausted, чтобы вызывающий код включил автоматический
-    «предохранитель» и не жёг квоту зря."""
-    last_err = ""
-    saw_429 = False
-    for attempt in range(4):
-        model = _MODELS[attempt % len(_MODELS)]
+    """Перебор ключей: transient-сбой (None) → стоп; сгоревшая дневная квота →
+    переключаемся на запасной ключ. Индекс живого ключа храним в БД, чтобы
+    следующие прогоны не тратили вызовы на мёртвый ключ."""
+    key_idx = int(db.get_meta("gemini_key_idx") or 0) % len(_KEYS)
+    for offset in range(len(_KEYS)):
+        idx = (key_idx + offset) % len(_KEYS)
         try:
-            resp = await asyncio.to_thread(
-                _get_client().models.generate_content,
-                model=model,
-                contents=prompt,
-            )
-            text = (resp.text or "").strip()
-            if text:
-                return text
-            last_err = "empty response"
-        except Exception as exc:
-            last_err = str(exc)
-            log.warning("Gemini attempt %d (%s) failed: %.300s", attempt + 1, model, last_err)
-            if "429" in last_err or "RESOURCE_EXHAUSTED" in last_err:
-                if saw_429:
-                    raise QuotaExhausted("квота Gemini исчерпана (429 повторился после паузы)")
-                saw_429 = True
-                log.warning("Gemini 429 — пауза 65с и ещё попытка (вдруг лимит поминутный)")
-                await asyncio.sleep(65)
-                continue
-        if attempt < 3:
-            await asyncio.sleep(_BACKOFF[attempt])
-    log.warning("Gemini exhausted all retries: %.200s", last_err)
+            return await _generate_on_key(_KEYS[idx], prompt)
+        except QuotaExhausted:
+            log.warning("Дневная квота ключа #%d исчерпана", idx + 1)
+            if offset == len(_KEYS) - 1:
+                raise  # все ключи мертвы — включится предохранитель в main
+            nxt = (idx + 1) % len(_KEYS)
+            db.set_meta("gemini_key_idx", str(nxt))
+            log.warning("Переключаюсь на запасной ключ Gemini (#%d)", nxt + 1)
     return None
 
 

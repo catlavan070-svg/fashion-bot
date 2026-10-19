@@ -14,6 +14,9 @@ load_dotenv(BASE_DIR / ".env")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 CHANNEL_ID = os.getenv("CHANNEL_ID", "")  # @username канала или id вида -100...
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+# Запасной ключ Gemini (необязательно): при исчерпании дневной квоты основного
+# бот прозрачно переключается на него — суммарная квота удваивается
+GEMINI_API_KEY2 = os.getenv("GEMINI_API_KEY2", "")
 
 # --- Настройки с дефолтами ---
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
