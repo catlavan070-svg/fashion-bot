@@ -75,8 +75,10 @@ async def publish_cycle(bot: Bot) -> None:
 
     # Предохранитель Gemini: после подтверждённой 429 (дневная квота) не трогаем
     # API час — иначе каждый 15-минутный прогон жжёт и так севшую квоту.
+    # Но если есть запасная нейросеть (Groq) — постинг НЕ отключаем: пишем через неё.
     gemini_dead_until = float(db.get_meta("gemini_dead_until") or 0)
-    if time.time() < gemini_dead_until:
+    gemini_dead = time.time() < gemini_dead_until
+    if gemini_dead and not config.GROQ_API_KEY:
         left = int((gemini_dead_until - time.time()) / 60)
         log.info("Gemini на паузе (квота), осталось %d мин — только собираем новости", left)
         return
@@ -98,7 +100,7 @@ async def publish_cycle(bot: Bot) -> None:
         log.info("Picked for posting: %s", best.title)
 
         try:
-            text = await rewriter.rewrite(best)
+            text = await rewriter.rewrite(best, skip_gemini=gemini_dead)
         except rewriter.QuotaExhausted:
             # Квота дня сгорела: пауза 60 мин и НЕ пробуем второго кандидата —
             # он упрётся в тот же мёртвый API.
@@ -112,7 +114,8 @@ async def publish_cycle(bot: Bot) -> None:
         if await post(bot, text, best.images):
             db.mark_candidate_used(best.id)
             db.record_post(best.title, best.link)
-            db.set_meta("gemini_dead_until", "0")  # API жив — снять предохранитель
+            if not gemini_dead:  # пост через Gemini — снять предохранитель
+                db.set_meta("gemini_dead_until", "0")
             log.info("POSTED (%d/%d today): %s", db.posts_today(), config.DAILY_QUOTA, best.title)
             return
         log.warning("Post failed, trying next candidate: %s", best.title)

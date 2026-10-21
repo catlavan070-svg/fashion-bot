@@ -27,6 +27,16 @@ _MODELS = [config.GEMINI_MODEL, "gemini-2.5-flash", "gemini-flash-latest"]
 # Ключи: основной + необязательные запасные (квота суммируется)
 _KEYS = [k for k in (config.GEMINI_API_KEY, config.GEMINI_API_KEY2, config.GEMINI_API_KEY3) if k]
 
+# Groq: имена моделей устаревают (404), поэтому перебираем свежие семейства
+_GROQ_MODELS = [
+    "meta-llama/llama-4-maverick-17b-128e-instruct",
+    "meta-llama/llama-4-scout-17b-16e-instruct",
+    "openai/gpt-oss-120b",
+    "qwen/qwen3-32b",
+    "llama-3.3-70b-versatile",
+    "llama-3.1-8b-instant",
+]
+
 
 class QuotaExhausted(Exception):
     """Дневная квота исчерпана на ВСЕХ ключах (429 повторился после паузы)."""
@@ -110,34 +120,39 @@ def pick_best(candidates: list[Candidate]) -> int:
 
 
 async def _groq_generate(prompt: str) -> str | None:
-    """Запасная нейросеть Groq (llama-3.3-70b): выручает, когда Gemini лежит
-    в 503-шторме или сжёг квоту на обоих ключах. Отличный русский, бесплатный."""
-    for attempt in range(2):
-        try:
-            async with httpx.AsyncClient(timeout=60) as client:
-                resp = await client.post(
-                    "https://api.groq.com/openai/v1/chat/completions",
-                    headers={"Authorization": f"Bearer {config.GROQ_API_KEY}"},
-                    json={
-                        "model": "llama-3.3-70b-versatile",
-                        "messages": [{"role": "user", "content": prompt}],
-                        "temperature": 0.7,
-                        "max_tokens": 1024,
-                    },
-                )
-                resp.raise_for_status()
-                text = (resp.json()["choices"][0]["message"]["content"] or "").strip()
-                if text:
-                    log.info("Пост сгенерирован запасной нейросетью Groq")
-                    return text
-        except Exception as exc:
-            log.warning("Groq attempt %d failed: %.200s", attempt + 1, exc)
-            if attempt == 0:
-                await asyncio.sleep(15)
+    """Запасная нейросеть Groq: выручает, когда Gemini лежит в 503-шторме
+    или сжёг квоту на всех ключах. Отличный русский, бесплатный.
+    Имена моделей перебираем: у Groq они устаревают и отдают 404."""
+    for model in _GROQ_MODELS:
+        for attempt in range(2):
+            try:
+                async with httpx.AsyncClient(timeout=60) as client:
+                    resp = await client.post(
+                        "https://api.groq.com/openai/v1/chat/completions",
+                        headers={"Authorization": f"Bearer {config.GROQ_API_KEY}"},
+                        json={
+                            "model": model,
+                            "messages": [{"role": "user", "content": prompt}],
+                            "temperature": 0.7,
+                            "max_tokens": 1024,
+                        },
+                    )
+                    resp.raise_for_status()
+                    text = (resp.json()["choices"][0]["message"]["content"] or "").strip()
+                    if text:
+                        log.info("Пост сгенерирован запасной нейросетью Groq (%s)", model)
+                        return text
+            except Exception as exc:
+                err = str(exc)
+                log.warning("Groq (%s) attempt %d failed: %.200s", model, attempt + 1, err)
+                if "404" in err:
+                    break  # модель retired — пробуем следующее имя без паузы
+                if attempt == 0:
+                    await asyncio.sleep(15)
     return None
 
 
-async def rewrite(candidate: Candidate) -> str | None:
+async def rewrite(candidate: Candidate, skip_gemini: bool = False) -> str | None:
     """Переписывает новость в пост на русском. None при ошибке."""
     prompt = (
         "Ты — автор популярного Telegram-канала о высокой моде и стритвире.\n"
@@ -155,10 +170,14 @@ async def rewrite(candidate: Candidate) -> str | None:
         f"Текст новости: {candidate.summary or '(только заголовок)'}"
     )
     quota_dead = False
-    try:
-        text = await _generate(prompt)
-    except QuotaExhausted:
-        text, quota_dead = None, True
+    if skip_gemini:
+        text = None  # Gemini на предохранителе — не трогаем его квоту
+        log.info("Gemini на предохранителе — пишу через запасную нейросеть")
+    else:
+        try:
+            text = await _generate(prompt)
+        except QuotaExhausted:
+            text, quota_dead = None, True
     if not text and config.GROQ_API_KEY:
         log.warning("Gemini не справился — пробую запасную нейросеть Groq")
         text = await _groq_generate(prompt)
