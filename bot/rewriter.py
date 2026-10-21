@@ -37,7 +37,7 @@ async def _generate_on_key(key: str, prompt: str) -> str | None:
     поминутный), повторный 429 → QuotaExhausted (квота дня сгорела)."""
     saw_429 = False
     for model in _MODELS:
-        for backoff in (0, 20):
+        for backoff in (0, 25, 50):  # 503-штормы длятся минуты — ждём дольше
             if backoff:
                 await asyncio.sleep(backoff)
             try:
