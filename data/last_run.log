@@ -1,84 +1,35 @@
-2026-10-21 07:01:04,206 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-21 07:01:04,258 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-21 07:01:04,270 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-10-21 07:01:04,271 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-10-21 07:01:04,291 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
-2026-10-21 07:01:04,292 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
+2026-10-21 07:15:48,084 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
+2026-10-21 07:15:48,085 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-2026-10-21 07:01:04,303 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-10-21 07:01:04,381 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-10-21 07:01:04,577 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-10-21 07:01:04,654 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:04,719 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:04,722 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:05,869 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-21 07:01:09,192 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-21 07:01:14,195 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-21 07:01:19,193 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-21 07:01:24,192 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-21 07:01:29,193 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-21 07:01:34,311 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-21 07:01:34,311 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-10-21 07:15:48,101 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-10-21 07:15:48,106 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-21 07:15:48,135 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-10-21 07:15:48,137 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-10-21 07:15:48,185 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-10-21 07:15:48,214 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-21 07:15:48,456 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-10-21 07:15:48,514 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-21 07:15:48,578 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-21 07:15:48,580 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-21 07:15:49,199 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-21 07:15:53,077 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-21 07:15:58,079 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-21 07:16:04,359 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-21 07:16:08,078 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-21 07:16:13,077 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-21 07:16:18,187 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-21 07:16:18,188 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-21 07:01:39,255 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-21 07:01:39,256 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-10-21 07:16:23,162 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-21 07:16:23,163 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-21 07:01:44,255 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-21 07:01:44,256 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-10-21 07:16:33,186 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-21 07:16:33,187 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-21 07:01:49,255 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-21 07:01:49,256 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-10-21 07:16:38,160 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-21 07:16:38,161 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-21 07:01:54,333 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-21 07:01:54,333 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-21 07:01:54,334 [INFO] bot.sources: Fetched 210 articles from all sources
-2026-10-21 07:01:54,460 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiswFBVV95cUxQWjlwMDVsdHFzLUlGSGFkOHBVOHE2QS1MVzlqZjhSNmxTaFVSYnhzeDgta1dEdVlDTFJ2TEc3d0UxaVFOUTlpZDdzbXB0dWROTHhfOVhxb1MxclVlWHlyTlNpMk9OWUd5bDJwVW0zcXhtQ0dpajk1bjdLb3JyQllnZHA4YUJqa3RaSjVhTE1UNWVuWW13WTFCT3VtbU10cHdnb0ZPa1p3OE4wakh5VWV2VHhPQQ?oc=5 "HTTP/1.1 302 Found"
-2026-10-21 07:01:54,538 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiswFBVV95cUxQWjlwMDVsdHFzLUlGSGFkOHBVOHE2QS1MVzlqZjhSNmxTaFVSYnhzeDgta1dEdVlDTFJ2TEc3d0UxaVFOUTlpZDdzbXB0dWROTHhfOVhxb1MxclVlWHlyTlNpMk9OWUd5bDJwVW0zcXhtQ0dpajk1bjdLb3JyQllnZHA4YUJqa3RaSjVhTE1UNWVuWW13WTFCT3VtbU10cHdnb0ZPa1p3OE4wakh5VWV2VHhPQQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:54,570 [INFO] __main__: Skipped (no images): Dior Decks the Harrods Halls With a Pop-up Featuring Jonathan Anderson’s First Cruise Collection - WWD
-2026-10-21 07:01:54,670 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi9wFBVV95cUxOQzBTNnpzSDJUZk1aVHVJcER5Sk54OVVWLWhzNjF2NUVhUTBURUdCSEFTV2VZRHZNN0VQZjEtSkxwWFpNcGs3TlpKeFduaHJMbFhDbVZYQ3Qwem9HdUJQRmhZM1NHUVByNXZUSDJod3dvRmpBWE9zNWEwTWEyOFE2ZTROVWVhRUpUbUN1ZFZMQlJ5TFJWOEwydWl4NHF3VHgyS0JXekhzQUNiR1lJbzlHV0Ezd2FUc2RlVElMLUtaUzlLNmIzdEZ2YXZMWTBoRmN2Q1M0WUdUSHBVMUNMZXlxVm82LU9mNUgxUU1EQzRCZnZ6YmkxWVJV?oc=5 "HTTP/1.1 302 Found"
-2026-10-21 07:01:54,737 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi9wFBVV95cUxOQzBTNnpzSDJUZk1aVHVJcER5Sk54OVVWLWhzNjF2NUVhUTBURUdCSEFTV2VZRHZNN0VQZjEtSkxwWFpNcGs3TlpKeFduaHJMbFhDbVZYQ3Qwem9HdUJQRmhZM1NHUVByNXZUSDJod3dvRmpBWE9zNWEwTWEyOFE2ZTROVWVhRUpUbUN1ZFZMQlJ5TFJWOEwydWl4NHF3VHgyS0JXekhzQUNiR1lJbzlHV0Ezd2FUc2RlVElMLUtaUzlLNmIzdEZ2YXZMWTBoRmN2Q1M0WUdUSHBVMUNMZXlxVm82LU9mNUgxUU1EQzRCZnZ6YmkxWVJV?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:54,759 [INFO] __main__: Skipped (no images): France The Freemasons' problematic 'little enquiry' launched by Louis Vuitton's ex-security chief - Intelligence Online
-2026-10-21 07:01:54,868 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMixwFBVV95cUxQUXppa3hIVWUxbW8xTzBLbDAyWHJvRmlkZUZFSkhlYk5mcXJ6OEF6bnFYcTBuT2hNa01hWHIwMk1KRV9IN1VRZTZiZWxoWEdpZ3EtOFM3bzctOVdqRzIwcURQdmlvWmN2U29xdFh4Z3ZVN3R2RmU5a1g0Ti16UnhSeHFkT05fLWFZSkdzelF1NVNNcGtlZGtnWVB5VjBINnQ0bkpRMW92NVVZSlVhR3R6UzI0Zl9xSHNuTnNVYi0xenI0Q25McDJF?oc=5 "HTTP/1.1 302 Found"
-2026-10-21 07:01:54,934 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMixwFBVV95cUxQUXppa3hIVWUxbW8xTzBLbDAyWHJvRmlkZUZFSkhlYk5mcXJ6OEF6bnFYcTBuT2hNa01hWHIwMk1KRV9IN1VRZTZiZWxoWEdpZ3EtOFM3bzctOVdqRzIwcURQdmlvWmN2U29xdFh4Z3ZVN3R2RmU5a1g0Ti16UnhSeHFkT05fLWFZSkdzelF1NVNNcGtlZGtnWVB5VjBINnQ0bkpRMW92NVVZSlVhR3R6UzI0Zl9xSHNuTnNVYi0xenI0Q25McDJF?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:54,962 [INFO] __main__: Skipped (no images): Justice Elena Kagan accuses Supreme Court’s conservative majority of undermining democracy - NBC News
-2026-10-21 07:01:55,074 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxOdWRKSThPZWdVMXNESEFBX1ctNUFUX0lIY2hjSEtjUGZGbkNudEJYWUR1eDNzOXlWMWVBR3MyM0cwcmRJX3I1TE02QlZGUmNxOUhIZG1LN3c4WnlLdGZCZVFlNTZYb3lkejJSdU1WWExFUWhBVjNrMGVhdmM5QnFpVjAxeFNjYzRWejZKR1g2cktRV0RTRTd3N0pNYzd6UFc2bGkxRkZZTmh2TVQ2ckRRdWFPT3dEWG5QQkswdUdB?oc=5 "HTTP/1.1 302 Found"
-2026-10-21 07:01:55,144 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxOdWRKSThPZWdVMXNESEFBX1ctNUFUX0lIY2hjSEtjUGZGbkNudEJYWUR1eDNzOXlWMWVBR3MyM0cwcmRJX3I1TE02QlZGUmNxOUhIZG1LN3c4WnlLdGZCZVFlNTZYb3lkejJSdU1WWExFUWhBVjNrMGVhdmM5QnFpVjAxeFNjYzRWejZKR1g2cktRV0RTRTd3N0pNYzd6UFc2bGkxRkZZTmh2TVQ2ckRRdWFPT3dEWG5QQkswdUdB?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:55,174 [INFO] __main__: Skipped (no images): Justice Kagan says Supreme Court has damaged democracy with recent rulings - The Washington Post
-2026-10-21 07:01:55,286 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMikwFBVV95cUxNNDBibGlXNURhM0NydzVXTEk3UERTelBsYlN3aHFOcHU4T0t6bENFeTFEdTZFR2pCQUZ6Z0x0cmozaU1rMnhROGRiQXJMTVE2TDFGdFFRbjJwbjJWZlpucTMzZ3ZrSnFzenYyeFozbXRhWVhQbF9faGw4Z2Rya29neUtERXlSbjNfSm5SWExmRlk3TmM?oc=5 "HTTP/1.1 302 Found"
-2026-10-21 07:01:55,346 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMikwFBVV95cUxNNDBibGlXNURhM0NydzVXTEk3UERTelBsYlN3aHFOcHU4T0t6bENFeTFEdTZFR2pCQUZ6Z0x0cmozaU1rMnhROGRiQXJMTVE2TDFGdFFRbjJwbjJWZlpucTMzZ3ZrSnFzenYyeFozbXRhWVhQbF9faGw4Z2Rya29neUtERXlSbjNfSm5SWExmRlk3TmM?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:55,375 [INFO] __main__: Skipped (no images): Supreme Court: CBI does not have to release data from all Missy Woods’ cases to Michael Clark - Colorado Public Radio
-2026-10-21 07:01:55,493 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxNRjhvWEdwZUdTd0ltY1FCUFc1eW5TdFhlMHBDei11dFZXTTFpWjdYdVJLbDR5dXpDcjVmX0NVWG94RDExS3FsOW1Cd3ZBMDJZVWhaYlBQNUFuRTA5N2dqb2xHbVZ0alZzMlFFbl9zODktakM5ekc2LVRpQ2xGNU91RUJ3RG42Q1hlcFhrNG11MEV0OVNyLXlyNU1mRQ?oc=5 "HTTP/1.1 302 Found"
-2026-10-21 07:01:55,562 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxNRjhvWEdwZUdTd0ltY1FCUFc1eW5TdFhlMHBDei11dFZXTTFpWjdYdVJLbDR5dXpDcjVmX0NVWG94RDExS3FsOW1Cd3ZBMDJZVWhaYlBQNUFuRTA5N2dqb2xHbVZ0alZzMlFFbl9zODktakM5ekc2LVRpQ2xGNU91RUJ3RG42Q1hlcFhrNG11MEV0OVNyLXlyNU1mRQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:55,593 [INFO] __main__: Skipped (no images): Justice Kagan warns Supreme Court rulings are fueling polarization and undermining democracy - AP News
-2026-10-21 07:01:55,701 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiswFBVV95cUxPaHVhZTdmZHYyMjR6M1dwemZILW81dmtHbEplNzNfUXNpUG9relFUWXY3UDVLaEk2UkdEWW00b3IzVzJIQ19Ya2FPOXJmSXdDdWR4cUtlMHNwLTNEQVF1RDBLaHQwMEtpWnNrTGlDTnF5OEl5STBrczBXMEp2c2JndmlQajBVVVN2MEVnNEZUa3NGSzZNSHUxamQzWG5WbUF6cVVKdnhrMWhReFNIWm94YW5LQQ?oc=5 "HTTP/1.1 302 Found"
-2026-10-21 07:01:55,760 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiswFBVV95cUxPaHVhZTdmZHYyMjR6M1dwemZILW81dmtHbEplNzNfUXNpUG9relFUWXY3UDVLaEk2UkdEWW00b3IzVzJIQ19Ya2FPOXJmSXdDdWR4cUtlMHNwLTNEQVF1RDBLaHQwMEtpWnNrTGlDTnF5OEl5STBrczBXMEp2c2JndmlQajBVVVN2MEVnNEZUa3NGSzZNSHUxamQzWG5WbUF6cVVKdnhrMWhReFNIWm94YW5LQQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:55,787 [INFO] __main__: Skipped (no images): Supreme Court’s Kagan Says Election Rulings Creating ‘Nightmare’ - Bloomberg.com
-2026-10-21 07:01:55,897 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxOWmh2NWsyQ09lWFoxVTl6WDEwTFJ4OWxuVWswNm9nM2xwbnFGZldySUMyYW5fWW52XzVoUDkyZjUyQzE1ZGU4bUNkMGp6aXU0YkRRcEE2d1pQNl9oY0NrV2JDNUpDWkxJLVZYVUdrUEtpUzczMUc3d29jWVJJNmFmejVwY283ckk4SGRhSDlXUTJWckhUelVQSjZqakltUE0?oc=5 "HTTP/1.1 302 Found"
-2026-10-21 07:01:55,956 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxOWmh2NWsyQ09lWFoxVTl6WDEwTFJ4OWxuVWswNm9nM2xwbnFGZldySUMyYW5fWW52XzVoUDkyZjUyQzE1ZGU4bUNkMGp6aXU0YkRRcEE2d1pQNl9oY0NrV2JDNUpDWkxJLVZYVUdrUEtpUzczMUc3d29jWVJJNmFmejVwY283ckk4SGRhSDlXUTJWckhUelVQSjZqakltUE0?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:55,984 [INFO] __main__: Skipped (no images): Supreme Court’s conservatives have let down democracy, Justice Kagan says - CNN
-2026-10-21 07:01:56,083 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirwFBVV95cUxOUjJWUk0ybERMb3dZVG5qck54NzNJV3ZPWGpQV0FNcVpuTW5kcVBLWWxNN0NGamRnSkozYXFqRWNrQ1hRa1hnVC1YQ3Bzb1QyY0swbjh3QWRJdGJrVm5VaUVDamFVMkhhc1haamIxaGxYMW9TbWVnSDhnLWloSzVzM3NkRGZvb2g3QzlHOGw2NkhJTlZHNTByb2RKNUpyVDdUcDBBYkZIMDd3aUl5X0Z3?oc=5 "HTTP/1.1 302 Found"
-2026-10-21 07:01:56,159 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirwFBVV95cUxOUjJWUk0ybERMb3dZVG5qck54NzNJV3ZPWGpQV0FNcVpuTW5kcVBLWWxNN0NGamRnSkozYXFqRWNrQ1hRa1hnVC1YQ3Bzb1QyY0swbjh3QWRJdGJrVm5VaUVDamFVMkhhc1haamIxaGxYMW9TbWVnSDhnLWloSzVzM3NkRGZvb2g3QzlHOGw2NkhJTlZHNTByb2RKNUpyVDdUcDBBYkZIMDd3aUl5X0Z3?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:56,182 [INFO] __main__: Skipped (no images): 'Bum rap': Supreme Court is not in Trump's pocket, Justice Kagan says - USA Today
-2026-10-21 07:01:56,290 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiuwFBVV95cUxOU29lRnpXTEc2eWJpbDRJUmJYMnhfMVRubFFLT09xUW8zcXY4OFppX281bW81bzJwSlI3WWRYTXhBYTNmbFlfeU9VdHE2X3ZnYnFENzBPeG0tU1Uyc2kwbHAxcWN6ZVU0Tl95UEx3X3U2S0pOUkM0V1cyS2daZTNUVVBGWGlydDlmci1LRGZLTE1jS3RzcnhoV0J4VXBFTzNnWXB1LUNuX2RmeXQ4N094b1lhVXBuUmdOSGxF?oc=5 "HTTP/1.1 302 Found"
-2026-10-21 07:01:56,365 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiuwFBVV95cUxOU29lRnpXTEc2eWJpbDRJUmJYMnhfMVRubFFLT09xUW8zcXY4OFppX281bW81bzJwSlI3WWRYTXhBYTNmbFlfeU9VdHE2X3ZnYnFENzBPeG0tU1Uyc2kwbHAxcWN6ZVU0Tl95UEx3X3U2S0pOUkM0V1cyS2daZTNUVVBGWGlydDlmci1LRGZLTE1jS3RzcnhoV0J4VXBFTzNnWXB1LUNuX2RmeXQ4N094b1lhVXBuUmdOSGxF?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:56,388 [INFO] __main__: Skipped (no images): Supreme Court challenge to Cook County gun ban sparks debate in Evanston - The Daily Northwestern
-2026-10-21 07:01:56,497 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOG9uUldaQ3VqNTl1VkxmbFhLXzFueHhvd0F5cEJMVkdta2txdFlVbzJ2RWpNUDAxV0pJWWZfTzRzUkRDb29wSXNuX015TjE4VHozVnJoUzNIMkI0R3hkdWF1dW1QdkxXQkZ4cXA2Njkzd2V3WWNDX3E5bUd6RzRuTlN4YW9KdHhTQy1ITzB0aVl1OXBlb1pBTnJya0xzaFpzS09nXzk3Z2NXUdIBrwFBVV95cUxPM0lKZFFLWGkxbUFwQlp5bTlvbWQ1T0dqQjd0UFJ5dWg4RFd4X0k5Ym54Q2wzNnRsWHVMVFZZZklHRFB2VDNIZGU2djQ2TklSam1uRnNpWFd0UFlUZGpsbi1vbjBHMWU2cUt3Q0RiWkZnaGJac19DVURYRUJURHVVTTRLWl9sMUZqVVl1WjhNeTNndDBsN1FINEsxRTlqc0dfcE1EWUVhS1B4bFNka0lZ?oc=5 "HTTP/1.1 302 Found"
-2026-10-21 07:01:56,569 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOG9uUldaQ3VqNTl1VkxmbFhLXzFueHhvd0F5cEJMVkdta2txdFlVbzJ2RWpNUDAxV0pJWWZfTzRzUkRDb29wSXNuX015TjE4VHozVnJoUzNIMkI0R3hkdWF1dW1QdkxXQkZ4cXA2Njkzd2V3WWNDX3E5bUd6RzRuTlN4YW9KdHhTQy1ITzB0aVl1OXBlb1pBTnJya0xzaFpzS09nXzk3Z2NXUdIBrwFBVV95cUxPM0lKZFFLWGkxbUFwQlp5bTlvbWQ1T0dqQjd0UFJ5dWg4RFd4X0k5Ym54Q2wzNnRsWHVMVFZZZklHRFB2VDNIZGU2djQ2TklSam1uRnNpWFd0UFlUZGpsbi1vbjBHMWU2cUt3Q0RiWkZnaGJac19DVURYRUJURHVVTTRLWl9sMUZqVVl1WjhNeTNndDBsN1FINEsxRTlqc0dfcE1EWUVhS1B4bFNka0lZ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:56,596 [INFO] __main__: Skipped (no images): Newly appointed Utah Supreme Court Justice signed Prop 4 repeal effort months before appointment - ABC4 Utah
-2026-10-21 07:01:56,702 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN2x3UkxwdGY0QlRNUEdSaWh3ZlpYeW9CdmJLMFBTMzRPZ2p0Rm8tc3FjQlpUMmNyRlMwSFJTMlhJUVRTZFg3NldyZGVEbTdqY21EWWltX0NzYVZTZ3NpREZwVXdSZFBlZ2lBRlZhaElzT1lCVVJHUWVPVUtQWHpTNXdvZng0SVhwbDZV?oc=5 "HTTP/1.1 302 Found"
-2026-10-21 07:01:56,781 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN2x3UkxwdGY0QlRNUEdSaWh3ZlpYeW9CdmJLMFBTMzRPZ2p0Rm8tc3FjQlpUMmNyRlMwSFJTMlhJUVRTZFg3NldyZGVEbTdqY21EWWltX0NzYVZTZ3NpREZwVXdSZFBlZ2lBRlZhaElzT1lCVVJHUWVPVUtQWHpTNXdvZng0SVhwbDZV?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:56,815 [INFO] __main__: Skipped (no images): From Chrome Hearts to Bottega Veneta, Spurs players bring the fashion for opening night - Yahoo Sports
-2026-10-21 07:01:56,935 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxNbjlJRU9NRTNXb2Z3MGhCVmJEOHNwa3p3OGNQRHRaN18tdGd2cXlMVHdUd1UzY3FyTmpyYlZqYjlja1UzTEJXdFNNWDlaQmxFLWxNSFd4Y0oxaHdGRkxYYVRrbThNR1BlQU5lWGEwOUVPNGVLZkwzcU12WEJsNEs1Sm9TRUE?oc=5 "HTTP/1.1 302 Found"
-2026-10-21 07:01:56,999 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxNbjlJRU9NRTNXb2Z3MGhCVmJEOHNwa3p3OGNQRHRaN18tdGd2cXlMVHdUd1UzY3FyTmpyYlZqYjlja1UzTEJXdFNNWDlaQmxFLWxNSFd4Y0oxaHdGRkxYYVRrbThNR1BlQU5lWGEwOUVPNGVLZkwzcU12WEJsNEs1Sm9TRUE?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:57,031 [INFO] __main__: Skipped (no images): There are 8 new MM6 Maison Margiela Salomons. This is the only one that matters - British GQ
-2026-10-21 07:01:57,139 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirAFBVV95cUxPWjRpdDFPZlExdVNjNjROSFdMR1ZzMnFuWkR3blZOeElkdU96STAzdFVvNjd5cXhOWGFWUnRCYlh6UGRJaUxzeFJ4ZDVPenRvQ1lkNFhMTGNXbmUtc2wxYWh1Q1pvdkFOclViTnJlY0V1Z3htdksxQ0hCeDdMQ1FGNkFRUnNTeW5QUENTQ3IySDZNcmtSOTNBbktWY1BnX2dhN2R4V2dXa0htZGVZ?oc=5 "HTTP/1.1 302 Found"
-2026-10-21 07:01:57,214 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirAFBVV95cUxPWjRpdDFPZlExdVNjNjROSFdMR1ZzMnFuWkR3blZOeElkdU96STAzdFVvNjd5cXhOWGFWUnRCYlh6UGRJaUxzeFJ4ZDVPenRvQ1lkNFhMTGNXbmUtc2wxYWh1Q1pvdkFOclViTnJlY0V1Z3htdksxQ0hCeDdMQ1FGNkFRUnNTeW5QUENTQ3IySDZNcmtSOTNBbktWY1BnX2dhN2R4V2dXa0htZGVZ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-21 07:01:57,242 [INFO] __main__: Skipped (no images): LOEWE Looks To Eva Victor For Its Latest Ambassador Appointment - BusinessToday Malaysia
-2026-10-21 07:01:57,245 [INFO] __main__: New candidates this cycle: 0
-2026-10-21 07:01:57,279 [INFO] __main__: Picked for posting: Mystery hoodie from 2000-2005
-2026-10-21 07:01:57,312 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-10-21 07:03:46,640 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
-2026-10-21 07:03:46,923 [INFO] httpx: HTTP Request: GET https://i.redd.it/nlr1c4uvadwh1.jpg "HTTP/1.1 200 OK"
-2026-10-21 07:03:48,949 [INFO] __main__: POSTED (1/5 today): Mystery hoodie from 2000-2005
-2026-10-21 07:03:49,201 [INFO] __main__: Cycle done, exiting
+2026-10-21 07:16:38,161 [INFO] bot.sources: Fetched 228 articles from all sources
+2026-10-21 07:16:38,201 [INFO] __main__: New candidates this cycle: 0
+2026-10-21 07:16:38,203 [INFO] __main__: Too soon since last post — waiting
+2026-10-21 07:16:38,203 [INFO] __main__: Cycle done, exiting
