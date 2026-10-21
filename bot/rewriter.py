@@ -3,6 +3,7 @@ import asyncio
 import logging
 import time
 
+import httpx
 from google import genai
 
 from . import config, db
@@ -108,6 +109,34 @@ def pick_best(candidates: list[Candidate]) -> int:
     return max(range(len(candidates)), key=lambda i: score(candidates[i]))
 
 
+async def _groq_generate(prompt: str) -> str | None:
+    """Запасная нейросеть Groq (llama-3.3-70b): выручает, когда Gemini лежит
+    в 503-шторме или сжёг квоту на обоих ключах. Отличный русский, бесплатный."""
+    for attempt in range(2):
+        try:
+            async with httpx.AsyncClient(timeout=60) as client:
+                resp = await client.post(
+                    "https://api.groq.com/openai/v1/chat/completions",
+                    headers={"Authorization": f"Bearer {config.GROQ_API_KEY}"},
+                    json={
+                        "model": "llama-3.3-70b-versatile",
+                        "messages": [{"role": "user", "content": prompt}],
+                        "temperature": 0.7,
+                        "max_tokens": 1024,
+                    },
+                )
+                resp.raise_for_status()
+                text = (resp.json()["choices"][0]["message"]["content"] or "").strip()
+                if text:
+                    log.info("Пост сгенерирован запасной нейросетью Groq")
+                    return text
+        except Exception as exc:
+            log.warning("Groq attempt %d failed: %.200s", attempt + 1, exc)
+            if attempt == 0:
+                await asyncio.sleep(15)
+    return None
+
+
 async def rewrite(candidate: Candidate) -> str | None:
     """Переписывает новость в пост на русском. None при ошибке."""
     prompt = (
@@ -125,4 +154,14 @@ async def rewrite(candidate: Candidate) -> str | None:
         f"Источник: {candidate.source}\n"
         f"Текст новости: {candidate.summary or '(только заголовок)'}"
     )
-    return await _generate(prompt)
+    quota_dead = False
+    try:
+        text = await _generate(prompt)
+    except QuotaExhausted:
+        text, quota_dead = None, True
+    if not text and config.GROQ_API_KEY:
+        log.warning("Gemini не справился — пробую запасную нейросеть Groq")
+        text = await _groq_generate(prompt)
+    if not text and quota_dead:
+        raise QuotaExhausted("квота Gemini исчерпана, запасная нейросеть недоступна")
+    return text
