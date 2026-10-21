@@ -30,9 +30,13 @@ _PATTERNS: list[tuple[str, re.Pattern]] = [
     for alias in aliases
 ]
 
+# Ложные контексты: "Supreme Court" — суд, а не бренд. Вырезаем до матчинга.
+_CONTEXT_TRAPS = re.compile(r"supreme\s+court", re.IGNORECASE)
+
 
 def match_brands(text: str) -> list[str]:
     """Возвращает список канонических имён брендов, найденных в тексте."""
+    text = _CONTEXT_TRAPS.sub(" ", text)
     found = []
     for brand, pattern in _PATTERNS:
         if pattern.search(text) and brand not in found:

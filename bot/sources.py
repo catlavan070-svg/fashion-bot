@@ -28,6 +28,7 @@ RSS_FEEDS = [
     ("GQ", "https://www.gq.com/feed/rss"),
     ("The Fashionisto", "https://www.thefashionisto.com/feed/"),
     ("Fashion Week Daily", "https://fashionweekdaily.com/feed/"),
+    ("Fashionista", "https://fashionista.com/feed"),
 ]
 
 # Группированные запросы для Google News (OR, чтобы не дёргать по каждому бренду).
@@ -60,6 +61,18 @@ _REDDIT_TITLE_BLOCKLIST = re.compile(
     r"\bwts\b|\bwtt\b|\bwtb\b|\bfs\b|legit check|\blc\b|for sale|\bwearing\b|\bwore\b|"
     r"\biso\b|looking for|\bshipped\b|\bbin\b|\bgrail\b|\$\s?\d+|"
     r"\bsize\s?(us|uk|eu|xs|s|m|l|xl|xxl|\d)|\b\d{2,3}\s?usd\b",
+    re.IGNORECASE,
+)
+
+# Reddit-посты берём ТОЛЬКО если заголовок выглядит как новость (коллаб, релиз,
+# кампания...). Мемы/личные фиты/«что это за худи» не проходят — они не новости.
+_REDDIT_NEWS_SIGNAL = re.compile(
+    r"\bcollab(?:oration)?s?\b|\breleas\w+|\bdrops?\b|\bdropped\b|\blaunch(?:ed|es|ing)?\b|"
+    r"\brestock\w*|\bannounc\w+|\bunveils?\b|\bunveiled\b|\breveals?\b|\brevealed\b|"
+    r"first look|\bfashion week\b|\brunway\b|\bcampaign\b|\bpop-?up\b|\bopening\b|"
+    r"\bappointed\b|\bcreative director\b|\blawsuit\b|\bsued\b|\bdies\b|\bdeath\b|"
+    r"\btribute\b|\bexhibition\b|\bboutique\b|\bflagship\b|\bdebut\w*|\bcolorway\b|"
+    r"\w{2,}\s+x\s+\w{2,}|\bnew\b.{0,30}\b(?:sneaker|line|store|boutique)\b",
     re.IGNORECASE,
 )
 
@@ -131,6 +144,10 @@ def _to_articles(data: bytes, source: str, reddit: bool = False) -> list[Article
         if not title or not link:
             continue
         if reddit and _REDDIT_TITLE_BLOCKLIST.search(title):
+            continue
+        # Reddit — только новостные посты (мемы/личные/ID-запросы не берём)
+        if reddit and not _REDDIT_NEWS_SIGNAL.search(title):
+            log.debug("Reddit: нет новостного сигнала, пропуск: %s", title[:60])
             continue
         raw_summary = e.get("summary") or e.get("description") or ""
         if reddit:
