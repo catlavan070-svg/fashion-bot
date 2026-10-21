@@ -24,8 +24,8 @@ def _get_client(key: str) -> genai.Client:
 # У разных ключей разный набор моделей (у ключей AI Studio может не быть 3.8).
 _MODELS = [config.GEMINI_MODEL, "gemini-2.5-flash", "gemini-flash-latest"]
 
-# Ключи: основной + необязательный запасной (квота удваивается)
-_KEYS = [k for k in (config.GEMINI_API_KEY, config.GEMINI_API_KEY2) if k]
+# Ключи: основной + необязательные запасные (квота суммируется)
+_KEYS = [k for k in (config.GEMINI_API_KEY, config.GEMINI_API_KEY2, config.GEMINI_API_KEY3) if k]
 
 
 class QuotaExhausted(Exception):

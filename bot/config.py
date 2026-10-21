@@ -17,6 +17,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 # Запасной ключ Gemini (необязательно): при исчерпании дневной квоты основного
 # бот прозрачно переключается на него — суммарная квота удваивается
 GEMINI_API_KEY2 = os.getenv("GEMINI_API_KEY2", "")
+GEMINI_API_KEY3 = os.getenv("GEMINI_API_KEY3", "")
 # Третья линия обороны: Groq (llama-3.3-70b) выручает, когда Gemini в 503-шторме
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 
