@@ -1,49 +1,62 @@
-2026-10-22 16:01:09,878 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-10-22 16:01:09,904 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-22 16:01:09,919 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-10-22 16:01:09,919 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
-2026-10-22 16:01:09,920 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-10-22 16:01:09,923 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
+2026-10-22 16:15:48,028 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-22 16:15:48,054 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-10-22 16:15:48,069 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-22 16:15:48,082 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-10-22 16:15:48,086 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
+2026-10-22 16:15:48,087 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-2026-10-22 16:01:09,935 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-22 16:01:09,944 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-10-22 16:01:09,963 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-10-22 16:01:10,194 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-10-22 16:01:10,358 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-22 16:01:10,400 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-22 16:01:10,401 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-10-22 16:01:10,453 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-22 16:01:11,198 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-22 16:01:14,866 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 16:01:19,871 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 16:01:24,869 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 16:01:29,866 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 16:01:34,867 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 16:01:39,984 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 16:01:39,984 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-10-22 16:15:48,100 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-10-22 16:15:48,116 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-10-22 16:15:48,117 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-10-22 16:15:48,416 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-10-22 16:15:48,462 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 16:15:48,509 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-10-22 16:15:48,583 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 16:15:48,584 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 16:15:49,351 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-22 16:15:53,076 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 16:15:58,078 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 16:16:04,323 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-22 16:16:08,077 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 16:16:13,075 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 16:16:18,171 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 16:16:18,171 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-22 16:01:44,951 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 16:01:44,951 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-10-22 16:16:23,161 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 16:16:23,161 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-22 16:01:49,950 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 16:01:49,950 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-10-22 16:16:33,173 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 16:16:33,173 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-22 16:01:54,946 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 16:01:54,946 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-10-22 16:16:38,160 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 16:16:38,161 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-22 16:01:59,947 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 16:01:59,947 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-22 16:01:59,948 [INFO] bot.sources: Fetched 220 articles from all sources
-2026-10-22 16:02:00,020 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi1gFBVV95cUxQanFCUlp6TWQxSndQajRmbDh4enluVk1XX2Rfc0VUeGd3bDlaQXVkcDRGLTk5LThSTk1OQS01RkZGSEV5RHVXZUxvY3lRQ2tMN1NSSHlVZnU3cGlXMkJ2Y0QxSnRsaF9mV0NldDRzNkRPQ3kxSlF5Yjl0dzlITDNzc3FYSjFEVkpVSVZFWFJCZXJzZW9fQ29LcThRQXNZbnlfb2NpcXRXVmZwZUY4OXhOYUdLeDA3cl9IelJhc2JvdV9sYlRBeVBMcG5BX3pHVUdyRzJJVGhR?oc=5 "HTTP/1.1 302 Found"
-2026-10-22 16:02:00,100 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi1gFBVV95cUxQanFCUlp6TWQxSndQajRmbDh4enluVk1XX2Rfc0VUeGd3bDlaQXVkcDRGLTk5LThSTk1OQS01RkZGSEV5RHVXZUxvY3lRQ2tMN1NSSHlVZnU3cGlXMkJ2Y0QxSnRsaF9mV0NldDRzNkRPQ3kxSlF5Yjl0dzlITDNzc3FYSjFEVkpVSVZFWFJCZXJzZW9fQ29LcThRQXNZbnlfb2NpcXRXVmZwZUY4OXhOYUdLeDA3cl9IelJhc2JvdV9sYlRBeVBMcG5BX3pHVUdyRzJJVGhR?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-22 16:02:00,115 [INFO] __main__: Skipped (no images): Gucci's sales drop 5% in third quarter as weak Chinese demand dampens turnaround hopes - Reuters
-2026-10-22 16:02:00,176 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirwFBVV95cUxPMDAydTRQZDJvQ2d1N0dIMFpLampqcUpxMjlWUjNyaU9SOHRpei1TNGl0NU9YWnBxSmlZLXNPTzdkZ1ZScmMyNXl4Nm5EYWVKbEJUekZST0cyaFpnWWRNLTJsMm1Hdl9HeVhvN3FhSUpJQUVvam16akQxRUUzc1VaTWYwQ2VoNmE0d01ud3VHN2xCWGlSMlVTeGFQaVlPNkFXSFBiRjUtMkw2ZTZLNWlR?oc=5 "HTTP/1.1 302 Found"
-2026-10-22 16:02:00,227 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirwFBVV95cUxPMDAydTRQZDJvQ2d1N0dIMFpLampqcUpxMjlWUjNyaU9SOHRpei1TNGl0NU9YWnBxSmlZLXNPTzdkZ1ZScmMyNXl4Nm5EYWVKbEJUekZST0cyaFpnWWRNLTJsMm1Hdl9HeVhvN3FhSUpJQUVvam16akQxRUUzc1VaTWYwQ2VoNmE0d01ud3VHN2xCWGlSMlVTeGFQaVlPNkFXSFBiRjUtMkw2ZTZLNWlR?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-22 16:02:00,242 [INFO] __main__: Skipped (no images): Kering Revenues Flat in Q3 as Gucci Misses Forecasts - WWD
-2026-10-22 16:02:00,305 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxOcUpybmhZR2JKeTZWQjd3Zms4YjBGMDB5eVY1MEw0NlVGWVhqeW1CbmFjZXRIR3ZwZnk5NnNRMGhNMGdhelJUR0VFS0ZCb1hLYml1aFMwTmx5MkJaN00wVkZTM1Rlalh0cG5VLWNoMndPY0NtV0JFVERoV0tLbHZJTG41QjU5TkFSWEFvakhLTjh3Y2VhWEhIT0l3cjlxOUVQRnh0UDk3OFR6MG9TUjFrQ1BrSUxKUEVTeTE2UWg2djBEbU1ESTNDWXpVUm5UZw?oc=5 "HTTP/1.1 302 Found"
-2026-10-22 16:02:00,345 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxOcUpybmhZR2JKeTZWQjd3Zms4YjBGMDB5eVY1MEw0NlVGWVhqeW1CbmFjZXRIR3ZwZnk5NnNRMGhNMGdhelJUR0VFS0ZCb1hLYml1aFMwTmx5MkJaN00wVkZTM1Rlalh0cG5VLWNoMndPY0NtV0JFVERoV0tLbHZJTG41QjU5TkFSWEFvakhLTjh3Y2VhWEhIT0l3cjlxOUVQRnh0UDk3OFR6MG9TUjFrQ1BrSUxKUEVTeTE2UWg2djBEbU1ESTNDWXpVUm5UZw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-22 16:02:00,358 [INFO] __main__: Skipped (no images): Burberry and Smythson’s New Notebooks Are the Perfect Gift for the Anglophile in Your Life - Town & Country Magazine
-2026-10-22 16:02:00,363 [INFO] __main__: New candidates this cycle: 0
-2026-10-22 16:02:00,364 [INFO] __main__: Too soon since last post — waiting
-2026-10-22 16:02:00,364 [INFO] __main__: Cycle done, exiting
+2026-10-22 16:16:38,161 [INFO] bot.sources: Fetched 220 articles from all sources
+2026-10-22 16:16:38,335 [INFO] __main__: Candidate queued: [Fashionista] Must Read: Kanye West Reportedly Eyes Runway Return, Jenna Ortega Covers Vogue
+2026-10-22 16:16:38,394 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMidkFVX3lxTE5UY3pWTTM2dU0wZzVKR2FoUTI0Qi04RzFqZE8tQ3ZPcVJfVC1Nd1BFX2pQRFg2RlpGdFhaYnNDQ0J0MXZpZmxWcTVsLVBmdUxEbURveXdnTU5Zc3Ryak0yNHRpQmFxSEN6SERzSlVzdEQwdGhMRXc?oc=5 "HTTP/1.1 302 Found"
+2026-10-22 16:16:38,468 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMidkFVX3lxTE5UY3pWTTM2dU0wZzVKR2FoUTI0Qi04RzFqZE8tQ3ZPcVJfVC1Nd1BFX2pQRFg2RlpGdFhaYnNDQ0J0MXZpZmxWcTVsLVBmdUxEbURveXdnTU5Zc3Ryak0yNHRpQmFxSEN6SERzSlVzdEQwdGhMRXc?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 16:16:38,480 [INFO] __main__: Skipped (no images): Gucci's sales drop 5% in third quarter as weak Chinese demand dampens turnaround hopes - Columbus Ledger-Enquirer
+2026-10-22 16:16:38,640 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxNSVhoeEI5dDJoQXZuQ1ZqcC0zTjVZblFDODh5TlRxZkJXQWhjZjdIaHZONm1ZZ1hVT0M0QVh0WmN2ZnFkTUF3QTN4VmM5UFI1V0lKeVlzOE1RQkotQ0dDTENHWkxyQTVQVHpIN1lxZEZCUFFzQ29lNXRxeUh1V0hONXFXeVNscFYxWGRiQUp4c2ZCZXNHT2pyeWZVSF91WFZvbEY0?oc=5 "HTTP/1.1 302 Found"
+2026-10-22 16:16:38,692 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxNSVhoeEI5dDJoQXZuQ1ZqcC0zTjVZblFDODh5TlRxZkJXQWhjZjdIaHZONm1ZZ1hVT0M0QVh0WmN2ZnFkTUF3QTN4VmM5UFI1V0lKeVlzOE1RQkotQ0dDTENHWkxyQTVQVHpIN1lxZEZCUFFzQ29lNXRxeUh1V0hONXFXeVNscFYxWGRiQUp4c2ZCZXNHT2pyeWZVSF91WFZvbEY0?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 16:16:38,711 [INFO] __main__: Skipped (no images): Art Basel Paris Ends Early, Fondation Louis Vuitton Shutters as Protests Loom - Artforum
+2026-10-22 16:16:38,773 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi9wFBVV95cUxOc25mWG1ReHJibzJBLVlUUlJ3WmY2MGx1MUNERzFiMENTU2drbDRhZVVHdGw4OGh6QUwwZ1NVR1pwdEw2Y3lwd1JJWDlRbTA0LVdCZElVSEM4R2lyaG9XcmxVdDJTN2NuQ3B3OEd3REpDZHFCamRtenhMdU9fbkJJOEZxRHR5bWc4Z2MtMHBmeEh0UnZvUm0wZVc3aE1qYUFZR1JFTUtkRWxwcUdMZlBsakFiWENxTWV2M29iRkluV0JIbWMxaG93LWlEa1EtSzNueVgzWVdDN1BoeTJUZXo2ZHJRMG1FTlZnLW1aSi1QZ0FSWXRNVjln?oc=5 "HTTP/1.1 302 Found"
+2026-10-22 16:16:38,906 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi9wFBVV95cUxOc25mWG1ReHJibzJBLVlUUlJ3WmY2MGx1MUNERzFiMENTU2drbDRhZVVHdGw4OGh6QUwwZ1NVR1pwdEw2Y3lwd1JJWDlRbTA0LVdCZElVSEM4R2lyaG9XcmxVdDJTN2NuQ3B3OEd3REpDZHFCamRtenhMdU9fbkJJOEZxRHR5bWc4Z2MtMHBmeEh0UnZvUm0wZVc3aE1qYUFZR1JFTUtkRWxwcUdMZlBsakFiWENxTWV2M29iRkluV0JIbWMxaG93LWlEa1EtSzNueVgzWVdDN1BoeTJUZXo2ZHJRMG1FTlZnLW1aSi1QZ0FSWXRNVjln?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 16:16:38,926 [INFO] __main__: Skipped (no images): FILE PHOTO: A Drip sneaker model by Gucci in a Gucci store in Paris - The Lufkin Daily News
+2026-10-22 16:16:38,988 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFRoY0VCUldFMnJQampWS2haRjh4RGFFSUlxNlBoSkRmV2hERkZ2UndpRzU4OVZ5ZmZUamN6c0lNUGt4SE1QaE9DbGtGM28wTjZGaVVpWEJQLUxOcG51SEZoTllpNG5GSXZHbW9iTk1QdGNTbnN4OFU2Vkl1V0Rob2loRkFOZGVFeTZaQjJWejZyOVY5UDF0bVN0ZEJoWjJHejdYeXViUF9EWDcxS3ItNlNFZnRRQQ?oc=5 "HTTP/1.1 302 Found"
+2026-10-22 16:16:39,045 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFRoY0VCUldFMnJQampWS2haRjh4RGFFSUlxNlBoSkRmV2hERkZ2UndpRzU4OVZ5ZmZUamN6c0lNUGt4SE1QaE9DbGtGM28wTjZGaVVpWEJQLUxOcG51SEZoTllpNG5GSXZHbW9iTk1QdGNTbnN4OFU2Vkl1V0Rob2loRkFOZGVFeTZaQjJWejZyOVY5UDF0bVN0ZEJoWjJHejdYeXViUF9EWDcxS3ItNlNFZnRRQQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 16:16:39,060 [INFO] __main__: Skipped (no images): Gucci Sales Trail Estimates on China Slump as Turnaround Falters - Bloomberg.com
+2026-10-22 16:16:39,123 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxOVjdpVlE5VWZKM2txWHRfbzhMa3dBZkdlNUdCVFdTUmw4ZkNvNmtyUlVaVXhVVWFuYnhUSENTQk9EdGFHR3N3NmxLWXdGSlBCZmc4WXo0dzdFb2I4NHR0TGZSbmVHS1FjZjlkRXpGRU1INDR0Q01VeHBDUmVYQnM3UWV6aXY?oc=5 "HTTP/1.1 302 Found"
+2026-10-22 16:16:39,194 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxOVjdpVlE5VWZKM2txWHRfbzhMa3dBZkdlNUdCVFdTUmw4ZkNvNmtyUlVaVXhVVWFuYnhUSENTQk9EdGFHR3N3NmxLWXdGSlBCZmc4WXo0dzdFb2I4NHR0TGZSbmVHS1FjZjlkRXpGRU1INDR0Q01VeHBDUmVYQnM3UWV6aXY?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 16:16:39,206 [INFO] __main__: Skipped (no images): Kering Revenues Flat in Q3 as Gucci Misses Forecasts - Yahoo Finance Singapore
+2026-10-22 16:16:39,274 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMikgJBVV95cUxNVXZUQ3UyV2RPd1dzWmdsWGJjeVBoUzA3YlB0anNidmlQMjNzUjlqU2VIZzRBM0s4UGtWU1RVelVHS3ZEUk8tcWpvcmxHdWFCa1BpTEs3eU5kdXlFaGVVSUJXdWFkeEZ0QTNRRE11YmxCcjcwNl9WSVhld3kyMEZHNzQxZW01bHdsV1FFRDVZVU5DV1RfbWQ4b2Q5Q0RMZmpsVjE0NndZLUJwRHdPSnNoV1RuRGMyTTZzblAzRGV4UWJyZHR6Y1cwSFJOWmdCcC1XUXZPSWFCZGRWelB5ZHIxWHNuZk50dFdEVm9hZDJrTTMzX0hyQkhKa2o1X0J6XzVORVktWUd0d0hvXzRrM1JfU2xn?oc=5 "HTTP/1.1 302 Found"
+2026-10-22 16:16:39,326 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMikgJBVV95cUxNVXZUQ3UyV2RPd1dzWmdsWGJjeVBoUzA3YlB0anNidmlQMjNzUjlqU2VIZzRBM0s4UGtWU1RVelVHS3ZEUk8tcWpvcmxHdWFCa1BpTEs3eU5kdXlFaGVVSUJXdWFkeEZ0QTNRRE11YmxCcjcwNl9WSVhld3kyMEZHNzQxZW01bHdsV1FFRDVZVU5DV1RfbWQ4b2Q5Q0RMZmpsVjE0NndZLUJwRHdPSnNoV1RuRGMyTTZzblAzRGV4UWJyZHR6Y1cwSFJOWmdCcC1XUXZPSWFCZGRWelB5ZHIxWHNuZk50dFdEVm9hZDJrTTMzX0hyQkhKa2o1X0J6XzVORVktWUd0d0hvXzRrM1JfU2xn?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 16:16:39,342 [INFO] __main__: Skipped (no images): Gucci's sales drop 5% in third quarter as weak Chinese demand dampens turnaround hopes - The Lufkin Daily News
+2026-10-22 16:16:39,404 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxOYnl6WVF6YjZhbUxaZHljdl8tUVZneHdReTFVNHk2Q0Qzbzd2dGtOQlNaa0xXcWJ3VVdtWUZsQ3hUYkJZNXZaZlRFcWwyXzd0TTMteTZ6V3NNTzJWckNVdVlwaHRfUUh0VlUzcVAtTTRMS1JfeUNFbTJnb2QzWHlWVkktY0tvNm02M0pzeEUybVVHLUNuY2Q2aE5R0gFWQVVfeXFMT25kejdDcXB0NlRKM1owOE1JVXlSeGM1TW1XbVFMU05CaHVsd0JMc05mWnVuOWMxRU9JRlNzeDF0NXgwUC1ZUXlETVZZeDhtZkVjU0tESnc?oc=5 "HTTP/1.1 302 Found"
+2026-10-22 16:16:39,503 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxOYnl6WVF6YjZhbUxaZHljdl8tUVZneHdReTFVNHk2Q0Qzbzd2dGtOQlNaa0xXcWJ3VVdtWUZsQ3hUYkJZNXZaZlRFcWwyXzd0TTMteTZ6V3NNTzJWckNVdVlwaHRfUUh0VlUzcVAtTTRMS1JfeUNFbTJnb2QzWHlWVkktY0tvNm02M0pzeEUybVVHLUNuY2Q2aE5R0gFWQVVfeXFMT25kejdDcXB0NlRKM1owOE1JVXlSeGM1TW1XbVFMU05CaHVsd0JMc05mWnVuOWMxRU9JRlNzeDF0NXgwUC1ZUXlETVZZeDhtZkVjU0tESnc?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 16:16:39,551 [INFO] __main__: Skipped (no images): Gucci Beats Printing Patent Infringement Appeal At UPC - Law360
+2026-10-22 16:16:39,611 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxQRVBnb2JJZlQ4OF9EU1NqenNlUXRzbDdST1dIMXA0SzlEY0FSdU16OTJsdVJMUldteWlzZHUxVVBjcTRoM3FRVUcxVnJTSktTQ2NuT3UxWTZTTy1ndnVfd0NnTi1WczlaZjEzZjFHdVZLQTZDdTctSWt6VnVxdlBSLWdLcTk?oc=5 "HTTP/1.1 302 Found"
+2026-10-22 16:16:39,651 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxQRVBnb2JJZlQ4OF9EU1NqenNlUXRzbDdST1dIMXA0SzlEY0FSdU16OTJsdVJMUldteWlzZHUxVVBjcTRoM3FRVUcxVnJTSktTQ2NuT3UxWTZTTy1ndnVfd0NnTi1WczlaZjEzZjFHdVZLQTZDdTctSWt6VnVxdlBSLWdLcTk?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 16:16:39,666 [INFO] __main__: Skipped (no images): Kering’s revenues hit by drop in sales at flagship brand Gucci - Financial Times
+2026-10-22 16:16:39,676 [INFO] __main__: New candidates this cycle: 1
+2026-10-22 16:16:39,676 [INFO] __main__: Too soon since last post — waiting
+2026-10-22 16:16:39,677 [INFO] __main__: Cycle done, exiting
