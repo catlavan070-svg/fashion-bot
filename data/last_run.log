@@ -1,52 +1,51 @@
-2026-10-22 11:01:13,705 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
-2026-10-22 11:01:13,707 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
+2026-10-22 11:15:43,710 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-22 11:15:43,741 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-22 11:15:43,775 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-10-22 11:15:43,781 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-10-22 11:15:43,791 [INFO] httpx: HTTP Request: GET https://www.thefashionisto.com/feed/ "HTTP/1.1 403 Forbidden"
+2026-10-22 11:15:43,793 [WARNING] bot.sources: RSS The Fashionisto failed: Client error '403 Forbidden' for url 'https://www.thefashionisto.com/feed/'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-2026-10-22 11:01:13,725 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-10-22 11:01:13,732 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-10-22 11:01:13,743 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-10-22 11:01:13,801 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-10-22 11:01:13,804 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-10-22 11:01:13,806 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 521 <none>"
-2026-10-22 11:01:13,832 [WARNING] bot.sources: RSS Fashion Week Daily failed: Server error '521 <none>' for url 'https://fashionweekdaily.com/feed/'
+2026-10-22 11:15:43,806 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 521 <none>"
+2026-10-22 11:15:43,806 [WARNING] bot.sources: RSS Fashion Week Daily failed: Server error '521 <none>' for url 'https://fashionweekdaily.com/feed/'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/521
-2026-10-22 11:01:13,839 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-22 11:01:13,857 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-22 11:01:13,858 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-10-22 11:01:14,225 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-22 11:01:14,297 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-22 11:01:14,299 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-22 11:01:14,895 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-22 11:01:18,754 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 11:01:23,755 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 11:01:28,754 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 11:01:33,762 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 11:01:38,762 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 11:01:43,832 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 11:01:43,833 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-10-22 11:15:43,812 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-10-22 11:15:43,816 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-10-22 11:15:43,920 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-10-22 11:15:43,921 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-10-22 11:15:44,291 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 11:15:44,350 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 11:15:44,411 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 11:15:44,797 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-22 11:15:48,692 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 11:15:53,693 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 11:15:58,691 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 11:16:04,668 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-22 11:16:08,692 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 11:16:13,874 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 11:16:13,874 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-22 11:01:48,832 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 11:01:48,832 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-10-22 11:16:18,752 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 11:16:18,752 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-22 11:01:53,828 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 11:01:53,828 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-10-22 11:16:23,748 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 11:16:23,749 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-22 11:01:58,838 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-22 11:01:58,839 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-10-22 11:16:33,806 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-22 11:16:33,806 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-22 11:02:05,165 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-22 11:02:05,258 [INFO] bot.sources: Fetched 198 articles from all sources
-2026-10-22 11:02:05,327 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMixgFBVV95cUxNZnh3My14a0xaYlZ0VDdVTWFZdTZVZlpHQjNDWk4wRnhhVTlzNFdpRUl0YVM3bDdEWFhaUXNkTjRwMVJCOTJPSy1tdHFsNHd3RWxhakwtaGNHaTY3NE5FbUozMW44TXd4TmxFallKdkd2TjRmOV95amRiVThJUXVVM3o3U2VfOUNsVTAydmhuOFFXa012Z0Q3UHB4VEsyQS1Ia1Q0U1BXTjNnanlYVFJPOFBrTTlXanE5Q0VCLUZ3VjA0Z0Myd1E?oc=5 "HTTP/1.1 302 Found"
-2026-10-22 11:02:05,398 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMixgFBVV95cUxNZnh3My14a0xaYlZ0VDdVTWFZdTZVZlpHQjNDWk4wRnhhVTlzNFdpRUl0YVM3bDdEWFhaUXNkTjRwMVJCOTJPSy1tdHFsNHd3RWxhakwtaGNHaTY3NE5FbUozMW44TXd4TmxFallKdkd2TjRmOV95amRiVThJUXVVM3o3U2VfOUNsVTAydmhuOFFXa012Z0Q3UHB4VEsyQS1Ia1Q0U1BXTjNnanlYVFJPOFBrTTlXanE5Q0VCLUZ3VjA0Z0Myd1E?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-22 11:02:05,468 [INFO] __main__: Skipped (no images): Prada weathers luxury slowdown as Q3 sales edge up, Miu Miu slows down - Reuters
-2026-10-22 11:02:05,563 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxPeV9OaVBlXy1Oc240cV9DaVFLS2RLNXk2d0IwbFBPSXpEUUo1ZFdGV1JjUFFLSEJKa2Z2dElzcWtnX0dwYWVnRUlRbGhEVEpBTjlCQ2JISkJ1SjdiUVJvQmhwR09qR2VuaEZtVkp5cEt6dC1nNmNaZWNMWTQxbjZpMGRoMkszUkFjVk5uVmR3V0x2OVhULVFIa04tbzBCWmxMckdSTHcyNmpVSXZPU0JQdQ?oc=5 "HTTP/1.1 302 Found"
-2026-10-22 11:02:05,641 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxPeV9OaVBlXy1Oc240cV9DaVFLS2RLNXk2d0IwbFBPSXpEUUo1ZFdGV1JjUFFLSEJKa2Z2dElzcWtnX0dwYWVnRUlRbGhEVEpBTjlCQ2JISkJ1SjdiUVJvQmhwR09qR2VuaEZtVkp5cEt6dC1nNmNaZWNMWTQxbjZpMGRoMkszUkFjVk5uVmR3V0x2OVhULVFIa04tbzBCWmxMckdSTHcyNmpVSXZPU0JQdQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-22 11:02:05,648 [INFO] __main__: Skipped (no images): Prada Group Delivers 9M Growth in 2026, Miu Miu Slows Down Against High Comps - WWD
-2026-10-22 11:02:05,709 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNjNMODJnM09jaHBEcjYzMFhZdGVCRVRRem5tclVzM05kSmR0bWUxT09IQ1V4aHkxVGRUTWFRUDVEZFJSY3dMckhwckhSQnRSa1JGZXBKVDJ6ejMxSzUyUzdsVDlGdFBfNWZsOVg2VmNVc2hha21TQ2NLY1pwSjl1ckllY1FCdnJRdTN2RlZ3b01VQllxbV9GNWxVLWVldm5MeURrZWVHUEE3Ql9SaWxya2RQMjJMRW9V?oc=5 "HTTP/1.1 302 Found"
-2026-10-22 11:02:05,776 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNjNMODJnM09jaHBEcjYzMFhZdGVCRVRRem5tclVzM05kSmR0bWUxT09IQ1V4aHkxVGRUTWFRUDVEZFJSY3dMckhwckhSQnRSa1JGZXBKVDJ6ejMxSzUyUzdsVDlGdFBfNWZsOVg2VmNVc2hha21TQ2NLY1pwSjl1ckllY1FCdnJRdTN2RlZ3b01VQllxbV9GNWxVLWVldm5MeURrZWVHUEE3Ql9SaWxya2RQMjJMRW9V?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-22 11:02:05,790 [INFO] __main__: Skipped (no images): Prada nine-month sales rise 15% with Versace; organic growth slows in Q3 - Investing.com
-2026-10-22 11:02:05,871 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxQTDEwLUxvSzViMVJsRjMtVTZXTzRETWd6NEI2RElkYU1TZGhmWHVmVjNEdnk3cDNGZFFlUUExVm91MFVQQXhjUTB1VFEwcUlxTGkyWE5NVDJEREdtRlF2a3ZrbzdOWFdQcU01bXZzUzEwd0s1WFZ1dWI3emJhZWxWbk5UdFc?oc=5 "HTTP/1.1 302 Found"
-2026-10-22 11:02:05,940 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxQTDEwLUxvSzViMVJsRjMtVTZXTzRETWd6NEI2RElkYU1TZGhmWHVmVjNEdnk3cDNGZFFlUUExVm91MFVQQXhjUTB1VFEwcUlxTGkyWE5NVDJEREdtRlF2a3ZrbzdOWFdQcU01bXZzUzEwd0s1WFZ1dWI3emJhZWxWbk5UdFc?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-22 11:02:05,960 [INFO] __main__: Skipped (no images): Prada Kept Growing Even As Luxury Demand Softened - Finimize
-2026-10-22 11:02:05,974 [INFO] __main__: New candidates this cycle: 0
-2026-10-22 11:02:05,981 [INFO] __main__: Too soon since last post — waiting
-2026-10-22 11:02:05,981 [INFO] __main__: Cycle done, exiting
+2026-10-22 11:16:33,807 [INFO] bot.sources: Fetched 197 articles from all sources
+2026-10-22 11:16:33,948 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMijwFBVV95cUxQblhHNnhodzRVaFBTSXdHWmlsaTNuXzM5a1ZZMDJnMXdhSEtTRXBaSlloRUhwalQ0YlJqZGV6MUttS3R6aDNER3JpdmxRR3VBdzA3LWlpMDVEdFJ2dVNJZlkxdk1SbmEzR2NGcUJiNGM5TGpwN3FNeUUtdDZWdVNJM3dTUFROeVJsYmJpRDRzNA?oc=5 "HTTP/1.1 302 Found"
+2026-10-22 11:16:34,025 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMijwFBVV95cUxQblhHNnhodzRVaFBTSXdHWmlsaTNuXzM5a1ZZMDJnMXdhSEtTRXBaSlloRUhwalQ0YlJqZGV6MUttS3R6aDNER3JpdmxRR3VBdzA3LWlpMDVEdFJ2dVNJZlkxdk1SbmEzR2NGcUJiNGM5TGpwN3FNeUUtdDZWdVNJM3dTUFROeVJsYmJpRDRzNA?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 11:16:34,057 [INFO] __main__: Skipped (no images): Prada Sales Cool as Luxury Recovery Fades - WSJ
+2026-10-22 11:16:34,185 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirAFBVV95cUxNT1JnelZGNmV6Y3hQQ0NrTzJudnl5UklaRGRCbncycXlxNjJWTC1jLUlCbWZQYVZNMmEzS2YwQzJkbVJRdW5iZFFGMFlrZXQ5RzMzdGlSQkNjSUo3Z09JeGJlUnBGdXVaci1feU1YWDFGYmk1OWxxZnFsMVFDNmFDWlJIS0MwSUIzdklRNEZRVXR1WGl6RDdYcEthNENZQnpLMFVBVm9fNVpCT1Vk?oc=5 "HTTP/1.1 302 Found"
+2026-10-22 11:16:34,267 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirAFBVV95cUxNT1JnelZGNmV6Y3hQQ0NrTzJudnl5UklaRGRCbncycXlxNjJWTC1jLUlCbWZQYVZNMmEzS2YwQzJkbVJRdW5iZFFGMFlrZXQ5RzMzdGlSQkNjSUo3Z09JeGJlUnBGdXVaci1feU1YWDFGYmk1OWxxZnFsMVFDNmFDWlJIS0MwSUIzdklRNEZRVXR1WGl6RDdYcEthNENZQnpLMFVBVm9fNVpCT1Vk?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 11:16:34,298 [INFO] __main__: Skipped (no images): Louis Vuitton Unveils Artycapucines Retrospective at Art Basel Paris 2026 - A&E Magazine
+2026-10-22 11:16:34,406 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi8AFBVV95cUxNeUtmN3FZR1o5dUhQbGp0Rm9KUXlPdjBVS2hJd2tlVGh0a2R2dGNVVWpReFRIcVZreUxvclNWZ3FIQXZaemZQUGhxYUJwOF9qLThuSkN0NkZ3M2F0Ny1TeTVvSHQzeE5mNWJ0YUh0ZTJ0Y0V4RHpnak4xSW5kamtNZWlfWkFaaDMxenhWSUgwdk1XeDFfTTB6YlRod1ptVWJNZlJoUkpJcHdXUks2YV9SS04wcmp0dy1vbU9xQU9hZjkyMWI1UDhpMkxmMkg0VmFNYV9JX0pZcTFyTjMxajBLQWltWjZwbkpocjdiQTgyNlE?oc=5 "HTTP/1.1 302 Found"
+2026-10-22 11:16:34,482 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi8AFBVV95cUxNeUtmN3FZR1o5dUhQbGp0Rm9KUXlPdjBVS2hJd2tlVGh0a2R2dGNVVWpReFRIcVZreUxvclNWZ3FIQXZaemZQUGhxYUJwOF9qLThuSkN0NkZ3M2F0Ny1TeTVvSHQzeE5mNWJ0YUh0ZTJ0Y0V4RHpnak4xSW5kamtNZWlfWkFaaDMxenhWSUgwdk1XeDFfTTB6YlRod1ptVWJNZlJoUkpJcHdXUks2YV9SS04wcmp0dy1vbU9xQU9hZjkyMWI1UDhpMkxmMkg0VmFNYV9JX0pZcTFyTjMxajBLQWltWjZwbkpocjdiQTgyNlE?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 11:16:34,512 [INFO] __main__: Skipped (no images): Prada: Nine-month revenue grew 14.5% at constant FX, but organic growth was 3.5% - TradingView
+2026-10-22 11:16:34,614 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxOOFVCaktwUHdpc1Z4ZU9CeDBzd3FYQklqa1NST0ZQenNKYU1NbDZPSVFfdFNZTGlrWHYzWmhtVFItWFQzZEhNaXUyMlNPNGVJaXFIUnJaX0wtMDExbGktRlNqRnVnTjFoNEZ1N2NZaEZFUm9MdTI4UTdfbnZTYmIwM0dhTlJ5OWw1ZG5BNFUzTzlvS095ZUZvOHVqZ196QzdDWmV0ejg4QQ?oc=5 "HTTP/1.1 302 Found"
+2026-10-22 11:16:34,674 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxOOFVCaktwUHdpc1Z4ZU9CeDBzd3FYQklqa1NST0ZQenNKYU1NbDZPSVFfdFNZTGlrWHYzWmhtVFItWFQzZEhNaXUyMlNPNGVJaXFIUnJaX0wtMDExbGktRlNqRnVnTjFoNEZ1N2NZaEZFUm9MdTI4UTdfbnZTYmIwM0dhTlJ5OWw1ZG5BNFUzTzlvS095ZUZvOHVqZ196QzdDWmV0ejg4QQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-22 11:16:34,705 [INFO] __main__: Skipped (no images): Prada Q3 2026 Earnings Call Is Live - TradingView
+2026-10-22 11:16:34,719 [INFO] __main__: New candidates this cycle: 0
+2026-10-22 11:16:34,720 [INFO] __main__: Too soon since last post — waiting
+2026-10-22 11:16:34,721 [INFO] __main__: Cycle done, exiting
