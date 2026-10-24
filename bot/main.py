@@ -43,9 +43,9 @@ async def collect_candidates() -> int:
 
         images = await ensure_images(a.link, a.images)
         if config.REQUIRE_IMAGE and not images:
-            log.info("Skipped (no images): %s", a.title)
-            continue
-
+            # не выбрасываем: в «голодные» дни такой кандидат станет
+            # текстовым постом вместо тишины (см. publish_cycle)
+            log.info("Queued without images (text reserve): %s", a.title)
         db.add_candidate(a.link, a.title, a.summary, a.source, images)
         added += 1
         log.info("Candidate queued: [%s] %s", a.source, a.title)
@@ -84,15 +84,22 @@ async def publish_cycle(bot: Bot) -> None:
         return
 
     candidates = db.get_fresh_candidates(config.MAX_CANDIDATE_AGE_HOURS)
-    if not candidates:
-        log.info("No fresh candidates to post")
+    with_img = [c for c in candidates if c.images]
+    # «Голод»: без постов вдвое дольше интервала — разрешаем текстовые посты
+    # из резерва без фото (тишина в канале хуже, чем пост без картинки)
+    starving = not db.gap_ok(config.MIN_POST_GAP_MINUTES * 2)
+    pool = with_img or (candidates if starving else [])
+    if not pool:
+        log.info("No fresh candidates to post (with images: %d)", len(with_img))
         return
+    if starving and not with_img:
+        log.info("Голод: беру текстовый пост из резерва без фото")
 
     # Пробуем до 2 лучших кандидатов за цикл (экономим квоту Gemini) —
     # если у одного битые фото или Gemini споткнулся, берём следующего.
     tried: set[int] = set()
-    for _ in range(min(2, len(candidates))):
-        remaining = [c for c in candidates if c.id not in tried]
+    for _ in range(min(2, len(pool))):
+        remaining = [c for c in pool if c.id not in tried]
         if not remaining:
             break
         best = remaining[rewriter.pick_best(remaining)]
@@ -111,7 +118,7 @@ async def publish_cycle(bot: Bot) -> None:
             log.warning("Rewrite failed, trying next candidate: %s", best.title)
             continue
 
-        if await post(bot, text, best.images):
+        if await post(bot, text, best.images, allow_text_only=starving):
             db.mark_candidate_used(best.id)
             db.record_post(best.title, best.link)
             if not gemini_dead:  # пост через Gemini — снять предохранитель

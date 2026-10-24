@@ -25,8 +25,9 @@ def _fit_caption(text: str) -> str:
     return cut.rstrip() + "…"
 
 
-async def post(bot: Bot, caption: str, image_urls: list[str]) -> bool:
-    """Постит медиагруппу (1–3 фото) с подписью. True при успехе."""
+async def post(bot: Bot, caption: str, image_urls: list[str], allow_text_only: bool = False) -> bool:
+    """Постит медиагруппу (1–3 фото) с подписью. True при успехе.
+    allow_text_only — разрешить пост без фото (резерв на «голодные» дни)."""
     caption = _fit_caption(caption)
     images = await download_images(image_urls, max_n=3)
 
@@ -54,7 +55,7 @@ async def post(bot: Bot, caption: str, image_urls: list[str]) -> bool:
             except TelegramAPIError as exc2:
                 log.warning("Single photo failed: %s", exc2)
 
-    if config.REQUIRE_IMAGE:
+    if config.REQUIRE_IMAGE and not allow_text_only:
         log.warning("No usable images and REQUIRE_IMAGE=true — post skipped")
         return False
 

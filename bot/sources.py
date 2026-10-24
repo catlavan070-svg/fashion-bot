@@ -26,16 +26,13 @@ RSS_FEEDS = [
     ("Sneaker News", "https://sneakernews.com/feed/"),
     ("Vogue", "https://www.vogue.com/feed/rss"),
     ("GQ", "https://www.gq.com/feed/rss"),
-    ("The Fashionisto", "https://www.thefashionisto.com/feed/"),
     ("Fashion Week Daily", "https://fashionweekdaily.com/feed/"),
     ("Fashionista", "https://fashionista.com/feed"),
     # Weekend-источники: релизы дропов выходят и по субботам
     ("Nice Kicks", "https://www.nicekicks.com/feed/"),
     ("Sole Collector", "https://www.solecollector.com/feed"),
-    ("Complex", "https://www.complex.com/feed"),
     ("Hypebae", "https://hypebae.com/feed"),
     ("WWD", "https://wwd.com/feed/"),
-    ("Business of Fashion", "https://www.businessoffashion.com/feed"),
 ]
 
 # Группированные запросы для Google News (OR, чтобы не дёргать по каждому бренду).
