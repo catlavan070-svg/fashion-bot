@@ -29,6 +29,13 @@ RSS_FEEDS = [
     ("The Fashionisto", "https://www.thefashionisto.com/feed/"),
     ("Fashion Week Daily", "https://fashionweekdaily.com/feed/"),
     ("Fashionista", "https://fashionista.com/feed"),
+    # Weekend-источники: релизы дропов выходят и по субботам
+    ("Nice Kicks", "https://www.nicekicks.com/feed/"),
+    ("Sole Collector", "https://www.solecollector.com/feed"),
+    ("Complex", "https://www.complex.com/feed"),
+    ("Hypebae", "https://hypebae.com/feed"),
+    ("WWD", "https://wwd.com/feed/"),
+    ("Business of Fashion", "https://www.businessoffashion.com/feed"),
 ]
 
 # Группированные запросы для Google News (OR, чтобы не дёргать по каждому бренду).
@@ -60,7 +67,8 @@ _REDDIT_TITLE_BLOCKLIST = re.compile(
     r"(?:my|today'?s)\s+look|\bpickup|"
     r"\bwts\b|\bwtt\b|\bwtb\b|\bfs\b|legit check|\blc\b|for sale|\bwearing\b|\bwore\b|"
     r"\biso\b|looking for|\bshipped\b|\bbin\b|\bgrail\b|\$\s?\d+|"
-    r"\bsize\s?(us|uk|eu|xs|s|m|l|xl|xxl|\d)|\b\d{2,3}\s?usd\b",
+    r"\bsize\s?(us|uk|eu|xs|s|m|l|xl|xxl|\d)|\b\d{2,3}\s?usd\b|"
+    r"\bpick ?ups?\b|^release information$",
     re.IGNORECASE,
 )
 

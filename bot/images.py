@@ -51,6 +51,12 @@ async def extract_from_page(url: str, limit: int = 3) -> list[str]:
         tag = soup.find("meta", attrs=attrs)
         if tag and tag.get("content"):
             images.append(urljoin(url, tag["content"]))
+    # запас: hero-фото прямо из тела страницы (если og:image нет/скрыт за JS)
+    for img in soup.find_all("img", src=True)[:4]:
+        src = img["src"]
+        if src.startswith("data:") or "logo" in src.lower() or "icon" in src.lower():
+            continue
+        images.append(urljoin(url, src))
     return list(dict.fromkeys(images))[:limit]
 
 
