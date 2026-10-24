@@ -1,4 +1,5 @@
 """Публикация поста в Telegram-канал: 1–3 фото сверху, текст снизу."""
+import asyncio
 import logging
 
 from aiogram import Bot
@@ -30,6 +31,14 @@ async def post(bot: Bot, caption: str, image_urls: list[str], allow_text_only: b
     allow_text_only — разрешить пост без фото (резерв на «голодные» дни)."""
     caption = _fit_caption(caption)
     images = await download_images(image_urls, max_n=3)
+
+    if not images and allow_text_only:
+        # голодный день: вместо голого текста — фирменная карточка с заголовком
+        from .card import render_card
+
+        card = await asyncio.to_thread(render_card, caption.split("\n", 1)[0][:120])
+        if card:
+            images = [card]
 
     if images:
         # Основной путь: медиагруппа с подписью на первом фото

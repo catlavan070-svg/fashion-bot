@@ -118,6 +118,10 @@ async def publish_cycle(bot: Bot) -> None:
             log.warning("Rewrite failed, trying next candidate: %s", best.title)
             continue
 
+        if not best.images:
+            # страница могла отказать временно — пробуем фото ещё раз перед постом
+            best.images = await ensure_images(best.link, [])
+
         if await post(bot, text, best.images, allow_text_only=starving):
             db.mark_candidate_used(best.id)
             db.record_post(best.title, best.link)
