@@ -24,7 +24,7 @@ Python 3.13, async (asyncio), пакет `bot/`, запуск: `python -m bot.ma
 - Предохранитель квоты: при `QuotaExhausted` в `meta` (db.py, key-value) пишется `gemini_dead_until` = +60 мин — прогоны в это время не трогают Gemini, но если есть GROQ_API_KEY — постинг продолжается через Groq (`skip_gemini`); снимается при успешном посте через Gemini. Квота free tier сбрасывается ~10:00 МСК (полночь Pacific)
 - `bot/rewriter.py` Groq-фолбэк: когда Gemini в 503-шторме/квоте — пост пишет Groq (OpenAI-совместимый API), цепочка имён моделей `_GROQ_MODELS` с пропуском 404 (имена устаревают; живой на 10.2026 — openai/gpt-oss-120b). Groq и Gemini блочат российские IP — локально не проверить
 - `bot/publisher.py` — aiogram: media group 1–3 фото, caption ≤1024; фолбэки: 1 фото → текст (если REQUIRE_IMAGE=false)
-- `bot/main.py` — `cli()`: `--once` (cron) или демон-режим; publish гейты: окно 10–23 МСК → квота 5/день → gap 150 мин
+- `bot/main.py` — `cli()`: `--once` (cron) или демон-режим; publish гейты: окно 10–23 МСК → квота 5/день → gap 150 мин; «режим голода»: если без постов > 2×gap (300 мин) и нет кандидатов с фото — постим текстовый пост из резерва (кандидаты без фото копятся в очереди, `starving = db.gap_ok(2×gap)`), приоритет всегда у постов с фото
 
 ## Особенности окружения
 - Локально на Windows: импорт aiogram ~30 сек (антивирус) — не зависание; нужен пакет `tzdata` для zoneinfo
