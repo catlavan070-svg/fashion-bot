@@ -76,8 +76,8 @@ _REDDIT_NEWS_SIGNAL = re.compile(
     r"\brestock\w*|\bannounc\w+|\bunveils?\b|\bunveiled\b|\breveals?\b|\brevealed\b|"
     r"first look|\bfashion week\b|\brunway\b|\bcampaign\b|\bpop-?up\b|\bopening\b|"
     r"\bappointed\b|\bcreative director\b|\blawsuit\b|\bsued\b|\bdies\b|\bdeath\b|"
-    r"\btribute\b|\bexhibition\b|\bboutique\b|\bflagship\b|\bdebut\w*|\bcolorway\b|"
-    r"\w{2,}\s+x\s+\w{2,}|\bnew\b.{0,30}\b(?:sneaker|line|store|boutique)\b",
+    r"\btribute\b|\bexhibition\b|\bboutique\b|\bflagship\b|\bdebut\w*|\bcolorway\b|\bleak\w*|"
+    r"\bnew\b.{0,30}\b(?:sneaker|line|store|boutique)\b",
     re.IGNORECASE,
 )
 

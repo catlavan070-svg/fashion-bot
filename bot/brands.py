@@ -30,8 +30,9 @@ _PATTERNS: list[tuple[str, re.Pattern]] = [
     for alias in aliases
 ]
 
-# Ложные контексты: "Supreme Court" — суд, а не бренд. Вырезаем до матчинга.
-_CONTEXT_TRAPS = re.compile(r"supreme\s+court", re.IGNORECASE)
+# Ложные контексты: "Supreme Court" — суд, "supreme leader" — политика, а не бренд.
+# Вырезаем до матчинга.
+_CONTEXT_TRAPS = re.compile(r"supreme\s+(?:court|leader|leaders)", re.IGNORECASE)
 
 
 def match_brands(text: str) -> list[str]:

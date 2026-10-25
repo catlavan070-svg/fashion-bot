@@ -85,9 +85,9 @@ async def publish_cycle(bot: Bot) -> None:
 
     candidates = db.get_fresh_candidates(config.MAX_CANDIDATE_AGE_HOURS)
     with_img = [c for c in candidates if c.images]
-    # «Голод»: без постов вдвое дольше интервала — разрешаем текстовые посты
+    # «Голод»: без постов дольше интервала + час — разрешаем посты-карточки
     # из резерва без фото (тишина в канале хуже, чем пост без картинки)
-    starving = db.gap_ok(config.MIN_POST_GAP_MINUTES * 2)
+    starving = db.gap_ok(config.MIN_POST_GAP_MINUTES + 60)
     pool = with_img or (candidates if starving else [])
     if not pool:
         log.info("No fresh candidates to post (with images: %d)", len(with_img))
