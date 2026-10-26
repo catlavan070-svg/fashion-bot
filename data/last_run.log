@@ -1,43 +1,110 @@
-2026-10-25 21:58:32,404 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-25 21:58:32,430 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-10-25 21:58:32,452 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-10-25 21:58:32,453 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-10-25 21:58:32,733 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-10-25 21:58:32,735 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-10-25 21:58:32,808 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-10-25 21:58:32,813 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-10-25 21:58:32,822 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-25 21:58:32,840 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-10-25 21:58:32,879 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-10-25 21:58:32,960 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-25 21:58:33,019 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-25 21:58:33,021 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-25 21:58:33,136 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-10-25 21:58:33,138 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-10-25 21:58:33,791 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-25 21:58:37,398 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-25 21:58:42,405 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-25 21:58:47,395 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-25 21:58:52,401 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-25 21:58:57,401 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-25 21:59:03,257 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-25 21:59:07,426 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-25 21:59:07,426 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-10-26 07:01:08,396 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-26 07:01:08,428 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-10-26 07:01:08,453 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-10-26 07:01:08,506 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-26 07:01:08,524 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-10-26 07:01:08,525 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-10-26 07:01:08,526 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-10-26 07:01:08,529 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-10-26 07:01:08,630 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-10-26 07:01:08,639 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-10-26 07:01:08,642 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-10-26 07:01:08,940 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-10-26 07:01:08,941 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-10-26 07:01:08,942 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:01:09,061 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:01:09,063 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:01:09,642 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-26 07:01:13,371 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 07:01:18,376 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 07:01:23,373 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 07:01:28,372 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 07:01:33,371 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 07:01:38,415 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 07:01:38,416 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-25 21:59:12,444 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-25 21:59:12,444 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-10-26 07:01:43,398 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 07:01:43,399 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-25 21:59:17,420 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-25 21:59:17,421 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-10-26 07:01:48,395 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 07:01:48,396 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-25 21:59:22,418 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-25 21:59:22,418 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+2026-10-26 07:01:53,394 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 07:01:53,395 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-25 21:59:22,419 [INFO] bot.sources: Fetched 279 articles from all sources
-2026-10-25 21:59:22,500 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XN3A3TFRGalptYkhleTlDVHBDazc2UldaUWp0Q1dCd1pMQUZOa21UczlnYVNCS0h6dTM4dTdkR1hCeW1CQUlJNGZ2OUZoVVVpWXZNaDVXc0Q4UElxOE9pcEh2Wl9ldzg?oc=5 "HTTP/1.1 302 Found"
-2026-10-25 21:59:22,566 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XN3A3TFRGalptYkhleTlDVHBDazc2UldaUWp0Q1dCd1pMQUZOa21UczlnYVNCS0h6dTM4dTdkR1hCeW1CQUlJNGZ2OUZoVVVpWXZNaDVXc0Q4UElxOE9pcEh2Wl9ldzg?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-25 21:59:22,584 [INFO] __main__: Queued without images (text reserve): McKenna Grace Dazzles in Gucci as Her ‘Hunger Games’ Press Tour Fashion Streak Continues - IMDb
-2026-10-25 21:59:22,586 [INFO] __main__: Candidate queued: [Google News] McKenna Grace Dazzles in Gucci as Her ‘Hunger Games’ Press Tour Fashion Streak Continues - IMDb
-2026-10-25 21:59:22,605 [INFO] __main__: New candidates this cycle: 1
-2026-10-25 21:59:22,606 [INFO] __main__: Вне окна постинга (10:00–23:00 Europe/Moscow) — только собираем новости
-2026-10-25 21:59:22,606 [INFO] __main__: Cycle done, exiting
+2026-10-26 07:01:58,392 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 07:01:58,392 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-10-26 07:01:58,392 [INFO] bot.sources: Fetched 279 articles from all sources
+2026-10-26 07:01:58,455 [INFO] httpx: HTTP Request: GET https://wwd.com/fashion-news/fashion-features/burberry-regent-street-flagship-house-culture-experiences-1239384068/ "HTTP/1.1 200 OK"
+2026-10-26 07:01:58,466 [INFO] __main__: Queued without images (text reserve): EXCLUSIVE: Burberry Recasts Regent Street Flagship as Brand ‘House,’ Offering Culture, Immersive Experiences
+2026-10-26 07:01:58,468 [INFO] __main__: Candidate queued: [WWD] EXCLUSIVE: Burberry Recasts Regent Street Flagship as Brand ‘House,’ Offering Culture, Immersive Experiences
+2026-10-26 07:01:58,526 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxPVHdUY0dhYWcyOWhOakxSbzJjUF9jcXZrOVBZb0RPZVVmUVVVNUhHbUxySFc2alk3bXdDempiSlp2VHRqVDJwZFhvdWFhZ2ZqcDVzOF93ZllraGZlUG56MEd0Wnh3MmJNV1hCa0RnLVVRM3N5S1BSdGtaaEdFY2stTnA5QWZrMk5WLTZFeEVSZmlVcnRJcEpFNlZwNlY5QXpMaUk0?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 07:01:58,609 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiowFBVV95cUxPVHdUY0dhYWcyOWhOakxSbzJjUF9jcXZrOVBZb0RPZVVmUVVVNUhHbUxySFc2alk3bXdDempiSlp2VHRqVDJwZFhvdWFhZ2ZqcDVzOF93ZllraGZlUG56MEd0Wnh3MmJNV1hCa0RnLVVRM3N5S1BSdGtaaEdFY2stTnA5QWZrMk5WLTZFeEVSZmlVcnRJcEpFNlZwNlY5QXpMaUk0?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:01:58,632 [INFO] __main__: Queued without images (text reserve): Mckenna Grace Coordinates in Gold, Pairing Simple Heels with Geometric-Patterned Archival Gucci Dress - WWD
+2026-10-26 07:01:58,633 [INFO] __main__: Candidate queued: [Google News] Mckenna Grace Coordinates in Gold, Pairing Simple Heels with Geometric-Patterned Archival Gucci Dress - WWD
+2026-10-26 07:01:58,689 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxPNTV3LU1acnFUQi1ObV8taUFEODZhamZJNngtcVJTSXdlYjQ4enVqNmgwWHFfTzhrb2JidlFFOW5USTRDV0haU2JCbDZFajZSS0VnVmpqYmVoOGFQd2EtQVN6dWkzbk9aVWlyREdUdDhoUlItRENUVktIOVhlUFdfLVRjbjctWWpLVUxoSjh6NEIzQldTWTVyc2NkVTlsYmowS0g1RTVrdVhlemJFR2VQbktlT2hNRGhaTzhKQQ?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 07:01:58,762 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxPNTV3LU1acnFUQi1ObV8taUFEODZhamZJNngtcVJTSXdlYjQ4enVqNmgwWHFfTzhrb2JidlFFOW5USTRDV0haU2JCbDZFajZSS0VnVmpqYmVoOGFQd2EtQVN6dWkzbk9aVWlyREdUdDhoUlItRENUVktIOVhlUFdfLVRjbjctWWpLVUxoSjh6NEIzQldTWTVyc2NkVTlsYmowS0g1RTVrdVhlemJFR2VQbktlT2hNRGhaTzhKQQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:01:58,783 [INFO] __main__: Queued without images (text reserve): Louis Vuitton appoints Hector Muelas as new chief brand creative officer - FashionNetwork USA
+2026-10-26 07:01:58,785 [INFO] __main__: Candidate queued: [Google News] Louis Vuitton appoints Hector Muelas as new chief brand creative officer - FashionNetwork USA
+2026-10-26 07:01:58,841 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSTllclFVSFB0SHpBaFRIS2xock43d1lkV2NUeUQxNkthdEF0bjhQWjM2UTFZaVJMd2lnZzlvNW14Rl9oSGViTVBfeUJQVFIxWWtES3Z2SmpxSGg1dzgzbDlHVWlQX3o4REhKdjlkeEVoLTQ0OW9qUGItbEVUNnlCWF8zdEZHYVc2?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 07:01:58,899 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSTllclFVSFB0SHpBaFRIS2xock43d1lkV2NUeUQxNkthdEF0bjhQWjM2UTFZaVJMd2lnZzlvNW14Rl9oSGViTVBfeUJQVFIxWWtES3Z2SmpxSGg1dzgzbDlHVWlQX3o4REhKdjlkeEVoLTQ0OW9qUGItbEVUNnlCWF8zdEZHYVc2?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:01:58,919 [INFO] __main__: Queued without images (text reserve): Everyone in China recognizes Gucci. That’s the problem. - Jing Daily
+2026-10-26 07:01:58,921 [INFO] __main__: Candidate queued: [Google News] Everyone in China recognizes Gucci. That’s the problem. - Jing Daily
+2026-10-26 07:01:58,974 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiswFBVV95cUxQbndxS0hDSnhOdC1hc2RPUkFGRVFRTndxRFFZVTdObmEtejRXb1h2bVNnTldSMklfX2hETERSUlR3VVlUVG1EZS1NT1oxakphVkxzWFY1b1ZINUdWdTdkMHRPcDJxYklJV08wZjFtVVdJLUJKTFNfeWN0THVFMWJ5VEl3UjJpU3hOdXNJOVhvMncxY0FadU5SQlYyYXI0NDRXdUVyM3hVODN1eXZPMWdlZThiTQ?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 07:01:59,027 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiswFBVV95cUxQbndxS0hDSnhOdC1hc2RPUkFGRVFRTndxRFFZVTdObmEtejRXb1h2bVNnTldSMklfX2hETERSUlR3VVlUVG1EZS1NT1oxakphVkxzWFY1b1ZINUdWdTdkMHRPcDJxYklJV08wZjFtVVdJLUJKTFNfeWN0THVFMWJ5VEl3UjJpU3hOdXNJOVhvMncxY0FadU5SQlYyYXI0NDRXdUVyM3hVODN1eXZPMWdlZThiTQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:01:59,049 [INFO] __main__: Queued without images (text reserve): Louis Vuitton names Hector Muelas chief brand creative officer - Fashion United
+2026-10-26 07:01:59,050 [INFO] __main__: Candidate queued: [Google News] Louis Vuitton names Hector Muelas chief brand creative officer - Fashion United
+2026-10-26 07:01:59,106 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSGNSNDBkcE40OHBHWHFLMUg3N3lzU0ZLTzZySENrRXJ2N3gzaTA5VVVOczg0VlNnU2RPMjZtc1BOdVNCbmV0N3p5NlZjaVBHSjJVM01fbFBKRDAwOWROV01vM3diSDVOVU1nXzVvelRLMWNiOE9lWHRaQWtuQlVVNUM3SHl3U2J5aUltQ0ZOM2RzTm9JTUloSUd5NUVDNlZNYjU5bUdQcU1tWmZyYlpIRmszSlItSEVja0ZISzh6aFFaWlpyMUJZRmJHamtXR0g5?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 07:01:59,159 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSGNSNDBkcE40OHBHWHFLMUg3N3lzU0ZLTzZySENrRXJ2N3gzaTA5VVVOczg0VlNnU2RPMjZtc1BOdVNCbmV0N3p5NlZjaVBHSjJVM01fbFBKRDAwOWROV01vM3diSDVOVU1nXzVvelRLMWNiOE9lWHRaQWtuQlVVNUM3SHl3U2J5aUltQ0ZOM2RzTm9JTUloSUd5NUVDNlZNYjU5bUdQcU1tWmZyYlpIRmszSlItSEVja0ZISzh6aFFaWlpyMUJZRmJHamtXR0g5?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:01:59,178 [INFO] __main__: Queued without images (text reserve): Weekly Recap: Q3 revenue flat Gucci comps down and Luca de Meo margin plan - TradingView
+2026-10-26 07:01:59,180 [INFO] __main__: Candidate queued: [Google News] Weekly Recap: Q3 revenue flat Gucci comps down and Luca de Meo margin plan - TradingView
+2026-10-26 07:01:59,235 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiekFVX3lxTE52VnlJdDJHcGRod05qejN4UFRONG96cjhJeUFDVmxPZGl6UC1RTmtvWHpGdTAxZDJJREtmdC1fbkxlaUZuNVVsX25HY2JTcmdQSlVvaURRLXp0SzJIYTRUcUZOSElza2piODRQXzhJOWZvNXZqZGQ1dUx3?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 07:01:59,293 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiekFVX3lxTE52VnlJdDJHcGRod05qejN4UFRONG96cjhJeUFDVmxPZGl6UC1RTmtvWHpGdTAxZDJJREtmdC1fbkxlaUZuNVVsX25HY2JTcmdQSlVvaURRLXp0SzJIYTRUcUZOSElza2piODRQXzhJOWZvNXZqZGQ1dUx3?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:01:59,315 [INFO] __main__: Queued without images (text reserve): The Story of Louis Vuitton Menswear, Told in an Exceptional New Book - L'Officiel Philippines
+2026-10-26 07:01:59,317 [INFO] __main__: Candidate queued: [Google News] The Story of Louis Vuitton Menswear, Told in an Exceptional New Book - L'Officiel Philippines
+2026-10-26 07:01:59,371 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiswFBVV95cUxOWE1qcGJ0ajFyRG5nWHFpSnRLaEFtbVk2NmwyV1M0b21nZmEtT3lENDZuOTN2ZFY1d3RjSjgtSFlLcnNIOWRTOVdYYlM3eG9FaVpCdHVjRTA3dk5hMVhYR1RIMTBIS19NN0dJUUVvZXE1ZHN6M3M2dWhWcXJJNVBZMzYxUDdlMi1rRm9saTJ1dVg4WGFaenVhSGNTS0prc3p6ajN5RklqN251WnIwLXo5NDlCZw?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 07:01:59,453 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiswFBVV95cUxOWE1qcGJ0ajFyRG5nWHFpSnRLaEFtbVk2NmwyV1M0b21nZmEtT3lENDZuOTN2ZFY1d3RjSjgtSFlLcnNIOWRTOVdYYlM3eG9FaVpCdHVjRTA3dk5hMVhYR1RIMTBIS19NN0dJUUVvZXE1ZHN6M3M2dWhWcXJJNVBZMzYxUDdlMi1rRm9saTJ1dVg4WGFaenVhSGNTS0prc3p6ajN5RklqN251WnIwLXo5NDlCZw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:01:59,471 [INFO] __main__: Queued without images (text reserve): Prada: How a Milan Leather Shop Turned a Parachute Fabric Into the Height of Luxury - MarkHub24
+2026-10-26 07:01:59,473 [INFO] __main__: Candidate queued: [Google News] Prada: How a Milan Leather Shop Turned a Parachute Fabric Into the Height of Luxury - MarkHub24
+2026-10-26 07:01:59,535 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisgFBVV95cUxPa2Q3N1pKOV9ZdGdLNWNGOEo5bF9wZElvTHNUSkVocTdDRlFMNk8tZmxOTGRZdlNQNmJvcTFNY09sS1k4T2N6enUzdXJyeEpTc0o0RkliUVVXbW5zZnA3N3BPV05QVy1EdlNhbmhGeEpVWmdDQ2NhTmM0ZzBvV25ZeWkwYWJZUDBHeEJJVWlBSlZtZVlyQ1Z3ZmdiR295YjYzcGtVaGo1aEJBdGVYZ3ZVdFhB?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 07:01:59,603 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisgFBVV95cUxPa2Q3N1pKOV9ZdGdLNWNGOEo5bF9wZElvTHNUSkVocTdDRlFMNk8tZmxOTGRZdlNQNmJvcTFNY09sS1k4T2N6enUzdXJyeEpTc0o0RkliUVVXbW5zZnA3N3BPV05QVy1EdlNhbmhGeEpVWmdDQ2NhTmM0ZzBvV25ZeWkwYWJZUDBHeEJJVWlBSlZtZVlyQ1Z3ZmdiR295YjYzcGtVaGo1aEJBdGVYZ3ZVdFhB?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:01:59,622 [INFO] __main__: Queued without images (text reserve): Gucci’s parent is risking the patience of shoppers and investors - FashionNetwork France
+2026-10-26 07:01:59,624 [INFO] __main__: Candidate queued: [Google News] Gucci’s parent is risking the patience of shoppers and investors - FashionNetwork France
+2026-10-26 07:01:59,682 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxNWWdrclowZmlZRVp2SU1CejBhZDdRckNCMGNPZXl1Qk54UlNKT3pxWmNlSE5yTWdQRF82ZlFtR0dsUFZ3d21GVzVYNmJVb3B1Q3V2TldyMHVaX083dkFWRWtueTc5Nkc1bEl4ODVWUmlIRDMxQm84eUV2cG5MNzlqbW5Nd2lOQVBVd1pxQ0JaOVprNHBFV3daQkRvanIwS2thMXNFdVFLR2dpa3FrZlJJVzFVWlp1dEd5cFc2dA?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 07:01:59,750 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxNWWdrclowZmlZRVp2SU1CejBhZDdRckNCMGNPZXl1Qk54UlNKT3pxWmNlSE5yTWdQRF82ZlFtR0dsUFZ3d21GVzVYNmJVb3B1Q3V2TldyMHVaX083dkFWRWtueTc5Nkc1bEl4ODVWUmlIRDMxQm84eUV2cG5MNzlqbW5Nd2lOQVBVd1pxQ0JaOVprNHBFV3daQkRvanIwS2thMXNFdVFLR2dpa3FrZlJJVzFVWlp1dEd5cFc2dA?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:01:59,773 [INFO] __main__: Queued without images (text reserve): Nicki Minaj Steps Out In Head-To-Toe Gucci At Trump’s Michigan Rally - Outlook Luxe
+2026-10-26 07:01:59,775 [INFO] __main__: Candidate queued: [Google News] Nicki Minaj Steps Out In Head-To-Toe Gucci At Trump’s Michigan Rally - Outlook Luxe
+2026-10-26 07:01:59,835 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxOS2RvblVZMm9tN3lJNFRxTjU3bVlDY19QSXFmMkstNW42Nkw3bUozVkVxeUhqNENYZWg5R3RSX1lJLWxZQno4Sk5ETXk0bmJzRlg5OG50M1Z5c1lqVXJiclVXalFCS180TC1zMGM1dzJFcUFWa2c1a0NaVUswaGNlNGFkUzltUU4tWDY4N1g5Z0Q0cWY3bUxBdmhpQ3Y4LVpFVGhpcnZ6R01OUHhSa21JMGFHN0pEZw?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 07:01:59,912 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxOS2RvblVZMm9tN3lJNFRxTjU3bVlDY19QSXFmMkstNW42Nkw3bUozVkVxeUhqNENYZWg5R3RSX1lJLWxZQno4Sk5ETXk0bmJzRlg5OG50M1Z5c1lqVXJiclVXalFCS180TC1zMGM1dzJFcUFWa2c1a0NaVUswaGNlNGFkUzltUU4tWDY4N1g5Z0Q0cWY3bUxBdmhpQ3Y4LVpFVGhpcnZ6R01OUHhSa21JMGFHN0pEZw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:01:59,934 [INFO] __main__: Queued without images (text reserve): EXCLUSIVE: Burberry Recasts Regent Street Flagship as Brand ‘House,’ Offering Culture, Immersive Experiences - WWD
+2026-10-26 07:01:59,935 [INFO] __main__: Candidate queued: [Google News] EXCLUSIVE: Burberry Recasts Regent Street Flagship as Brand ‘House,’ Offering Culture, Immersive Experiences - WWD
+2026-10-26 07:02:00,025 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi3wFBVV95cUxPc2VDVzllaGpqbFJROEt1eUctS2w4eVlFcTFoTHNtREpiUVJDMmdhSjZBU3FENmVvZVpSTEZES3dkN0llSmYzOURRQkt0YXZ4c1FFeEhYMkxVY0ZlV1NGRV9FNE9VaXd3aE9XLVAxM01pbnlUaTlIRWtoWk9iTWphajcwUzZxdWhicURxUjN0Q2FjQ1QxUzZLLVVhSFN0T3oza2h2UGM0Y0xnUVNmNHFNU1A4YjBDeGR6TnVPYmp4bUFfNjJFZi1XUEgxSnlTSGRBXy1XMTltaGtpQ2N6Z2Qw?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 07:02:00,085 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi3wFBVV95cUxPc2VDVzllaGpqbFJROEt1eUctS2w4eVlFcTFoTHNtREpiUVJDMmdhSjZBU3FENmVvZVpSTEZES3dkN0llSmYzOURRQkt0YXZ4c1FFeEhYMkxVY0ZlV1NGRV9FNE9VaXd3aE9XLVAxM01pbnlUaTlIRWtoWk9iTWphajcwUzZxdWhicURxUjN0Q2FjQ1QxUzZLLVVhSFN0T3oza2h2UGM0Y0xnUVNmNHFNU1A4YjBDeGR6TnVPYmp4bUFfNjJFZi1XUEgxSnlTSGRBXy1XMTltaGtpQ2N6Z2Qw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:02:00,105 [INFO] __main__: Queued without images (text reserve): Former Burberry and Apple executive Craig Smith is about to get digital at Bath & Body Works - Retail Technology Innovation Hub
+2026-10-26 07:02:00,107 [INFO] __main__: Candidate queued: [Google News] Former Burberry and Apple executive Craig Smith is about to get digital at Bath & Body Works - Retail Technology Innovation Hub
+2026-10-26 07:02:00,162 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMibEFVX3lxTFBnTmNnOEhkU0FqQUNFLVQzVEZDMktIdTMtYjhMVE80M2d0N2tuQkhMcC1ZNTU1NkNZWFlueEMtemNYemNrWTFCS3cwV3l5OTRvOW5WWHhOdGtMUFlnMFlLWDR0RDJVNFF2dDBzaA?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 07:02:00,233 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMibEFVX3lxTFBnTmNnOEhkU0FqQUNFLVQzVEZDMktIdTMtYjhMVE80M2d0N2tuQkhMcC1ZNTU1NkNZWFlueEMtemNYemNrWTFCS3cwV3l5OTRvOW5WWHhOdGtMUFlnMFlLWDR0RDJVNFF2dDBzaA?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:02:00,251 [INFO] __main__: Queued without images (text reserve): Burberry and Smythson Unveil First Collaboration of Leather Notebooks and Games - Oui Speak Fashion (OSF)
+2026-10-26 07:02:00,253 [INFO] __main__: Candidate queued: [Google News] Burberry and Smythson Unveil First Collaboration of Leather Notebooks and Games - Oui Speak Fashion (OSF)
+2026-10-26 07:02:00,258 [INFO] __main__: New candidates this cycle: 13
+2026-10-26 07:02:00,260 [INFO] __main__: Голод: беру текстовый пост из резерва без фото
+2026-10-26 07:02:00,260 [INFO] __main__: Picked for posting: Burberry and Smythson Unveil First Collaboration of Leather Notebooks and Games - Oui Speak Fashion (OSF)
+2026-10-26 07:02:00,278 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-26 07:02:13,352 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-26 07:02:13,353 [WARNING] bot.rewriter: Gemini (gemini-3.8-flash) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-26 07:02:33,361 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-26 07:03:00,106 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-26 07:03:00,107 [WARNING] bot.rewriter: Gemini (gemini-3.8-flash) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-26 07:03:00,107 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-26 07:03:00,331 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-10-26 07:03:00,332 [WARNING] bot.rewriter: Gemini (gemini-2.5-flash) failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the In
+2026-10-26 07:03:00,332 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-26 07:03:03,085 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-26 07:03:03,086 [WARNING] bot.rewriter: Gemini (gemini-flash-latest) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-26 07:03:23,107 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-10-26 07:05:57,319 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 200 OK"
+2026-10-26 07:05:57,397 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMibEFVX3lxTFBnTmNnOEhkU0FqQUNFLVQzVEZDMktIdTMtYjhMVE80M2d0N2tuQkhMcC1ZNTU1NkNZWFlueEMtemNYemNrWTFCS3cwV3l5OTRvOW5WWHhOdGtMUFlnMFlLWDR0RDJVNFF2dDBzaA?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 07:05:57,456 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMibEFVX3lxTFBnTmNnOEhkU0FqQUNFLVQzVEZDMktIdTMtYjhMVE80M2d0N2tuQkhMcC1ZNTU1NkNZWFlueEMtemNYemNrWTFCS3cwV3l5OTRvOW5WWHhOdGtMUFlnMFlLWDR0RDJVNFF2dDBzaA?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 07:05:58,454 [INFO] __main__: POSTED (1/5 today): Burberry and Smythson Unveil First Collaboration of Leather Notebooks and Games - Oui Speak Fashion (OSF)
+2026-10-26 07:05:58,705 [INFO] __main__: Cycle done, exiting
