@@ -1,43 +1,50 @@
-2026-10-26 16:15:45,596 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-10-26 16:15:45,604 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-10-26 16:15:45,612 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-26 16:15:45,613 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-10-26 16:15:45,649 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-10-26 16:15:45,993 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-10-26 16:15:46,016 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-10-26 16:15:46,016 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-10-26 16:15:46,043 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-10-26 16:15:46,062 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-10-26 16:15:46,062 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-26 16:15:46,134 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-10-26 16:15:46,228 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-26 16:15:46,233 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-26 16:15:46,349 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-26 16:15:46,642 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-10-26 16:15:47,151 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-26 16:15:50,548 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-26 16:15:55,548 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-26 16:16:01,784 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-26 16:16:05,556 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-26 16:16:10,549 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-26 16:16:15,576 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-26 16:16:15,576 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-10-26 16:30:57,875 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-26 16:30:57,876 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-26 16:30:57,903 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-10-26 16:30:57,905 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-10-26 16:30:57,906 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-10-26 16:30:57,924 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-10-26 16:30:57,955 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-10-26 16:30:57,957 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-10-26 16:30:57,957 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-10-26 16:30:58,190 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-10-26 16:30:58,216 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-10-26 16:30:58,254 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-10-26 16:30:58,391 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 16:30:58,462 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 16:30:58,606 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 16:30:58,926 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-10-26 16:30:59,609 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-26 16:31:03,704 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-26 16:31:07,848 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 16:31:12,839 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 16:31:17,838 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 16:31:22,846 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 16:31:32,986 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 16:31:32,986 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-26 16:16:20,572 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-26 16:16:20,572 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-10-26 16:31:37,898 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 16:31:37,899 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-26 16:16:30,593 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-26 16:16:30,593 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-10-26 16:31:42,899 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 16:31:42,899 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-26 16:16:35,582 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-26 16:16:35,583 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+2026-10-26 16:31:47,905 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-26 16:31:47,905 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-26 16:16:35,583 [INFO] bot.sources: Fetched 276 articles from all sources
-2026-10-26 16:16:35,603 [INFO] __main__: Candidate queued: [Fashionista] Must Read: Martine Rose Alleged To Replace Pierpaolo Piccioli at Balenciaga, Eckhaus Latta Opens Its First NYC Flagship
-2026-10-26 16:16:35,669 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQzVQeGR1REh2OGdmcjVYc21heGpKMjlHQ3M1NEZLYVc2Q1E2NWZKVS1DTTFSY1AwQ0NqNzZEa1Awbl9PeU44YkxvV1l5WWphSkt3VkdtZkM2SVhQQklxLUpmeUhXUV9HZ0syMlk1YmtLZDA4MTJncDJhWmY3dlRXMk9ZQ1U1NTlweDU1eFFka19EX2hpMmpTQ3VtTHEzMktqTnhFNldxNWhSWWM?oc=5 "HTTP/1.1 302 Found"
-2026-10-26 16:16:35,721 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQzVQeGR1REh2OGdmcjVYc21heGpKMjlHQ3M1NEZLYVc2Q1E2NWZKVS1DTTFSY1AwQ0NqNzZEa1Awbl9PeU44YkxvV1l5WWphSkt3VkdtZkM2SVhQQklxLUpmeUhXUV9HZ0syMlk1YmtLZDA4MTJncDJhWmY3dlRXMk9ZQ1U1NTlweDU1eFFka19EX2hpMmpTQ3VtTHEzMktqTnhFNldxNWhSWWM?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-26 16:16:35,743 [INFO] __main__: Queued without images (text reserve): Must Read: Martine Rose Alleged To Replace Pierpaolo Piccioli at Balenciaga, Eckhaus Latta Opens Its First NYC Flagship - Fashionista
-2026-10-26 16:16:35,744 [INFO] __main__: Candidate queued: [Google News] Must Read: Martine Rose Alleged To Replace Pierpaolo Piccioli at Balenciaga, Eckhaus Latta Opens Its First NYC Flagship - Fashionista
-2026-10-26 16:16:35,763 [INFO] __main__: New candidates this cycle: 2
-2026-10-26 16:16:35,764 [INFO] __main__: Too soon since last post — waiting
-2026-10-26 16:16:35,764 [INFO] __main__: Cycle done, exiting
+2026-10-26 16:31:47,906 [INFO] bot.sources: Fetched 276 articles from all sources
+2026-10-26 16:31:48,002 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdTRPRGZFcjQzYVN4TEt1d0lTSVVPT1ZORXI2M01MbkhoRUdpVDBHVk9zZmEzYzZqRWRxeEgybW5fdDlRNHJYeElkY0RGWHFXc3hWQ0o2Yk5pQWcxTFRPUzRMcjN0LXczeG9ZcWhYc2hrZGVRQ2l3ZmtmalJoNDAtQ19reTA3bDdMN0NGUVpvSElBdzhhdEV4VUluMFZ6X0c5NVhLVEhSbWNpZHEzUjN2RlFYbEZUOVM3WldSX1JqMnljcHBhanpNNzh2amp3U0pnc1VOdHFpMUllWGNodjd6ZGFR0gHiAUFVX3lxTE01dnhrTHdaQzd5SEZfbTViU25aaGlUMERuLVFxNjVkUUxRLW9JYm9DQTU4N2plRjlNdjVfa0s0T1laVDBFbmZBcEVXNUh4R3JWdVF5am1QdW84Q0JmNjdzY0lPcWdkcnpibXVyOXduS2tnb0JGQUUzMEEtenNfMzVDUVdKWVpGbU5udElUMzVXYWZvS3Z4bUNMMEdMaUpORUJXc1E3NGhfVE5haEhUS1hHWUpNRnhQbHlYWUxyN1o5cVNWbDBRSmJmckRfUGhtNzlKNWR2eElnczlXbVlGYkxsckE?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 16:31:48,062 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdTRPRGZFcjQzYVN4TEt1d0lTSVVPT1ZORXI2M01MbkhoRUdpVDBHVk9zZmEzYzZqRWRxeEgybW5fdDlRNHJYeElkY0RGWHFXc3hWQ0o2Yk5pQWcxTFRPUzRMcjN0LXczeG9ZcWhYc2hrZGVRQ2l3ZmtmalJoNDAtQ19reTA3bDdMN0NGUVpvSElBdzhhdEV4VUluMFZ6X0c5NVhLVEhSbWNpZHEzUjN2RlFYbEZUOVM3WldSX1JqMnljcHBhanpNNzh2amp3U0pnc1VOdHFpMUllWGNodjd6ZGFR0gHiAUFVX3lxTE01dnhrTHdaQzd5SEZfbTViU25aaGlUMERuLVFxNjVkUUxRLW9JYm9DQTU4N2plRjlNdjVfa0s0T1laVDBFbmZBcEVXNUh4R3JWdVF5am1QdW84Q0JmNjdzY0lPcWdkcnpibXVyOXduS2tnb0JGQUUzMEEtenNfMzVDUVdKWVpGbU5udElUMzVXYWZvS3Z4bUNMMEdMaUpORUJXc1E3NGhfVE5haEhUS1hHWUpNRnhQbHlYWUxyN1o5cVNWbDBRSmJmckRfUGhtNzlKNWR2eElnczlXbVlGYkxsckE?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 16:31:48,107 [INFO] __main__: Queued without images (text reserve): Style Edit: Louis Vuitton’s versatile Multipass bag adapts to any look - South China Morning Post
+2026-10-26 16:31:48,109 [INFO] __main__: Candidate queued: [Google News] Style Edit: Louis Vuitton’s versatile Multipass bag adapts to any look - South China Morning Post
+2026-10-26 16:31:48,184 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxOTXJiV0VQZXJJZUtBSEd5OEQ5Tm1LR0NhZm9JbnM1VWJiWkc5SC1XQ3F0c0RVLXlqRXdodGo5NGF5Um90Wm82aWpDNFVQNjBDaWN5R012TlJ5ZTlueHdBZHdEQ2hhZVdqdnRoYjBzRDMxRE43b2xaRklvYi1mRXhkaUp0Z2RhVlJKVk9tVXBHS2YtMGdHWjhOX3hEenM0bkk?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 16:31:48,247 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxOTXJiV0VQZXJJZUtBSEd5OEQ5Tm1LR0NhZm9JbnM1VWJiWkc5SC1XQ3F0c0RVLXlqRXdodGo5NGF5Um90Wm82aWpDNFVQNjBDaWN5R012TlJ5ZTlueHdBZHdEQ2hhZVdqdnRoYjBzRDMxRE43b2xaRklvYi1mRXhkaUp0Z2RhVlJKVk9tVXBHS2YtMGdHWjhOX3hEenM0bkk?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 16:31:48,290 [INFO] __main__: Queued without images (text reserve): Miuccia Prada: Future-Proofing a Fashion Dynasty - The Business of Fashion
+2026-10-26 16:31:48,291 [INFO] __main__: Candidate queued: [Google News] Miuccia Prada: Future-Proofing a Fashion Dynasty - The Business of Fashion
+2026-10-26 16:31:48,406 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxPc2phTHJaY09QcW1OLTdKaEtvcnRCbjFEOWE0V1gzY3N1TTBIUTdqT005M0Uzcm1Mc1hHeEdBVGtpX1YtRGNvaUFnSlF4QWRpMWJtdndMX09tX05FdzBrN3Y1N29MOUdHUFF2N1kzaWl2M2ZKVzY2dzlfQjd1R0dBel93YkI0aVRtLXg4QW5ZZDU0Rk5YZlRLMDlPMFJFOVBw?oc=5 "HTTP/1.1 302 Found"
+2026-10-26 16:31:48,459 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxPc2phTHJaY09QcW1OLTdKaEtvcnRCbjFEOWE0V1gzY3N1TTBIUTdqT005M0Uzcm1Mc1hHeEdBVGtpX1YtRGNvaUFnSlF4QWRpMWJtdndMX09tX05FdzBrN3Y1N29MOUdHUFF2N1kzaWl2M2ZKVzY2dzlfQjd1R0dBel93YkI0aVRtLXg4QW5ZZDU0Rk5YZlRLMDlPMFJFOVBw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-26 16:31:48,501 [INFO] __main__: Queued without images (text reserve): Burberry to transform Regent Street flagship into ‘Burberry House’ - Drapers
+2026-10-26 16:31:48,503 [INFO] __main__: Candidate queued: [Google News] Burberry to transform Regent Street flagship into ‘Burberry House’ - Drapers
+2026-10-26 16:31:48,506 [INFO] __main__: New candidates this cycle: 3
+2026-10-26 16:31:48,507 [INFO] __main__: Too soon since last post — waiting
+2026-10-26 16:31:48,507 [INFO] __main__: Cycle done, exiting
