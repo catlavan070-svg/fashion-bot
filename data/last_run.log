@@ -1,46 +1,43 @@
-2026-10-28 08:15:41,631 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-28 08:15:41,661 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-10-28 08:15:41,680 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-10-28 08:15:41,683 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-28 08:15:41,700 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-10-28 08:15:41,711 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-10-28 08:15:41,729 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-10-28 08:15:41,731 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-10-28 08:15:41,781 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-10-28 08:15:41,823 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-10-28 08:15:42,105 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-10-28 08:15:42,127 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-10-28 08:15:42,229 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-28 08:15:42,280 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-28 08:15:42,329 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-10-28 08:15:42,337 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-28 08:15:42,857 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-28 08:15:46,634 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-28 08:15:51,637 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-28 08:15:56,636 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-28 08:16:02,527 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-28 08:16:06,634 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-28 08:16:11,699 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-28 08:16:11,699 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-10-28 08:30:58,296 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-28 08:30:58,356 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-10-28 08:30:58,367 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-10-28 08:30:58,421 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-10-28 08:30:58,422 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-28 08:30:58,422 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-10-28 08:30:58,423 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-10-28 08:30:58,478 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-10-28 08:30:58,478 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-10-28 08:30:58,528 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-10-28 08:30:58,530 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-10-28 08:30:58,821 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-10-28 08:30:58,822 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-10-28 08:30:58,824 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-28 08:30:58,955 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-28 08:30:58,957 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-28 08:30:59,851 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-28 08:31:04,436 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-28 08:31:08,340 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-28 08:31:13,341 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-28 08:31:18,341 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-28 08:31:23,342 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-28 08:31:33,542 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-28 08:31:33,542 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-28 08:16:16,677 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-28 08:16:16,678 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-10-28 08:31:38,413 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-28 08:31:38,413 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-28 08:16:21,678 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-28 08:16:21,679 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-10-28 08:31:43,415 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-28 08:31:43,415 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-28 08:16:31,698 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-28 08:16:31,698 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+2026-10-28 08:31:48,414 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-28 08:31:48,414 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-28 08:16:31,699 [INFO] bot.sources: Fetched 276 articles from all sources
-2026-10-28 08:16:31,706 [INFO] __main__: Candidate queued: [Hypebeast] Atelier Versace to Make Paris Couture Week Return Under Pieter Mulier
-2026-10-28 08:16:31,838 [INFO] httpx: HTTP Request: GET https://wwd.com/fashion-news/designer-luxury/prada-reclaim-lyst-ranking-top-spot-celine-top-ten-1239386329/ "HTTP/1.1 200 OK"
-2026-10-28 08:16:31,845 [INFO] __main__: Queued without images (text reserve): Prada Reclaims Lyst’s Hottest Brands Ranking Top Spot, Celine Cracks Top 10
-2026-10-28 08:16:31,848 [INFO] __main__: Candidate queued: [WWD] Prada Reclaims Lyst’s Hottest Brands Ranking Top Spot, Celine Cracks Top 10
-2026-10-28 08:16:31,917 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaEF2a1JfRlRvTmUtVGNVNk9nOGJHNGdDM3hwXzVrOUVQRmw4MlJOMmtPSlRUSWtEYnI2c0JKTWdUZHZRQ3hYaGlTZEhRYUtydy1PTlpmWFpCMnd1VDdDcVZaQll6aWFkQU5RVElrUHBpTnBaT0JpTnRzT1JIZ3FjdExlczJjQ09JbkpBdFNOTmFNY0J4ZFc4Z1lLT2g2eVN3WXZibmc4ZGpkdzg?oc=5 "HTTP/1.1 302 Found"
-2026-10-28 08:16:31,987 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaEF2a1JfRlRvTmUtVGNVNk9nOGJHNGdDM3hwXzVrOUVQRmw4MlJOMmtPSlRUSWtEYnI2c0JKTWdUZHZRQ3hYaGlTZEhRYUtydy1PTlpmWFpCMnd1VDdDcVZaQll6aWFkQU5RVElrUHBpTnBaT0JpTnRzT1JIZ3FjdExlczJjQ09JbkpBdFNOTmFNY0J4ZFc4Z1lLT2g2eVN3WXZibmc4ZGpkdzg?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-28 08:16:32,000 [INFO] __main__: Queued without images (text reserve): Prada Reclaims Lyst’s Hottest Brands Ranking Top Spot, Celine Cracks Top 10 - WWD
-2026-10-28 08:16:32,002 [INFO] __main__: Candidate queued: [Google News] Prada Reclaims Lyst’s Hottest Brands Ranking Top Spot, Celine Cracks Top 10 - WWD
-2026-10-28 08:16:32,015 [INFO] __main__: New candidates this cycle: 3
-2026-10-28 08:16:32,016 [INFO] __main__: Too soon since last post — waiting
-2026-10-28 08:16:32,016 [INFO] __main__: Cycle done, exiting
+2026-10-28 08:31:48,415 [INFO] bot.sources: Fetched 276 articles from all sources
+2026-10-28 08:31:48,440 [INFO] __main__: Candidate queued: [Hypebae] These Were The Hottest Brands and Buys of Q3, According to Lyst
+2026-10-28 08:31:48,569 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdUc0VjZacTNLcXZoc3gwazZKcmJ6N2ZqLWhSQU1GVHl5bm50MmdkYXRvdGRFVDcxVDZFU0R6b3hMdVRyVVBWLXJQci1ZZ0xNSktSeW5KaV9PQkNuZk5zWlpiZ29LcXk2N2tVaE9PNXRJWUZMYzJxRDdvZE9lVGRRSEhzNkVuQm9kR29iamc1aEo2ZnZobF9rblZmYllXakNaWURTeW9HWU85bGhVZEEyQm50ektfd0VCOXRvUWotUWxwamlXYlpVRDdWMHI2ZXpqY3lmaUd3?oc=5 "HTTP/1.1 302 Found"
+2026-10-28 08:31:48,690 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdUc0VjZacTNLcXZoc3gwazZKcmJ6N2ZqLWhSQU1GVHl5bm50MmdkYXRvdGRFVDcxVDZFU0R6b3hMdVRyVVBWLXJQci1ZZ0xNSktSeW5KaV9PQkNuZk5zWlpiZ29LcXk2N2tVaE9PNXRJWUZMYzJxRDdvZE9lVGRRSEhzNkVuQm9kR29iamc1aEo2ZnZobF9rblZmYllXakNaWURTeW9HWU85bGhVZEEyQm50ektfd0VCOXRvUWotUWxwamlXYlpVRDdWMHI2ZXpqY3lmaUd3?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-28 08:31:48,810 [INFO] __main__: Queued without images (text reserve): Prada back on top, hits number one in new Lyst Index; Celine, Dries Van Noten also riding high - FashionNetwork - The World's Fashion Business News
+2026-10-28 08:31:48,812 [INFO] __main__: Candidate queued: [Google News] Prada back on top, hits number one in new Lyst Index; Celine, Dries Van Noten also riding high - FashionNetwork - The World's Fashion Business News
+2026-10-28 08:31:48,831 [INFO] __main__: New candidates this cycle: 2
+2026-10-28 08:31:48,832 [INFO] __main__: Too soon since last post — waiting
+2026-10-28 08:31:48,832 [INFO] __main__: Cycle done, exiting
