@@ -1,73 +1,42 @@
-2026-10-29 17:31:01,607 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-10-29 17:31:01,629 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-10-29 17:31:01,714 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-29 17:31:01,715 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-10-29 17:31:01,733 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-10-29 17:31:01,737 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-10-29 17:31:01,766 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-10-29 17:31:02,061 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-29 17:31:02,062 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-10-29 17:31:02,065 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-10-29 17:31:02,067 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-10-29 17:31:02,296 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 17:31:02,298 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 17:31:02,300 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 17:31:02,467 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-10-29 17:31:03,174 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-29 17:31:03,731 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-10-29 17:31:06,577 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 17:31:11,589 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 17:31:16,577 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 17:31:21,585 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 17:31:26,591 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 17:31:31,601 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 17:31:31,601 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-10-29 17:45:44,807 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-29 17:45:44,852 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-10-29 17:45:44,853 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-29 17:45:44,856 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-10-29 17:45:44,857 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-10-29 17:45:44,971 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-10-29 17:45:44,976 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-10-29 17:45:45,003 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-10-29 17:45:45,055 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-10-29 17:45:45,312 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-10-29 17:45:45,313 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-10-29 17:45:45,315 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-29 17:45:45,495 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-29 17:45:45,497 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-10-29 17:45:45,569 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-29 17:45:46,716 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-29 17:45:47,058 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-10-29 17:45:49,809 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 17:45:54,812 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 17:45:59,806 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 17:46:05,786 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-29 17:46:09,810 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 17:46:14,929 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 17:46:14,929 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-29 17:31:36,616 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 17:31:36,616 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-10-29 17:46:19,898 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 17:46:19,899 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-29 17:31:41,597 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 17:31:41,597 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-10-29 17:46:24,892 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 17:46:24,892 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-29 17:31:46,608 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 17:31:46,609 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-10-29 17:46:34,923 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 17:46:34,924 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-29 17:31:51,628 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 17:31:51,628 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-29 17:31:51,629 [INFO] bot.sources: Fetched 274 articles from all sources
-2026-10-29 17:31:51,707 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinAFBVV95cUxPRzFxLUhHRGVITkc2cnlzWmh1cDNDMU8xa1g5QkVlQ3A1aG9mbW5RazZ2ZzhwZWxGMVlOWU5lbkZfekZYbloxTnNqX3dTeVZrS3Y4blNFWFB1QmxObDdaeDFzQ3VzTHU0RkFWeXNpanJYUFlXMUQ3Uk9UX0dQTTZXNy1kNENKREtCWjl3MjJQWWVLb3F1dHo3cFNNcjI?oc=5 "HTTP/1.1 302 Found"
-2026-10-29 17:31:51,773 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinAFBVV95cUxPRzFxLUhHRGVITkc2cnlzWmh1cDNDMU8xa1g5QkVlQ3A1aG9mbW5RazZ2ZzhwZWxGMVlOWU5lbkZfekZYbloxTnNqX3dTeVZrS3Y4blNFWFB1QmxObDdaeDFzQ3VzTHU0RkFWeXNpanJYUFlXMUQ3Uk9UX0dQTTZXNy1kNENKREtCWjl3MjJQWWVLb3F1dHo3cFNNcjI?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 17:31:51,801 [INFO] __main__: Queued without images (text reserve): Louis Vuitton Monogram Alma Satchel in Brown and Tan khorasantimes.com - khorasantimes.com
-2026-10-29 17:31:51,802 [INFO] __main__: Candidate queued: [Google News] Louis Vuitton Monogram Alma Satchel in Brown and Tan khorasantimes.com - khorasantimes.com
-2026-10-29 17:31:51,853 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxOeFJ4bWRzVE1UTDN5M3NuY2NkWnd0NmMzV1lVeVE4Ul9Ib3NUbXU2azBxZ1ZMM0YyMUVGTmpsU0llREVDVGs1cWZWLXFkaVNYNEtPRG5McTNIT0pycEtSMXZmVW1Sd3IzX0h3N3JuZzZvZlJVSmhBeEJxSGI2QTRLZzljSFpNYWlrODVCVFl3Qm1pVUt6anNOaUkwOWhoZEctcG53cnRYUTk3TWltczAwNm5uVldsT3g0V1VZSg?oc=5 "HTTP/1.1 302 Found"
-2026-10-29 17:31:51,925 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivAFBVV95cUxOeFJ4bWRzVE1UTDN5M3NuY2NkWnd0NmMzV1lVeVE4Ul9Ib3NUbXU2azBxZ1ZMM0YyMUVGTmpsU0llREVDVGs1cWZWLXFkaVNYNEtPRG5McTNIT0pycEtSMXZmVW1Sd3IzX0h3N3JuZzZvZlJVSmhBeEJxSGI2QTRLZzljSFpNYWlrODVCVFl3Qm1pVUt6anNOaUkwOWhoZEctcG53cnRYUTk3TWltczAwNm5uVldsT3g0V1VZSg?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 17:31:51,942 [INFO] __main__: Queued without images (text reserve): Bergdorf Goodman Taps Lanessa Elrod, Former Louis Vuitton Executive, as President - Modaes
-2026-10-29 17:31:51,943 [INFO] __main__: Candidate queued: [Google News] Bergdorf Goodman Taps Lanessa Elrod, Former Louis Vuitton Executive, as President - Modaes
-2026-10-29 17:31:52,010 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMmt4bTVsSWFNTWtXWlcxdHNhcWxQcExMNHNsUDdPT1VHVkhJM3BWQ0tfX0E1aDhvRnNXYXZqTzFPUTZQcjBJS3MtUXNnZXp4ZGNQRWw3dWFfbjQxbkpmRDNvRnNneWhFbVF4WmR3ZUNqODc1Z0NuSUQtWlRVZEczbkh2Z3c4dnpz?oc=5 "HTTP/1.1 302 Found"
-2026-10-29 17:31:52,062 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMmt4bTVsSWFNTWtXWlcxdHNhcWxQcExMNHNsUDdPT1VHVkhJM3BWQ0tfX0E1aDhvRnNXYXZqTzFPUTZQcjBJS3MtUXNnZXp4ZGNQRWw3dWFfbjQxbkpmRDNvRnNneWhFbVF4WmR3ZUNqODc1Z0NuSUQtWlRVZEczbkh2Z3c4dnpz?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 17:31:52,082 [INFO] __main__: Queued without images (text reserve): Prada Goes Hand-Drawn with John Pomeroy for 2026 Holiday Campaign - Animation World Network
-2026-10-29 17:31:52,084 [INFO] __main__: Candidate queued: [Google News] Prada Goes Hand-Drawn with John Pomeroy for 2026 Holiday Campaign - Animation World Network
-2026-10-29 17:31:52,132 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipAFBVV95cUxQT1ZUdzZ4SHVNVGo5SEk4c3FrWllJWUxoMlp1bWhxdnRId0ZIaVl5SWhibWdvZWxrWUZBZ1pVekFXUHVwTlM3ZEFSQjNpcFF6YmdJS1pBM2h1ZjdmckR2OHpUckpfMVdMZ0tWR2RLcU81cW1LWkhQRmk5OE52N1dGVnBMcFNrUEhqR2l2SkQyM19lQTFDMmF4RmFFRU1BTkE3MkpSRw?oc=5 "HTTP/1.1 302 Found"
-2026-10-29 17:31:52,191 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipAFBVV95cUxQT1ZUdzZ4SHVNVGo5SEk4c3FrWllJWUxoMlp1bWhxdnRId0ZIaVl5SWhibWdvZWxrWUZBZ1pVekFXUHVwTlM3ZEFSQjNpcFF6YmdJS1pBM2h1ZjdmckR2OHpUckpfMVdMZ0tWR2RLcU81cW1LWkhQRmk5OE52N1dGVnBMcFNrUEhqR2l2SkQyM19lQTFDMmF4RmFFRU1BTkE3MkpSRw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 17:31:52,211 [INFO] __main__: Queued without images (text reserve): Vintage Dior Red Silk Tie with Navy and Gold Paisley Motif khorasantimes.com - khorasantimes.com
-2026-10-29 17:31:52,212 [INFO] __main__: Candidate queued: [Google News] Vintage Dior Red Silk Tie with Navy and Gold Paisley Motif khorasantimes.com - khorasantimes.com
-2026-10-29 17:31:52,256 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMie0FVX3lxTE40eW85UXBVVW01aHpMc0VoMThyREt5NTFGay1Va3JxaE1lV1NJUVRmdXd5ZUxCUE9lcVVmbHY1eS1JR0JrTGhyN2czT19CUWdMNU1ETkR3TDJFRl83X0tKVF9EblUwYVBYRTNlY3ZWVzkwM25WdmJoV09jVQ?oc=5 "HTTP/1.1 302 Found"
-2026-10-29 17:31:52,325 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMie0FVX3lxTE40eW85UXBVVW01aHpMc0VoMThyREt5NTFGay1Va3JxaE1lV1NJUVRmdXd5ZUxCUE9lcVVmbHY1eS1JR0JrTGhyN2czT19CUWdMNU1ETkR3TDJFRl83X0tKVF9EblUwYVBYRTNlY3ZWVzkwM25WdmJoV09jVQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 17:31:52,344 [INFO] __main__: Queued without images (text reserve): Dior Silk Rose Fringe Scarf khorasantimes.com - khorasantimes.com
-2026-10-29 17:31:52,345 [INFO] __main__: Candidate queued: [Google News] Dior Silk Rose Fringe Scarf khorasantimes.com - khorasantimes.com
-2026-10-29 17:31:52,397 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMigwFBVV95cUxPS1d1bDNMTG9xSkhwd0JqSThwZGVGVWVKZlBBRDZDNHpya1psZDJhVGhmc2FWeUEyaXpQS3BhLUJRQ3BENjBBV2hrbmR1d0ZaN0xfV2QxU0JjOHVzZC1sLWx1UVpWMUJHOUtlU2NxUFVQeDFlWGFaRXNoYWszYUpta0x1cw?oc=5 "HTTP/1.1 302 Found"
-2026-10-29 17:31:52,465 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMigwFBVV95cUxPS1d1bDNMTG9xSkhwd0JqSThwZGVGVWVKZlBBRDZDNHpya1psZDJhVGhmc2FWeUEyaXpQS3BhLUJRQ3BENjBBV2hrbmR1d0ZaN0xfV2QxU0JjOHVzZC1sLWx1UVpWMUJHOUtlU2NxUFVQeDFlWGFaRXNoYWszYUpta0x1cw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 17:31:52,485 [INFO] __main__: Queued without images (text reserve): Christian Dior Vintage Scarf Blue khorasantimes.com - khorasantimes.com
-2026-10-29 17:31:52,486 [INFO] __main__: Candidate queued: [Google News] Christian Dior Vintage Scarf Blue khorasantimes.com - khorasantimes.com
-2026-10-29 17:31:52,531 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihgFBVV95cUxPVFEzTC10bHg4SmxnTjAtV0h1X29OWjVNX3g1cElOczFxbDk5RmNfbWtVVXhHeEJnaXdiSy1JNVo2N25rSExTU2NSMDRaSzhDQkVfb1ZkMzFtaFdIRW9pT2ZaRG9kS2J5SXNscTUyeTZQODUzdXBSQ0NYa2ZBVzB0LVhhVGdRQQ?oc=5 "HTTP/1.1 302 Found"
-2026-10-29 17:31:52,605 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihgFBVV95cUxPVFEzTC10bHg4SmxnTjAtV0h1X29OWjVNX3g1cElOczFxbDk5RmNfbWtVVXhHeEJnaXdiSy1JNVo2N25rSExTU2NSMDRaSzhDQkVfb1ZkMzFtaFdIRW9pT2ZaRG9kS2J5SXNscTUyeTZQODUzdXBSQ0NYa2ZBVzB0LVhhVGdRQQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 17:31:52,640 [INFO] __main__: Queued without images (text reserve): Authentic Christian Dior Silk Scarf khorasantimes.com - khorasantimes.com
-2026-10-29 17:31:52,641 [INFO] __main__: Candidate queued: [Google News] Authentic Christian Dior Silk Scarf khorasantimes.com - khorasantimes.com
-2026-10-29 17:31:52,694 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxObi1GQ05DdDZnQ3FMR0xKXy1tOUt2bjBBaUpSLWh2MGlyV2ZrSmlvYUZFVHRrV3hzQU5wLVJJM296dnZjQjJuQnlGRUFIald3M3hVYUlMdWVZdEFYNTUzRk5fODF2MjZKTEVkUVBhN1Mwa0pzaHFybkhJdmt5cHZNUkoydmV2akJueGFyS0g5S09xclZjeUJLZktFVTFsNDJYM085dnFCMUxwc0l5ZklBSVJ2dFdNWU9QaDNxV0JrNE8?oc=5 "HTTP/1.1 302 Found"
-2026-10-29 17:31:52,759 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxObi1GQ05DdDZnQ3FMR0xKXy1tOUt2bjBBaUpSLWh2MGlyV2ZrSmlvYUZFVHRrV3hzQU5wLVJJM296dnZjQjJuQnlGRUFIald3M3hVYUlMdWVZdEFYNTUzRk5fODF2MjZKTEVkUVBhN1Mwa0pzaHFybkhJdmt5cHZNUkoydmV2akJueGFyS0g5S09xclZjeUJLZktFVTFsNDJYM085dnFCMUxwc0l5ZklBSVJ2dFdNWU9QaDNxV0JrNE8?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 17:31:52,779 [INFO] __main__: Queued without images (text reserve): Burberry navy blue made in Italy‎ silk neck tie geometric print simple old money khorasantimes.com - khorasantimes.com
-2026-10-29 17:31:52,781 [INFO] __main__: Candidate queued: [Google News] Burberry navy blue made in Italy‎ silk neck tie geometric print simple old money khorasantimes.com - khorasantimes.com
-2026-10-29 17:31:52,790 [INFO] __main__: New candidates this cycle: 8
-2026-10-29 17:31:52,791 [INFO] __main__: Too soon since last post — waiting
-2026-10-29 17:31:52,793 [INFO] __main__: Cycle done, exiting
+2026-10-29 17:46:34,924 [INFO] bot.sources: Fetched 275 articles from all sources
+2026-10-29 17:46:35,022 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxObVVhQ202andlZEVyZlE3R1R0UDRTOHBIbHZKR3lCLXNBS3N5Wk5xVi0wX0gtM3VQSWJ2TzhDaXJORFZxNVc1eXI5WUh6RTBJcVZMLUN5R1dvREtDT1IteDdidDhWWU0wc3Bzc1FKazFhZnpTM21EMWg5ZFBMaHY2VkJNN1NqWV9nRmVNaGo3bkQ0eURsUXg0ekp6c0I0WG1hX1h0blZQa2llQQ?oc=5 "HTTP/1.1 302 Found"
+2026-10-29 17:46:35,103 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxObVVhQ202andlZEVyZlE3R1R0UDRTOHBIbHZKR3lCLXNBS3N5Wk5xVi0wX0gtM3VQSWJ2TzhDaXJORFZxNVc1eXI5WUh6RTBJcVZMLUN5R1dvREtDT1IteDdidDhWWU0wc3Bzc1FKazFhZnpTM21EMWg5ZFBMaHY2VkJNN1NqWV9nRmVNaGo3bkQ0eURsUXg0ekp6c0I0WG1hX1h0blZQa2llQQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-29 17:46:35,144 [INFO] __main__: Queued without images (text reserve): Ten Craves: Maison Margiela And Gentle Monster Reunite, A New Dior Tome And More! - 10 Magazine
+2026-10-29 17:46:35,146 [INFO] __main__: Candidate queued: [Google News] Ten Craves: Maison Margiela And Gentle Monster Reunite, A New Dior Tome And More! - 10 Magazine
+2026-10-29 17:46:35,162 [INFO] __main__: New candidates this cycle: 1
+2026-10-29 17:46:35,163 [INFO] __main__: Too soon since last post — waiting
+2026-10-29 17:46:35,164 [INFO] __main__: Cycle done, exiting
