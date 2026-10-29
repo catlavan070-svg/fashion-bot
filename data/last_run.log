@@ -1,46 +1,55 @@
-2026-10-29 14:45:49,803 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-10-29 14:45:49,821 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-29 14:45:49,877 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-10-29 14:45:49,880 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-10-29 14:45:49,882 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-10-29 14:45:49,899 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-10-29 14:45:49,960 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-10-29 14:45:49,961 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-10-29 14:45:49,963 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-10-29 14:45:49,964 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-10-29 14:45:50,365 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 14:45:50,367 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 14:45:50,369 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 14:45:50,544 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-10-29 14:45:50,545 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-10-29 14:45:50,570 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-10-29 14:45:51,181 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-29 14:45:54,806 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 14:45:59,803 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 14:46:06,403 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-10-29 14:46:09,802 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 14:46:14,801 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 14:46:19,919 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 14:46:19,920 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-10-29 15:01:15,872 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-29 15:01:15,902 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-10-29 15:01:15,918 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-10-29 15:01:15,931 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-10-29 15:01:15,987 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-10-29 15:01:15,990 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-10-29 15:01:15,999 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-10-29 15:01:16,017 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-10-29 15:01:16,032 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-10-29 15:01:16,297 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-10-29 15:01:16,298 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-10-29 15:01:16,299 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-10-29 15:01:16,299 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-10-29 15:01:16,436 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-29 15:01:16,474 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-29 15:01:16,557 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-29 15:01:17,318 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-29 15:01:20,907 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 15:01:25,910 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 15:01:30,917 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 15:01:35,910 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 15:01:40,910 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 15:01:46,147 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 15:01:46,147 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-29 14:46:24,885 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 14:46:24,886 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-10-29 15:01:50,997 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 15:01:50,997 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-29 14:46:34,907 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 14:46:34,907 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-10-29 15:01:56,006 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 15:01:56,006 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-29 14:46:39,885 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-10-29 14:46:39,886 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+2026-10-29 15:02:02,056 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-10-29 15:02:05,997 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-10-29 15:02:05,997 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-10-29 14:46:39,886 [INFO] bot.sources: Fetched 273 articles from all sources
-2026-10-29 14:46:39,986 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNFd3c3JwVjJxVWxoU1VYSTNSUnRjZl8zbDZDUmpRZldfVURJZloyLWxWMTlMNm9YWUdib3JUbXptMm1xRHgyRk1MOE9zS1pFWXpiU0Vqd0tSUTJ4TkpaSXY1ajJwQUlzbkxxUVJ2aWRDbDh2XzZRVzF1X1BSbnZXdEVOcnZRWWFKdE03X2FVSkhxYjNyTVJoNkM4Q3lnclFibnN6Yjhza1loUQ?oc=5 "HTTP/1.1 302 Found"
-2026-10-29 14:46:40,051 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNFd3c3JwVjJxVWxoU1VYSTNSUnRjZl8zbDZDUmpRZldfVURJZloyLWxWMTlMNm9YWUdib3JUbXptMm1xRHgyRk1MOE9zS1pFWXpiU0Vqd0tSUTJ4TkpaSXY1ajJwQUlzbkxxUVJ2aWRDbDh2XzZRVzF1X1BSbnZXdEVOcnZRWWFKdE03X2FVSkhxYjNyTVJoNkM4Q3lnclFibnN6Yjhza1loUQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 14:46:40,061 [INFO] __main__: Queued without images (text reserve): Joseph Zada's Gucci Suit at 'The Hunger Games' Premiere - Red Carpet Fashion Awards
-2026-10-29 14:46:40,063 [INFO] __main__: Candidate queued: [Google News] Joseph Zada's Gucci Suit at 'The Hunger Games' Premiere - Red Carpet Fashion Awards
-2026-10-29 14:46:40,123 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMigAFBVV95cUxQMVJkWWpNNENUSlRaY3I3R3hYeTFSMHVzS3VJdXNyUXNhUlc5QlRHNFJnYnpKS2hvQTJVcTNnUHVySE1GRVFuNUZlaG0ybG1PY3E3Wmd0TWNXeEdxdDN5UFFVbm5VVzVCcXNSOXRhbmpmWmVLdnBzdmxSVmJVb3VteA?oc=5 "HTTP/1.1 302 Found"
-2026-10-29 14:46:40,171 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMigAFBVV95cUxQMVJkWWpNNENUSlRaY3I3R3hYeTFSMHVzS3VJdXNyUXNhUlc5QlRHNFJnYnpKS2hvQTJVcTNnUHVySE1GRVFuNUZlaG0ybG1PY3E3Wmd0TWNXeEdxdDN5UFFVbm5VVzVCcXNSOXRhbmpmWmVLdnBzdmxSVmJVb3VteA?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-10-29 14:46:40,187 [INFO] __main__: Queued without images (text reserve): Photos: The Devil Wears Prada in the West End - Playbill
-2026-10-29 14:46:40,189 [INFO] __main__: Candidate queued: [Google News] Photos: The Devil Wears Prada in the West End - Playbill
-2026-10-29 14:46:40,215 [INFO] __main__: New candidates this cycle: 2
-2026-10-29 14:46:40,216 [INFO] __main__: Too soon since last post — waiting
-2026-10-29 14:46:40,217 [INFO] __main__: Cycle done, exiting
+2026-10-29 15:02:05,998 [INFO] bot.sources: Fetched 275 articles from all sources
+2026-10-29 15:02:06,008 [INFO] __main__: Candidate queued: [Vogue] The Great Couture Comeback
+2026-10-29 15:02:06,067 [INFO] httpx: HTTP Request: GET https://wwd.com/pop-culture/celebrity-news/charlize-theron-cynthia-erivo-airbnb-gala-celeb-style-1239391106/ "HTTP/1.1 200 OK"
+2026-10-29 15:02:06,081 [INFO] __main__: Queued without images (text reserve): Charlize Theron Brings Emerald Fringe, Cynthia Erivo Revisits Vintage Dior and More Stars Make a Statement at the 2026 Airbnb Gala
+2026-10-29 15:02:06,082 [INFO] __main__: Candidate queued: [WWD] Charlize Theron Brings Emerald Fringe, Cynthia Erivo Revisits Vintage Dior and More Stars Make a Statement at the 2026 Airbnb Gala
+2026-10-29 15:02:06,180 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxOVjRsbVF4SEJGTE9seHVRVGx0TDctM05OaXM5b1NBTUY5eVNnYlJaRnVZUWRQMWFVWXNBbi1iTXROVUtqR211Qldkb1VTTmVKa2hJdkR4Sjh3Yk1ENTlpWGN3UV9tVWVBVGNCQU1BamZXSjVIQ1pXSkN3SEI5Sy11QVU0elZVSTJJdUFYLXlpNnFVY25Oekg4c0R3eXRIU3VNSHh5bXFaTQ?oc=5 "HTTP/1.1 302 Found"
+2026-10-29 15:02:06,263 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxOVjRsbVF4SEJGTE9seHVRVGx0TDctM05OaXM5b1NBTUY5eVNnYlJaRnVZUWRQMWFVWXNBbi1iTXROVUtqR211Qldkb1VTTmVKa2hJdkR4Sjh3Yk1ENTlpWGN3UV9tVWVBVGNCQU1BamZXSjVIQ1pXSkN3SEI5Sy11QVU0elZVSTJJdUFYLXlpNnFVY25Oekg4c0R3eXRIU3VNSHh5bXFaTQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-29 15:02:06,272 [INFO] __main__: Queued without images (text reserve): Gird Your Loins and Take a Look at Teri Hatcher in The Devil Wears Prada - Playbill
+2026-10-29 15:02:06,339 [INFO] __main__: Candidate queued: [Google News] Gird Your Loins and Take a Look at Teri Hatcher in The Devil Wears Prada - Playbill
+2026-10-29 15:02:06,428 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxQdjNSbTJFV0lHdzRTLWFqT2VDcFpILXZ2TWFRVEp1Yy1aVUsxTVJjckItMFJiZGxYLXpZOWE1aG9jTzI4bVdlY1ZaYVAybXg5VGw0N0ZoRU01VnVwZDAtbi10Z0JfSVhSaVBUa0R1YVJKWTl4MDhwZmJ4WS1RbUhOaGw2WHZhYjBkOEU4cF9PdFYwU1l5YnVmaTNXVjNCRFBZSnl2OUtKVQ?oc=5 "HTTP/1.1 302 Found"
+2026-10-29 15:02:06,523 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxQdjNSbTJFV0lHdzRTLWFqT2VDcFpILXZ2TWFRVEp1Yy1aVUsxTVJjckItMFJiZGxYLXpZOWE1aG9jTzI4bVdlY1ZaYVAybXg5VGw0N0ZoRU01VnVwZDAtbi10Z0JfSVhSaVBUa0R1YVJKWTl4MDhwZmJ4WS1RbUhOaGw2WHZhYjBkOEU4cF9PdFYwU1l5YnVmaTNXVjNCRFBZSnl2OUtKVQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-29 15:02:06,530 [INFO] __main__: Queued without images (text reserve): Joseph Zada Lets the Tailoring Do the Talking in Gucci - Yahoo
+2026-10-29 15:02:06,542 [INFO] __main__: Candidate queued: [Google News] Joseph Zada Lets the Tailoring Do the Talking in Gucci - Yahoo
+2026-10-29 15:02:06,640 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxNU2FxSmFvXzdQWVJDS0dKX0duWDN6V0otLThPSnNieWhQR00wRE5fUWRBR0Z2YVY3QnVWT2d2M2FFR2Y4SlVET1lFcmhpUDBCaE0za2ZYb2lBcmdpSWozaEdNekR3TW5RSlZ1bnA3SWg0cWdUZ21hNDRVSEkyQmVDclJRTHZvQm1jQXJSaHhJSG14MlJLNk9TYlh3VVZMUzBTckNsblExSUFlaXlfYndFTy1aQmxuY3RnUE44NzdZbi1aVVlReXBVdEdQMzE5Zw?oc=5 "HTTP/1.1 302 Found"
+2026-10-29 15:02:06,865 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxNU2FxSmFvXzdQWVJDS0dKX0duWDN6V0otLThPSnNieWhQR00wRE5fUWRBR0Z2YVY3QnVWT2d2M2FFR2Y4SlVET1lFcmhpUDBCaE0za2ZYb2lBcmdpSWozaEdNekR3TW5RSlZ1bnA3SWg0cWdUZ21hNDRVSEkyQmVDclJRTHZvQm1jQXJSaHhJSG14MlJLNk9TYlh3VVZMUzBTckNsblExSUFlaXlfYndFTy1aQmxuY3RnUE44NzdZbi1aVVlReXBVdEdQMzE5Zw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-10-29 15:02:06,907 [INFO] __main__: Queued without images (text reserve): Bergdorf Goodman taps former Louis Vuitton Americas CEO Lanessa Elrod as president - Fashion United
+2026-10-29 15:02:06,909 [INFO] __main__: Candidate queued: [Google News] Bergdorf Goodman taps former Louis Vuitton Americas CEO Lanessa Elrod as president - Fashion United
+2026-10-29 15:02:06,926 [INFO] __main__: New candidates this cycle: 5
+2026-10-29 15:02:06,941 [INFO] __main__: Too soon since last post — waiting
+2026-10-29 15:02:06,944 [INFO] __main__: Cycle done, exiting
