@@ -1,124 +1,42 @@
-2026-11-03 07:15:45,387 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-03 07:15:45,419 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-11-03 07:15:45,420 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-11-03 07:15:45,421 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-03 07:15:45,497 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-11-03 07:15:45,501 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-11-03 07:15:45,570 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-11-03 07:15:45,580 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-11-03 07:15:45,584 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-11-03 07:15:45,649 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-11-03 07:15:45,650 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-11-03 07:15:45,698 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-11-03 07:15:45,818 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-11-03 07:15:45,976 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:15:45,977 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:15:46,073 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:15:47,003 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-03 07:15:50,388 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 07:15:55,391 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 07:16:01,885 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-03 07:16:05,386 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 07:16:10,389 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 07:16:15,533 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 07:16:15,534 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-11-03 07:30:58,793 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-03 07:30:58,836 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-11-03 07:30:58,842 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-03 07:30:58,863 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-11-03 07:30:58,865 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-11-03 07:30:58,928 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-11-03 07:30:58,966 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-11-03 07:30:58,974 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-11-03 07:30:58,977 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-11-03 07:30:58,979 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-11-03 07:30:59,116 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-11-03 07:30:59,118 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-11-03 07:30:59,199 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-11-03 07:30:59,361 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-03 07:30:59,420 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-03 07:30:59,422 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-03 07:31:00,205 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-03 07:31:04,656 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-03 07:31:08,793 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-03 07:31:13,796 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-03 07:31:18,795 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-03 07:31:23,907 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-03 07:31:33,887 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-03 07:31:33,887 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-03 07:16:20,477 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 07:16:20,477 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-11-03 07:31:38,867 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-03 07:31:38,868 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-03 07:16:30,507 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 07:16:30,508 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-11-03 07:31:43,866 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-03 07:31:43,867 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-03 07:16:35,472 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 07:16:35,472 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+2026-11-03 07:31:48,999 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-03 07:31:49,000 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-03 07:16:35,472 [INFO] bot.sources: Fetched 282 articles from all sources
-2026-11-03 07:16:35,549 [INFO] httpx: HTTP Request: GET https://wwd.com/fashion-news/fashion-scoops/burberry-festive-campaign-pierce-brosnan-fiona-shaw-wu-lei-1239395256/ "HTTP/1.1 200 OK"
-2026-11-03 07:16:35,564 [INFO] __main__: Queued without images (text reserve): EXCLUSIVE: Burberry Taps Pierce Brosnan, Fiona Shaw and Wu Lei for Festive Campaign
-2026-11-03 07:16:35,567 [INFO] __main__: Candidate queued: [WWD] EXCLUSIVE: Burberry Taps Pierce Brosnan, Fiona Shaw and Wu Lei for Festive Campaign
-2026-11-03 07:16:35,667 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxOUjRFaHpjal9ydU5vemd5VEloenU3ZVE5bVI2eUprWnZ3RFhVbU1HV3VYT1c3YWZ1UE9CV2NfTEU1SVo2b2gxWWc4WXBLRjBLOUlRa2g3NjJTRmkzSDlhNnNMR1o0WGVybG82Y29ERk5oeHE1YkNLckp2M3JUNmhWM2JSYlFIbkJuOVZnTG05YXJZaGthb3cyd3FxU0dUNGE2WEp1LWR1enVtS2lCQXVCXw?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:16:35,874 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxOUjRFaHpjal9ydU5vemd5VEloenU3ZVE5bVI2eUprWnZ3RFhVbU1HV3VYT1c3YWZ1UE9CV2NfTEU1SVo2b2gxWWc4WXBLRjBLOUlRa2g3NjJTRmkzSDlhNnNMR1o0WGVybG82Y29ERk5oeHE1YkNLckp2M3JUNmhWM2JSYlFIbkJuOVZnTG05YXJZaGthb3cyd3FxU0dUNGE2WEp1LWR1enVtS2lCQXVCXw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:16:35,933 [INFO] __main__: Queued without images (text reserve): Dior Johnson scores 41 as UCF edges Florida Gulf Coast in OT - CBS Sports
-2026-11-03 07:16:35,935 [INFO] __main__: Candidate queued: [Google News] Dior Johnson scores 41 as UCF edges Florida Gulf Coast in OT - CBS Sports
-2026-11-03 07:16:36,064 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxPSVVBRXdIVU42Y05OVkN1bmlMOUxwZUllc3BRTzFXa255OTlCVjJUclRTME9Pa2p2OGxOY1hsWU9DOG54bEY2b3dTbFcwU25iSzMzX0gwNWt5UnBqck9xMURJb0lUNkh5RTI0dU5LWTdHek1TRTc1ejlNVzcwVUJjeFgyM01iYjJmVmdMdEtDU3RrYndTOFRJWlFNTQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:16:36,145 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMimwFBVV95cUxPSVVBRXdIVU42Y05OVkN1bmlMOUxwZUllc3BRTzFXa255OTlCVjJUclRTME9Pa2p2OGxOY1hsWU9DOG54bEY2b3dTbFcwU25iSzMzX0gwNWt5UnBqck9xMURJb0lUNkh5RTI0dU5LWTdHek1TRTc1ejlNVzcwVUJjeFgyM01iYjJmVmdMdEtDU3RrYndTOFRJWlFNTQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:16:36,187 [INFO] __main__: Queued without images (text reserve): Dior Johnson scores 41 as UCF edges Florida Gulf Coast in OT - Field Level Media
-2026-11-03 07:16:36,189 [INFO] __main__: Candidate queued: [Google News] Dior Johnson scores 41 as UCF edges Florida Gulf Coast in OT - Field Level Media
-2026-11-03 07:16:36,310 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiugFBVV95cUxOQjVacEJoU0ZqSHliZU00c1BhQ1pHZlF5Q3dhUDVzYWF0NjEtVmgxWHJNWmlRd3NKOFpSWl9uVTcxblBKMmtZcm1YNWFsZlZEVy1uMXZNUWhuNE1UMUF2RGxsVTk0X0xrcHV4VUhvUFNIUGZMdTA4d1lOb0w2SmhqazAtX2ktVF8yeUhGcWttNFRXUDJmZ2RIUG9DblFTSk1LWDFNdkE1TXk4YXNQaUV1QUhiUkNHb3VGQWc?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:16:36,402 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiugFBVV95cUxOQjVacEJoU0ZqSHliZU00c1BhQ1pHZlF5Q3dhUDVzYWF0NjEtVmgxWHJNWmlRd3NKOFpSWl9uVTcxblBKMmtZcm1YNWFsZlZEVy1uMXZNUWhuNE1UMUF2RGxsVTk0X0xrcHV4VUhvUFNIUGZMdTA4d1lOb0w2SmhqazAtX2ktVF8yeUhGcWttNFRXUDJmZ2RIUG9DblFTSk1LWDFNdkE1TXk4YXNQaUV1QUhiUkNHb3VGQWc?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:16:36,445 [INFO] __main__: Queued without images (text reserve): UCF needs 41 points from Dior Johnson, survives FGCU in overtime opener - Orlando Sentinel
-2026-11-03 07:16:36,446 [INFO] __main__: Candidate queued: [Google News] UCF needs 41 points from Dior Johnson, survives FGCU in overtime opener - Orlando Sentinel
-2026-11-03 07:16:36,547 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiggFBVV95cUxOOEo0UlZSV0JpcndyNXpKVVMxVXRjX2J1VXAxY3NHTlBlQTRfNkRRM2lDU1g0bnlJSmx4VXp1N2hIOGh6R1lGR1M4emVvQ0VmTG9WSXNfQThvdzJmM1BTdkZSNk8zUUt0MTlOYU1pNnNSN29mZVFHUlFWdGZOel9kd2t3?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:16:36,634 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiggFBVV95cUxOOEo0UlZSV0JpcndyNXpKVVMxVXRjX2J1VXAxY3NHTlBlQTRfNkRRM2lDU1g0bnlJSmx4VXp1N2hIOGh6R1lGR1M4emVvQ0VmTG9WSXNfQThvdzJmM1BTdkZSNk8zUUt0MTlOYU1pNnNSN29mZVFHUlFWdGZOel9kd2t3?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:16:36,689 [INFO] __main__: Queued without images (text reserve): Cowboy boots, Chrome Hearts and luxury loafers: Spurs arrive in style - San Antonio Express-News
-2026-11-03 07:16:36,691 [INFO] __main__: Candidate queued: [Google News] Cowboy boots, Chrome Hearts and luxury loafers: Spurs arrive in style - San Antonio Express-News
-2026-11-03 07:16:36,792 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tLVdZY1JxdUozLWhIaVRjeldOYjk5V0FoWWk1RThhaEJsbEJ5Mzd5dmtFVHVDN1ZWYkFpU2UxN2RWaG5vSFNEYWxhQ012QXFIRDYzSkR5YlpjZFYzeTE2Tm5WajExZk94?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:16:36,879 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tLVdZY1JxdUozLWhIaVRjeldOYjk5V0FoWWk1RThhaEJsbEJ5Mzd5dmtFVHVDN1ZWYkFpU2UxN2RWaG5vSFNEYWxhQ012QXFIRDYzSkR5YlpjZFYzeTE2Tm5WajExZk94?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:16:36,929 [INFO] __main__: Queued without images (text reserve): Dior mascara - khorasantimes.com
-2026-11-03 07:16:36,931 [INFO] __main__: Candidate queued: [Google News] Dior mascara - khorasantimes.com
-2026-11-03 07:16:37,032 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxOQ3RZVllvNnd4LTYyZC14eU1SR21raGQ0UTJod2lIaTAyeDZHd3k5dTl4VWdJTS0yZmp6b0FvS3ZFVFZWcjVjT0lyak14clVLMF9EU05La3FnWGZpbXBVQUdyWE1ZWlM5Q3dSajVXaW5BOXVZc1BMYzlSOTdzM3JzeDJjbDRNOEZVS2MydkFFZHVnak1aUS1teUFoMV9CQmJNbnlISF9TT2FHYjEtRk9JWGVpWmxjTTFhci1YOEhn?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:16:37,124 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxOQ3RZVllvNnd4LTYyZC14eU1SR21raGQ0UTJod2lIaTAyeDZHd3k5dTl4VWdJTS0yZmp6b0FvS3ZFVFZWcjVjT0lyak14clVLMF9EU05La3FnWGZpbXBVQUdyWE1ZWlM5Q3dSajVXaW5BOXVZc1BMYzlSOTdzM3JzeDJjbDRNOEZVS2MydkFFZHVnak1aUS1teUFoMV9CQmJNbnlISF9TT2FHYjEtRk9JWGVpWmxjTTFhci1YOEhn?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:16:37,176 [INFO] __main__: Queued without images (text reserve): Pat Chambers: FGCU basketball let UCF's Dior Johnson 'just crush us' - St. Augustine Record
-2026-11-03 07:16:37,177 [INFO] __main__: Candidate queued: [Google News] Pat Chambers: FGCU basketball let UCF's Dior Johnson 'just crush us' - St. Augustine Record
-2026-11-03 07:16:37,275 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMixgFBVV95cUxQLTI1UGtHVDFHMHIwbW0zQnUzREFPUW5rZUZEWTQxbzA5TFhHMGlzYzJnNmx1Uk9WRS0ydjB2ZWtGb1U2QUFtN2h4a0RUSHpMQW9TVDlocHo2TjA1YWppNl82dG5YdkJJN1ZPd3NDQ25EdF82V3FtekJIR1FabFF3TGc2eEM4bmF6bWpibzMxVzczQ0twdGx0Zy1tV1NJeEd5bS16TUQxQ2FWM0VzTktxSWxnSmlwMmNpM213OW1WSFFIZ3h4Qmc?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:16:37,370 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMixgFBVV95cUxQLTI1UGtHVDFHMHIwbW0zQnUzREFPUW5rZUZEWTQxbzA5TFhHMGlzYzJnNmx1Uk9WRS0ydjB2ZWtGb1U2QUFtN2h4a0RUSHpMQW9TVDlocHo2TjA1YWppNl82dG5YdkJJN1ZPd3NDQ25EdF82V3FtekJIR1FabFF3TGc2eEM4bmF6bWpibzMxVzczQ0twdGx0Zy1tV1NJeEd5bS16TUQxQ2FWM0VzTktxSWxnSmlwMmNpM213OW1WSFFIZ3h4Qmc?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:16:37,448 [INFO] __main__: Queued without images (text reserve): Dior Johnson explodes for 41 points in UCF basketball return vs. FGCU - Daytona Beach News-Journal
-2026-11-03 07:16:37,450 [INFO] __main__: Candidate queued: [Google News] Dior Johnson explodes for 41 points in UCF basketball return vs. FGCU - Daytona Beach News-Journal
-2026-11-03 07:16:37,574 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxPLTVWTjctREJwRVhBNmNKSnJ2cC1hMXpNM080dUMxWTJtX1ZudzY1MWJiU2ZkdllIZDdidExNeWhZUGJSdXQzMkVxdXRSSFpZUXNVY25oTDhMR1RLRDFaZWw0ZTJPMTRyMFBFaDFwNzNfYzI1YUl0UTFnUF9KdFY2Tk5TLUpfTEtDcXU2ZWRCVXRiTHoxT1VEV29VOXlSYVBMMmJNSm9wV3F0Y2lIOE9ERGM5LU1YOFA5bHF3cTg3bHlCQVEtc1JBcE1wLTdLZw?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:16:37,650 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMizgFBVV95cUxPLTVWTjctREJwRVhBNmNKSnJ2cC1hMXpNM080dUMxWTJtX1ZudzY1MWJiU2ZkdllIZDdidExNeWhZUGJSdXQzMkVxdXRSSFpZUXNVY25oTDhMR1RLRDFaZWw0ZTJPMTRyMFBFaDFwNzNfYzI1YUl0UTFnUF9KdFY2Tk5TLUpfTEtDcXU2ZWRCVXRiTHoxT1VEV29VOXlSYVBMMmJNSm9wV3F0Y2lIOE9ERGM5LU1YOFA5bHF3cTg3bHlCQVEtc1JBcE1wLTdLZw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:16:37,691 [INFO] __main__: Queued without images (text reserve): UCF basketball star Dior Johnson 'is a very uncommon young man' - Daytona Beach News-Journal
-2026-11-03 07:16:37,692 [INFO] __main__: Candidate queued: [Google News] UCF basketball star Dior Johnson 'is a very uncommon young man' - Daytona Beach News-Journal
-2026-11-03 07:16:37,795 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMigwFBVV95cUxPUU1odk5QVGp5TGllQUpKV1FFOWo4M2FzUXlUWHlTamk3YTl4SUozUUVkMXVSeDNDcFdnU25FQ21KTVVkczdoQ2hNdjBoQkkzcUtqdVBxdGpVTHNBNVcxeXB4VmUxdFdRMHRrVTlZRkpsSzFKWDFvd1RhX3QwR2VPRGtXOA?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:16:37,871 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMigwFBVV95cUxPUU1odk5QVGp5TGllQUpKV1FFOWo4M2FzUXlUWHlTamk3YTl4SUozUUVkMXVSeDNDcFdnU25FQ21KTVVkczdoQ2hNdjBoQkkzcUtqdVBxdGpVTHNBNVcxeXB4VmUxdFdRMHRrVTlZRkpsSzFKWDFvd1RhX3QwR2VPRGtXOA?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:16:37,909 [INFO] __main__: Queued without images (text reserve): UCF Guards Dior Johnson and Arturo Dean Reflect on Overtime Win Over FGCU - Yahoo Sports
-2026-11-03 07:16:37,911 [INFO] __main__: Candidate queued: [Google News] UCF Guards Dior Johnson and Arturo Dean Reflect on Overtime Win Over FGCU - Yahoo Sports
-2026-11-03 07:16:38,027 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdFVYVEREQUdrMVVSRV9oVEthUmx3elNkRVB5ZEhDN21mNmhaYXpnMVBVUUIza2tmVnpmcWp1MFJ6SmdEc1psMmJDMjhzMEdfcDA3dE95VVpIQnBkOTZHRFFiVFVqNEFteExrdUkzRUtkUHpIVlN6LWQ1emFITWR4NnpkaHphY1FveXFMRjFjRnZkRnJUaEpYanQ2T09zSXhlSEpiMFdwM1V4aU50TFZKcXVXUG5mMnVXNi1oellqQzlPdElXM1gzRWFHcFVlUG9nc2xjNQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:16:38,114 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdFVYVEREQUdrMVVSRV9oVEthUmx3elNkRVB5ZEhDN21mNmhaYXpnMVBVUUIza2tmVnpmcWp1MFJ6SmdEc1psMmJDMjhzMEdfcDA3dE95VVpIQnBkOTZHRFFiVFVqNEFteExrdUkzRUtkUHpIVlN6LWQ1emFITWR4NnpkaHphY1FveXFMRjFjRnZkRnJUaEpYanQ2T09zSXhlSEpiMFdwM1V4aU50TFZKcXVXUG5mMnVXNi1oellqQzlPdElXM1gzRWFHcFVlUG9nc2xjNQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:16:38,170 [INFO] __main__: Queued without images (text reserve): Dior Johnson Scores 41, UCF Basketball Outlasts FGCU in 2026 Season Opener - 247Sports
-2026-11-03 07:16:38,172 [INFO] __main__: Candidate queued: [Google News] Dior Johnson Scores 41, UCF Basketball Outlasts FGCU in 2026 Season Opener - 247Sports
-2026-11-03 07:16:38,277 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxPdmYyMkRNRHAzTEFhSmdsVXlHQ01MRFhsTUU4QS00VTdpTUl0QmwzSmQyUm1fNVJRSEVacl9hQ0FwdVloVklSdmxMbDF1ZTlwZGtiRDhRd3RuLXlOOGlPQkNsaS1OU2kyUGhjQzlBQnNQcXdKNjZON0ppUkhLSjR5U2hIX1I1amNDUm5RcGRMMVplajIyVERyWkpVYWFFbFJBblJFQ2dJNVdsS1BrSlh2X0U5d1k?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:16:38,492 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxPdmYyMkRNRHAzTEFhSmdsVXlHQ01MRFhsTUU4QS00VTdpTUl0QmwzSmQyUm1fNVJRSEVacl9hQ0FwdVloVklSdmxMbDF1ZTlwZGtiRDhRd3RuLXlOOGlPQkNsaS1OU2kyUGhjQzlBQnNQcXdKNjZON0ppUkhLSjR5U2hIX1I1amNDUm5RcGRMMVplajIyVERyWkpVYWFFbFJBblJFQ2dJNVdsS1BrSlh2X0U5d1k?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:16:38,548 [INFO] __main__: Queued without images (text reserve): EXCLUSIVE: Burberry Taps Pierce Brosnan, Fiona Shaw and Wu Lei for Festive Campaign - WWD
-2026-11-03 07:16:38,550 [INFO] __main__: Candidate queued: [Google News] EXCLUSIVE: Burberry Taps Pierce Brosnan, Fiona Shaw and Wu Lei for Festive Campaign - WWD
-2026-11-03 07:16:38,645 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMie0FVX3lxTE1yV05qSE14cURmdzQ1cTVLelBJWl9SWFBrVE5rNVQ1WHY4bWJlUlJ5RDJhTGZqMGpaTUdxZGpUa3ZGY2ZtTktsOHRyRjYweGhPZUc2MF9henFLNjR0cDREb2h6ZXRjNjVTU1czY2hDWTZVU01NNmh6MUVDVQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:16:38,790 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMie0FVX3lxTE1yV05qSE14cURmdzQ1cTVLelBJWl9SWFBrVE5rNVQ1WHY4bWJlUlJ5RDJhTGZqMGpaTUdxZGpUa3ZGY2ZtTktsOHRyRjYweGhPZUc2MF9henFLNjR0cDREb2h6ZXRjNjVTU1czY2hDWTZVU01NNmh6MUVDVQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:16:38,836 [INFO] __main__: Queued without images (text reserve): Versace Confirms Pieter Mulier Couture Debut - The Impression
-2026-11-03 07:16:38,838 [INFO] __main__: Candidate queued: [Google News] Versace Confirms Pieter Mulier Couture Debut - The Impression
-2026-11-03 07:16:38,953 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMijAFBVV95cUxPLVhrS010aE1mUkxYeXNiSlUycGtPR0xCeEZsRXZoeFo2bFNZSEJKakVWOTh1WGRHNWZWMWdvSFFQSUMzMUVJU0Vsd28tTmE1dlgxM0RhUGt6aHVHNkV6c1d0LUcxRGVqcWcxRXpRNmw1ZDgyUloyR3d5d3BWc3ROSTdHZ01OV3Z1YXRjZA?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:16:39,032 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMijAFBVV95cUxPLVhrS010aE1mUkxYeXNiSlUycGtPR0xCeEZsRXZoeFo2bFNZSEJKakVWOTh1WGRHNWZWMWdvSFFQSUMzMUVJU0Vsd28tTmE1dlgxM0RhUGt6aHVHNkV6c1d0LUcxRGVqcWcxRXpRNmw1ZDgyUloyR3d5d3BWc3ROSTdHZ01OV3Z1YXRjZA?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:16:39,075 [INFO] __main__: Queued without images (text reserve): Stone Island SS27 Captures Bangkok Day and Night - PAP Magazine
-2026-11-03 07:16:39,076 [INFO] __main__: Candidate queued: [Google News] Stone Island SS27 Captures Bangkok Day and Night - PAP Magazine
-2026-11-03 07:16:39,176 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xYi1VbklxVFJiZ3dxRDVhUm5QSFZaTWl1NzBpNkY1VjNsS0VvTjlfUXo4Sk9NQTE2c1BXa3BxdHJlWDRqdHZJRkItdV8ydw?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:16:39,268 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xYi1VbklxVFJiZ3dxRDVhUm5QSFZaTWl1NzBpNkY1VjNsS0VvTjlfUXo4Sk9NQTE2c1BXa3BxdHJlWDRqdHZJRkItdV8ydw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:16:39,319 [INFO] __main__: Queued without images (text reserve): Versace glasses - Archidiecezja Krakowska
-2026-11-03 07:16:39,321 [INFO] __main__: Candidate queued: [Google News] Versace glasses - Archidiecezja Krakowska
-2026-11-03 07:16:39,326 [INFO] __main__: New candidates this cycle: 15
-2026-11-03 07:16:39,328 [INFO] __main__: Голод: беру текстовый пост из резерва без фото
-2026-11-03 07:16:39,328 [INFO] __main__: Picked for posting: Versace Confirms Pieter Mulier Couture Debut - The Impression
-2026-11-03 07:16:39,346 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-03 07:21:03,978 [WARNING] bot.rewriter: Gemini (gemini-3.8-flash) failed: Server disconnected without sending a response.
-2026-11-03 07:21:23,998 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-03 07:21:27,191 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-11-03 07:21:27,192 [WARNING] bot.rewriter: Gemini (gemini-3.8-flash) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-11-03 07:21:27,192 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-03 07:21:27,283 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
-2026-11-03 07:21:27,284 [WARNING] bot.rewriter: Gemini (gemini-2.5-flash) failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the In
-2026-11-03 07:21:27,284 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-03 07:21:32,001 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-11-03 07:21:32,002 [WARNING] bot.rewriter: Gemini (gemini-flash-latest) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-11-03 07:21:52,023 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-03 07:25:08,522 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-11-03 07:25:08,523 [WARNING] bot.rewriter: Gemini (gemini-flash-latest) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-11-03 07:25:08,523 [WARNING] bot.rewriter: Gemini не справился — пробую запасную нейросеть Groq
-2026-11-03 07:25:08,680 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
-2026-11-03 07:25:08,681 [WARNING] bot.rewriter: Groq (meta-llama/llama-4-maverick-17b-128e-instruct) attempt 1 failed: Client error '404 Not Found' for url 'https://api.groq.com/openai/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-11-03 07:25:08,776 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
-2026-11-03 07:25:08,776 [WARNING] bot.rewriter: Groq (meta-llama/llama-4-scout-17b-16e-instruct) attempt 1 failed: Client error '404 Not Found' for url 'https://api.groq.com/openai/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-11-03 07:25:10,243 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2026-11-03 07:25:10,244 [INFO] bot.rewriter: Пост сгенерирован запасной нейросетью Groq (openai/gpt-oss-120b)
-2026-11-03 07:25:10,373 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMie0FVX3lxTE1yV05qSE14cURmdzQ1cTVLelBJWl9SWFBrVE5rNVQ1WHY4bWJlUlJ5RDJhTGZqMGpaTUdxZGpUa3ZGY2ZtTktsOHRyRjYweGhPZUc2MF9henFLNjR0cDREb2h6ZXRjNjVTU1czY2hDWTZVU01NNmh6MUVDVQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-03 07:25:10,466 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMie0FVX3lxTE1yV05qSE14cURmdzQ1cTVLelBJWl9SWFBrVE5rNVQ1WHY4bWJlUlJ5RDJhTGZqMGpaTUdxZGpUa3ZGY2ZtTktsOHRyRjYweGhPZUc2MF9henFLNjR0cDREb2h6ZXRjNjVTU1czY2hDWTZVU01NNmh6MUVDVQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 07:25:11,732 [INFO] __main__: POSTED (1/5 today): Versace Confirms Pieter Mulier Couture Debut - The Impression
-2026-11-03 07:25:11,984 [INFO] __main__: Cycle done, exiting
+2026-11-03 07:31:49,000 [INFO] bot.sources: Fetched 282 articles from all sources
+2026-11-03 07:31:49,127 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivwFBVV95cUxPM29ObTVyd0NfR05RWVd2dktWYkZmNEdsdGtqNUtsMlIyc0JkdTlaWGwtNG5iSEZfWE1VT2VHOGd0RkNRX1M5b1BOZVZuVW1BZWRRVjhJQks1WkdtdUVicFhYUTVZeXU1dTQ3ay0xT2NhLVh2QnpXYURZYUd1V3pVS0E1aVk4dlhmek5SQ1dfNm9FaV9BMXJiMlZ4SmNqT25UdnRkLWlMSkMzY0ZkWFZCMEhBQ0NLVmlFUzU4al9ONA?oc=5 "HTTP/1.1 302 Found"
+2026-11-03 07:31:49,216 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivwFBVV95cUxPM29ObTVyd0NfR05RWVd2dktWYkZmNEdsdGtqNUtsMlIyc0JkdTlaWGwtNG5iSEZfWE1VT2VHOGd0RkNRX1M5b1BOZVZuVW1BZWRRVjhJQks1WkdtdUVicFhYUTVZeXU1dTQ3ay0xT2NhLVh2QnpXYURZYUd1V3pVS0E1aVk4dlhmek5SQ1dfNm9FaV9BMXJiMlZ4SmNqT25UdnRkLWlMSkMzY0ZkWFZCMEhBQ0NLVmlFUzU4al9ONA?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-03 07:31:49,260 [INFO] __main__: Queued without images (text reserve): Pat Chambers: FGCU basketball let UCF's Dior Johnson 'just crush us' - Florida Today
+2026-11-03 07:31:49,262 [INFO] __main__: Candidate queued: [Google News] Pat Chambers: FGCU basketball let UCF's Dior Johnson 'just crush us' - Florida Today
+2026-11-03 07:31:49,278 [INFO] __main__: New candidates this cycle: 1
+2026-11-03 07:31:49,279 [INFO] __main__: Too soon since last post — waiting
+2026-11-03 07:31:49,279 [INFO] __main__: Cycle done, exiting
