@@ -1,38 +1,116 @@
-2026-11-03 20:55:44,417 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-11-03 20:55:44,431 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-03 20:55:44,463 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-11-03 20:55:44,464 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-11-03 20:55:44,464 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-03 20:55:44,465 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-11-03 20:55:44,466 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-11-03 20:55:44,546 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-11-03 20:55:44,815 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-11-03 20:55:44,835 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 20:55:44,887 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 20:55:44,890 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-11-03 20:55:44,943 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-11-03 20:55:44,973 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-03 20:55:45,103 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-11-03 20:55:45,214 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-11-03 20:55:46,178 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-03 20:55:49,363 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 20:55:54,366 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 20:55:59,370 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 20:56:05,453 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-03 20:56:09,365 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 20:56:14,472 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 20:56:14,473 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-11-04 07:01:12,889 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-11-04 07:01:12,899 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-11-04 07:01:12,971 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-04 07:01:12,972 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-11-04 07:01:12,973 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-11-04 07:01:12,975 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-11-04 07:01:13,052 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-04 07:01:13,056 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-11-04 07:01:13,095 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-11-04 07:01:13,123 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-11-04 07:01:13,442 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-11-04 07:01:13,443 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-11-04 07:01:13,444 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-11-04 07:01:13,564 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:01:13,694 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:01:13,896 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:01:14,295 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-04 07:01:17,842 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-04 07:01:22,846 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-04 07:01:27,845 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-04 07:01:32,845 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-04 07:01:37,846 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-04 07:01:42,945 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-04 07:01:42,946 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-03 20:56:19,427 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 20:56:19,427 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-11-04 07:01:47,907 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-04 07:01:47,907 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-03 20:56:24,428 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 20:56:24,429 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-11-04 07:01:52,905 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-04 07:01:52,906 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-03 20:56:34,481 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-03 20:56:34,481 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+2026-11-04 07:01:57,906 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-04 07:01:57,906 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-03 20:56:34,482 [INFO] bot.sources: Fetched 280 articles from all sources
-2026-11-03 20:56:34,528 [INFO] __main__: New candidates this cycle: 0
-2026-11-03 20:56:34,529 [INFO] __main__: Вне окна постинга (10:00–23:00 Europe/Moscow) — только собираем новости
-2026-11-03 20:56:34,530 [INFO] __main__: Cycle done, exiting
+2026-11-04 07:02:04,421 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-04 07:02:04,460 [INFO] bot.sources: Fetched 279 articles from all sources
+2026-11-04 07:02:04,570 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/p/vaquera-supreme-new-collab-fw26/ "HTTP/1.1 200 OK"
+2026-11-04 07:02:04,615 [INFO] __main__: Candidate queued: [Highsnobiety] Supreme Said, Streetwear Son or Edgy Daughter?
+2026-11-04 07:02:04,731 [INFO] httpx: HTTP Request: GET https://wwd.com/business-news/human-resources/a-cold-wall-joshua-a-bullen-first-designer-in-residence-1239397885/ "HTTP/1.1 200 OK"
+2026-11-04 07:02:04,760 [INFO] __main__: Queued without images (text reserve): A Cold Wall Taps Joshua A. Bullen as Its First Designer in Residence
+2026-11-04 07:02:04,761 [INFO] __main__: Candidate queued: [WWD] A Cold Wall Taps Joshua A. Bullen as Its First Designer in Residence
+2026-11-04 07:02:04,856 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxNUDVfSmRrMVJGVnRHR3ozeDczdWhnRGZpeWVNQXJETWxyOTFHcVQ5czBKTGVObUJ5SVNheE5vRHhtSlo3TUxPanRaQTZLUkRsM1JGckVnSEZsakxFcG1oODd0YThWZzllUF9xaV9TUmNDVEZsN2NZMjdtVS1mR2Q4eHlMaXBvUHY1QWdKNERmMUhXNzRwOThWbW50WXRaUWV6S05welRB?oc=5 "HTTP/1.1 302 Found"
+2026-11-04 07:02:04,974 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxNUDVfSmRrMVJGVnRHR3ozeDczdWhnRGZpeWVNQXJETWxyOTFHcVQ5czBKTGVObUJ5SVNheE5vRHhtSlo3TUxPanRaQTZLUkRsM1JGckVnSEZsakxFcG1oODd0YThWZzllUF9xaV9TUmNDVEZsN2NZMjdtVS1mR2Q4eHlMaXBvUHY1QWdKNERmMUhXNzRwOThWbW50WXRaUWV6S05welRB?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:02:04,990 [INFO] __main__: Queued without images (text reserve): Louis Vuitton Gave Its Tambour Convergence Watch a Mirrored Finish - Robb Report
+2026-11-04 07:02:04,992 [INFO] __main__: Candidate queued: [Google News] Louis Vuitton Gave Its Tambour Convergence Watch a Mirrored Finish - Robb Report
+2026-11-04 07:02:05,190 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdWpicDMwWTBFbWxGdE9mOTU0N1hKeEFIYW9nZDhBRDUyaFY4TmVnenBwOVh4SHFfRlV4UHlnTV9BRlhnTUoweFBQVTRnTzR1ZFBBR3l5UW9ZaWx5WmdBRndNOVVNMnpsa3FoVVN0WGZsQ3REN2JKdGVJLVRjbWp5RE1jd2NFUkNCR3pJbG9vckFGeFZGcUxUdFZGTHRNM1R3LU5NME5pQjg2aGlPQ1RxM1UtbGVtUlE3ZWQ0bEZYcjJ1MzZRVUx0Qw?oc=5 "HTTP/1.1 302 Found"
+2026-11-04 07:02:05,285 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdWpicDMwWTBFbWxGdE9mOTU0N1hKeEFIYW9nZDhBRDUyaFY4TmVnenBwOVh4SHFfRlV4UHlnTV9BRlhnTUoweFBQVTRnTzR1ZFBBR3l5UW9ZaWx5WmdBRndNOVVNMnpsa3FoVVN0WGZsQ3REN2JKdGVJLVRjbWp5RE1jd2NFUkNCR3pJbG9vckFGeFZGcUxUdFZGTHRNM1R3LU5NME5pQjg2aGlPQ1RxM1UtbGVtUlE3ZWQ0bEZYcjJ1MzZRVUx0Qw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:02:05,301 [INFO] __main__: Queued without images (text reserve): Acclaimed Animator Sylvain Chomet Delivers Hand-Drawn Short for Dior's Holiday Campaign - Animation Magazine
+2026-11-04 07:02:05,302 [INFO] __main__: Candidate queued: [Google News] Acclaimed Animator Sylvain Chomet Delivers Hand-Drawn Short for Dior's Holiday Campaign - Animation Magazine
+2026-11-04 07:02:05,397 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxQT2JtVHpIaFV6R2ZEV01Oek1ZdmNwTWVfYlp6c3VDeVY2LUFuNXRRUjVfb2xzem5VYzFrbEtyM2xkZ1U5NU5yTXlPWmt0UXUxRHJKRlQ2eTFPN00yVTBsLUxvaTNpcklnYjJPTGlUU1AxMkVTdEFzb1pVRUhFVTgxWXJNX29FV0JpeS1hT2dQNC1mREE2OFhBZm0yQ25PVGFLbnpiVnRjclB0aUNicWFlb3lwaC1lRnpFUlAzNkt3?oc=5 "HTTP/1.1 302 Found"
+2026-11-04 07:02:05,528 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMivgFBVV95cUxQT2JtVHpIaFV6R2ZEV01Oek1ZdmNwTWVfYlp6c3VDeVY2LUFuNXRRUjVfb2xzem5VYzFrbEtyM2xkZ1U5NU5yTXlPWmt0UXUxRHJKRlQ2eTFPN00yVTBsLUxvaTNpcklnYjJPTGlUU1AxMkVTdEFzb1pVRUhFVTgxWXJNX29FV0JpeS1hT2dQNC1mREE2OFhBZm0yQ25PVGFLbnpiVnRjclB0aUNicWFlb3lwaC1lRnpFUlAzNkt3?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:02:05,544 [INFO] __main__: Queued without images (text reserve): Gucci Blue Silk Tie, featuring a signature monogram pattern blue silk New tags khorasantimes.com - khorasantimes.com
+2026-11-04 07:02:05,546 [INFO] __main__: Candidate queued: [Google News] Gucci Blue Silk Tie, featuring a signature monogram pattern blue silk New tags khorasantimes.com - khorasantimes.com
+2026-11-04 07:02:05,642 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMifkFVX3lxTE9fbGFwN19NWjEwQnBPMDl5VmJ6c2RrelRoYzdTcy1MRXJsYjM5bi1KVWtWZVFDNTVKSlMwYVVSZHBsbDJsbXQ5NHlqal9GTTZzTURKNGRVUV93WHZZN21pRWtTeGJIUG9mQ1V6bjdSc05XVjVOTTBad2M3LWwwZw?oc=5 "HTTP/1.1 302 Found"
+2026-11-04 07:02:05,751 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMifkFVX3lxTE9fbGFwN19NWjEwQnBPMDl5VmJ6c2RrelRoYzdTcy1MRXJsYjM5bi1KVWtWZVFDNTVKSlMwYVVSZHBsbDJsbXQ5NHlqal9GTTZzTURKNGRVUV93WHZZN21pRWtTeGJIUG9mQ1V6bjdSc05XVjVOTTBad2M3LWwwZw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:02:05,766 [INFO] __main__: Queued without images (text reserve): Louis Vuitton’s Tambour Convergence Mirror Steel Makes Polished Steel Tough Enough for Every Day - Haute Time
+2026-11-04 07:02:05,768 [INFO] __main__: Candidate queued: [Google News] Louis Vuitton’s Tambour Convergence Mirror Steel Makes Polished Steel Tough Enough for Every Day - Haute Time
+2026-11-04 07:02:05,869 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUGQxbVgtOHUwZWpQbjEyMnpnM1NXaVhqeVkyaXB5bnFsQlcyRzljS1ZoZHo3MVhySDRXaUNrWjlfeFJEMUxSVDNkT0hpWlpSYjVwamJxem5UQS0xV25WYzhBbU41RGFjVXlPRWtOUDJDcGdTb2pmaW1nc0FzdjZNOGVESU5hNWJiblZQWVJvdzJheHpWd3c0SDlEVTZzOVVwWktnaklqdTVaZ205QUdmeTFibVA3ZFF5T0ZfcVN3S3c2ZHJfaWEwZFZpX0JIbkJFTnM3SkdHS1hUbUFQVlNN?oc=5 "HTTP/1.1 302 Found"
+2026-11-04 07:02:05,998 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUGQxbVgtOHUwZWpQbjEyMnpnM1NXaVhqeVkyaXB5bnFsQlcyRzljS1ZoZHo3MVhySDRXaUNrWjlfeFJEMUxSVDNkT0hpWlpSYjVwamJxem5UQS0xV25WYzhBbU41RGFjVXlPRWtOUDJDcGdTb2pmaW1nc0FzdjZNOGVESU5hNWJiblZQWVJvdzJheHpWd3c0SDlEVTZzOVVwWktnaklqdTVaZ205QUdmeTFibVA3ZFF5T0ZfcVN3S3c2ZHJfaWEwZFZpX0JIbkJFTnM3SkdHS1hUbUFQVlNN?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:02:06,014 [INFO] __main__: Queued without images (text reserve): Dior Johnson, Arturo Dean React to UCF's Thrilling 96-95 Overtime Victory Over FGCU - 247Sports
+2026-11-04 07:02:06,016 [INFO] __main__: Candidate queued: [Google News] Dior Johnson, Arturo Dean React to UCF's Thrilling 96-95 Overtime Victory Over FGCU - 247Sports
+2026-11-04 07:02:06,113 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihgFBVV95cUxPd3pqUGgxVDJjcGlCQ0luMUJMWTM4TTBtb2VPZzNhbkZUVEtyNk9UajdOc1JydTFQQW5fVkJjMm1xeGl1bDlkclhnY3paTU0xQ2ZJYkE1NWpnRTNHNHNqSDV6R2NzY0VmUDdWdkE5YXJFeHl1cC1xcHNCV3Z2OGMwdTNSRVd3UQ?oc=5 "HTTP/1.1 302 Found"
+2026-11-04 07:02:06,232 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihgFBVV95cUxPd3pqUGgxVDJjcGlCQ0luMUJMWTM4TTBtb2VPZzNhbkZUVEtyNk9UajdOc1JydTFQQW5fVkJjMm1xeGl1bDlkclhnY3paTU0xQ2ZJYkE1NWpnRTNHNHNqSDV6R2NzY0VmUDdWdkE5YXJFeHl1cC1xcHNCV3Z2OGMwdTNSRVd3UQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:02:06,248 [INFO] __main__: Queued without images (text reserve): Inside Dior’s Private Screening of Ron Howard’s “Avedon” - WWD
+2026-11-04 07:02:06,250 [INFO] __main__: Candidate queued: [Google News] Inside Dior’s Private Screening of Ron Howard’s “Avedon” - WWD
+2026-11-04 07:02:06,347 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi1wFBVV95cUxQelhwUWR1UnZHTUgtOU4yQnNWdXhGV0swOHdsdlZMWE5CYzVwOVJCeVN5ajZXREc2X294R3B3UUFBQ0ZBSUFGaU5aZ0xLWFFyaGY3OXVhWVNVQWd2M0Jha0pVcmVfNUJvNUw0blZQS0dLdnZ5Z0xNdEpMS19SZWhHLVllWHFXMnMxNHg2SWtUdU1xeklPMFpGQnV6Y0dERl84UFd2Njh3STI5eFlEcW5yZ2FYSU9SbExOUVFUMU1jRXZkTTBKTE5EdkptNlZXeEZ0dXowZUNZOA?oc=5 "HTTP/1.1 302 Found"
+2026-11-04 07:02:06,476 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi1wFBVV95cUxQelhwUWR1UnZHTUgtOU4yQnNWdXhGV0swOHdsdlZMWE5CYzVwOVJCeVN5ajZXREc2X294R3B3UUFBQ0ZBSUFGaU5aZ0xLWFFyaGY3OXVhWVNVQWd2M0Jha0pVcmVfNUJvNUw0blZQS0dLdnZ5Z0xNdEpMS19SZWhHLVllWHFXMnMxNHg2SWtUdU1xeklPMFpGQnV6Y0dERl84UFd2Njh3STI5eFlEcW5yZ2FYSU9SbExOUVFUMU1jRXZkTTBKTE5EdkptNlZXeEZ0dXowZUNZOA?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:02:06,493 [INFO] __main__: Queued without images (text reserve): Dior and Harper’s Bazaar Hosted a Los Angeles Soirée Celebrating Richard Avedon’s Legacy - Harper's BAZAAR
+2026-11-04 07:02:06,494 [INFO] __main__: Candidate queued: [Google News] Dior and Harper’s Bazaar Hosted a Los Angeles Soirée Celebrating Richard Avedon’s Legacy - Harper's BAZAAR
+2026-11-04 07:02:06,590 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wQno5RjlyNm1SRzVpV290bE1JQjM3ajVTUjRHT3lzeTRYcEZITndHS2hiQlAxWExaRlVCcVpla3JwZzE5RHBERnliVEpJTXJOek81enlmbFVEVG0wNldTVy1TT1lLSXIz?oc=5 "HTTP/1.1 302 Found"
+2026-11-04 07:02:06,719 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wQno5RjlyNm1SRzVpV290bE1JQjM3ajVTUjRHT3lzeTRYcEZITndHS2hiQlAxWExaRlVCcVpla3JwZzE5RHBERnliVEpJTXJOek81enlmbFVEVG0wNldTVy1TT1lLSXIz?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:02:06,735 [INFO] __main__: Queued without images (text reserve): Louis Vuitton names brand chief amid Molly Tea dispute - ContentGrip
+2026-11-04 07:02:06,737 [INFO] __main__: Candidate queued: [Google News] Louis Vuitton names brand chief amid Molly Tea dispute - ContentGrip
+2026-11-04 07:02:06,934 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxOU00zMk9wWWZFWERBSTI5R2JwYzhUUmlDT2Z0dVh0UEE3bF9UcjBUdVNjWUpvSW5vQURDVnA0dzVyZVF2STg3dFlyTkdzVXhwZlhiX0U5bUdNSHZ6MzBGbi1KazF4NFViRlBUaUNGQWN3T0o4TXZhLWlHYklFNWlENllaVWxMaGxRN2NtY0JkQlhPTld5bHl0OHNqV3RPZUk?oc=5 "HTTP/1.1 302 Found"
+2026-11-04 07:02:07,008 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxOU00zMk9wWWZFWERBSTI5R2JwYzhUUmlDT2Z0dVh0UEE3bF9UcjBUdVNjWUpvSW5vQURDVnA0dzVyZVF2STg3dFlyTkdzVXhwZlhiX0U5bUdNSHZ6MzBGbi1KazF4NFViRlBUaUNGQWN3T0o4TXZhLWlHYklFNWlENllaVWxMaGxRN2NtY0JkQlhPTld5bHl0OHNqV3RPZUk?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:02:07,023 [INFO] __main__: Queued without images (text reserve): Every Rick Owens Sneaker You Should Know: A Complete Ranking - Jewish Post and News
+2026-11-04 07:02:07,025 [INFO] __main__: Candidate queued: [Google News] Every Rick Owens Sneaker You Should Know: A Complete Ranking - Jewish Post and News
+2026-11-04 07:02:07,229 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiU0FVX3lxTE5hYk5FdlQtZ2ItTnRaeUdjWl9zeFRzSFllTVV2ZlZNb25LV3NsRkNvVTRVM0d6dzZzbi1feE5jSDFQM1dGZmh1Rjc5UHN2YU9OMy04?oc=5 "HTTP/1.1 302 Found"
+2026-11-04 07:02:07,322 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiU0FVX3lxTE5hYk5FdlQtZ2ItTnRaeUdjWl9zeFRzSFllTVV2ZlZNb25LV3NsRkNvVTRVM0d6dzZzbi1feE5jSDFQM1dGZmh1Rjc5UHN2YU9OMy04?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:02:07,338 [INFO] __main__: Queued without images (text reserve): Burberry Bath Oil - Burberry PESTLE Analysis 6 Factors Impacting the Luxury Fashion Brand - auroradesio.it
+2026-11-04 07:02:07,340 [INFO] __main__: Candidate queued: [Google News] Burberry Bath Oil - Burberry PESTLE Analysis 6 Factors Impacting the Luxury Fashion Brand - auroradesio.it
+2026-11-04 07:02:07,450 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiygFBVV95cUxPX05IcUdMS2N2b0szSS1yYTRaRlMxNVk0RlpnakVrSnF6UHltMzZuQWRyZktQMHhmVzhOU3liZ205VEIwcGVHWURmWVRaRkFlRzFsWEpiLVZ2VW9vNjIyamZjMDhfbE9vM3BoSEhMRWVVMTNMN2VDbWFwYXEwNkk1R1REemxCblMtSkI2MUtyQjMxamVmNC05ZnMyLVJHX1U1elRaUXlpV3B2R19uVXRzaUl0SmUwWWdGMmt4bHJ4TkIyTFl5OEpxWk13?oc=5 "HTTP/1.1 302 Found"
+2026-11-04 07:02:07,575 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiygFBVV95cUxPX05IcUdMS2N2b0szSS1yYTRaRlMxNVk0RlpnakVrSnF6UHltMzZuQWRyZktQMHhmVzhOU3liZ205VEIwcGVHWURmWVRaRkFlRzFsWEpiLVZ2VW9vNjIyamZjMDhfbE9vM3BoSEhMRWVVMTNMN2VDbWFwYXEwNkk1R1REemxCblMtSkI2MUtyQjMxamVmNC05ZnMyLVJHX1U1elRaUXlpV3B2R19uVXRzaUl0SmUwWWdGMmt4bHJ4TkIyTFl5OEpxWk13?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:02:07,591 [INFO] __main__: Queued without images (text reserve): Pierce Brosnan and Fiona Shaw throw lavish Christmas party for Burberry campaign - London Evening Standard
+2026-11-04 07:02:07,592 [INFO] __main__: Candidate queued: [Google News] Pierce Brosnan and Fiona Shaw throw lavish Christmas party for Burberry campaign - London Evening Standard
+2026-11-04 07:02:07,594 [INFO] __main__: New candidates this cycle: 13
+2026-11-04 07:02:07,595 [INFO] __main__: Голод: беру текстовый пост из резерва без фото
+2026-11-04 07:02:07,596 [INFO] __main__: Picked for posting: Pierce Brosnan and Fiona Shaw throw lavish Christmas party for Burberry campaign - London Evening Standard
+2026-11-04 07:02:07,614 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-04 07:03:05,734 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-04 07:03:05,736 [WARNING] bot.rewriter: Gemini (gemini-3.8-flash) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-11-04 07:03:25,754 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-04 07:04:30,935 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-04 07:04:30,936 [WARNING] bot.rewriter: Gemini (gemini-3.8-flash) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-11-04 07:04:30,936 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-04 07:04:31,045 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-04 07:04:31,046 [WARNING] bot.rewriter: Gemini (gemini-2.5-flash) failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the In
+2026-11-04 07:04:31,046 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-04 07:04:34,881 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-04 07:04:34,882 [WARNING] bot.rewriter: Gemini (gemini-flash-latest) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-11-04 07:04:54,899 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-04 07:05:02,936 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-04 07:05:02,937 [WARNING] bot.rewriter: Gemini (gemini-flash-latest) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-11-04 07:05:02,937 [WARNING] bot.rewriter: Gemini не справился — пробую запасную нейросеть Groq
+2026-11-04 07:05:03,092 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-11-04 07:05:03,092 [WARNING] bot.rewriter: Groq (meta-llama/llama-4-maverick-17b-128e-instruct) attempt 1 failed: Client error '404 Not Found' for url 'https://api.groq.com/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-04 07:05:03,229 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-11-04 07:05:03,230 [WARNING] bot.rewriter: Groq (meta-llama/llama-4-scout-17b-16e-instruct) attempt 1 failed: Client error '404 Not Found' for url 'https://api.groq.com/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-04 07:05:04,419 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-04 07:05:04,420 [INFO] bot.rewriter: Пост сгенерирован запасной нейросетью Groq (openai/gpt-oss-120b)
+2026-11-04 07:05:04,512 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiygFBVV95cUxPX05IcUdMS2N2b0szSS1yYTRaRlMxNVk0RlpnakVrSnF6UHltMzZuQWRyZktQMHhmVzhOU3liZ205VEIwcGVHWURmWVRaRkFlRzFsWEpiLVZ2VW9vNjIyamZjMDhfbE9vM3BoSEhMRWVVMTNMN2VDbWFwYXEwNkk1R1REemxCblMtSkI2MUtyQjMxamVmNC05ZnMyLVJHX1U1elRaUXlpV3B2R19uVXRzaUl0SmUwWWdGMmt4bHJ4TkIyTFl5OEpxWk13?oc=5 "HTTP/1.1 302 Found"
+2026-11-04 07:05:04,649 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiygFBVV95cUxPX05IcUdMS2N2b0szSS1yYTRaRlMxNVk0RlpnakVrSnF6UHltMzZuQWRyZktQMHhmVzhOU3liZ205VEIwcGVHWURmWVRaRkFlRzFsWEpiLVZ2VW9vNjIyamZjMDhfbE9vM3BoSEhMRWVVMTNMN2VDbWFwYXEwNkk1R1REemxCblMtSkI2MUtyQjMxamVmNC05ZnMyLVJHX1U1elRaUXlpV3B2R19uVXRzaUl0SmUwWWdGMmt4bHJ4TkIyTFl5OEpxWk13?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-04 07:05:05,760 [INFO] __main__: POSTED (1/5 today): Pierce Brosnan and Fiona Shaw throw lavish Christmas party for Burberry campaign - London Evening Standard
+2026-11-04 07:05:06,012 [INFO] __main__: Cycle done, exiting
