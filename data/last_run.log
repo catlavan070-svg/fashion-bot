@@ -1,58 +1,52 @@
-2026-11-05 17:45:43,274 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-05 17:45:43,312 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-11-05 17:45:43,335 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-11-05 17:45:43,370 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-11-05 17:45:43,401 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-11-05 17:45:43,405 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-11-05 17:45:43,416 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-05 17:45:43,428 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-11-05 17:45:43,708 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-11-05 17:45:43,709 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-11-05 17:45:43,711 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-11-05 17:45:43,712 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-11-05 17:45:43,843 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-05 17:45:43,938 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-05 17:45:44,075 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-05 17:45:44,159 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-11-05 17:45:44,675 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-05 17:45:48,323 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-05 17:45:53,327 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-05 17:45:58,324 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-05 17:46:04,312 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-05 17:46:08,322 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-05 17:46:13,455 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-05 17:46:13,455 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-11-05 18:01:15,113 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-05 18:01:15,163 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-11-05 18:01:15,164 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-11-05 18:01:15,168 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-11-05 18:01:15,169 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-11-05 18:01:15,170 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-11-05 18:01:15,237 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-05 18:01:15,282 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-11-05 18:01:15,304 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-11-05 18:01:15,305 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-11-05 18:01:15,619 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-11-05 18:01:15,620 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-11-05 18:01:15,717 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-05 18:01:15,719 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-05 18:01:15,813 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-05 18:01:16,599 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-05 18:01:16,687 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-11-05 18:01:20,056 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-05 18:01:25,061 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-05 18:01:30,059 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-05 18:01:35,058 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-05 18:01:40,059 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-05 18:01:45,163 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-05 18:01:45,163 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-05 17:46:18,409 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-05 17:46:18,409 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-11-05 18:01:50,120 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-05 18:01:50,121 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-05 17:46:23,407 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-05 17:46:23,408 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-11-05 18:01:55,116 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-05 18:01:55,117 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-05 17:46:33,438 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-05 17:46:33,439 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+2026-11-05 18:02:01,275 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-05 18:02:05,118 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-05 18:02:05,119 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-05 17:46:33,439 [INFO] bot.sources: Fetched 272 articles from all sources
-2026-11-05 17:46:33,572 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisgFBVV95cUxOa05PelFJYkJvQURRaWFhc0xORGVMWFFtd2kwWlJHM3NqdXcwME1yX3RTNWNBV0I5cVRLdWlBQU5rTjNHUm9IcnJZWUloaHZ4MkVIcTY3SVp4V085XzVpSUtUWDlHeE80VUNyTkJkR3FEajNjeW1Fb01mdW1ZVW84Ty1xODBZVWNRU09aU01KZno1cFdsTFNkNXNpTEQwMU9KTjlkeVJzNjRWVkFtc0p1cXp3?oc=5 "HTTP/1.1 302 Found"
-2026-11-05 17:46:33,686 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisgFBVV95cUxOa05PelFJYkJvQURRaWFhc0xORGVMWFFtd2kwWlJHM3NqdXcwME1yX3RTNWNBV0I5cVRLdWlBQU5rTjNHUm9IcnJZWUloaHZ4MkVIcTY3SVp4V085XzVpSUtUWDlHeE80VUNyTkJkR3FEajNjeW1Fb01mdW1ZVW84Ty1xODBZVWNRU09aU01KZno1cFdsTFNkNXNpTEQwMU9KTjlkeVJzNjRWVkFtc0p1cXp3?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-05 17:46:33,701 [INFO] __main__: Queued without images (text reserve): Kering Furthers Creative Overhaul With Balenciaga Design Chief Exit - WSJ
-2026-11-05 17:46:33,845 [INFO] __main__: Candidate queued: [Google News] Kering Furthers Creative Overhaul With Balenciaga Design Chief Exit - WSJ
-2026-11-05 17:46:33,960 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMidkFVX3lxTE52NWRGcHd4UUVoeFpSTUE0TG0wdFg5dEM5QTdURk9hNHZQeVFvWUhva3hOZGZkeVAxdDFhajkyYTJ3X1FoZXhWTHFVLURzMjAzYjdEdW9GQWhPR3lOTENLOGdsN0VUQ1RqcElJNW03aDg0VjF5MlE?oc=5 "HTTP/1.1 302 Found"
-2026-11-05 17:46:34,098 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMidkFVX3lxTE52NWRGcHd4UUVoeFpSTUE0TG0wdFg5dEM5QTdURk9hNHZQeVFvWUhva3hOZGZkeVAxdDFhajkyYTJ3X1FoZXhWTHFVLURzMjAzYjdEdW9GQWhPR3lOTENLOGdsN0VUQ1RqcElJNW03aDg0VjF5MlE?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-05 17:46:34,125 [INFO] __main__: Queued without images (text reserve): Louis Vuitton Holiday 2026 Campaign: Five Minutes Before the Grand Departure - dscene magazine
-2026-11-05 17:46:34,134 [INFO] __main__: Candidate queued: [Google News] Louis Vuitton Holiday 2026 Campaign: Five Minutes Before the Grand Departure - dscene magazine
-2026-11-05 17:46:34,258 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxQanZpdEF4MHB5RW5pTTdidUs5YkxGZThzbTFxdHFNWVVYLS13MnFBdXFSMGtjRDVvbks4YnlpZkN3RmZSZmlaNUkzTEZfeUIwZU9tbEhTOERhUUN6OEl5bFhva3pSQldJNF9Camk4SWkwTlR5ZGFkN2pGWFJEekxzeGJRX0lfSm8wYllvWFBFeFEzQU95Q1hfUlpody1WclNaaEFxZVBsa3l5eGV1Z0dKSg?oc=5 "HTTP/1.1 302 Found"
-2026-11-05 17:46:34,402 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxQanZpdEF4MHB5RW5pTTdidUs5YkxGZThzbTFxdHFNWVVYLS13MnFBdXFSMGtjRDVvbks4YnlpZkN3RmZSZmlaNUkzTEZfeUIwZU9tbEhTOERhUUN6OEl5bFhva3pSQldJNF9Camk4SWkwTlR5ZGFkN2pGWFJEekxzeGJRX0lfSm8wYllvWFBFeFEzQU95Q1hfUlpody1WclNaaEFxZVBsa3l5eGV1Z0dKSg?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-05 17:46:34,431 [INFO] __main__: Queued without images (text reserve): Pierpaolo Piccioli Steps Down as Creative Director of Balenciaga - Hypebeast
-2026-11-05 17:46:34,432 [INFO] __main__: Candidate queued: [Google News] Pierpaolo Piccioli Steps Down as Creative Director of Balenciaga - Hypebeast
-2026-11-05 17:46:34,546 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxOcXpIdlFDX3d4bGdLT3VXTlpfUnlaZWxhLWNfaWJJdGprZ1hJbnNacF9QLVpuc1E5RmtTaFlpVEhNdnFVdERaYkFtdGdHdHJfWTFmVUxwMVVTQlNEcTVXdnhDWHViLTlxa0IwNFlmcmFCM1I4cU5tMzI5aEhxUzh0blRCdEM?oc=5 "HTTP/1.1 302 Found"
-2026-11-05 17:46:34,645 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxOcXpIdlFDX3d4bGdLT3VXTlpfUnlaZWxhLWNfaWJJdGprZ1hJbnNacF9QLVpuc1E5RmtTaFlpVEhNdnFVdERaYkFtdGdHdHJfWTFmVUxwMVVTQlNEcTVXdnhDWHViLTlxa0IwNFlmcmFCM1I4cU5tMzI5aEhxUzh0blRCdEM?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-05 17:46:34,669 [INFO] __main__: Queued without images (text reserve): Pierpaolo Piccioli Leaves Balenciaga: De Meo Continues Kering's Reset - nss magazine
-2026-11-05 17:46:34,679 [INFO] __main__: Candidate queued: [Google News] Pierpaolo Piccioli Leaves Balenciaga: De Meo Continues Kering's Reset - nss magazine
-2026-11-05 17:46:34,910 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUmhZYkVQbWw4UFFHYnNBQ1htVHdxY2hNR3hPcFlKLU0wN3FIWlh0TXBzQnpIUklrekcwUTI1b2tPdHhqVml5VW1CQnJ5OFY5d2RYbmE0N2Nya3hycTlfWGVINU1IN1pwb1pDdnc1SDVFMjNFd3pvTDBjNm1FbFNxblRycUJzRkJFd3U0S0lVaWVqVkJ3azJyc2twclA4bmpwT2lHYmZ1ZjNsc1FHZnFibU9GZWdPUzJsNUF0bmlnUmFlTENOS0x2am1yR1pzbG40NTJNdHpwcXN1QQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-05 17:46:34,987 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUmhZYkVQbWw4UFFHYnNBQ1htVHdxY2hNR3hPcFlKLU0wN3FIWlh0TXBzQnpIUklrekcwUTI1b2tPdHhqVml5VW1CQnJ5OFY5d2RYbmE0N2Nya3hycTlfWGVINU1IN1pwb1pDdnc1SDVFMjNFd3pvTDBjNm1FbFNxblRycUJzRkJFd3U0S0lVaWVqVkJ3azJyc2twclA4bmpwT2lHYmZ1ZjNsc1FHZnFibU9GZWdPUzJsNUF0bmlnUmFlTENOS0x2am1yR1pzbG40NTJNdHpwcXN1QQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-05 17:46:35,015 [INFO] __main__: Queued without images (text reserve): Xinge Wang Leads Digital Marketing for TA Factory’s Gold-Winning Maison Margiela Fragrances Campaign - EIN News
-2026-11-05 17:46:35,018 [INFO] __main__: Candidate queued: [Google News] Xinge Wang Leads Digital Marketing for TA Factory’s Gold-Winning Maison Margiela Fragrances Campaign - EIN News
-2026-11-05 17:46:35,022 [INFO] __main__: New candidates this cycle: 5
-2026-11-05 17:46:35,027 [INFO] __main__: Too soon since last post — waiting
-2026-11-05 17:46:35,029 [INFO] __main__: Cycle done, exiting
+2026-11-05 18:02:05,119 [INFO] bot.sources: Fetched 272 articles from all sources
+2026-11-05 18:02:05,125 [INFO] __main__: Candidate queued: [Hypebeast] Pierpaolo Piccioli Steps Down as Creative Director of Balenciaga
+2026-11-05 18:02:05,244 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdXJia24yVUZWWXdPSXQ5aHIwRXhQQnM2WUZRa2xDRHJLQ1B1UU9CcWtIVmM1RGZET0RaQ0pyeHRWZ0psT2J3bkZ5SDZHY1piY05xMHJsSFFPa3hEaUJGc1VSOHpSN2p5UlRWR1Z2RS1zdnV1QWlaX3VOSF91dk9UbTdHSERURVJaWmVwb21PLTB3d1VKZzFDNW8zQVhsdzJFbjUwVGNhaVIwd3VraEo5MHNoMHRJQ3lmVGctSklSZkRjUGwtQy1IZQ?oc=5 "HTTP/1.1 302 Found"
+2026-11-05 18:02:05,316 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdXJia24yVUZWWXdPSXQ5aHIwRXhQQnM2WUZRa2xDRHJLQ1B1UU9CcWtIVmM1RGZET0RaQ0pyeHRWZ0psT2J3bkZ5SDZHY1piY05xMHJsSFFPa3hEaUJGc1VSOHpSN2p5UlRWR1Z2RS1zdnV1QWlaX3VOSF91dk9UbTdHSERURVJaWmVwb21PLTB3d1VKZzFDNW8zQVhsdzJFbjUwVGNhaVIwd3VraEo5MHNoMHRJQ3lmVGctSklSZkRjUGwtQy1IZQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-05 18:02:05,345 [INFO] __main__: Queued without images (text reserve): Balenciaga designer Piccioli to exit after a year in latest departure at Kering - Reuters
+2026-11-05 18:02:05,347 [INFO] __main__: Candidate queued: [Google News] Balenciaga designer Piccioli to exit after a year in latest departure at Kering - Reuters
+2026-11-05 18:02:05,439 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMie0FVX3lxTE1HZ081dERzV1k1LUZjcFA0TGozYzk3T29fWGVaZFJXNXRkbnA4QmhXNGUwaWxlSEJRSS1jd01fcDNhdFVaNmRacHpRa19LMDZrbjQ2N3lqOE8zdFhQQXhtbjhFbVZSY2RObi13dnlrT0VlVm9jUHVyV3NKSQ?oc=5 "HTTP/1.1 302 Found"
+2026-11-05 18:02:05,508 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMie0FVX3lxTE1HZ081dERzV1k1LUZjcFA0TGozYzk3T29fWGVaZFJXNXRkbnA4QmhXNGUwaWxlSEJRSS1jd01fcDNhdFVaNmRacHpRa19LMDZrbjQ2N3lqOE8zdFhQQXhtbjhFbVZSY2RObi13dnlrT0VlVm9jUHVyV3NKSQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-05 18:02:05,533 [INFO] __main__: Queued without images (text reserve): Pierpaolo Piccioli Is Out At Balenciaga — Here's Who May Be Next - The Zoe Report
+2026-11-05 18:02:05,536 [INFO] __main__: Candidate queued: [Google News] Pierpaolo Piccioli Is Out At Balenciaga — Here's Who May Be Next - The Zoe Report
+2026-11-05 18:02:05,611 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxOSzd5eU1KeGNPWjkxeEJTOTQzeWV1WVl1cmhiQUJDaVIycS05LW45dTFKNVNBWGNDUmZBR3dVM3JVeDNlZ250YjRXRmZORTNGSVU0cUpEQmlKay1BaE43U01lVTY4MUd5WVdJUXN4ck45b3RPNnN0VktEMW9pMWdiemNObzNNMTluX19zLWt0SmhTMWF6OWdGRWNSd3lUOEJE?oc=5 "HTTP/1.1 302 Found"
+2026-11-05 18:02:05,682 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxOSzd5eU1KeGNPWjkxeEJTOTQzeWV1WVl1cmhiQUJDaVIycS05LW45dTFKNVNBWGNDUmZBR3dVM3JVeDNlZ250YjRXRmZORTNGSVU0cUpEQmlKay1BaE43U01lVTY4MUd5WVdJUXN4ck45b3RPNnN0VktEMW9pMWdiemNObzNNMTluX19zLWt0SmhTMWF6OWdGRWNSd3lUOEJE?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-05 18:02:05,702 [INFO] __main__: Queued without images (text reserve): Interparfums, Inc. to launch new Off-White, Longchamp fragrances in 2027 - Glossy
+2026-11-05 18:02:05,704 [INFO] __main__: Candidate queued: [Google News] Interparfums, Inc. to launch new Off-White, Longchamp fragrances in 2027 - Glossy
+2026-11-05 18:02:05,714 [INFO] __main__: New candidates this cycle: 4
+2026-11-05 18:02:05,723 [INFO] __main__: Too soon since last post — waiting
+2026-11-05 18:02:05,734 [INFO] __main__: Cycle done, exiting
