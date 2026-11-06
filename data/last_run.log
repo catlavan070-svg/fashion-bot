@@ -1,55 +1,42 @@
-2026-11-06 08:01:13,617 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-11-06 08:01:13,686 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-11-06 08:01:13,686 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-06 08:01:13,688 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-11-06 08:01:13,694 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-11-06 08:01:13,763 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-06 08:01:13,781 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-11-06 08:01:13,790 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-11-06 08:01:13,797 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-11-06 08:01:13,825 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-11-06 08:01:14,008 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-11-06 08:01:14,010 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-11-06 08:01:14,011 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-11-06 08:01:14,150 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-06 08:01:14,206 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-06 08:01:14,208 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-06 08:01:14,953 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-06 08:01:18,569 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-06 08:01:23,568 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-06 08:01:28,567 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-06 08:01:33,563 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-06 08:01:38,567 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-06 08:01:43,656 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-06 08:01:43,656 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-11-06 08:15:46,072 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-11-06 08:15:46,073 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-11-06 08:15:46,074 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-06 08:15:46,149 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-11-06 08:15:46,151 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-11-06 08:15:46,239 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-11-06 08:15:46,248 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-06 08:15:46,263 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-11-06 08:15:46,279 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-11-06 08:15:46,353 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-11-06 08:15:46,370 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-11-06 08:15:46,528 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-11-06 08:15:46,529 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-11-06 08:15:46,634 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-06 08:15:46,635 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-06 08:15:46,637 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-06 08:15:47,476 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-06 08:15:50,921 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-06 08:15:55,923 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-06 08:16:02,438 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-06 08:16:05,919 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-06 08:16:10,921 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-06 08:16:16,045 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-06 08:16:16,045 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-06 08:01:48,644 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-06 08:01:48,645 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-11-06 08:16:20,989 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-06 08:16:20,989 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-06 08:01:53,649 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-06 08:01:53,649 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-11-06 08:16:31,058 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-06 08:16:31,058 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-06 08:01:58,639 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-06 08:01:58,639 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-11-06 08:16:36,055 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-06 08:16:36,055 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-06 08:02:04,924 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-06 08:02:05,027 [INFO] bot.sources: Fetched 274 articles from all sources
-2026-11-06 08:02:05,135 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxObXlPYlpkT0Q4OVRLcFp3ZWdybHZQNFk5aTlmcl9ZbVhwUmVDYmZaR0JZRWxzMDI3Nnlzel9QNlBEdWpYRUdhYzFTQVBuenZfeG1qb3RpNXp1T0I0Y283QndtNWJqUXRERFduc3diMW83T1BBbkNOay1qcXpmeHBjMkh2eHZwQkRfV1FDbVVtVThwMkRzSEVtdlM2Nk9TZGY1X0FwZXdmc1RObmt5bWtkVWdNdG0?oc=5 "HTTP/1.1 302 Found"
-2026-11-06 08:02:05,198 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitAFBVV95cUxObXlPYlpkT0Q4OVRLcFp3ZWdybHZQNFk5aTlmcl9ZbVhwUmVDYmZaR0JZRWxzMDI3Nnlzel9QNlBEdWpYRUdhYzFTQVBuenZfeG1qb3RpNXp1T0I0Y283QndtNWJqUXRERFduc3diMW83T1BBbkNOay1qcXpmeHBjMkh2eHZwQkRfV1FDbVVtVThwMkRzSEVtdlM2Nk9TZGY1X0FwZXdmc1RObmt5bWtkVWdNdG0?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-06 08:02:05,212 [INFO] __main__: Queued without images (text reserve): Martine Rose Named Creative Director of Balenciaga - Yahoo
-2026-11-06 08:02:05,214 [INFO] __main__: Candidate queued: [Google News] Martine Rose Named Creative Director of Balenciaga - Yahoo
-2026-11-06 08:02:05,285 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMijgFBVV95cUxOVUhWbG0yczZ6MTN2TndBSkh4QVVLcVpRUW5WemtfV0ZZbG5ZMFRUa2hNOS1fTkZWUVo3azhXeVlKNEMtVV9sSkxGblptTUN0MFluVVhwMzIwX2ZaUnY0dVpBREhQSGR1NldvR1V6QnhydC0tWDYyWnRSQ2R0YTlBZC12cm56ak1uQnotQV93?oc=5 "HTTP/1.1 302 Found"
-2026-11-06 08:02:05,354 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMijgFBVV95cUxOVUhWbG0yczZ6MTN2TndBSkh4QVVLcVpRUW5WemtfV0ZZbG5ZMFRUa2hNOS1fTkZWUVo3azhXeVlKNEMtVV9sSkxGblptTUN0MFluVVhwMzIwX2ZaUnY0dVpBREhQSGR1NldvR1V6QnhydC0tWDYyWnRSQ2R0YTlBZC12cm56ak1uQnotQV93?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-06 08:02:05,409 [INFO] __main__: Queued without images (text reserve): Martine Rose Is the New Creative Director of Balenciaga - Vogue
-2026-11-06 08:02:05,410 [INFO] __main__: Candidate queued: [Google News] Martine Rose Is the New Creative Director of Balenciaga - Vogue
-2026-11-06 08:02:05,477 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41V0h6aUJwMzNhVGdodl9NOFBBMHJucFhNazRCZXpjcktZOTRlUzNBcGtpV05QUzF5TFlYZWczNFpIbDBTVTU2NXJtUzkzUjhsUXZndnJWVnB3eW9sWDNWN2o2b1BLanM?oc=5 "HTTP/1.1 302 Found"
-2026-11-06 08:02:05,544 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41V0h6aUJwMzNhVGdodl9NOFBBMHJucFhNazRCZXpjcktZOTRlUzNBcGtpV05QUzF5TFlYZWczNFpIbDBTVTU2NXJtUzkzUjhsUXZndnJWVnB3eW9sWDNWN2o2b1BLanM?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-06 08:02:05,553 [INFO] __main__: Queued without images (text reserve): BREAKING: Martine Rose Named Balenciaga’s Creative Director - 10 Magazine
-2026-11-06 08:02:05,555 [INFO] __main__: Candidate queued: [Google News] BREAKING: Martine Rose Named Balenciaga’s Creative Director - 10 Magazine
-2026-11-06 08:02:05,639 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbW5mSjBWcVlOZTdOSmg3S2ItMjQxZHd0a2NrM0h6NGctSVhIclJwSVlTM0h6QTRfUy1JOExqWFVxY25IcWdIQkdzR2FidWR6c21qWUc5YnhsN3RFVm8ycUpJdmhRczVoNi1Da1BhVXZPU05UcFVVcmNGZ0xfZFFob1JieE5KOUtkT3FiR201QUcxS1d3ajlpREt6cDYwWXRCU3VZXzk5N3dLRkQzSnhiQm9DeDJ5ZXlsLXBNNS1fOWpNUQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-06 08:02:05,709 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbW5mSjBWcVlOZTdOSmg3S2ItMjQxZHd0a2NrM0h6NGctSVhIclJwSVlTM0h6QTRfUy1JOExqWFVxY25IcWdIQkdzR2FidWR6c21qWUc5YnhsN3RFVm8ycUpJdmhRczVoNi1Da1BhVXZPU05UcFVVcmNGZ0xfZFFob1JieE5KOUtkT3FiR201QUcxS1d3ajlpREt6cDYwWXRCU3VZXzk5N3dLRkQzSnhiQm9DeDJ5ZXlsLXBNNS1fOWpNUQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-06 08:02:05,718 [INFO] __main__: Queued without images (text reserve): Supreme Strikes Official Licensing Deal With New York City - Hypebeast
-2026-11-06 08:02:05,719 [INFO] __main__: Candidate queued: [Google News] Supreme Strikes Official Licensing Deal With New York City - Hypebeast
-2026-11-06 08:02:05,730 [INFO] __main__: New candidates this cycle: 4
-2026-11-06 08:02:05,738 [INFO] __main__: Too soon since last post — waiting
-2026-11-06 08:02:05,739 [INFO] __main__: Cycle done, exiting
+2026-11-06 08:16:36,055 [INFO] bot.sources: Fetched 273 articles from all sources
+2026-11-06 08:16:36,189 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb0ZjbjJ4TS14SUY0WkV6U0FfQl9xVGFHbjFfSTBYWEJOejg4YlhITElNV0pGMVRoNzRGMFVYVmMydlRYcnk0UWppZVpPaWk1MTZ5RE5Mam9lamtpVzZFamV3R0lhcTNJWk44bHdjdFc2Yy1FLUhkT1ZtNzQtbzdueTZDVk1tZ05rb2RiUVI4VUViWDJzdjJrT21rT1VJTzFyakdaYVY4TUs?oc=5 "HTTP/1.1 302 Found"
+2026-11-06 08:16:36,271 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb0ZjbjJ4TS14SUY0WkV6U0FfQl9xVGFHbjFfSTBYWEJOejg4YlhITElNV0pGMVRoNzRGMFVYVmMydlRYcnk0UWppZVpPaWk1MTZ5RE5Mam9lamtpVzZFamV3R0lhcTNJWk44bHdjdFc2Yy1FLUhkT1ZtNzQtbzdueTZDVk1tZ05rb2RiUVI4VUViWDJzdjJrT21rT1VJTzFyakdaYVY4TUs?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-06 08:16:36,287 [INFO] __main__: Queued without images (text reserve): Martine Rose Named Creative Director of Balenciaga - WWD
+2026-11-06 08:16:36,289 [INFO] __main__: Candidate queued: [Google News] Martine Rose Named Creative Director of Balenciaga - WWD
+2026-11-06 08:16:36,311 [INFO] __main__: New candidates this cycle: 1
+2026-11-06 08:16:36,317 [INFO] __main__: Too soon since last post — waiting
+2026-11-06 08:16:36,318 [INFO] __main__: Cycle done, exiting
