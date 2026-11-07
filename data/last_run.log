@@ -1,71 +1,38 @@
-2026-11-07 07:01:06,264 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-11-07 07:01:06,268 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-07 07:01:06,297 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-11-07 07:01:06,298 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-11-07 07:01:06,361 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-11-07 07:01:06,362 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-11-07 07:01:06,476 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-11-07 07:01:06,486 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-07 07:01:06,503 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-11-07 07:01:06,519 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-11-07 07:01:06,572 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-11-07 07:01:06,584 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-11-07 07:01:06,781 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-07 07:01:06,839 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-07 07:01:06,897 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-07 07:01:06,954 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-11-07 07:01:07,682 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-07 07:01:11,150 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-07 07:01:16,152 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-07 07:01:21,153 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-07 07:01:26,152 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-07 07:01:31,152 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-07 07:01:36,180 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-07 07:01:36,181 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-11-07 07:15:39,010 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-07 07:15:39,034 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-11-07 07:15:39,034 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-11-07 07:15:39,079 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-11-07 07:15:39,081 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-11-07 07:15:39,137 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-11-07 07:15:39,143 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-07 07:15:39,159 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-11-07 07:15:39,162 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-11-07 07:15:39,173 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-11-07 07:15:39,232 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-11-07 07:15:39,371 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-11-07 07:15:39,388 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-11-07 07:15:39,487 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-07 07:15:39,530 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-07 07:15:39,566 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-07 07:15:40,201 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-07 07:15:43,914 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-07 07:15:48,914 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-07 07:15:53,916 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-07 07:15:58,913 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-07 07:16:05,304 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-07 07:16:08,949 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-07 07:16:08,950 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-07 07:01:41,167 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-07 07:01:41,168 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-11-07 07:16:13,949 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-07 07:16:13,949 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-07 07:01:46,167 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-07 07:01:46,168 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-11-07 07:16:18,951 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-07 07:16:18,951 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-07 07:01:51,168 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-07 07:01:51,169 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-11-07 07:16:23,951 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-07 07:16:23,952 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-07 07:01:56,166 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-07 07:01:56,167 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-07 07:01:56,167 [INFO] bot.sources: Fetched 284 articles from all sources
-2026-11-07 07:01:56,250 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMic0FVX3lxTE03NFoxaHkyTllhdG00aGcyNldrcVk2cXltZ2lNRVl0UktfWnljRHQ2T3F2R1pQamZHWXVlYV9Udi1CbVZHazZTeFdQMTU1dnpGTTBBRl9LYmZab200U0s5dnFXclBhOVRxekZsMlFvSVFvVmM?oc=5 "HTTP/1.1 302 Found"
-2026-11-07 07:01:56,304 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMic0FVX3lxTE03NFoxaHkyTllhdG00aGcyNldrcVk2cXltZ2lNRVl0UktfWnljRHQ2T3F2R1pQamZHWXVlYV9Udi1CbVZHazZTeFdQMTU1dnpGTTBBRl9LYmZab200U0s5dnFXclBhOVRxekZsMlFvSVFvVmM?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-07 07:01:56,324 [INFO] __main__: Queued without images (text reserve): Dior Johnson scores 28 as UCF pulls away from Yale - Hilton Head Island Packet
-2026-11-07 07:01:56,327 [INFO] __main__: Candidate queued: [Google News] Dior Johnson scores 28 as UCF pulls away from Yale - Hilton Head Island Packet
-2026-11-07 07:01:56,380 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxPOVRrRndlYXE2QmJyWnF5Smp3ZjBOZ1RPNTA4YzNPX1ZEWG5HNnBtVmZUS2FBZUpkYzA4RzRNRGtFOTY3RlNtTEoyc2gwV2VSZGc2TXk5WXJzZ09FbkdnSXJpdm1aanBtR3lFNTdhUzZJc01aSEdkWmtCRnFqeVc5czdSX2JKVWJ1Y1JuMHhfR1FrUlFjQ0pBczBvOEJEOGZCVHI5MVFiS21IUmdvbmM3TmpGM0F2Zw?oc=5 "HTTP/1.1 302 Found"
-2026-11-07 07:01:56,436 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxPOVRrRndlYXE2QmJyWnF5Smp3ZjBOZ1RPNTA4YzNPX1ZEWG5HNnBtVmZUS2FBZUpkYzA4RzRNRGtFOTY3RlNtTEoyc2gwV2VSZGc2TXk5WXJzZ09FbkdnSXJpdm1aanBtR3lFNTdhUzZJc01aSEdkWmtCRnFqeVc5czdSX2JKVWJ1Y1JuMHhfR1FrUlFjQ0pBczBvOEJEOGZCVHI5MVFiS21IUmdvbmM3TmpGM0F2Zw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-07 07:01:56,457 [INFO] __main__: Queued without images (text reserve): Dior Johnson scores 28, UCF takes control in 2nd half to beat Yale 87-75 - Orlando Sentinel
-2026-11-07 07:01:56,458 [INFO] __main__: Candidate queued: [Google News] Dior Johnson scores 28, UCF takes control in 2nd half to beat Yale 87-75 - Orlando Sentinel
-2026-11-07 07:01:56,527 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxQR3pVVE9RM1lEbm9QN1Fzd2gzQm1xWERENG5yMTUwelByT0hhSmNVY0JBSl9HQlhkQWU4Yjh2b3ljdUNJSHRNU0xpWXVGOExHaXhwdDFGWXhMSmxKR1NoRHh4aE9VcHhXNl85aUIyanJKdy1EY2MyTXNUWlE2eGJfZnBtUWYway1ZcVdyQVY2S1AwbkM3WEEtQm9PbFl4ZWZjV1pNQkk3dw?oc=5 "HTTP/1.1 302 Found"
-2026-11-07 07:01:56,597 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxQR3pVVE9RM1lEbm9QN1Fzd2gzQm1xWERENG5yMTUwelByT0hhSmNVY0JBSl9HQlhkQWU4Yjh2b3ljdUNJSHRNU0xpWXVGOExHaXhwdDFGWXhMSmxKR1NoRHh4aE9VcHhXNl85aUIyanJKdy1EY2MyTXNUWlE2eGJfZnBtUWYway1ZcVdyQVY2S1AwbkM3WEEtQm9PbFl4ZWZjV1pNQkk3dw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-07 07:01:56,618 [INFO] __main__: Queued without images (text reserve): Dior Johnson scores 28 as UCF pulls away to beat Yale - CBS Sports
-2026-11-07 07:01:56,619 [INFO] __main__: Candidate queued: [Google News] Dior Johnson scores 28 as UCF pulls away to beat Yale - CBS Sports
-2026-11-07 07:01:56,666 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMigAJBVV95cUxNcXdKMGctUkZPbUI3NEZTemhFazBsUlYteWhERlNGWE1PMzZ4RUFCN09WQi1LcDdpejFQMWxIdWkxVi12M2lXOXI2NDY2RkU2Vk4tdUF3bkFmMkhvM1huZGpvVWNycVZuZnpZakJ3Q3VvMm5ESElvSEhJcmxNSXdxVGxYcFdaZkV5RHhEZExVaHR2d1VEZlRBSnFfaTlEVXIwUHlkaTlqMnRrYXMtQTlzeWdVdXozcXNvWEN6enBOSzZkRGhHYkFuNTZscGpnXzBKd2Z4Ql9xTkRQYnNQd1A3cnFXWEtzUXprV2g5RDFhUkY1OHNSeGZ0T1F2YnVrMmo4?oc=5 "HTTP/1.1 302 Found"
-2026-11-07 07:01:56,732 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMigAJBVV95cUxNcXdKMGctUkZPbUI3NEZTemhFazBsUlYteWhERlNGWE1PMzZ4RUFCN09WQi1LcDdpejFQMWxIdWkxVi12M2lXOXI2NDY2RkU2Vk4tdUF3bkFmMkhvM1huZGpvVWNycVZuZnpZakJ3Q3VvMm5ESElvSEhJcmxNSXdxVGxYcFdaZkV5RHhEZExVaHR2d1VEZlRBSnFfaTlEVXIwUHlkaTlqMnRrYXMtQTlzeWdVdXozcXNvWEN6enBOSzZkRGhHYkFuNTZscGpnXzBKd2Z4Ql9xTkRQYnNQd1A3cnFXWEtzUXprV2g5RDFhUkY1OHNSeGZ0T1F2YnVrMmo4?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-07 07:01:56,754 [INFO] __main__: Queued without images (text reserve): Dior Johnson scores 28 and UCF took control in the 2nd half to beat Yale 87-75 - Oskaloosa Herald
-2026-11-07 07:01:56,756 [INFO] __main__: Candidate queued: [Google News] Dior Johnson scores 28 and UCF took control in the 2nd half to beat Yale 87-75 - Oskaloosa Herald
-2026-11-07 07:01:56,805 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMixAFBVV95cUxOLWxIMW0xbnR6ajF4OVNIUm1JMThrV0NseE5hX1hhZ0hHeWR6Zi1HaGdZZWM4NHcxY2pETS1xUkpoOW02THN3STlhWTg2TDRvYkRTenNWNVZ6eE9uM04yYld1bHU0X3NpZVVfUWhMX3BaRkdNalNKckpaZnBld0t1bGNSWVVyLWNFT2xHV2lUal9lUFk4LXdORkhIT3gzZEhFUlp1S3ZjM2VkZ0dpUGRyZ0wyR3RiSWdIMGUwRjdvQzRYM1B60gHYAUFVX3lxTFBEdGE3MEJGNm55TXI1VklzNGVVZjJjOGg1TXh2dmxoek8xWGF6WDhpa00taGstcDYtZXU2M2pJakhVU19Md1pDYlNhd2hFc3RjU0FGRWx2dmV6MVRRa21NcVVscDVkcGR2cDRYY1dsMFgtaEFuLVFaM0FjdGFfM2dxV3FYdnNCdm85WTNhVjFMTGtZcTBhUzlFNjBjdlhSMWI1LThfaGJrZUVVNTNTVW00TUl6Z1FlQjdsTTBTMTZGQUxYVElPTEg1dG54SUpkaE5MbXBTREQ1NQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-07 07:01:56,877 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMixAFBVV95cUxOLWxIMW0xbnR6ajF4OVNIUm1JMThrV0NseE5hX1hhZ0hHeWR6Zi1HaGdZZWM4NHcxY2pETS1xUkpoOW02THN3STlhWTg2TDRvYkRTenNWNVZ6eE9uM04yYld1bHU0X3NpZVVfUWhMX3BaRkdNalNKckpaZnBld0t1bGNSWVVyLWNFT2xHV2lUal9lUFk4LXdORkhIT3gzZEhFUlp1S3ZjM2VkZ0dpUGRyZ0wyR3RiSWdIMGUwRjdvQzRYM1B60gHYAUFVX3lxTFBEdGE3MEJGNm55TXI1VklzNGVVZjJjOGg1TXh2dmxoek8xWGF6WDhpa00taGstcDYtZXU2M2pJakhVU19Md1pDYlNhd2hFc3RjU0FGRWx2dmV6MVRRa21NcVVscDVkcGR2cDRYY1dsMFgtaEFuLVFaM0FjdGFfM2dxV3FYdnNCdm85WTNhVjFMTGtZcTBhUzlFNjBjdlhSMWI1LThfaGJrZUVVNTNTVW00TUl6Z1FlQjdsTTBTMTZGQUxYVElPTEg1dG54SUpkaE5MbXBTREQ1NQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-07 07:01:56,896 [INFO] __main__: Queued without images (text reserve): Stone Island residents prepare for flooding as St. Johns River levels rise - WFTV
-2026-11-07 07:01:56,898 [INFO] __main__: Candidate queued: [Google News] Stone Island residents prepare for flooding as St. Johns River levels rise - WFTV
-2026-11-07 07:01:56,948 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxPczYxZjFLS2M2ekRhS3REN2JWSWwxc1pwOTJidktDaFM5LWhzdndKNk1fc1drWnRYVnFsLXR2dldaWlRUUDdSTHJJcVF4M202V25aZ05EUFZpa1FfRmN1MDRueVh0bER0SGpGNWl2VGhFekVtcWs5UGVzNVF6eFEtWUxWOTFCYV9KUnBVc21wVUxicmt2TGU0ajE2R2VZSE1QYncwUmlIWHE0X2J4X1J3SXE4MWJFdw?oc=5 "HTTP/1.1 302 Found"
-2026-11-07 07:01:57,017 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxPczYxZjFLS2M2ekRhS3REN2JWSWwxc1pwOTJidktDaFM5LWhzdndKNk1fc1drWnRYVnFsLXR2dldaWlRUUDdSTHJJcVF4M202V25aZ05EUFZpa1FfRmN1MDRueVh0bER0SGpGNWl2VGhFekVtcWs5UGVzNVF6eFEtWUxWOTFCYV9KUnBVc21wVUxicmt2TGU0ajE2R2VZSE1QYncwUmlIWHE0X2J4X1J3SXE4MWJFdw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-07 07:01:57,037 [INFO] __main__: Queued without images (text reserve): LOEWE And Tim Burton Bring ‘The Nightmare Before Christmas’ Into Fashion - BusinessToday Malaysia
-2026-11-07 07:01:57,038 [INFO] __main__: Candidate queued: [Google News] LOEWE And Tim Burton Bring ‘The Nightmare Before Christmas’ Into Fashion - BusinessToday Malaysia
-2026-11-07 07:01:57,043 [INFO] __main__: New candidates this cycle: 6
-2026-11-07 07:01:57,045 [INFO] __main__: Голод: беру текстовый пост из резерва без фото
-2026-11-07 07:01:57,045 [INFO] __main__: Picked for posting: LOEWE And Tim Burton Bring ‘The Nightmare Before Christmas’ Into Fashion - BusinessToday Malaysia
-2026-11-07 07:01:57,074 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-07 07:04:24,295 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
-2026-11-07 07:04:24,357 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxPczYxZjFLS2M2ekRhS3REN2JWSWwxc1pwOTJidktDaFM5LWhzdndKNk1fc1drWnRYVnFsLXR2dldaWlRUUDdSTHJJcVF4M202V25aZ05EUFZpa1FfRmN1MDRueVh0bER0SGpGNWl2VGhFekVtcWs5UGVzNVF6eFEtWUxWOTFCYV9KUnBVc21wVUxicmt2TGU0ajE2R2VZSE1QYncwUmlIWHE0X2J4X1J3SXE4MWJFdw?oc=5 "HTTP/1.1 302 Found"
-2026-11-07 07:04:24,424 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMitgFBVV95cUxPczYxZjFLS2M2ekRhS3REN2JWSWwxc1pwOTJidktDaFM5LWhzdndKNk1fc1drWnRYVnFsLXR2dldaWlRUUDdSTHJJcVF4M202V25aZ05EUFZpa1FfRmN1MDRueVh0bER0SGpGNWl2VGhFekVtcWs5UGVzNVF6eFEtWUxWOTFCYV9KUnBVc21wVUxicmt2TGU0ajE2R2VZSE1QYncwUmlIWHE0X2J4X1J3SXE4MWJFdw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-07 07:04:25,247 [INFO] __main__: POSTED (1/5 today): LOEWE And Tim Burton Bring ‘The Nightmare Before Christmas’ Into Fashion - BusinessToday Malaysia
-2026-11-07 07:04:25,500 [INFO] __main__: Cycle done, exiting
+2026-11-07 07:16:23,952 [INFO] bot.sources: Fetched 284 articles from all sources
+2026-11-07 07:16:24,002 [INFO] __main__: New candidates this cycle: 0
+2026-11-07 07:16:24,003 [INFO] __main__: Too soon since last post — waiting
+2026-11-07 07:16:24,003 [INFO] __main__: Cycle done, exiting
