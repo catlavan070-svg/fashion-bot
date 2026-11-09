@@ -1,42 +1,66 @@
-2026-11-09 10:30:58,317 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-11-09 10:30:58,321 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-09 10:30:58,356 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-11-09 10:30:58,358 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-11-09 10:30:58,426 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-11-09 10:30:58,440 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-11-09 10:30:58,452 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-11-09 10:30:58,512 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-09 10:30:58,514 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-11-09 10:30:58,536 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-11-09 10:30:58,553 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-11-09 10:30:58,575 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-11-09 10:30:58,778 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-11-09 10:30:58,888 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 10:30:58,948 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 10:30:58,950 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 10:30:59,144 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-09 10:31:04,694 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-09 10:31:08,175 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 10:31:13,174 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 10:31:18,180 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 10:31:23,174 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 10:31:33,202 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 10:31:33,203 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-11-09 10:45:43,383 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-11-09 10:45:43,386 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-09 10:45:43,418 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-11-09 10:45:43,420 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-11-09 10:45:43,422 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-11-09 10:45:43,574 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-11-09 10:45:43,602 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-09 10:45:43,620 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-11-09 10:45:43,623 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-11-09 10:45:43,654 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-11-09 10:45:43,670 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-11-09 10:45:43,872 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-11-09 10:45:43,917 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-11-09 10:45:43,991 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-09 10:45:43,993 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-09 10:45:44,105 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-09 10:45:44,750 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-09 10:45:48,266 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 10:45:53,269 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 10:45:58,267 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 10:46:04,416 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-09 10:46:08,266 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 10:46:13,299 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 10:46:13,299 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-09 10:31:38,188 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 10:31:38,188 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-11-09 10:46:18,286 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 10:46:18,287 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-09 10:31:43,197 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 10:31:43,197 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-11-09 10:46:23,285 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 10:46:23,285 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-09 10:31:48,187 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 10:31:48,188 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+2026-11-09 10:46:33,316 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 10:46:33,317 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-09 10:31:48,188 [INFO] bot.sources: Fetched 273 articles from all sources
-2026-11-09 10:31:48,287 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTVBXLXpYd2tPT2F2eUFrX21SamJOZWxlV2ZBQ1hWUnZ0SFV3WkVOb25UcGMya1RWa0UtMURwNDJiWW9kLWJIY1Z5c2VRVDlQY05ralRQdWttekJpeEQ2Vkt6LV9oXzFXd2tWREJoMzRONURyUFhGVWRlYUZOOWNxeDVvczB4QWNl?oc=5 "HTTP/1.1 302 Found"
-2026-11-09 10:31:48,342 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTVBXLXpYd2tPT2F2eUFrX21SamJOZWxlV2ZBQ1hWUnZ0SFV3WkVOb25UcGMya1RWa0UtMURwNDJiWW9kLWJIY1Z5c2VRVDlQY05ralRQdWttekJpeEQ2Vkt6LV9oXzFXd2tWREJoMzRONURyUFhGVWRlYUZOOWNxeDVvczB4QWNl?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 10:31:48,358 [INFO] __main__: Queued without images (text reserve): A Christmas tale with a Gothic twist: LOEWE showed off its The Nightmare Before Christmas collection - Hube magazine
-2026-11-09 10:31:48,360 [INFO] __main__: Candidate queued: [Google News] A Christmas tale with a Gothic twist: LOEWE showed off its The Nightmare Before Christmas collection - Hube magazine
-2026-11-09 10:31:48,370 [INFO] __main__: New candidates this cycle: 1
-2026-11-09 10:31:48,371 [INFO] __main__: No fresh candidates to post (with images: 0)
-2026-11-09 10:31:48,371 [INFO] __main__: Cycle done, exiting
+2026-11-09 10:46:33,317 [INFO] bot.sources: Fetched 273 articles from all sources
+2026-11-09 10:46:33,428 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxNbDZ3V2pBMGpGRnZXUThlTFl3TFBsM2ZTeEdpdWphcHAwXzdiT0hJTUdYVmx1bnZGZ3BIUjJIX0U5Q0ZERDliNjljUUFGWVRvT1UtOW1ob2d5ZHVXYmFIVzZqTy12M3pSMHJEaUhwYUU1c1hteWhxaXRMUXVDZ3ZnWHNkYlEtc09uamN2UlJEeGZod2hYSk16blVTeEVLYVZJNDFnRW5xUzFMLTc2LUxqTg?oc=5 "HTTP/1.1 302 Found"
+2026-11-09 10:46:33,521 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxNbDZ3V2pBMGpGRnZXUThlTFl3TFBsM2ZTeEdpdWphcHAwXzdiT0hJTUdYVmx1bnZGZ3BIUjJIX0U5Q0ZERDliNjljUUFGWVRvT1UtOW1ob2d5ZHVXYmFIVzZqTy12M3pSMHJEaUhwYUU1c1hteWhxaXRMUXVDZ3ZnWHNkYlEtc09uamN2UlJEeGZod2hYSk16blVTeEVLYVZJNDFnRW5xUzFMLTc2LUxqTg?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-09 10:46:33,539 [INFO] __main__: Queued without images (text reserve): Kim Kardashian’s Gucci Sequin Dress Has a Daring Waist Cutout at LACMA Gala - Yahoo
+2026-11-09 10:46:33,541 [INFO] __main__: Candidate queued: [Google News] Kim Kardashian’s Gucci Sequin Dress Has a Daring Waist Cutout at LACMA Gala - Yahoo
+2026-11-09 10:46:33,563 [INFO] __main__: New candidates this cycle: 1
+2026-11-09 10:46:33,565 [INFO] __main__: Голод: беру текстовый пост из резерва без фото
+2026-11-09 10:46:33,565 [INFO] __main__: Picked for posting: Maison Margiela and GENTLE MONSTER Release Fourth Collaboration - L'Officiel Philippines
+2026-11-09 10:46:33,594 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-09 10:51:22,751 [WARNING] bot.rewriter: Gemini (gemini-3.8-flash) failed: Server disconnected without sending a response.
+2026-11-09 10:51:42,772 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-09 10:51:56,929 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-09 10:51:56,930 [WARNING] bot.rewriter: Gemini (gemini-3.8-flash) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-11-09 10:51:56,930 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-09 10:51:57,077 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-09 10:51:57,078 [WARNING] bot.rewriter: Gemini (gemini-2.5-flash) failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the In
+2026-11-09 10:51:57,078 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-09 10:51:57,202 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-flash-latest:generateContent "HTTP/1.1 404 Not Found"
+2026-11-09 10:51:57,204 [WARNING] bot.rewriter: Gemini (gemini-flash-latest) failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-flash-latest is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 's
+2026-11-09 10:51:57,204 [WARNING] bot.rewriter: Gemini не справился — пробую запасную нейросеть Groq
+2026-11-09 10:51:57,292 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-11-09 10:51:57,293 [WARNING] bot.rewriter: Groq (meta-llama/llama-4-maverick-17b-128e-instruct) attempt 1 failed: Client error '404 Not Found' for url 'https://api.groq.com/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-09 10:51:57,346 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-11-09 10:51:57,347 [WARNING] bot.rewriter: Groq (meta-llama/llama-4-scout-17b-16e-instruct) attempt 1 failed: Client error '404 Not Found' for url 'https://api.groq.com/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-11-09 10:51:58,768 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-09 10:51:58,769 [INFO] bot.rewriter: Пост сгенерирован запасной нейросетью Groq (openai/gpt-oss-120b)
+2026-11-09 10:51:58,843 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinAFBVV95cUxORjVjZFN3a1cyMWwwc0xOQjFKUDR2MnA0ZUpCRDZjRXdRbi1aVWt4alJMOW4tTXdWamdCdDFYSi1RamRSdlNsMGdmSkxhUE4tQ3ZFeE1fNnN5QmxQRDZJMFlDV18wbG5QdkxsZlNaT0FZYklrN1NZc01VZGlhTG9TdFJoTmRGX0xMd1JxMVpia1JIZm9paXRqU3RkTE4?oc=5 "HTTP/1.1 302 Found"
+2026-11-09 10:51:58,906 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinAFBVV95cUxORjVjZFN3a1cyMWwwc0xOQjFKUDR2MnA0ZUpCRDZjRXdRbi1aVWt4alJMOW4tTXdWamdCdDFYSi1RamRSdlNsMGdmSkxhUE4tQ3ZFeE1fNnN5QmxQRDZJMFlDV18wbG5QdkxsZlNaT0FZYklrN1NZc01VZGlhTG9TdFJoTmRGX0xMd1JxMVpia1JIZm9paXRqU3RkTE4?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-09 10:51:59,686 [INFO] __main__: POSTED (2/5 today): Maison Margiela and GENTLE MONSTER Release Fourth Collaboration - L'Officiel Philippines
+2026-11-09 10:51:59,938 [INFO] __main__: Cycle done, exiting
