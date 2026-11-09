@@ -1,126 +1,38 @@
-2026-11-09 07:01:07,356 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-11-09 07:01:07,395 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-11-09 07:01:07,396 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-09 07:01:07,396 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-11-09 07:01:07,408 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-11-09 07:01:07,440 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-11-09 07:01:07,460 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-11-09 07:01:07,464 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-09 07:01:07,478 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-11-09 07:01:07,489 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-11-09 07:01:07,557 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-11-09 07:01:07,700 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-11-09 07:01:07,727 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:01:07,807 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:01:07,810 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-11-09 07:01:07,869 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:01:08,725 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-09 07:01:12,224 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 07:01:17,226 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 07:01:22,225 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 07:01:27,227 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 07:01:32,226 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 07:01:37,389 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 07:01:37,389 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-11-09 07:15:50,560 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-11-09 07:15:50,569 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-11-09 07:15:50,570 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-09 07:15:50,590 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-11-09 07:15:50,592 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-11-09 07:15:50,676 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-11-09 07:15:50,681 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-09 07:15:50,690 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-11-09 07:15:50,710 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-11-09 07:15:50,715 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-11-09 07:15:50,757 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-11-09 07:15:50,761 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-11-09 07:15:50,858 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-11-09 07:15:50,988 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-09 07:15:51,046 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-09 07:15:51,125 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-09 07:15:52,249 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-09 07:15:55,417 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 07:16:01,251 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-09 07:16:05,420 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 07:16:10,421 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 07:16:15,421 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 07:16:20,506 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 07:16:20,507 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-09 07:01:42,282 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 07:01:42,283 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-11-09 07:16:30,525 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 07:16:30,526 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-09 07:01:47,282 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 07:01:47,282 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-11-09 07:16:35,471 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 07:16:35,471 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-09 07:01:52,290 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 07:01:52,290 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-11-09 07:16:40,476 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-09 07:16:40,476 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-09 07:01:57,284 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-09 07:01:57,284 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-09 07:01:57,285 [INFO] bot.sources: Fetched 272 articles from all sources
-2026-11-09 07:01:57,290 [INFO] __main__: Candidate queued: [Hypebeast] LOEWE Unveils Tim Burton's 'The Nightmare Before Christmas' Holiday Collection
-2026-11-09 07:01:57,415 [INFO] httpx: HTTP Request: GET https://wwd.com/fashion-news/fashion-features/female-designers-may-hold-key-to-kering-creative-revival-1239404892/ "HTTP/1.1 200 OK"
-2026-11-09 07:01:57,436 [INFO] __main__: Queued without images (text reserve): Do Female Designers Hold the Key to Kering’s Creative Revival?
-2026-11-09 07:01:57,438 [INFO] __main__: Candidate queued: [WWD] Do Female Designers Hold the Key to Kering’s Creative Revival?
-2026-11-09 07:01:57,558 [INFO] httpx: HTTP Request: GET https://wwd.com/footwear-news/shoe-trends/vittoria-ceretti-giuseppe-zanotti-pumps-lacma-gala-2026-1239406534/ "HTTP/1.1 200 OK"
-2026-11-09 07:01:57,575 [INFO] __main__: Queued without images (text reserve): Vittoria Ceretti Wears Gucci Gown and Giuseppe Zanotti Pumps at LACMA Gala 2026 Red Carpet
-2026-11-09 07:01:57,577 [INFO] __main__: Candidate queued: [WWD] Vittoria Ceretti Wears Gucci Gown and Giuseppe Zanotti Pumps at LACMA Gala 2026 Red Carpet
-2026-11-09 07:01:57,632 [INFO] httpx: HTTP Request: GET https://wwd.com/footwear-news/shoe-trends/lindsey-vonn-gucci-gown-horsebit-heels-lacma-gala-2026-1239406529/ "HTTP/1.1 200 OK"
-2026-11-09 07:01:57,651 [INFO] __main__: Queued without images (text reserve): Lindsey Vonn Wears Sequined Gucci Gown and Horsebit Heels at LACMA Gala 2026 Red Carpet
-2026-11-09 07:01:57,652 [INFO] __main__: Candidate queued: [WWD] Lindsey Vonn Wears Sequined Gucci Gown and Horsebit Heels at LACMA Gala 2026 Red Carpet
-2026-11-09 07:01:57,699 [INFO] httpx: HTTP Request: GET https://wwd.com/pop-culture/celebrity-news/salma-hayek-gucci-gown-lacma-gala-2026-1239406522/ "HTTP/1.1 200 OK"
-2026-11-09 07:01:57,717 [INFO] __main__: Queued without images (text reserve): Salma Hayek Wears Crimson Gucci Gown for LACMA Gala 2026 Red Carpet
-2026-11-09 07:01:57,719 [INFO] __main__: Candidate queued: [WWD] Salma Hayek Wears Crimson Gucci Gown for LACMA Gala 2026 Red Carpet
-2026-11-09 07:01:57,865 [INFO] httpx: HTTP Request: GET https://wwd.com/pop-culture/celebrity-news/thigh-high-slits-lacma-gala-2026-1239406494/ "HTTP/1.1 200 OK"
-2026-11-09 07:01:57,882 [INFO] __main__: Queued without images (text reserve): Extreme Thigh-High Slits Are Trending on LACMA Gala 2026 Red Carpet
-2026-11-09 07:01:57,884 [INFO] __main__: Candidate queued: [WWD] Extreme Thigh-High Slits Are Trending on LACMA Gala 2026 Red Carpet
-2026-11-09 07:01:57,959 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHM0THFRaTZQdTFtcmxSbmw5UlRuZVhFd1Fhb0lJcEh3STVYRDUtYkVHdHZzakFPOFZSOHAxVk5vWWczOUZWYXUyc1RDYzNzZXMxeWlzYm1MaWRDNGczc1lmUzdQdHB5OWZzRmpHcjR3ZHJQSVZQLWFrcWkyVDkxejRYNlZfOElHQS1xRG4tYTFvU3VNR3JiazBZTFMybXJNa2tPLVVB?oc=5 "HTTP/1.1 302 Found"
-2026-11-09 07:01:58,024 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipgFBVV95cUxPTHM0THFRaTZQdTFtcmxSbmw5UlRuZVhFd1Fhb0lJcEh3STVYRDUtYkVHdHZzakFPOFZSOHAxVk5vWWczOUZWYXUyc1RDYzNzZXMxeWlzYm1MaWRDNGczc1lmUzdQdHB5OWZzRmpHcjR3ZHJQSVZQLWFrcWkyVDkxejRYNlZfOElHQS1xRG4tYTFvU3VNR3JiazBZTFMybXJNa2tPLVVB?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:01:58,044 [INFO] __main__: Queued without images (text reserve): Celebrities in Gucci at the 2026 LACMA Art+Film Gala - Red Carpet Fashion Awards
-2026-11-09 07:01:58,045 [INFO] __main__: Candidate queued: [Google News] Celebrities in Gucci at the 2026 LACMA Art+Film Gala - Red Carpet Fashion Awards
-2026-11-09 07:01:58,118 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMimAFBVV95cUxPU1JGd3FiMG13TGdIYTktSldzNE5RWGNOelQ5a1hiTUU1RVVTV0p2YTI3OUJnYXJreEhWTENvSDV2UlVxclh2MHgwVFEwUlpDTjJtcERwN0xzTVlSSVpsS0dMYXlPYU1rTXdPbmRORjBtalVYT3RtY01fcU93UUktSVdLQldOcDNhRkZYN0RMeWFyaUh1REZYcQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-09 07:01:58,188 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMimAFBVV95cUxPU1JGd3FiMG13TGdIYTktSldzNE5RWGNOelQ5a1hiTUU1RVVTV0p2YTI3OUJnYXJreEhWTENvSDV2UlVxclh2MHgwVFEwUlpDTjJtcERwN0xzTVlSSVpsS0dMYXlPYU1rTXdPbmRORjBtalVYT3RtY01fcU93UUktSVdLQldOcDNhRkZYN0RMeWFyaUh1REZYcQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:01:58,204 [INFO] __main__: Queued without images (text reserve): Salma Hayek Wears Crimson Gucci Gown for LACMA Gala 2026 Red Carpet - WWD
-2026-11-09 07:01:58,206 [INFO] __main__: Candidate queued: [Google News] Salma Hayek Wears Crimson Gucci Gown for LACMA Gala 2026 Red Carpet - WWD
-2026-11-09 07:01:58,281 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirAFBVV95cUxOQlM4aW1UaFF3VFJRVHpaRTQ4bTJTRFNQdDlGYzBCSzZ0UjE2aXRQdnV1U0d3X0NiN1pxcHJlX0Fxa29fRGJIeEJOdFdDbWJob3hpLWtvWlowbVhNbUNnRENoaFk5ZTh2REhxWGlseWppQ2lDV0ZXVnJwZGpHRi1rWXRRb0hodjM3REo0RmRjMXFWV1ptS2wzeEVWdW53QWNwMjNmWk9DY2p4VnE4?oc=5 "HTTP/1.1 302 Found"
-2026-11-09 07:01:58,354 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirAFBVV95cUxOQlM4aW1UaFF3VFJRVHpaRTQ4bTJTRFNQdDlGYzBCSzZ0UjE2aXRQdnV1U0d3X0NiN1pxcHJlX0Fxa29fRGJIeEJOdFdDbWJob3hpLWtvWlowbVhNbUNnRENoaFk5ZTh2REhxWGlseWppQ2lDV0ZXVnJwZGpHRi1rWXRRb0hodjM3REo0RmRjMXFWV1ptS2wzeEVWdW53QWNwMjNmWk9DY2p4VnE4?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:01:58,392 [INFO] __main__: Queued without images (text reserve): Lindsey Vonn Wears Sequined Gucci Gown and Horsebit Heels at LACMA Gala 2026 Red Carpet - WWD
-2026-11-09 07:01:58,394 [INFO] __main__: Candidate queued: [Google News] Lindsey Vonn Wears Sequined Gucci Gown and Horsebit Heels at LACMA Gala 2026 Red Carpet - WWD
-2026-11-09 07:01:58,468 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxORXQ0NTcyMjYtSElkajlYZnBoQXlaZ09VZkJxVzRyMkRoWFdZcGk0Q3JSb1ltXzk0VVhxU2VaZ2FraWpHLTlwY1VfLV8ydVNxaXVpQlNtNDI0eGlwczFGRWQ2NVBsMDROWXk3N2taRk1jblcwU0U3ZEVTWVRLV3pxazZyYzVPTzZjakxYMHpiUk1zaVgzT29KalJGMlZaRkJrLTVvV1ZXRjV0NE5jSHl3Qg?oc=5 "HTTP/1.1 302 Found"
-2026-11-09 07:01:58,546 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxORXQ0NTcyMjYtSElkajlYZnBoQXlaZ09VZkJxVzRyMkRoWFdZcGk0Q3JSb1ltXzk0VVhxU2VaZ2FraWpHLTlwY1VfLV8ydVNxaXVpQlNtNDI0eGlwczFGRWQ2NVBsMDROWXk3N2taRk1jblcwU0U3ZEVTWVRLV3pxazZyYzVPTzZjakxYMHpiUk1zaVgzT29KalJGMlZaRkJrLTVvV1ZXRjV0NE5jSHl3Qg?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:01:58,567 [INFO] __main__: Queued without images (text reserve): Vittoria Ceretti Wears Gucci Gown and Giuseppe Zanotti Pumps at LACMA Gala 2026 Red Carpet - Yahoo
-2026-11-09 07:01:58,568 [INFO] __main__: Candidate queued: [Google News] Vittoria Ceretti Wears Gucci Gown and Giuseppe Zanotti Pumps at LACMA Gala 2026 Red Carpet - Yahoo
-2026-11-09 07:01:58,639 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMickFVX3lxTFBjU2J0VkZrZjVuVzUtTWR4VmZuVjVXUHdLcjJWcDNSa05ZWkVaUE5zWHpFQnBhNy1OaUN6cnVfWV9wZlF2MTRaQ2ROMXlfT21hSFM0ZGNQbXFRV3NqcjJlN2dyTGtUSEF2Q1FFYnAzUzFFdw?oc=5 "HTTP/1.1 302 Found"
-2026-11-09 07:01:58,715 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMickFVX3lxTFBjU2J0VkZrZjVuVzUtTWR4VmZuVjVXUHdLcjJWcDNSa05ZWkVaUE5zWHpFQnBhNy1OaUN6cnVfWV9wZlF2MTRaQ2ROMXlfT21hSFM0ZGNQbXFRV3NqcjJlN2dyTGtUSEF2Q1FFYnAzUzFFdw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:01:58,754 [INFO] __main__: Queued without images (text reserve): Roses And Daisies Impart Dior Fine Jewellery With Botanical Spirit - Harper's Bazaar Australia
-2026-11-09 07:01:58,755 [INFO] __main__: Candidate queued: [Google News] Roses And Daisies Impart Dior Fine Jewellery With Botanical Spirit - Harper's Bazaar Australia
-2026-11-09 07:01:58,865 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxORS0zVXkwOFZDaFRmRGNhRnZUMVoxQ2Y3SEhiSDRwVVVrODVBS0xLQ1NzV0pGaUhLSGhKRXVUQWYwYnBVcWJHWXZoMHFWQWtWUFhNUGNScTJ2aGZOY25fRi1ZNXpGYTVCYjRkSk5UaUdKWmhNZmowU1dDMXFmaFhrVmpQVFZ6NmtpdldiSUE3TjVMeDZ5c0FoWWJkdDgtZHh0X3FKbEVhMEtmeFN2MkhKOQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-09 07:01:58,921 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMisAFBVV95cUxORS0zVXkwOFZDaFRmRGNhRnZUMVoxQ2Y3SEhiSDRwVVVrODVBS0xLQ1NzV0pGaUhLSGhKRXVUQWYwYnBVcWJHWXZoMHFWQWtWUFhNUGNScTJ2aGZOY25fRi1ZNXpGYTVCYjRkSk5UaUdKWmhNZmowU1dDMXFmaFhrVmpQVFZ6NmtpdldiSUE3TjVMeDZ5c0FoWWJkdDgtZHh0X3FKbEVhMEtmeFN2MkhKOQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:01:58,957 [INFO] __main__: Queued without images (text reserve): Lindsey Vonn Wears Sequined Gucci Gown and Horsebit Heels at LACMA Gala 2026 Red Carpet - Yahoo
-2026-11-09 07:01:58,958 [INFO] __main__: Candidate queued: [Google News] Lindsey Vonn Wears Sequined Gucci Gown and Horsebit Heels at LACMA Gala 2026 Red Carpet - Yahoo
-2026-11-09 07:01:59,065 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiggFBVV95cUxPeGg0eENYWHM0UFpIWGQtSlZzMlRaQjBOMVZfelM5N2FwOGNfaDdjZGpmUl9sb1oyTmVSd2Uxc0lLaC1qZkZKRnJNSFgybkJPTkZrcFV0UnZETVRuZHpXcC1zenREVy1BbVFJTkJEaEhiWkVKS0tKa21vOS1DaGhjc1Vn?oc=5 "HTTP/1.1 302 Found"
-2026-11-09 07:01:59,116 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiggFBVV95cUxPeGg0eENYWHM0UFpIWGQtSlZzMlRaQjBOMVZfelM5N2FwOGNfaDdjZGpmUl9sb1oyTmVSd2Uxc0lLaC1qZkZKRnJNSFgybkJPTkZrcFV0UnZETVRuZHpXcC1zenREVy1BbVFJTkJEaEhiWkVKS0tKa21vOS1DaGhjc1Vn?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:01:59,153 [INFO] __main__: Queued without images (text reserve): NFL Week 9 arrivals: Caleb Williams rocks Supreme mascot zip-up before 'SNF' - ESPN
-2026-11-09 07:01:59,155 [INFO] __main__: Candidate queued: [Google News] NFL Week 9 arrivals: Caleb Williams rocks Supreme mascot zip-up before 'SNF' - ESPN
-2026-11-09 07:01:59,219 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxORGlCNElLdnI5MmotcDhjMG1zaEwwVzdhN1diZkVnN1JQYXBSTmZOMjRJZXpSWDktaUdCZlN4cEs1MW5pbVRDN1JtaS1PY1Z2UnlhUmtWOEZiSUpSb1B2dHpxTWdGT2Zhamd5NDBUX1phS0tTbi00VVdzSF9HS0owYWc2SlJvS2QzTm5YeDVtUnd0V1d1c2N3QVctZGRJUjdWOWRpMlRUbDRkQUFTYkE?oc=5 "HTTP/1.1 302 Found"
-2026-11-09 07:01:59,288 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirgFBVV95cUxORGlCNElLdnI5MmotcDhjMG1zaEwwVzdhN1diZkVnN1JQYXBSTmZOMjRJZXpSWDktaUdCZlN4cEs1MW5pbVRDN1JtaS1PY1Z2UnlhUmtWOEZiSUpSb1B2dHpxTWdGT2Zhamd5NDBUX1phS0tTbi00VVdzSF9HS0owYWc2SlJvS2QzTm5YeDVtUnd0V1d1c2N3QVctZGRJUjdWOWRpMlRUbDRkQUFTYkE?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:01:59,347 [INFO] __main__: Queued without images (text reserve): LOEWE Unveils Tim Burton's 'The Nightmare Before Christmas' Holiday Collection - Hypebeast
-2026-11-09 07:01:59,349 [INFO] __main__: Candidate queued: [Google News] LOEWE Unveils Tim Burton's 'The Nightmare Before Christmas' Holiday Collection - Hypebeast
-2026-11-09 07:01:59,430 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xNDY3V2o5V0QyMVlzVlRzSDZPTWJReWdSMk9oRF9Sem1wcHZIV2FaOEtNREZKdC1XeVZrVEZaQUxKRmphRlRxZG16emE0cVM3UDdF?oc=5 "HTTP/1.1 302 Found"
-2026-11-09 07:01:59,492 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xNDY3V2o5V0QyMVlzVlRzSDZPTWJReWdSMk9oRF9Sem1wcHZIV2FaOEtNREZKdC1XeVZrVEZaQUxKRmphRlRxZG16emE0cVM3UDdF?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:01:59,540 [INFO] __main__: Queued without images (text reserve): Burberry Belt Nordstrom - Burberry PESTLE Analysis 6 Factors Impacting the Luxury Fashion Brand - auroradesio.it
-2026-11-09 07:01:59,541 [INFO] __main__: Candidate queued: [Google News] Burberry Belt Nordstrom - Burberry PESTLE Analysis 6 Factors Impacting the Luxury Fashion Brand - auroradesio.it
-2026-11-09 07:01:59,653 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMif0FVX3lxTFB5VWJTa2hFVUpjUy05NnFGMld0ek9rVTJmZmY2aVUxd2pFS21qTFNZSUdyZjU1cG5hX01wM0xXQTdNRGtYYm5sLTNXdzNvblpNaGJxWGRJS0VqUHg0VDRnZ2pGWngzYzg3OFJBbERrbXVSMW95WkZnekF0VDRNTzg?oc=5 "HTTP/1.1 302 Found"
-2026-11-09 07:01:59,718 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMif0FVX3lxTFB5VWJTa2hFVUpjUy05NnFGMld0ek9rVTJmZmY2aVUxd2pFS21qTFNZSUdyZjU1cG5hX01wM0xXQTdNRGtYYm5sLTNXdzNvblpNaGJxWGRJS0VqUHg0VDRnZ2pGWngzYzg3OFJBbERrbXVSMW95WkZnekF0VDRNTzg?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:01:59,739 [INFO] __main__: Queued without images (text reserve): Burberry's Check Revival Had Nothing To Do With Taste - Nett Magazine Online
-2026-11-09 07:01:59,740 [INFO] __main__: Candidate queued: [Google News] Burberry's Check Revival Had Nothing To Do With Taste - Nett Magazine Online
-2026-11-09 07:01:59,851 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxNWUdRdkV6ZUpjUmlwODZ2S2diOGVldm5YQV9LbEdPbEdudWhBQ2gtdmRpc1hYeEk1ZHlvak1JTGVTbUNJUHJXNjlhMTRHaFRpeDZ1Qlg0NFdQZEtfNmhhZmViY0hOTUhWazBqRFJ0SjBFaG9MY2F0NkVzZC02bklqLVI0bHZZQjJ4blBmQTVkSnpGNWhFMWxRNTROb2w4U00?oc=5 "HTTP/1.1 302 Found"
-2026-11-09 07:01:59,907 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxNWUdRdkV6ZUpjUmlwODZ2S2diOGVldm5YQV9LbEdPbEdudWhBQ2gtdmRpc1hYeEk1ZHlvak1JTGVTbUNJUHJXNjlhMTRHaFRpeDZ1Qlg0NFdQZEtfNmhhZmViY0hOTUhWazBqRFJ0SjBFaG9MY2F0NkVzZC02bklqLVI0bHZZQjJ4blBmQTVkSnpGNWhFMWxRNTROb2w4U00?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:01:59,952 [INFO] __main__: Queued without images (text reserve): LOEWE x Tim Burton's The Nightmare Before Christmas Holiday Collection: Bags, Accessories, and Release Date - Popbee
-2026-11-09 07:01:59,954 [INFO] __main__: Candidate queued: [Google News] LOEWE x Tim Burton's The Nightmare Before Christmas Holiday Collection: Bags, Accessories, and Release Date - Popbee
-2026-11-09 07:01:59,954 [INFO] __main__: New candidates this cycle: 17
-2026-11-09 07:01:59,960 [INFO] __main__: Голод: беру текстовый пост из резерва без фото
-2026-11-09 07:01:59,960 [INFO] __main__: Picked for posting: LOEWE x Tim Burton's The Nightmare Before Christmas Holiday Collection: Bags, Accessories, and Release Date - Popbee
-2026-11-09 07:01:59,984 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-09 07:02:11,480 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-11-09 07:02:11,481 [WARNING] bot.rewriter: Gemini (gemini-3.8-flash) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-11-09 07:02:31,502 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-09 07:02:32,119 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-11-09 07:02:32,120 [WARNING] bot.rewriter: Gemini (gemini-3.8-flash) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-11-09 07:02:32,120 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-09 07:02:32,192 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
-2026-11-09 07:02:32,192 [WARNING] bot.rewriter: Gemini (gemini-2.5-flash) failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the In
-2026-11-09 07:02:32,192 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-09 07:02:32,256 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-flash-latest:generateContent "HTTP/1.1 404 Not Found"
-2026-11-09 07:02:32,257 [WARNING] bot.rewriter: Gemini (gemini-flash-latest) failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-flash-latest is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 's
-2026-11-09 07:02:32,257 [WARNING] bot.rewriter: Gemini не справился — пробую запасную нейросеть Groq
-2026-11-09 07:02:32,373 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
-2026-11-09 07:02:32,374 [WARNING] bot.rewriter: Groq (meta-llama/llama-4-maverick-17b-128e-instruct) attempt 1 failed: Client error '404 Not Found' for url 'https://api.groq.com/openai/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-11-09 07:02:32,487 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
-2026-11-09 07:02:32,488 [WARNING] bot.rewriter: Groq (meta-llama/llama-4-scout-17b-16e-instruct) attempt 1 failed: Client error '404 Not Found' for url 'https://api.groq.com/openai/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-11-09 07:02:34,365 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2026-11-09 07:02:34,365 [INFO] bot.rewriter: Пост сгенерирован запасной нейросетью Groq (openai/gpt-oss-120b)
-2026-11-09 07:02:34,430 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxNWUdRdkV6ZUpjUmlwODZ2S2diOGVldm5YQV9LbEdPbEdudWhBQ2gtdmRpc1hYeEk1ZHlvak1JTGVTbUNJUHJXNjlhMTRHaFRpeDZ1Qlg0NFdQZEtfNmhhZmViY0hOTUhWazBqRFJ0SjBFaG9MY2F0NkVzZC02bklqLVI0bHZZQjJ4blBmQTVkSnpGNWhFMWxRNTROb2w4U00?oc=5 "HTTP/1.1 302 Found"
-2026-11-09 07:02:34,501 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMinwFBVV95cUxNWUdRdkV6ZUpjUmlwODZ2S2diOGVldm5YQV9LbEdPbEdudWhBQ2gtdmRpc1hYeEk1ZHlvak1JTGVTbUNJUHJXNjlhMTRHaFRpeDZ1Qlg0NFdQZEtfNmhhZmViY0hOTUhWazBqRFJ0SjBFaG9MY2F0NkVzZC02bklqLVI0bHZZQjJ4blBmQTVkSnpGNWhFMWxRNTROb2w4U00?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-09 07:02:35,512 [INFO] __main__: POSTED (1/5 today): LOEWE x Tim Burton's The Nightmare Before Christmas Holiday Collection: Bags, Accessories, and Release Date - Popbee
-2026-11-09 07:02:35,764 [INFO] __main__: Cycle done, exiting
+2026-11-09 07:16:40,476 [INFO] bot.sources: Fetched 272 articles from all sources
+2026-11-09 07:16:40,515 [INFO] __main__: New candidates this cycle: 0
+2026-11-09 07:16:40,521 [INFO] __main__: Too soon since last post — waiting
+2026-11-09 07:16:40,523 [INFO] __main__: Cycle done, exiting
