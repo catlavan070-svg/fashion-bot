@@ -1,91 +1,42 @@
-2026-11-11 07:01:08,213 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-11-11 07:01:08,214 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-11 07:01:08,277 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-11-11 07:01:08,277 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-11-11 07:01:08,282 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-11-11 07:01:08,341 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-11 07:01:08,353 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-11-11 07:01:08,359 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-11-11 07:01:08,361 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-11-11 07:01:08,391 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-11-11 07:01:08,405 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-11-11 07:01:08,537 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-11-11 07:01:08,681 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-11-11 07:01:08,720 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:01:08,764 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:01:08,800 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:01:09,088 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-11 07:01:13,064 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-11 07:01:18,066 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-11 07:01:23,064 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-11 07:01:28,064 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-11 07:01:33,063 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-11 07:01:38,112 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-11 07:01:38,112 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-11-11 07:15:45,231 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-11-11 07:15:45,279 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-11 07:15:45,289 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-11-11 07:15:45,289 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-11-11 07:15:45,303 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-11 07:15:45,315 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-11-11 07:15:45,324 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-11-11 07:15:45,326 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-11-11 07:15:45,367 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-11-11 07:15:45,461 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-11-11 07:15:45,462 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-11-11 07:15:45,463 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-11-11 07:15:45,489 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-11-11 07:15:45,625 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-11 07:15:45,669 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-11 07:15:45,771 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-11 07:15:46,373 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-11 07:15:50,090 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-11 07:15:55,089 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-11 07:16:01,546 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-11 07:16:05,089 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-11 07:16:10,090 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-11 07:16:15,168 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-11 07:16:15,168 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-11 07:01:43,087 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-11 07:01:43,088 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-11-11 07:16:20,125 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-11 07:16:20,125 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-11 07:01:48,085 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-11 07:01:48,085 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-11-11 07:16:30,149 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-11 07:16:30,149 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-11 07:01:53,086 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-11 07:01:53,087 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-11-11 07:16:35,131 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-11 07:16:35,132 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-11 07:01:58,084 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-11 07:01:58,084 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-11 07:01:58,085 [INFO] bot.sources: Fetched 277 articles from all sources
-2026-11-11 07:01:58,201 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMizwFBVV95cUxOUmE0OTI1M0RYTW5ZeWItNTgycFYxTzBVakNDTHJUZTVEMEJ3RTZXYXNtSExXdlJKSDBvazlQTUZXMlh6QmJsOUg0aVhhQWxVZEhEdkRoRjVhRXBqWVhyLTQ4WGJCUjI2TC03QUhJVGxQVUY0MWFBcmNuV0xrdWdWQmtJaW9BNE1EeDVJb1hiRUtja2FiSWpoX1VsbkFhbWU2Y1dHZk0tMDMwUmxtUlJLbU5RRHN5N3UxSnFGU2tpYmdzS3o4SEh4VWVjd3JQbmM?oc=5 "HTTP/1.1 302 Found"
-2026-11-11 07:01:58,273 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMizwFBVV95cUxOUmE0OTI1M0RYTW5ZeWItNTgycFYxTzBVakNDTHJUZTVEMEJ3RTZXYXNtSExXdlJKSDBvazlQTUZXMlh6QmJsOUg0aVhhQWxVZEhEdkRoRjVhRXBqWVhyLTQ4WGJCUjI2TC03QUhJVGxQVUY0MWFBcmNuV0xrdWdWQmtJaW9BNE1EeDVJb1hiRUtja2FiSWpoX1VsbkFhbWU2Y1dHZk0tMDMwUmxtUlJLbU5RRHN5N3UxSnFGU2tpYmdzS3o4SEh4VWVjd3JQbmM?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:01:58,295 [INFO] __main__: Queued without images (text reserve): Prada’s new Milan exhibition turns a century of fashion into fresh discoveries - ClickOnDetroit | WDIV Local 4
-2026-11-11 07:01:58,297 [INFO] __main__: Candidate queued: [Google News] Prada’s new Milan exhibition turns a century of fashion into fresh discoveries - ClickOnDetroit | WDIV Local 4
-2026-11-11 07:01:58,357 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi9wFBVV95cUxNXzJBVGlzdWJvNVQyd0tjSzFJWkpBeFpvTXhkUlMwWEhCOUpvbHljQ3RtMXROVDRpaFhIQlFuZ1dFOFg0bnVnbkY4dDQtSk5tMTkyUjk3VURNVDBfQ1UzRW9UaklTbFE5cWN3eWU2M2N2MFFKRndpTnF1TWJTMWRXQ1pzRWpQMWxFSGlJRDQxMTN6Qi1MSEQzcDZxbXlYYUJEOVVGVlFYQ1NVMzQzUF9PTnA2TlhsNnhJNHhkRC1qRG5QeFdFMTNCU1VGandkMmh2WFBQS2NJUXBkSVhDTmhtbFFzcUVzcXhEX3VjZzRXQUtGSlVJR1g4?oc=5 "HTTP/1.1 302 Found"
-2026-11-11 07:01:58,424 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi9wFBVV95cUxNXzJBVGlzdWJvNVQyd0tjSzFJWkpBeFpvTXhkUlMwWEhCOUpvbHljQ3RtMXROVDRpaFhIQlFuZ1dFOFg0bnVnbkY4dDQtSk5tMTkyUjk3VURNVDBfQ1UzRW9UaklTbFE5cWN3eWU2M2N2MFFKRndpTnF1TWJTMWRXQ1pzRWpQMWxFSGlJRDQxMTN6Qi1MSEQzcDZxbXlYYUJEOVVGVlFYQ1NVMzQzUF9PTnA2TlhsNnhJNHhkRC1qRG5QeFdFMTNCU1VGandkMmh2WFBQS2NJUXBkSVhDTmhtbFFzcUVzcXhEX3VjZzRXQUtGSlVJR1g4?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:01:58,444 [INFO] __main__: Queued without images (text reserve): Carmelo Pacheco, Dior Johnson help UCF hold off South Alabama 76-69 - KVUE
-2026-11-11 07:01:58,445 [INFO] __main__: Candidate queued: [Google News] Carmelo Pacheco, Dior Johnson help UCF hold off South Alabama 76-69 - KVUE
-2026-11-11 07:01:58,579 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMidEFVX3lxTE1aYjQ2OEoyT24tSzlYLWpLNmpCaDByQVliODVEVzQ5QndyaUVPbWduTXRKcXVOUFFlUEp4bkthclpCd1l4QmlCRmt4UkpBbmVjVmh0OW5zR0t3dGduaUVtWlkxNW9CTFJLZ09rUkVTVE90SzZq?oc=5 "HTTP/1.1 302 Found"
-2026-11-11 07:01:58,640 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMidEFVX3lxTE1aYjQ2OEoyT24tSzlYLWpLNmpCaDByQVliODVEVzQ5QndyaUVPbWduTXRKcXVOUFFlUEp4bkthclpCd1l4QmlCRmt4UkpBbmVjVmh0OW5zR0t3dGduaUVtWlkxNW9CTFJLZ09rUkVTVE90SzZq?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:01:58,659 [INFO] __main__: Queued without images (text reserve): Dior Just Opened Its First Spa in Latin America, Inside Rio’s Most Famous Hotel - Haute Living
-2026-11-11 07:01:58,715 [INFO] __main__: Candidate queued: [Google News] Dior Just Opened Its First Spa in Latin America, Inside Rio’s Most Famous Hotel - Haute Living
-2026-11-11 07:01:58,769 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiigJBVV95cUxPblU0Y3RNeXR4T19mQ21ld1MtQjloQzZfZEtPaXN3Y3lucDlYbnhoeGFmNEItaFBCVW1saFhtaDFaX1NBRHZiMFBlSGJlYnJnNy0zeFJxSUVzemViUkZYblR0OXBIS3FqbTAzVmZZNENXb1M1cGk1UVZsRHZNWm5KX3I3cnBXWDgxaVdpRUNYWkJGZ1hIUENiTW1oaW9UYko2czhrSk1TUjRnSHRLTm9oOTBHLXFsTHlvaG1vbVRtNngtZWYxSnpFQmlja19MU1hyY21URjNpM1Z3QlhGV0NXaG5KRHR4YUpHQTdSTnpibWl3a1V6ZVNqTU9GX0l4S21Dd1ItNHJTRGVqZw?oc=5 "HTTP/1.1 302 Found"
-2026-11-11 07:01:58,836 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiigJBVV95cUxPblU0Y3RNeXR4T19mQ21ld1MtQjloQzZfZEtPaXN3Y3lucDlYbnhoeGFmNEItaFBCVW1saFhtaDFaX1NBRHZiMFBlSGJlYnJnNy0zeFJxSUVzemViUkZYblR0OXBIS3FqbTAzVmZZNENXb1M1cGk1UVZsRHZNWm5KX3I3cnBXWDgxaVdpRUNYWkJGZ1hIUENiTW1oaW9UYko2czhrSk1TUjRnSHRLTm9oOTBHLXFsTHlvaG1vbVRtNngtZWYxSnpFQmlja19MU1hyY21URjNpM1Z3QlhGV0NXaG5KRHR4YUpHQTdSTnpibWl3a1V6ZVNqTU9GX0l4S21Dd1ItNHJTRGVqZw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:01:58,852 [INFO] __main__: Queued without images (text reserve): Prada’s new Milan exhibition turns a century of fashion into fresh discoveries - Ottumwa Courier
-2026-11-11 07:01:58,854 [INFO] __main__: Candidate queued: [Google News] Prada’s new Milan exhibition turns a century of fashion into fresh discoveries - Ottumwa Courier
-2026-11-11 07:01:59,007 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi_wFBVV95cUxNaVpxZTF4MjB6N1dpdlRyeEZIV0MwanYyV2FuaWNrZGZzWmpKOW1EdEpqVzZjSDlHVXlvVGdQN2ZLN0Z4Q2VKMDJIbzMyX3NxQXlZVmpBYUpFUHJyS0kxd0ZjSDRJdXIyZm8xaWV5NU9ZMVBRb1F4S0tzTG1VaXNMdGN5ZVdlSHAzZDVPei13VWNzTHMwY2FjR2l5LTFUOXRZSG5uYlRoWVFDRm9WNVZ2aHJpcnEwMm5hVElWQVZQeG1KVzd6akNEbUFha3hNVG91VkdKOE5nekE1TmxmclVXNkpJTUwyRDVqX3JQMlFyS1R3S2Fna2Z5OHY1cTRGNmc?oc=5 "HTTP/1.1 302 Found"
-2026-11-11 07:01:59,066 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi_wFBVV95cUxNaVpxZTF4MjB6N1dpdlRyeEZIV0MwanYyV2FuaWNrZGZzWmpKOW1EdEpqVzZjSDlHVXlvVGdQN2ZLN0Z4Q2VKMDJIbzMyX3NxQXlZVmpBYUpFUHJyS0kxd0ZjSDRJdXIyZm8xaWV5NU9ZMVBRb1F4S0tzTG1VaXNMdGN5ZVdlSHAzZDVPei13VWNzTHMwY2FjR2l5LTFUOXRZSG5uYlRoWVFDRm9WNVZ2aHJpcnEwMm5hVElWQVZQeG1KVzd6akNEbUFha3hNVG91VkdKOE5nekE1TmxmclVXNkpJTUwyRDVqX3JQMlFyS1R3S2Fna2Z5OHY1cTRGNmc?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:01:59,090 [INFO] __main__: Queued without images (text reserve): Prada’s new Milan exhibition turns a century of fashion into fresh discoveries - morning-times.com
-2026-11-11 07:01:59,091 [INFO] __main__: Candidate queued: [Google News] Prada’s new Milan exhibition turns a century of fashion into fresh discoveries - morning-times.com
-2026-11-11 07:01:59,142 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirwFBVV95cUxPMHBSSHkxNnhTemJ3UGdjb3dvb0hSTERQbUttNFQwOHV2TkJhazcyUWZJM09oVnV6Y1lKNmk2anZtU0xsaW5wakJxVTdVNHVvcDVyQlhhSTBiQ3hLbmZoNkhVSVVxNXlwUHV6Z25iMFFxWGxmaUFJdXo3eGNiUWM0LUdISkIwLVd0N2lFQ1ZFSVJPUnRhT3dYZ1lGVEQwWFVaVU9KUS1hOHlxRlIxWEVJ?oc=5 "HTTP/1.1 302 Found"
-2026-11-11 07:01:59,230 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirwFBVV95cUxPMHBSSHkxNnhTemJ3UGdjb3dvb0hSTERQbUttNFQwOHV2TkJhazcyUWZJM09oVnV6Y1lKNmk2anZtU0xsaW5wakJxVTdVNHVvcDVyQlhhSTBiQ3hLbmZoNkhVSVVxNXlwUHV6Z25iMFFxWGxmaUFJdXo3eGNiUWM0LUdISkIwLVd0N2lFQ1ZFSVJPUnRhT3dYZ1lGVEQwWFVaVU9KUS1hOHlxRlIxWEVJ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:01:59,245 [INFO] __main__: Queued without images (text reserve): Balenciaga names new Creative Director after Piccioli’s departure - World Footwear
-2026-11-11 07:01:59,247 [INFO] __main__: Candidate queued: [Google News] Balenciaga names new Creative Director after Piccioli’s departure - World Footwear
-2026-11-11 07:01:59,304 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMijAJBVV95cUxOR0piRi1ZQUNXZVhvR3ZrZUNocW1ZS3VzaVV1SHQ0NTNWdW9rOW9HUThnclkwZDJiZDFEelBQcTdtUU5QU2Y4Q0Nrdm9UVmVvdG5CdlZVXzF4U2JWTjZpeXVMVmpGZFNnczR5U3VBZEdRcFBDenZQcFBMX0ZVaFhSTjhnZVViV0tWdWpFcFR6dkZEN3FNOVMtUmI1cUhEbmVWcENGalpZWDlHbExoS3dvN19lT0kycktLdmJlbE16QWRWd3RCNFViRTJ5TXNjNHlob245RkxJX3BEeVBnTUdDZVVsOWM1TlhVdGFIMDYtdlU3a3hNR3lpMHNmOFA5S2pNM1ozTkJ5M01QSnM5?oc=5 "HTTP/1.1 302 Found"
-2026-11-11 07:01:59,374 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMijAJBVV95cUxOR0piRi1ZQUNXZVhvR3ZrZUNocW1ZS3VzaVV1SHQ0NTNWdW9rOW9HUThnclkwZDJiZDFEelBQcTdtUU5QU2Y4Q0Nrdm9UVmVvdG5CdlZVXzF4U2JWTjZpeXVMVmpGZFNnczR5U3VBZEdRcFBDenZQcFBMX0ZVaFhSTjhnZVViV0tWdWpFcFR6dkZEN3FNOVMtUmI1cUhEbmVWcENGalpZWDlHbExoS3dvN19lT0kycktLdmJlbE16QWRWd3RCNFViRTJ5TXNjNHlob245RkxJX3BEeVBnTUdDZVVsOWM1TlhVdGFIMDYtdlU3a3hNR3lpMHNmOFA5S2pNM1ozTkJ5M01QSnM5?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:01:59,404 [INFO] __main__: Queued without images (text reserve): Prada’s new Milan exhibition turns a century of fashion into fresh discoveries - Bozeman Daily Chronicle
-2026-11-11 07:01:59,413 [INFO] __main__: Candidate queued: [Google News] Prada’s new Milan exhibition turns a century of fashion into fresh discoveries - Bozeman Daily Chronicle
-2026-11-11 07:01:59,473 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMilwFBVV95cUxNclNuZ250ckRPbmNyWjMxZTk1VGh1MzJVTU1JcDUzaVprVC1PM3FGSFZjQjVvZzJUUHJMSFNKaTJnYlQ0cmJNc1k1T3gtajdaOHQ0bTEtUENEMGtqT2NSaEpqLVJSYkhKOEJPUHdIcXJiU3Fpei1veXN3MkhUbDZyalRRRW9SRUVzMWFnX2RVX3hsMVhwZ2h3?oc=5 "HTTP/1.1 302 Found"
-2026-11-11 07:01:59,537 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMilwFBVV95cUxNclNuZ250ckRPbmNyWjMxZTk1VGh1MzJVTU1JcDUzaVprVC1PM3FGSFZjQjVvZzJUUHJMSFNKaTJnYlQ0cmJNc1k1T3gtajdaOHQ0bTEtUENEMGtqT2NSaEpqLVJSYkhKOEJPUHdIcXJiU3Fpei1veXN3MkhUbDZyalRRRW9SRUVzMWFnX2RVX3hsMVhwZ2h3?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:01:59,556 [INFO] __main__: Queued without images (text reserve): Three Prada Obsessives Unpack Miuccia’s Defining Decade - Harper's BAZAAR
-2026-11-11 07:01:59,559 [INFO] __main__: Candidate queued: [Google News] Three Prada Obsessives Unpack Miuccia’s Defining Decade - Harper's BAZAAR
-2026-11-11 07:01:59,648 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMib0FVX3lxTE9SODZiSlBSMEQwT1YwMHJxc2hBYUN2dERubzktR0ZxcHdjbFViY3BHeEZmeWFiLXVrVGhIRWlXZnN2T2tWUkJpNlV2YjVKUVIxNk1yUkpEdFk1dUNJU1VsYzJCRV9qdl9IbDR3MDgzdw?oc=5 "HTTP/1.1 302 Found"
-2026-11-11 07:01:59,704 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMib0FVX3lxTE9SODZiSlBSMEQwT1YwMHJxc2hBYUN2dERubzktR0ZxcHdjbFViY3BHeEZmeWFiLXVrVGhIRWlXZnN2T2tWUkJpNlV2YjVKUVIxNk1yUkpEdFk1dUNJU1VsYzJCRV9qdl9IbDR3MDgzdw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:01:59,719 [INFO] __main__: Queued without images (text reserve): Martine Rose Named Creative Director of Balenciaga - Mix 93.3
-2026-11-11 07:01:59,721 [INFO] __main__: Candidate queued: [Google News] Martine Rose Named Creative Director of Balenciaga - Mix 93.3
-2026-11-11 07:01:59,777 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxQTnpHQ3I5b01DcF94TUNmYk5DeXRBUVJsR1BwNS1vQlVWT3FSeU13ZkRDZUdFbFAtTkNvc3NoZC1wOHFwWlNJOFFmaFhQNlMtS2c4cVQ0VzJydUdsX0I0X2pLNm55dEN3SnoxS19jMEZnUmtHd1pCQ1NnWVpjbWhPQ2EtZGw?oc=5 "HTTP/1.1 302 Found"
-2026-11-11 07:01:59,841 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMihAFBVV95cUxQTnpHQ3I5b01DcF94TUNmYk5DeXRBUVJsR1BwNS1vQlVWT3FSeU13ZkRDZUdFbFAtTkNvc3NoZC1wOHFwWlNJOFFmaFhQNlMtS2c4cVQ0VzJydUdsX0I0X2pLNm55dEN3SnoxS19jMEZnUmtHd1pCQ1NnWVpjbWhPQ2EtZGw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:01:59,867 [INFO] __main__: Queued without images (text reserve): UCF Guards Carmelo Pacheco and Dior Johnson Reflect on Comeback Victory Against South Alabama - Yahoo Sports
-2026-11-11 07:01:59,869 [INFO] __main__: Candidate queued: [Google News] UCF Guards Carmelo Pacheco and Dior Johnson Reflect on Comeback Victory Against South Alabama - Yahoo Sports
-2026-11-11 07:01:59,930 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiekFVX3lxTFB1LUVGbm1waldnZlEwNGFTa1htTlpacDNEMnRzdWlZdHV5Qjh4bVpya0ZsejZpV2xRanB5QmRrQms0VFNCMnJuNjdLby11SHI5WmJFWlowQ0FQeHpBdnJhaU9UQkxuZE1yRGg0RlVNQ2pUbjlqM2kwenNR?oc=5 "HTTP/1.1 302 Found"
-2026-11-11 07:02:00,006 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiekFVX3lxTFB1LUVGbm1waldnZlEwNGFTa1htTlpacDNEMnRzdWlZdHV5Qjh4bVpya0ZsejZpV2xRanB5QmRrQms0VFNCMnJuNjdLby11SHI5WmJFWlowQ0FQeHpBdnJhaU9UQkxuZE1yRGg0RlVNQ2pUbjlqM2kwenNR?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:02:00,026 [INFO] __main__: Queued without images (text reserve): LOEWE's Nightmare Before Christmas Collection Arrives Nov. 12, From a $220 Jack Ornament to a $40,000 Jacket - Haunted Attraction Network
-2026-11-11 07:02:00,027 [INFO] __main__: Candidate queued: [Google News] LOEWE's Nightmare Before Christmas Collection Arrives Nov. 12, From a $220 Jack Ornament to a $40,000 Jacket - Haunted Attraction Network
-2026-11-11 07:02:00,038 [INFO] __main__: New candidates this cycle: 11
-2026-11-11 07:02:00,047 [INFO] __main__: Голод: беру текстовый пост из резерва без фото
-2026-11-11 07:02:00,047 [INFO] __main__: Picked for posting: Martine Rose Named Creative Director of Balenciaga - Mix 93.3
-2026-11-11 07:02:00,069 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-11 07:06:22,105 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
-2026-11-11 07:06:22,188 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMib0FVX3lxTE9SODZiSlBSMEQwT1YwMHJxc2hBYUN2dERubzktR0ZxcHdjbFViY3BHeEZmeWFiLXVrVGhIRWlXZnN2T2tWUkJpNlV2YjVKUVIxNk1yUkpEdFk1dUNJU1VsYzJCRV9qdl9IbDR3MDgzdw?oc=5 "HTTP/1.1 302 Found"
-2026-11-11 07:06:22,256 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMib0FVX3lxTE9SODZiSlBSMEQwT1YwMHJxc2hBYUN2dERubzktR0ZxcHdjbFViY3BHeEZmeWFiLXVrVGhIRWlXZnN2T2tWUkJpNlV2YjVKUVIxNk1yUkpEdFk1dUNJU1VsYzJCRV9qdl9IbDR3MDgzdw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-11 07:06:23,350 [INFO] __main__: POSTED (1/5 today): Martine Rose Named Creative Director of Balenciaga - Mix 93.3
-2026-11-11 07:06:23,602 [INFO] __main__: Cycle done, exiting
+2026-11-11 07:16:35,132 [INFO] bot.sources: Fetched 278 articles from all sources
+2026-11-11 07:16:35,209 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMibEFVX3lxTFBwSl9lUV9vM2hqMGdkeC1WMmwyY0U0ajI3NjRUa2ZrcDlnbHRxZmVQdlY0LXFIREVlN2hjTmxWZU5vNGhrdzU0cVl2M3J6aWVrQmZWZmJKLTVmUlVubXNQNlpLTDZSeUZnNWNXRw?oc=5 "HTTP/1.1 302 Found"
+2026-11-11 07:16:35,308 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMibEFVX3lxTFBwSl9lUV9vM2hqMGdkeC1WMmwyY0U0ajI3NjRUa2ZrcDlnbHRxZmVQdlY0LXFIREVlN2hjTmxWZU5vNGhrdzU0cVl2M3J6aWVrQmZWZmJKLTVmUlVubXNQNlpLTDZSeUZnNWNXRw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-11 07:16:35,320 [INFO] __main__: Queued without images (text reserve): Balenciaga Le City Marks 25 Years - The Impression
+2026-11-11 07:16:35,322 [INFO] __main__: Candidate queued: [Google News] Balenciaga Le City Marks 25 Years - The Impression
+2026-11-11 07:16:35,337 [INFO] __main__: New candidates this cycle: 1
+2026-11-11 07:16:35,346 [INFO] __main__: Too soon since last post — waiting
+2026-11-11 07:16:35,361 [INFO] __main__: Cycle done, exiting
