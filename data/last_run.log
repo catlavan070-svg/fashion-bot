@@ -1,42 +1,46 @@
-2026-11-12 11:30:54,019 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-11-12 11:30:54,023 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-11-12 11:30:54,074 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-11-12 11:30:54,075 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-12 11:30:54,076 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-11-12 11:30:54,127 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-11-12 11:30:54,148 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-11-12 11:30:54,157 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-11-12 11:30:54,160 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-12 11:30:54,183 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-11-12 11:30:54,204 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-11-12 11:30:54,363 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-11-12 11:30:54,407 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-11-12 11:30:54,577 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-12 11:30:54,578 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-12 11:30:54,757 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-12 11:30:55,497 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-12 11:30:58,888 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-12 11:31:04,775 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-12 11:31:08,883 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-12 11:31:13,886 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-12 11:31:18,888 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-12 11:31:23,995 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-12 11:31:23,996 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-11-12 11:45:39,166 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-12 11:45:39,188 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-11-12 11:45:39,225 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-11-12 11:45:39,225 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-11-12 11:45:39,252 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-11-12 11:45:39,274 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-11-12 11:45:39,286 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-11-12 11:45:39,290 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-11-12 11:45:39,300 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-12 11:45:39,309 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-11-12 11:45:39,398 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-11-12 11:45:39,409 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-11-12 11:45:39,551 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-11-12 11:45:39,648 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-12 11:45:39,657 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-12 11:45:39,743 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-12 11:45:40,550 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-12 11:45:44,073 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-12 11:45:49,074 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-12 11:45:54,073 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-12 11:45:59,073 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-12 11:46:05,518 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-12 11:46:09,140 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-12 11:46:09,140 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-12 11:31:33,997 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-12 11:31:33,997 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-11-12 11:46:14,148 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-12 11:46:14,149 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-12 11:31:38,947 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-12 11:31:38,947 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-11-12 11:46:19,143 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-12 11:46:19,144 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-12 11:31:43,950 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-12 11:31:43,951 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+2026-11-12 11:46:24,143 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-12 11:46:24,144 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-12 11:31:43,951 [INFO] bot.sources: Fetched 272 articles from all sources
-2026-11-12 11:31:44,086 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeDRKSk9ZY2xvZ3hsR2ZtRkR6anFjOXJNWkxMMi14OXVhVjVYa1BHdjN5OUx6ajEzNWRkNkZkOElHbUZIMGY5Uk90Uk85NGdqMDZDQXlRYVFqZWQxbTRNVXZIbzVUaktXaHBKakRUblEzSnJEZE9BdWpsRUtCTEIySVBKa0lhalI3T05lZzFfaVJmTDczY1VBWm9ub2dLUmVWUk5URGE4b3hLQmUxNUJ2SHJZaEdZcHBfSlY5M0JEdFZteS1HUEplUl9IRjZDTTI5WUlpNk8yUDFZUQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-12 11:31:44,163 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeDRKSk9ZY2xvZ3hsR2ZtRkR6anFjOXJNWkxMMi14OXVhVjVYa1BHdjN5OUx6ajEzNWRkNkZkOElHbUZIMGY5Uk90Uk85NGdqMDZDQXlRYVFqZWQxbTRNVXZIbzVUaktXaHBKakRUblEzSnJEZE9BdWpsRUtCTEIySVBKa0lhalI3T05lZzFfaVJmTDczY1VBWm9ub2dLUmVWUk5URGE4b3hLQmUxNUJ2SHJZaEdZcHBfSlY5M0JEdFZteS1HUEplUl9IRjZDTTI5WUlpNk8yUDFZUQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-12 11:31:44,189 [INFO] __main__: Queued without images (text reserve): Burberry H1 FY27 slides: turnaround gains traction with 5th straight quarter of growth - Investing.com
-2026-11-12 11:31:44,191 [INFO] __main__: Candidate queued: [Google News] Burberry H1 FY27 slides: turnaround gains traction with 5th straight quarter of growth - Investing.com
-2026-11-12 11:31:44,192 [INFO] __main__: New candidates this cycle: 1
-2026-11-12 11:31:44,193 [INFO] __main__: Too soon since last post — waiting
-2026-11-12 11:31:44,193 [INFO] __main__: Cycle done, exiting
+2026-11-12 11:46:24,144 [INFO] bot.sources: Fetched 272 articles from all sources
+2026-11-12 11:46:24,287 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxNQi1HMzZlM2duak9RWXAxMFR3dWRnMVVIN1AwckZDbEVQY3RjYnRuSTJINE5FRjNfSS1FMU9fY3ROVzUyd1pia05EeW4yY0E1RlRqdldzbVozTmphSUJ2Q1NzNXIySlVZQmtRUUxJby1Ja1ZMclhlSkxORnZRcFc1bWpBYnQ1MU5oTG0tQjVUVFUzbTFDWGp2OTl5TDM3TDU1?oc=5 "HTTP/1.1 302 Found"
+2026-11-12 11:46:24,455 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMioAFBVV95cUxNQi1HMzZlM2duak9RWXAxMFR3dWRnMVVIN1AwckZDbEVQY3RjYnRuSTJINE5FRjNfSS1FMU9fY3ROVzUyd1pia05EeW4yY0E1RlRqdldzbVozTmphSUJ2Q1NzNXIySlVZQmtRUUxJby1Ja1ZMclhlSkxORnZRcFc1bWpBYnQ1MU5oTG0tQjVUVFUzbTFDWGp2OTl5TDM3TDU1?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-12 11:46:24,605 [INFO] __main__: Queued without images (text reserve): Burberry returns to first-half profit on turnaround plan - Yahoo Finance
+2026-11-12 11:46:24,623 [INFO] __main__: Candidate queued: [Google News] Burberry returns to first-half profit on turnaround plan - Yahoo Finance
+2026-11-12 11:46:24,725 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMikwFBVV95cUxQTllOV2dlT29lZFEwTzluN2EzbXBtbDlfV1R6QnR2aTk2bUp1VU1vLWhmY3ZNV2VhSk9UOXhnU2FqWFdVN1Jfb2ZYbEtjU3Q4XzlnQ3FuLXY5bld6ZlFPUUp0RUxVR29SaXQyNVVQeHhTcTdTRnY1eGJZTzE5bG5TdFhPOXdveHhZbllEdUVlRnh3UTA?oc=5 "HTTP/1.1 302 Found"
+2026-11-12 11:46:24,811 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMikwFBVV95cUxQTllOV2dlT29lZFEwTzluN2EzbXBtbDlfV1R6QnR2aTk2bUp1VU1vLWhmY3ZNV2VhSk9UOXhnU2FqWFdVN1Jfb2ZYbEtjU3Q4XzlnQ3FuLXY5bld6ZlFPUUp0RUxVR29SaXQyNVVQeHhTcTdTRnY1eGJZTzE5bG5TdFhPOXdveHhZbllEdUVlRnh3UTA?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-12 11:46:24,859 [INFO] __main__: Queued without images (text reserve): Burberry Reports Threefold Increase in Half-Year Adjusted Operating Profit to £62 Million - Yahoo Finance UK
+2026-11-12 11:46:24,861 [INFO] __main__: Candidate queued: [Google News] Burberry Reports Threefold Increase in Half-Year Adjusted Operating Profit to £62 Million - Yahoo Finance UK
+2026-11-12 11:46:24,864 [INFO] __main__: New candidates this cycle: 2
+2026-11-12 11:46:24,865 [INFO] __main__: Too soon since last post — waiting
+2026-11-12 11:46:24,865 [INFO] __main__: Cycle done, exiting
