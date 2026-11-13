@@ -1,54 +1,38 @@
-2026-11-13 17:30:59,419 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-13 17:30:59,466 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-11-13 17:30:59,466 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-11-13 17:30:59,469 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-11-13 17:30:59,551 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-13 17:30:59,582 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-11-13 17:30:59,628 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-11-13 17:30:59,630 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-11-13 17:30:59,657 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-11-13 17:30:59,721 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-11-13 17:30:59,736 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-11-13 17:30:59,934 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-11-13 17:30:59,935 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-13 17:31:00,048 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-13 17:31:00,142 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-13 17:31:00,857 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-13 17:31:01,316 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-11-13 17:31:05,294 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 200 OK"
-2026-11-13 17:31:09,300 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-13 17:31:14,298 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-13 17:31:19,300 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-13 17:31:24,301 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-13 17:31:34,414 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-13 17:31:34,415 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-11-13 17:45:45,517 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-11-13 17:45:45,520 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-13 17:45:45,543 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-11-13 17:45:45,574 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-11-13 17:45:45,574 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-11-13 17:45:45,594 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-13 17:45:45,606 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-11-13 17:45:45,682 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-11-13 17:45:45,723 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-11-13 17:45:45,728 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-11-13 17:45:45,754 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-11-13 17:45:45,887 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-11-13 17:45:45,920 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-13 17:45:45,961 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-13 17:45:46,000 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-11-13 17:45:46,044 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-13 17:45:46,809 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-13 17:45:50,420 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-13 17:45:55,423 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-13 17:46:01,931 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 200 OK"
+2026-11-13 17:46:05,418 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-13 17:46:10,420 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-13 17:46:15,519 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-13 17:46:15,519 [WARNING] bot.sources: Reddit r/fashion failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-13 17:31:39,364 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-13 17:31:39,365 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-11-13 17:46:20,505 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-13 17:46:20,506 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-13 17:31:44,361 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-13 17:31:44,362 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-11-13 17:46:30,527 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-13 17:46:30,527 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-13 17:31:49,362 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-13 17:31:49,363 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+2026-11-13 17:46:35,501 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-13 17:46:35,501 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-13 17:31:49,363 [INFO] bot.sources: Fetched 277 articles from all sources
-2026-11-13 17:31:49,498 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiggFBVV95cUxOZ29lT0pNWkQteW9hdkVVVGU2TjJYeDZGNS00UnUtTTExZkQ0dGdGekdQb0pEcE0wY2k5cXItSHYydF92U0w2aDlCZjlkRnF5WGRTcTFuUDBqMERIVGtGdWxfOGdDVFEtakZRTE02OVZSd2JWWlI0bmtFaWphcWtsSDJ3?oc=5 "HTTP/1.1 302 Found"
-2026-11-13 17:31:49,558 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiggFBVV95cUxOZ29lT0pNWkQteW9hdkVVVGU2TjJYeDZGNS00UnUtTTExZkQ0dGdGekdQb0pEcE0wY2k5cXItSHYydF92U0w2aDlCZjlkRnF5WGRTcTFuUDBqMERIVGtGdWxfOGdDVFEtakZRTE02OVZSd2JWWlI0bmtFaWphcWtsSDJ3?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-13 17:31:49,593 [INFO] __main__: Queued without images (text reserve): Louis Vuitton’s New Travel Guide Explores the French Riviera Town That Became the World’s Perfume Capital - Travel + Leisure
-2026-11-13 17:31:49,595 [INFO] __main__: Candidate queued: [Google News] Louis Vuitton’s New Travel Guide Explores the French Riviera Town That Became the World’s Perfume Capital - Travel + Leisure
-2026-11-13 17:31:49,703 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMia0FVX3lxTE5jWnpMYWpZc0g0ekhMOFVUeFJwaTBuWFpRbnc2QWFDa1VpVDVMNUVTMUMtMmsyUlg0bFdWaEpnai1PeXRwYmp0bEZEcHVLQURFVzdEZTdnLVlUMmdtNFVJTEZaY3VINnhwakhV?oc=5 "HTTP/1.1 302 Found"
-2026-11-13 17:31:49,780 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMia0FVX3lxTE5jWnpMYWpZc0g0ekhMOFVUeFJwaTBuWFpRbnc2QWFDa1VpVDVMNUVTMUMtMmsyUlg0bFdWaEpnai1PeXRwYmp0bEZEcHVLQURFVzdEZTdnLVlUMmdtNFVJTEZaY3VINnhwakhV?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-13 17:31:49,808 [INFO] __main__: Queued without images (text reserve): Dior’s Christmas Takeover At Harrods Is Pure Animation - Grazia Daily UK
-2026-11-13 17:31:49,809 [INFO] __main__: Candidate queued: [Google News] Dior’s Christmas Takeover At Harrods Is Pure Animation - Grazia Daily UK
-2026-11-13 17:31:49,924 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxPOFVwdEd6dE04UU8zdkhEeFVCVDlmTDhqQkNpeDhlb3c0NEViQTFIbzZNakhHRzJzVHVmd3FWbjFLdzJZcUJnZUNkTzhHZUZ3VjZUeEsyX0xhTE4wdXNzam9zTGdWZ3BlTXBBWkJIbnhveWcwdHJCN2hvZ3Z3VTlvVDhKbGlkVmpLWVJwVF9YaUNQYjZIVWZOcXJB?oc=5 "HTTP/1.1 302 Found"
-2026-11-13 17:31:50,008 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMimgFBVV95cUxPOFVwdEd6dE04UU8zdkhEeFVCVDlmTDhqQkNpeDhlb3c0NEViQTFIbzZNakhHRzJzVHVmd3FWbjFLdzJZcUJnZUNkTzhHZUZ3VjZUeEsyX0xhTE4wdXNzam9zTGdWZ3BlTXBBWkJIbnhveWcwdHJCN2hvZ3Z3VTlvVDhKbGlkVmpLWVJwVF9YaUNQYjZIVWZOcXJB?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-13 17:31:50,037 [INFO] __main__: Queued without images (text reserve): EXCLUSIVE: Burberry Checks Into The Mark for Holiday Takeover - Yahoo
-2026-11-13 17:31:50,039 [INFO] __main__: Candidate queued: [Google News] EXCLUSIVE: Burberry Checks Into The Mark for Holiday Takeover - Yahoo
-2026-11-13 17:31:50,148 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMijwFBVV95cUxPeWs2Mlh5U3RnLUhDbmlNT0llZ2VyM1J6WmdIOVkyaW9SR3dDdWZNWUZhZjRlOHZzWkFteHZLZ0FrV2tFRnNoRzVoQnJzcGFxSkxGeWp6RG9MTzBKMUhvbllnZHhFdXEwV2lWNEY3V1RJa2V5XzlybWJVdHZPSjl3eUV2czlyMTFmdUVCTVdwSQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-13 17:31:50,216 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMijwFBVV95cUxPeWs2Mlh5U3RnLUhDbmlNT0llZ2VyM1J6WmdIOVkyaW9SR3dDdWZNWUZhZjRlOHZzWkFteHZLZ0FrV2tFRnNoRzVoQnJzcGFxSkxGeWp6RG9MTzBKMUhvbllnZHhFdXEwV2lWNEY3V1RJa2V5XzlybWJVdHZPSjl3eUV2czlyMTFmdUVCTVdwSQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-13 17:31:50,241 [INFO] __main__: Queued without images (text reserve): Donatella Versace, Claudio Antonioli Presented With Milan’s Ambrogino d’Oro Honor - Yahoo News Singapore
-2026-11-13 17:31:50,243 [INFO] __main__: Candidate queued: [Google News] Donatella Versace, Claudio Antonioli Presented With Milan’s Ambrogino d’Oro Honor - Yahoo News Singapore
-2026-11-13 17:31:50,248 [INFO] __main__: New candidates this cycle: 4
-2026-11-13 17:31:50,249 [INFO] __main__: Too soon since last post — waiting
-2026-11-13 17:31:50,251 [INFO] __main__: Cycle done, exiting
+2026-11-13 17:46:35,501 [INFO] bot.sources: Fetched 278 articles from all sources
+2026-11-13 17:46:35,553 [INFO] __main__: New candidates this cycle: 0
+2026-11-13 17:46:35,575 [INFO] __main__: Too soon since last post — waiting
+2026-11-13 17:46:35,626 [INFO] __main__: Cycle done, exiting
