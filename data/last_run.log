@@ -1,111 +1,54 @@
-2026-11-21 15:15:58,938 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
-2026-11-21 15:15:58,940 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-21 15:15:59,134 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
-2026-11-21 15:15:59,135 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
-2026-11-21 15:15:59,136 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
-2026-11-21 15:15:59,154 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
-2026-11-21 15:15:59,252 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
-2026-11-21 15:15:59,261 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
-2026-11-21 15:15:59,262 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
-2026-11-21 15:15:59,265 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
-2026-11-21 15:15:59,347 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 404 Not Found"
-2026-11-21 15:15:59,347 [WARNING] bot.sources: Reddit r/streetwear failed: Client error '404 Not Found' for url 'https://www.reddit.com/r/streetwear/hot.rss?limit=25'
+2026-11-21 20:57:59,969 [WARNING] bot.sources: RSS Sole Collector failed: [Errno -2] Name or service not known
+2026-11-21 20:57:59,980 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feed/ "HTTP/1.1 301 Moved Permanently"
+2026-11-21 20:57:59,986 [INFO] httpx: HTTP Request: GET https://wwd.com/feed/ "HTTP/1.1 200 OK"
+2026-11-21 20:57:59,987 [INFO] httpx: HTTP Request: GET https://www.vogue.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-21 20:58:00,009 [INFO] httpx: HTTP Request: GET https://hypebeast.com/feed "HTTP/1.1 200 OK"
+2026-11-21 20:58:00,051 [INFO] httpx: HTTP Request: GET https://fashionista.com/feed "HTTP/1.1 308 Permanent Redirect"
+2026-11-21 20:58:00,053 [INFO] httpx: HTTP Request: GET https://www.nicekicks.com/feed/ "HTTP/1.1 200 OK"
+2026-11-21 20:58:00,101 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
+2026-11-21 20:58:00,102 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/streetwear/hot.rss?limit=25 "HTTP/1.1 404 Not Found"
+2026-11-21 20:58:00,103 [INFO] httpx: HTTP Request: GET https://sneakernews.com/feed/ "HTTP/1.1 200 OK"
+2026-11-21 20:58:00,104 [INFO] httpx: HTTP Request: GET https://www.highsnobiety.com/feeds/rss "HTTP/1.1 200 OK"
+2026-11-21 20:58:00,145 [WARNING] bot.sources: Reddit r/streetwear failed: Client error '404 Not Found' for url 'https://www.reddit.com/r/streetwear/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-11-21 15:15:59,359 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
-2026-11-21 15:15:59,619 [INFO] httpx: HTTP Request: GET https://hypebae.com/feed "HTTP/1.1 200 OK"
-2026-11-21 15:15:59,685 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
-2026-11-21 15:15:59,686 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:15:59,766 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:15:59,825 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:16:03,893 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 404 Not Found"
-2026-11-21 15:16:03,894 [WARNING] bot.sources: Reddit r/fashion failed: Client error '404 Not Found' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
+2026-11-21 20:58:00,189 [INFO] httpx: HTTP Request: GET https://www.gq.com/feed/rss "HTTP/1.1 200 OK"
+2026-11-21 20:58:00,202 [INFO] httpx: HTTP Request: GET https://fashionista.com/.rss/feed/28e21eb8-20ac-4617-a448-e845081591ca.xml "HTTP/1.1 200 OK"
+2026-11-21 20:58:00,351 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=gucci%20OR%20%22louis%20vuitton%22%20OR%20balenciaga%20OR%20prada%20OR%20dior&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-21 20:58:00,406 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=bape%20OR%20%22a%20bathing%20ape%22%20OR%20supreme%20OR%20%22off-white%22%20OR%20vetements&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-21 20:58:00,444 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/search?q=%22raf%20simons%22%20OR%20%22rick%20owens%22%20OR%20margiela%20OR%20loewe%20OR%20%22stone%20island%22%20OR%20%22chrome%20hearts%22%20OR%20burberry%20OR%20versace&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-21 20:58:00,494 [INFO] httpx: HTTP Request: GET https://fashionweekdaily.com/feed/ "HTTP/1.1 200 OK"
+2026-11-21 20:58:04,887 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/fashion/hot.rss?limit=25 "HTTP/1.1 404 Not Found"
+2026-11-21 20:58:04,888 [WARNING] bot.sources: Reddit r/fashion failed: Client error '404 Not Found' for url 'https://www.reddit.com/r/fashion/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-11-21 15:16:08,895 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-21 15:16:13,894 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-21 15:16:18,896 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-21 15:16:23,902 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-21 15:16:33,931 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-21 15:16:33,931 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
+2026-11-21 20:58:09,885 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-21 20:58:14,885 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-21 20:58:19,888 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-21 20:58:24,888 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-21 20:58:34,918 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/supremeclothing/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-21 20:58:34,919 [WARNING] bot.sources: Reddit r/supremeclothing failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/supremeclothing/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-21 15:16:38,911 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-21 15:16:38,911 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
+2026-11-21 20:58:39,907 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/rafsimons/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-21 20:58:39,907 [WARNING] bot.sources: Reddit r/rafsimons failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/rafsimons/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-21 15:16:43,915 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-21 15:16:43,915 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
+2026-11-21 20:58:44,908 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/balenciaga/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-21 20:58:44,908 [WARNING] bot.sources: Reddit r/balenciaga failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/balenciaga/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-21 15:16:48,926 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
-2026-11-21 15:16:48,927 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
+2026-11-21 20:58:49,907 [INFO] httpx: HTTP Request: GET https://www.reddit.com/r/bapeheads/hot.rss?limit=25 "HTTP/1.1 429 Too Many Requests"
+2026-11-21 20:58:49,908 [WARNING] bot.sources: Reddit r/bapeheads failed: Client error '429 Too Many Requests' for url 'https://www.reddit.com/r/bapeheads/hot.rss?limit=25'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-2026-11-21 15:16:48,927 [INFO] bot.sources: Fetched 279 articles from all sources
-2026-11-21 15:16:49,045 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeGtuY2ZCRXI4cWNpRjRNQVRmemsxamp0Z2Y4SVdJSEFfZ1lzSkwzMFo1Z1lWNGRwMHp0dXJtcWNEbmVHQzdYRlJQRlh6WDVFd2M0VlhZNk9qWFh6RkZFeHllbG9tclZ6UEU4ZFZVV3RCakhqaVk3VGliaFVVR3VQcl9VR1JaRkxDR3N1dllpUzc3eThvN0tMYVNMVFVfSHk4VFlta1J3bGRUejIwMFdELWd6RFdPcWxKSnVyaVFhdXdHNVVpclNKYUdPX1M2eG40Ni1GdDh3?oc=5 "HTTP/1.1 302 Found"
-2026-11-21 15:16:49,119 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeGtuY2ZCRXI4cWNpRjRNQVRmemsxamp0Z2Y4SVdJSEFfZ1lzSkwzMFo1Z1lWNGRwMHp0dXJtcWNEbmVHQzdYRlJQRlh6WDVFd2M0VlhZNk9qWFh6RkZFeHllbG9tclZ6UEU4ZFZVV3RCakhqaVk3VGliaFVVR3VQcl9VR1JaRkxDR3N1dllpUzc3eThvN0tMYVNMVFVfSHk4VFlta1J3bGRUejIwMFdELWd6RFdPcWxKSnVyaVFhdXdHNVVpclNKYUdPX1M2eG40Ni1GdDh3?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:16:49,138 [INFO] __main__: Queued without images (text reserve): Athlete of the Week: Dior Hansard - 10TV
-2026-11-21 15:16:49,140 [INFO] __main__: Candidate queued: [Google News] Athlete of the Week: Dior Hansard - 10TV
-2026-11-21 15:16:49,189 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirwFBVV95cUxPWTlxXzdtSkRIYlJGTFZhYzF3aUlNbVJyMFpVVFY5V21rcnJIRl8tU2lJNWZnSFpwOS1saWZqQ21sRnhSWmFhckJOZHVCbVhQNFZBZ2lIMGZ1cWxCXzJTRVBKVENNTFBoWnVZRTVDWm5oR08tdEdpTmdNRmEyMlBaZGVMZTRibVpKNmljMHBKUlhRR1ZuZzJIQlRsZFZDdTJaMUVhTnNLMWx6VWpxM3Iw?oc=5 "HTTP/1.1 302 Found"
-2026-11-21 15:16:49,251 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirwFBVV95cUxPWTlxXzdtSkRIYlJGTFZhYzF3aUlNbVJyMFpVVFY5V21rcnJIRl8tU2lJNWZnSFpwOS1saWZqQ21sRnhSWmFhckJOZHVCbVhQNFZBZ2lIMGZ1cWxCXzJTRVBKVENNTFBoWnVZRTVDWm5oR08tdEdpTmdNRmEyMlBaZGVMZTRibVpKNmljMHBKUlhRR1ZuZzJIQlRsZFZDdTJaMUVhTnNLMWx6VWpxM3Iw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:16:49,268 [INFO] __main__: Queued without images (text reserve): SIX MONTHS TO GO: YOUR INVITATION TO THE LOUIS VUITTON 38 - America's Cup
-2026-11-21 15:16:49,270 [INFO] __main__: Candidate queued: [Google News] SIX MONTHS TO GO: YOUR INVITATION TO THE LOUIS VUITTON 38 - America's Cup
-2026-11-21 15:16:49,319 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ2hBUEdEVXNCSm0wNzRoM2RkTktUMVpMV2tyeFBRQ1pmX29kNGNYaDRvMnZ0UG1DRWdqVnZpZm5DNGl6ZXF0S043Vmx3c3JfcTU1LW40MGQ4UXRQRDBxTW9uWHUybmZHN3hZQzAteDczMzlDLXgyQzJ1SkFUUkNkVjNfeGl4N0REd0lsWmlRT29HZw?oc=5 "HTTP/1.1 302 Found"
-2026-11-21 15:16:49,376 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ2hBUEdEVXNCSm0wNzRoM2RkTktUMVpMV2tyeFBRQ1pmX29kNGNYaDRvMnZ0UG1DRWdqVnZpZm5DNGl6ZXF0S043Vmx3c3JfcTU1LW40MGQ4UXRQRDBxTW9uWHUybmZHN3hZQzAteDczMzlDLXgyQzJ1SkFUUkNkVjNfeGl4N0REd0lsWmlRT29HZw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:16:49,395 [INFO] __main__: Queued without images (text reserve): Rihanna's Baby Girl Rocki Lands Her First Dior Campaign at Just 1! - Yahoo
-2026-11-21 15:16:49,396 [INFO] __main__: Candidate queued: [Google News] Rihanna's Baby Girl Rocki Lands Her First Dior Campaign at Just 1! - Yahoo
-2026-11-21 15:16:49,445 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxOYzd3OU9FWU1EV1pBMUdHM2E5ejZUMEwxVmxHRVdjT1RaNVU1VldnT2hsWF9VLThiNmZleHdRbWxYVHF1dHFFRFU3TTE0VTRtNDBkQ3pxaHBRbWdNd0xwX21zM004UUcyQ3paeFFPazNXa0xxV01UUVFaS2FncEdaUHdzZ0pRUmlIZDBObzJLZEE0MzlobmlURkV4UlZ4NnpJWEprZ05CWQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-21 15:16:49,516 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxOYzd3OU9FWU1EV1pBMUdHM2E5ejZUMEwxVmxHRVdjT1RaNVU1VldnT2hsWF9VLThiNmZleHdRbWxYVHF1dHFFRFU3TTE0VTRtNDBkQ3pxaHBRbWdNd0xwX21zM004UUcyQ3paeFFPazNXa0xxV01UUVFaS2FncEdaUHdzZ0pRUmlIZDBObzJLZEE0MzlobmlURkV4UlZ4NnpJWEprZ05CWQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:16:49,532 [INFO] __main__: Queued without images (text reserve): Kate Madden, 18, Signs with Major Modeling Agency and Debuts in Balenciaga Campaign - Yahoo
-2026-11-21 15:16:49,533 [INFO] __main__: Candidate queued: [Google News] Kate Madden, 18, Signs with Major Modeling Agency and Debuts in Balenciaga Campaign - Yahoo
-2026-11-21 15:16:49,582 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMifkFVX3lxTE85c2w0VmtkSl9Ra0tKYllkWFVFdGh2cTdZSVhKODhGTHBvODdFMl83RzNCdjdDR2xPZ285aHY4WTUwZTVZT3V5cDFsVmktLTVHaGFVME5uZVVueFdoeDB0ZmExb2pJN3lJLUJEOU1BMEhmdnR5ZHljdm1KUUJKZw?oc=5 "HTTP/1.1 302 Found"
-2026-11-21 15:16:49,678 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMifkFVX3lxTE85c2w0VmtkSl9Ra0tKYllkWFVFdGh2cTdZSVhKODhGTHBvODdFMl83RzNCdjdDR2xPZ285aHY4WTUwZTVZT3V5cDFsVmktLTVHaGFVME5uZVVueFdoeDB0ZmExb2pJN3lJLUJEOU1BMEhmdnR5ZHljdm1KUUJKZw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:16:49,685 [INFO] __main__: Queued without images (text reserve): Dior Names Stray Kids’ Hyunjin Brand Ambassador - The Impression
-2026-11-21 15:16:49,686 [INFO] __main__: Candidate queued: [Google News] Dior Names Stray Kids’ Hyunjin Brand Ambassador - The Impression
-2026-11-21 15:16:49,732 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DaEd2Q2luaHlmMWpyRHNWdUdqRFV2M0RxdldSS1ZSMnQ1YXZfaDMydVlMVjBOWW1IZlFOVWxkZTIzZU93ZVpnMnV1ejNfWWRpS0JnczlzZVU4dGRrMlpad3M5Uy12UC1F?oc=5 "HTTP/1.1 302 Found"
-2026-11-21 15:16:49,800 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DaEd2Q2luaHlmMWpyRHNWdUdqRFV2M0RxdldSS1ZSMnQ1YXZfaDMydVlMVjBOWW1IZlFOVWxkZTIzZU93ZVpnMnV1ejNfWWRpS0JnczlzZVU4dGRrMlpad3M5Uy12UC1F?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:16:49,819 [INFO] __main__: Queued without images (text reserve): Photo: Raiders reign supreme - Commercial Dispatch
-2026-11-21 15:16:49,821 [INFO] __main__: Candidate queued: [Google News] Photo: Raiders reign supreme - Commercial Dispatch
-2026-11-21 15:16:49,870 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiwgFBVV95cUxOb3NON2FyMVJYQnhqY0hiY1ZWZlFjRXd2anFDdXRFSWU3LS1tUzRLUkVaODNaZzQ3b0ZvVVFWMEg5QmRLMVZaeXd2ZHdKQXFNUGNIazdQcUh1NVN3Yl9zaFc0b1lvSGJjbUpob1JNa3NJQ0o4cXJjVWYxTGF0SmpZd2tfSGFaSnYzVmJaMlo4RXRUYVVNTzRVN1JTYzRsVk44em8zNExlT05xTFNScUVJSWN0cmRrZjRTUmJpTXBFYU0tQQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-21 15:16:49,952 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiwgFBVV95cUxOb3NON2FyMVJYQnhqY0hiY1ZWZlFjRXd2anFDdXRFSWU3LS1tUzRLUkVaODNaZzQ3b0ZvVVFWMEg5QmRLMVZaeXd2ZHdKQXFNUGNIazdQcUh1NVN3Yl9zaFc0b1lvSGJjbUpob1JNa3NJQ0o4cXJjVWYxTGF0SmpZd2tfSGFaSnYzVmJaMlo4RXRUYVVNTzRVN1JTYzRsVk44em8zNExlT05xTFNScUVJSWN0cmRrZjRTUmJpTXBFYU0tQQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:16:49,967 [INFO] __main__: Queued without images (text reserve): Loewe’s Giorgia Pivetti On Why Your Inner State Is Your Greatest Edge - Forbes
-2026-11-21 15:16:49,969 [INFO] __main__: Candidate queued: [Google News] Loewe’s Giorgia Pivetti On Why Your Inner State Is Your Greatest Edge - Forbes
-2026-11-21 15:16:50,017 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRVZTVUF1ZXFRbC1HaTU3QU1BcFd6X2Zwc2FfX3J0TUxjUDRORmN5QnhLZlBXNzBrc3lvd1lMMWhyQW9HZE56dy1DN0I5cnpVa2hEeVhQZ1prc2hwdWd5NTZhMmM5ZE5Ya0g3Qnd5dUFiR1VYQ1Q1TS1VeUtfNkZKOHVxQkJNejF5QUZoZ2VVaHFuS283NGJEdzFVM2ZXc2VDVW03dVFtdkhKalYzUDQ3Sm1URHJCTG5jZm9KQnY3RWQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-21 15:16:50,089 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRVZTVUF1ZXFRbC1HaTU3QU1BcFd6X2Zwc2FfX3J0TUxjUDRORmN5QnhLZlBXNzBrc3lvd1lMMWhyQW9HZE56dy1DN0I5cnpVa2hEeVhQZ1prc2hwdWd5NTZhMmM5ZE5Ya0g3Qnd5dUFiR1VYQ1Q1TS1VeUtfNkZKOHVxQkJNejF5QUZoZ2VVaHFuS283NGJEdzFVM2ZXc2VDVW03dVFtdkhKalYzUDQ3Sm1URHJCTG5jZm9KQnY3RWQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:16:50,116 [INFO] __main__: Queued without images (text reserve): Model Reveals How Little Versace Paid Him to Walk the Runway: 'I Might Get Canceled for This' - VICE
-2026-11-21 15:16:50,118 [INFO] __main__: Candidate queued: [Google News] Model Reveals How Little Versace Paid Him to Walk the Runway: 'I Might Get Canceled for This' - VICE
-2026-11-21 15:16:50,166 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMikgFBVV95cUxONWkwT2JXTFQ1cE9uc1E5VVhPS0IxLXBvOUdUaElSMkVBbHdUdHdHaHdFOVpmRk1fRzhGQmUwSWZuSXZqX2NxV1NFdk1ZY2NPMFRET1djeWhDU0Z1c0pWWktMSmExQXlHNDlnRWY4MTJ5MjhTQXpfTVR4bFI3RXU5MU8xNHFKdkhQdWdVMVloOW9BUQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-21 15:16:50,236 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMikgFBVV95cUxONWkwT2JXTFQ1cE9uc1E5VVhPS0IxLXBvOUdUaElSMkVBbHdUdHdHaHdFOVpmRk1fRzhGQmUwSWZuSXZqX2NxV1NFdk1ZY2NPMFRET1djeWhDU0Z1c0pWWktMSmExQXlHNDlnRWY4MTJ5MjhTQXpfTVR4bFI3RXU5MU8xNHFKdkhQdWdVMVloOW9BUQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:16:50,251 [INFO] __main__: Queued without images (text reserve): Loewe Celebrates New Crafted Fragrance Collection in New York - The Impression
-2026-11-21 15:16:50,252 [INFO] __main__: Candidate queued: [Google News] Loewe Celebrates New Crafted Fragrance Collection in New York - The Impression
-2026-11-21 15:16:50,308 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMigwFBVV95cUxNNF91S1hkYUdLOHc5bU9UTm9sRTNNN0lob0d2TzR1bTNVbk5BdjI4OElxS1lHMVZZbjV0aTlVbGtqSEpkekpvY3RSVnJ3a0xDTXQzanFvbzV3MmlLT3lDbmJwdEU0bFJMdHVGMXBXTTlERmpUVVJNNHZxbE9vS1JHQlFyOA?oc=5 "HTTP/1.1 302 Found"
-2026-11-21 15:16:50,385 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMigwFBVV95cUxNNF91S1hkYUdLOHc5bU9UTm9sRTNNN0lob0d2TzR1bTNVbk5BdjI4OElxS1lHMVZZbjV0aTlVbGtqSEpkekpvY3RSVnJ3a0xDTXQzanFvbzV3MmlLT3lDbmJwdEU0bFJMdHVGMXBXTTlERmpUVVJNNHZxbE9vS1JHQlFyOA?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:16:50,405 [INFO] __main__: Queued without images (text reserve): Burberry is back in the black – should you invest? - MoneyWeek
-2026-11-21 15:16:50,407 [INFO] __main__: Candidate queued: [Google News] Burberry is back in the black – should you invest? - MoneyWeek
-2026-11-21 15:16:50,455 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2VNc1JUSVJOZlNSQXdNWmxtYjloZ2NIUXZFWGZ2cG80djRYOURlWFRkTjJQbEJyZjlyOTRvdzRsYlZwdmNRbjJSUnRjNDFmeVEwTVpDeWNzWWNtUEFYNXBuOTFNUHV5SXlnQTd1ZGdIbHJqbHFURElublpsbl9pamhoY2VMQmtkT0YtYmlJNkFDWFhsOWJlN05GUnpGMVNUaEdBUHVLNlgxZ1U5?oc=5 "HTTP/1.1 302 Found"
-2026-11-21 15:16:50,527 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2VNc1JUSVJOZlNSQXdNWmxtYjloZ2NIUXZFWGZ2cG80djRYOURlWFRkTjJQbEJyZjlyOTRvdzRsYlZwdmNRbjJSUnRjNDFmeVEwTVpDeWNzWWNtUEFYNXBuOTFNUHV5SXlnQTd1ZGdIbHJqbHFURElublpsbl9pamhoY2VMQmtkT0YtYmlJNkFDWFhsOWJlN05GUnpGMVNUaEdBUHVLNlgxZ1U5?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:16:50,546 [INFO] __main__: Queued without images (text reserve): Burberry Group slips Friday, underperforms market - MarketWatch
-2026-11-21 15:16:50,547 [INFO] __main__: Candidate queued: [Google News] Burberry Group slips Friday, underperforms market - MarketWatch
-2026-11-21 15:16:50,553 [INFO] __main__: New candidates this cycle: 11
-2026-11-21 15:16:50,555 [INFO] __main__: Голод: беру текстовый пост из резерва без фото
-2026-11-21 15:16:50,555 [INFO] __main__: Picked for posting: Kate Madden, 18, Signs with Major Modeling Agency and Debuts in Balenciaga Campaign - Yahoo
-2026-11-21 15:16:50,583 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-21 15:17:36,062 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-11-21 15:17:36,063 [WARNING] bot.rewriter: Gemini (gemini-3.8-flash) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-11-21 15:17:56,083 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-21 15:18:06,582 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
-2026-11-21 15:18:06,582 [WARNING] bot.rewriter: Gemini (gemini-3.8-flash) failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
-2026-11-21 15:18:06,583 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-21 15:18:06,656 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
-2026-11-21 15:18:06,656 [WARNING] bot.rewriter: Gemini (gemini-2.5-flash) failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the In
-2026-11-21 15:18:06,657 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
-2026-11-21 15:18:06,724 [INFO] httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-flash-latest:generateContent "HTTP/1.1 404 Not Found"
-2026-11-21 15:18:06,725 [WARNING] bot.rewriter: Gemini (gemini-flash-latest) failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-flash-latest is not found for API version v1, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 's
-2026-11-21 15:18:06,725 [WARNING] bot.rewriter: Gemini не справился — пробую запасную нейросеть Groq
-2026-11-21 15:18:06,830 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
-2026-11-21 15:18:06,830 [WARNING] bot.rewriter: Groq (meta-llama/llama-4-maverick-17b-128e-instruct) attempt 1 failed: Client error '404 Not Found' for url 'https://api.groq.com/openai/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-11-21 15:18:06,892 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
-2026-11-21 15:18:06,893 [WARNING] bot.rewriter: Groq (meta-llama/llama-4-scout-17b-16e-instruct) attempt 1 failed: Client error '404 Not Found' for url 'https://api.groq.com/openai/v1/chat/completions'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-2026-11-21 15:18:08,067 [INFO] httpx: HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2026-11-21 15:18:08,067 [INFO] bot.rewriter: Пост сгенерирован запасной нейросетью Groq (openai/gpt-oss-120b)
-2026-11-21 15:18:08,116 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxOYzd3OU9FWU1EV1pBMUdHM2E5ejZUMEwxVmxHRVdjT1RaNVU1VldnT2hsWF9VLThiNmZleHdRbWxYVHF1dHFFRFU3TTE0VTRtNDBkQ3pxaHBRbWdNd0xwX21zM004UUcyQ3paeFFPazNXa0xxV01UUVFaS2FncEdaUHdzZ0pRUmlIZDBObzJLZEE0MzlobmlURkV4UlZ4NnpJWEprZ05CWQ?oc=5 "HTTP/1.1 302 Found"
-2026-11-21 15:18:08,181 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMipwFBVV95cUxOYzd3OU9FWU1EV1pBMUdHM2E5ejZUMEwxVmxHRVdjT1RaNVU1VldnT2hsWF9VLThiNmZleHdRbWxYVHF1dHFFRFU3TTE0VTRtNDBkQ3pxaHBRbWdNd0xwX21zM004UUcyQ3paeFFPazNXa0xxV01UUVFaS2FncEdaUHdzZ0pRUmlIZDBObzJLZEE0MzlobmlURkV4UlZ4NnpJWEprZ05CWQ?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
-2026-11-21 15:18:09,137 [INFO] __main__: POSTED (1/5 today): Kate Madden, 18, Signs with Major Modeling Agency and Debuts in Balenciaga Campaign - Yahoo
-2026-11-21 15:18:09,389 [INFO] __main__: Cycle done, exiting
+2026-11-21 20:58:49,908 [INFO] bot.sources: Fetched 276 articles from all sources
+2026-11-21 20:58:50,024 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiuAFBVV95cUxNM0Q0Q05hLVBSdFhMRF9mRGVFWk9Yc21hVWxCa19zUkRUNkJYU1BSb3ctbHNiSUthUGVhdWlSeV81UVcxQm1RbjVoZzNRWmtCbGgwNFNzQ1FJeVBQbTA0UkJiektONTdneGREVFF5T3kzMkJ5eEcxR0p4Q2J4U0hPQk5USzlZVWFqcmV4NnJqcHdGRG5neWdiaC1qRHBKWnF2R3FCUW4wdGk1MkxmcHVCU2l5SkI4dUJz?oc=5 "HTTP/1.1 302 Found"
+2026-11-21 20:58:50,088 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiuAFBVV95cUxNM0Q0Q05hLVBSdFhMRF9mRGVFWk9Yc21hVWxCa19zUkRUNkJYU1BSb3ctbHNiSUthUGVhdWlSeV81UVcxQm1RbjVoZzNRWmtCbGgwNFNzQ1FJeVBQbTA0UkJiektONTdneGREVFF5T3kzMkJ5eEcxR0p4Q2J4U0hPQk5USzlZVWFqcmV4NnJqcHdGRG5neWdiaC1qRHBKWnF2R3FCUW4wdGk1MkxmcHVCU2l5SkI4dUJz?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-21 20:58:50,105 [INFO] __main__: Queued without images (text reserve): Prada Index: what is Prada's new cultural guide - nss magazine
+2026-11-21 20:58:50,106 [INFO] __main__: Candidate queued: [Google News] Prada Index: what is Prada's new cultural guide - nss magazine
+2026-11-21 20:58:50,155 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMidEFVX3lxTE1ReFgxbkQ3ZEFSZ2lldEJIbkVfeGczVm5EWWwwVUVSXzl3LTdVeHFMUUdRa1JoN091MXB4cS1jNFpHVmlZMkwxbUlFTndTVElndDQ4VlhoYUFKa1pMTXFWTklUdk9xdjUwb3ZsM3pCb2VBeDRP?oc=5 "HTTP/1.1 302 Found"
+2026-11-21 20:58:50,217 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMidEFVX3lxTE1ReFgxbkQ3ZEFSZ2lldEJIbkVfeGczVm5EWWwwVUVSXzl3LTdVeHFMUUdRa1JoN091MXB4cS1jNFpHVmlZMkwxbUlFTndTVElndDQ4VlhoYUFKa1pMTXFWTklUdk9xdjUwb3ZsM3pCb2VBeDRP?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-21 20:58:50,230 [INFO] __main__: Queued without images (text reserve): Balenciaga Le City Bag 25th Anniversary - Office Magazine
+2026-11-21 20:58:50,231 [INFO] __main__: Candidate queued: [Google News] Balenciaga Le City Bag 25th Anniversary - Office Magazine
+2026-11-21 20:58:50,285 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Bdjd4c1lHRzUtNVotUmtPRnZXOFRnbXhJT24tUEdORFZGNmY3RmEzcGxaVFN1WjEzYnJocGZLUUg3MlMtTjRRNkFLaHRkeXFzS2dTNw?oc=5 "HTTP/1.1 302 Found"
+2026-11-21 20:58:50,366 [INFO] httpx: HTTP Request: GET https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Bdjd4c1lHRzUtNVotUmtPRnZXOFRnbXhJT24tUEdORFZGNmY3RmEzcGxaVFN1WjEzYnJocGZLUUg3MlMtTjRRNkFLaHRkeXFzS2dTNw?oc=5&hl=en-US&gl=US&ceid=US:en "HTTP/1.1 200 OK"
+2026-11-21 20:58:50,386 [INFO] __main__: Queued without images (text reserve): Chrome Hearts Horseshoe Baseball L/S T-Shirt "White/Black" - SNKRDUNK
+2026-11-21 20:58:50,387 [INFO] __main__: Candidate queued: [Google News] Chrome Hearts Horseshoe Baseball L/S T-Shirt "White/Black" - SNKRDUNK
+2026-11-21 20:58:50,393 [INFO] __main__: New candidates this cycle: 3
+2026-11-21 20:58:50,394 [INFO] __main__: Вне окна постинга (10:00–23:00 Europe/Moscow) — только собираем новости
+2026-11-21 20:58:50,394 [INFO] __main__: Cycle done, exiting
